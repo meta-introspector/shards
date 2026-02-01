@@ -1,0 +1,2 @@
+witnesses/spider/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22/pumpfun_spider.log:https://pump.fun/coin/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22
+witnesses/spider/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22/solscan_spider.log:https://solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22

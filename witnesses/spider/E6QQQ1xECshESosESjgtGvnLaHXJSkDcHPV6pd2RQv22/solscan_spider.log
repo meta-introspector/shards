@@ -1,0 +1,25 @@
+Spider mode enabled. Check if remote file exists.
+--2026-02-01 11:16:35--  https://solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22
+Resolving solscan.io (solscan.io)... 104.20.19.96, 172.66.167.88, 2606:4700:10::6814:1360, ...
+Connecting to solscan.io (solscan.io)|104.20.19.96|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2026-02-01 11:16:36--  https://solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22
+Reusing existing connection to solscan.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22.tmp.tmp’
+
+     0K .......... .......... ..........                       3.49M=0.009s
+
+2026-02-01 11:16:36 (3.49 MB/s) - ‘solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22.tmp.tmp’ saved [31334]
+
+Removing solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22.tmp.tmp.
+
+Found no broken links.
+
+FINISHED --2026-02-01 11:16:36--
+Total wall clock time: 1.5s
+Downloaded: 1 files, 31K in 0.009s (3.49 MB/s)

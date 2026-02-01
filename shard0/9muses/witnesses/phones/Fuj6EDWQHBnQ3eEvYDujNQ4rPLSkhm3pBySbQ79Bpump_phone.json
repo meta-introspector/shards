@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-01T16:08:34Z",
+  "token": "Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump",
+  "shard": 25,
+  "phone": "+1-403-404-1215",
+  "consensus": {
+    "score": 0.5,
+    "quorum": false,
+    "method": "9_muses_hecke_operator"
+  }
+}

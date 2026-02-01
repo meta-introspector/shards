@@ -1,0 +1,27 @@
+Spider mode enabled. Check if remote file exists.
+--2026-02-01 11:16:44--  https://pump.fun/coin/DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE
+Resolving pump.fun (pump.fun)... 104.18.34.22, 172.64.153.234, 2a06:98c1:3100::ac40:99ea, ...
+Connecting to pump.fun (pump.fun)|104.18.34.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2026-02-01 11:16:46--  https://pump.fun/coin/DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE
+Reusing existing connection to pump.fun:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘pump.fun/coin/DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE.tmp.tmp’
+
+     0K .......... .......... .......... .......... .......... 2.08M
+    50K .......... .......... .......... .......... .......... 4.20M
+   100K .......... .......... .......... ..........            12.1M=0.04s
+
+2026-02-01 11:16:46 (3.57 MB/s) - ‘pump.fun/coin/DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE.tmp.tmp’ saved [143724]
+
+Removing pump.fun/coin/DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE.tmp.tmp.
+
+Found no broken links.
+
+FINISHED --2026-02-01 11:16:46--
+Total wall clock time: 1.4s
+Downloaded: 1 files, 140K in 0.04s (3.57 MB/s)

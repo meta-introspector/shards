@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-01T16:16:51Z",
+  "protocol": "TLZ/1.0",
+  "token": "Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump",
+  "shard": 25,
+  "spider": {
+    "depth": 2,
+    "urls_discovered": 2,
+    "domains": ["solscan.io", "pump.fun"]
+  },
+  "files": {
+    "urls": "witnesses/spider/Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump/urls.txt",
+    "solscan_log": "witnesses/spider/Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump/solscan_spider.log",
+    "pumpfun_log": "witnesses/spider/Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump/pumpfun_spider.log"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-01T16:08:34Z",
+  "token": "E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22",
+  "shard": 53,
+  "phone": "+1-860-907-3033",
+  "consensus": {
+    "score": 0.5,
+    "quorum": false,
+    "method": "9_muses_hecke_operator"
+  }
+}

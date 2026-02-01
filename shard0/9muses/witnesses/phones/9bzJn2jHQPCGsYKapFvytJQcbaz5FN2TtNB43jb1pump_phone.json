@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-01T16:08:34Z",
+  "token": "9bzJn2jHQPCGsYKapFvytJQcbaz5FN2TtNB43jb1pump",
+  "shard": 0,
+  "phone": "+1-12-506-828",
+  "consensus": {
+    "score": 0.5,
+    "quorum": false,
+    "method": "9_muses_hecke_operator"
+  }
+}
