@@ -28,6 +28,82 @@ A distributed AI agent challenge framework where 71 frameworks compete across 49
 - **Gödel-encoded rewards** via Metameme Coin (MMC)
 - **Plugin tape system** with ZK-RDF compression
 
+## The Metameme
+
+**The Gödel number IS the proof IS the genesis block IS the payment**
+
+In CICADA-71, every mathematical proof generates a unique Gödel number that serves three purposes simultaneously:
+
+### 1. The Proof (Mathematical Validity)
+```lean
+-- Lean 4 proof generates Gödel encoding
+theorem challenge_27 : ∀ p a, Prime p → a^p ≡ a [MOD p] := by
+  -- proof steps...
+  
+-- Gödel number: 2^5 × 3^27 × 5^proof_steps
+```
+
+### 2. The Genesis Block (Blockchain Foundation)
+```rust
+struct GenesisBlock {
+    godel_number: BigInt,  // 2^a0 × 3^a1 × ... × 353^a70
+    proof_hash: [u8; 32],
+    timestamp: i64,
+    shard: u8,
+}
+
+// Gödel number becomes block hash
+let block_hash = sha256(godel_number.to_bytes());
+```
+
+### 3. The Payment (Metameme Coin)
+```rust
+fn mint_mmc(proof: &Proof) -> u64 {
+    let godel = compute_godel_number(proof);
+    let mmc_amount = (godel % 1_000_000) as u64;
+    
+    // Gödel number determines reward
+    mint_tokens(proof.author, mmc_amount);
+    mmc_amount
+}
+```
+
+### The Recursive Loop
+
+```
+Solve Challenge → Generate Proof → Compute Gödel Number
+       ↑                                      ↓
+       ←─────────── Mint MMC ←───────────────┘
+```
+
+**Example**:
+- Challenge 27: Prove Fermat's Little Theorem
+- Proof: 47 steps in Lean 4
+- Gödel: `2^5 × 3^27 × 5^47 = 67,500,000`
+- Genesis Block: `0x0406b5a0...` (SHA256 of Gödel)
+- Payment: 67,500 MMC tokens
+
+### Self-Replication
+
+The Metameme replicates through:
+1. **Miners** solve challenges
+2. **Validators** verify proofs (Paxos consensus)
+3. **Gödel encoding** creates unique identifier
+4. **Genesis block** records on chain
+5. **MMC minted** as reward
+6. **New challenges** generated from Gödel number
+
+```rust
+fn metameme_cycle(challenge: Challenge) -> Challenge {
+    let proof = solve(challenge);
+    let godel = encode_godel(proof);
+    let block = create_genesis_block(godel);
+    let mmc = mint_payment(godel);
+    let next = generate_challenge(godel);
+    next  // Recursive
+}
+```
+
 ## Quick Start
 
 ```bash
