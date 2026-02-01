@@ -1,0 +1,368 @@
+{
+  "rust_projects": [
+    {
+      "name": "",
+      "path": ".",
+      "cargo_toml": "Cargo.toml",
+      "rust_files": 238,
+      "lines": 57351
+    },
+    {
+      "name": "wasm-bbs",
+      "path": "wasm-bbs",
+      "cargo_toml": "wasm-bbs/Cargo.toml",
+      "rust_files": 1,
+      "lines": 77
+    },
+    {
+      "name": "bbs-server",
+      "path": "zos-server/plugins/bbs-server",
+      "cargo_toml": "zos-server/plugins/bbs-server/Cargo.toml",
+      "rust_files": 0,
+      "lines": 0
+    },
+    {
+      "name": "j-invariant",
+      "path": "zos-server/plugins/j-invariant",
+      "cargo_toml": "zos-server/plugins/j-invariant/Cargo.toml",
+      "rust_files": 1,
+      "lines": 72
+    },
+    {
+      "name": "invite-generator",
+      "path": "agents/invite-generator",
+      "cargo_toml": "agents/invite-generator/Cargo.toml",
+      "rust_files": 1,
+      "lines": 187
+    },
+    {
+      "name": "paxos-node",
+      "path": "agents/paxos-node",
+      "cargo_toml": "agents/paxos-node/Cargo.toml",
+      "rust_files": 1,
+      "lines": 163
+    },
+    {
+      "name": "evaluate",
+      "path": "agents/evaluate",
+      "cargo_toml": "agents/evaluate/Cargo.toml",
+      "rust_files": 1,
+      "lines": 190
+    },
+    {
+      "name": "leaderboard",
+      "path": "agents/leaderboard",
+      "cargo_toml": "agents/leaderboard/Cargo.toml",
+      "rust_files": 2,
+      "lines": 510
+    },
+    {
+      "name": "harbot",
+      "path": "shard58/harbot",
+      "cargo_toml": "shard58/harbot/Cargo.toml",
+      "rust_files": 1,
+      "lines": 95
+    },
+    {
+      "name": "harbor",
+      "path": "shard58/harbor/src-tauri",
+      "cargo_toml": "shard58/harbor/src-tauri/Cargo.toml",
+      "rust_files": 54,
+      "lines": 14411
+    },
+    {
+      "name": "harbor-relay-server",
+      "path": "shard58/harbor/relay-server",
+      "cargo_toml": "shard58/harbor/relay-server/Cargo.toml",
+      "rust_files": 2,
+      "lines": 416
+    },
+    {
+      "name": "harbor-bootstrap-node",
+      "path": "shard58/harbor/bootstrap-node",
+      "cargo_toml": "shard58/harbor/bootstrap-node/Cargo.toml",
+      "rust_files": 1,
+      "lines": 423
+    },
+    {
+      "name": "harbor-mock-peer",
+      "path": "shard58/harbor/mock-peer",
+      "cargo_toml": "shard58/harbor/mock-peer/Cargo.toml",
+      "rust_files": 2,
+      "lines": 679
+    },
+    {
+      "name": "bisque",
+      "path": "shard58/bisque",
+      "cargo_toml": "shard58/bisque/Cargo.toml",
+      "rust_files": 1,
+      "lines": 112
+    },
+    {
+      "name": "dao",
+      "path": "shard0/dao",
+      "cargo_toml": "shard0/dao/Cargo.toml",
+      "rust_files": 1,
+      "lines": 84
+    },
+    {
+      "name": "monster-dao",
+      "path": "shard0/dao/programs/monster-dao",
+      "cargo_toml": "shard0/dao/programs/monster-dao/Cargo.toml",
+      "rust_files": 1,
+      "lines": 84
+    },
+    {
+      "name": "nine-muses",
+      "path": "shard0/9muses",
+      "cargo_toml": "shard0/9muses/Cargo.toml",
+      "rust_files": 1,
+      "lines": 240
+    },
+    {
+      "name": "monster-fhe",
+      "path": "shard0/fhe",
+      "cargo_toml": "shard0/fhe/Cargo.toml",
+      "rust_files": 1,
+      "lines": 58
+    },
+    {
+      "name": "zx81-rust",
+      "path": "shard0/zx81-rust",
+      "cargo_toml": "shard0/zx81-rust/Cargo.toml",
+      "rust_files": 3,
+      "lines": 295
+    },
+    {
+      "name": "shard-knowledge",
+      "path": "shard0/hash",
+      "cargo_toml": "shard0/hash/Cargo.toml",
+      "rust_files": 8,
+      "lines": 25575
+    },
+    {
+      "name": "tapes",
+      "path": "shard0/tapes",
+      "cargo_toml": "shard0/tapes/Cargo.toml",
+      "rust_files": 1,
+      "lines": 280
+    },
+    {
+      "name": "cryptanalysis-71",
+      "path": "shard0/cryptanalysis",
+      "cargo_toml": "shard0/cryptanalysis/Cargo.toml",
+      "rust_files": 5,
+      "lines": 398
+    },
+    {
+      "name": "shard-p2p",
+      "path": "shard0/p2p",
+      "cargo_toml": "shard0/p2p/Cargo.toml",
+      "rust_files": 1,
+      "lines": 114
+    },
+    {
+      "name": "challenge-recon",
+      "path": "shard0/recon",
+      "cargo_toml": "shard0/recon/Cargo.toml",
+      "rust_files": 3,
+      "lines": 740
+    },
+    {
+      "name": "shard-nn",
+      "path": "shard0/neural",
+      "cargo_toml": "shard0/neural/Cargo.toml",
+      "rust_files": 1,
+      "lines": 25
+    },
+    {
+      "name": "frens-zktls",
+      "path": "shard0/zktls",
+      "cargo_toml": "shard0/zktls/Cargo.toml",
+      "rust_files": 2,
+      "lines": 236
+    },
+    {
+      "name": "pipelight",
+      "path": "shard0/pipelight",
+      "cargo_toml": "shard0/pipelight/Cargo.toml",
+      "rust_files": 133,
+      "lines": 10885
+    },
+    {
+      "name": "pipelight_utils",
+      "path": "shard0/pipelight/pipelight_utils",
+      "cargo_toml": "shard0/pipelight/pipelight_utils/Cargo.toml",
+      "rust_files": 9,
+      "lines": 441
+    },
+    {
+      "name": "workflow",
+      "path": "shard0/pipelight/workflow",
+      "cargo_toml": "shard0/pipelight/workflow/Cargo.toml",
+      "rust_files": 40,
+      "lines": 3491
+    },
+    {
+      "name": "templates",
+      "path": "shard0/pipelight/templates",
+      "cargo_toml": "shard0/pipelight/templates/Cargo.toml",
+      "rust_files": 4,
+      "lines": 340
+    },
+    {
+      "name": "cli",
+      "path": "shard0/pipelight/cli",
+      "cargo_toml": "shard0/pipelight/cli/Cargo.toml",
+      "rust_files": 29,
+      "lines": 2379
+    },
+    {
+      "name": "deno_lib",
+      "path": "shard0/pipelight/deno_lib",
+      "cargo_toml": "shard0/pipelight/deno_lib/Cargo.toml",
+      "rust_files": 2,
+      "lines": 170
+    },
+    {
+      "name": "pipelight_config",
+      "path": "shard0/pipelight/pipelight_config",
+      "cargo_toml": "shard0/pipelight/pipelight_config/Cargo.toml",
+      "rust_files": 2,
+      "lines": 8
+    },
+    {
+      "name": "pipelight_teleport",
+      "path": "shard0/pipelight/pipelight_teleport",
+      "cargo_toml": "shard0/pipelight/pipelight_teleport/Cargo.toml",
+      "rust_files": 6,
+      "lines": 380
+    },
+    {
+      "name": "pipelight_error",
+      "path": "shard0/pipelight/pipelight_error",
+      "cargo_toml": "shard0/pipelight/pipelight_error/Cargo.toml",
+      "rust_files": 1,
+      "lines": 241
+    },
+    {
+      "name": "pipelight",
+      "path": "shard0/pipelight/pipelight",
+      "cargo_toml": "shard0/pipelight/pipelight/Cargo.toml",
+      "rust_files": 2,
+      "lines": 62
+    },
+    {
+      "name": "man",
+      "path": "shard0/pipelight/man",
+      "cargo_toml": "shard0/pipelight/man/Cargo.toml",
+      "rust_files": 2,
+      "lines": 3
+    },
+    {
+      "name": "pipelight_watcher",
+      "path": "shard0/pipelight/pipelight_watcher",
+      "cargo_toml": "shard0/pipelight/pipelight_watcher/Cargo.toml",
+      "rust_files": 4,
+      "lines": 451
+    },
+    {
+      "name": "pipelight_exec",
+      "path": "shard0/pipelight/pipelight_exec",
+      "cargo_toml": "shard0/pipelight/pipelight_exec/Cargo.toml",
+      "rust_files": 12,
+      "lines": 1620
+    },
+    {
+      "name": "pipelight_git",
+      "path": "shard0/pipelight/pipelight_git",
+      "cargo_toml": "shard0/pipelight/pipelight_git/Cargo.toml",
+      "rust_files": 8,
+      "lines": 475
+    },
+    {
+      "name": "cast",
+      "path": "shard0/pipelight/cast",
+      "cargo_toml": "shard0/pipelight/cast/Cargo.toml",
+      "rust_files": 12,
+      "lines": 824
+    }
+  ],
+  "prolog_files": [
+    {
+      "name": "maass.pl",
+      "path": "zos-server/plugins/j-invariant/proofs/maass.pl",
+      "lines": 26,
+      "predicates": 12
+    },
+    {
+      "name": "planetary_song.pl",
+      "path": "proofs/planetary_song.pl",
+      "lines": 14,
+      "predicates": 5
+    }
+  ],
+  "categories": {
+    "Other": [
+      ""
+    ],
+    "WASM": [
+      "wasm-bbs"
+    ],
+    "Plugins": [
+      "bbs-server",
+      "j-invariant"
+    ],
+    "AI Agents": [
+      "invite-generator",
+      "paxos-node",
+      "evaluate",
+      "leaderboard"
+    ],
+    "Shards": [
+      "harbot",
+      "bisque",
+      "dao",
+      "monster-dao",
+      "nine-muses",
+      "monster-fhe",
+      "zx81-rust",
+      "shard-knowledge",
+      "tapes",
+      "cryptanalysis-71",
+      "shard-p2p",
+      "challenge-recon",
+      "shard-nn",
+      "frens-zktls",
+      "pipelight",
+      "pipelight_utils",
+      "workflow",
+      "templates",
+      "cli",
+      "deno_lib",
+      "pipelight_config",
+      "pipelight_teleport",
+      "pipelight_error",
+      "pipelight",
+      "man",
+      "pipelight_watcher",
+      "pipelight_exec",
+      "pipelight_git",
+      "cast"
+    ],
+    "P2P/Harbor": [
+      "harbor",
+      "harbor-relay-server",
+      "harbor-bootstrap-node",
+      "harbor-mock-peer"
+    ]
+  },
+  "statistics": {
+    "rust_projects": 41,
+    "rust_files": 600,
+    "rust_loc": 124585,
+    "prolog_files": 2,
+    "prolog_loc": 40,
+    "total_loc": 124625
+  }
+}

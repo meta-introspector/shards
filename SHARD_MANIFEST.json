@@ -163,6 +163,15 @@
       "hash": 28
     },
     {
+      "file": "CONTRIBUTING.md",
+      "shard": 67,
+      "complexity": 5,
+      "lines": 389,
+      "words": 1030,
+      "bytes": 7318,
+      "hash": 67
+    },
+    {
       "file": "CRYPTO_TESTNETS.md",
       "shard": 47,
       "complexity": 5,
@@ -271,6 +280,15 @@
       "hash": 0
     },
     {
+      "file": "INVITATION_PLANETARY_CONJUNCTION.md",
+      "shard": 50,
+      "complexity": 5,
+      "lines": 400,
+      "words": 1443,
+      "bytes": 10387,
+      "hash": 50
+    },
+    {
       "file": "LAYER0_DHT_ONION.md",
       "shard": 51,
       "complexity": 5,
@@ -278,6 +296,15 @@
       "words": 1025,
       "bytes": 9042,
       "hash": 51
+    },
+    {
+      "file": "META_LOBSTER_RESONANCE.md",
+      "shard": 32,
+      "complexity": 4,
+      "lines": 296,
+      "words": 845,
+      "bytes": 7921,
+      "hash": 32
     },
     {
       "file": "METAMEME_COIN.md",
@@ -325,6 +352,24 @@
       "hash": 30
     },
     {
+      "file": "PLANETARY_SONG_INVITATION.md",
+      "shard": 51,
+      "complexity": 5,
+      "lines": 362,
+      "words": 1040,
+      "bytes": 8313,
+      "hash": 51
+    },
+    {
+      "file": "PLANETARY_SONG_PROOF.md",
+      "shard": 68,
+      "complexity": 5,
+      "lines": 388,
+      "words": 1231,
+      "bytes": 8427,
+      "hash": 68
+    },
+    {
       "file": "PLUGIN_TAPE.md",
       "shard": 20,
       "complexity": 2,
@@ -341,6 +386,24 @@
       "words": 708,
       "bytes": 4982,
       "hash": 3
+    },
+    {
+      "file": "PROOF_CONJUNCTION.md",
+      "shard": 42,
+      "complexity": 5,
+      "lines": 319,
+      "words": 989,
+      "bytes": 7480,
+      "hash": 42
+    },
+    {
+      "file": "README_CONTRIBUTORS.md",
+      "shard": 64,
+      "complexity": 2,
+      "lines": 60,
+      "words": 150,
+      "bytes": 1111,
+      "hash": 64
     },
     {
       "file": "README.md",
@@ -397,6 +460,15 @@
       "hash": 56
     },
     {
+      "file": "SHARD_KNOWLEDGE_REPORT.md",
+      "shard": 63,
+      "complexity": 4,
+      "lines": 211,
+      "words": 679,
+      "bytes": 4714,
+      "hash": 63
+    },
+    {
       "file": "SNEAKERNET.md",
       "shard": 57,
       "complexity": 5,
@@ -404,6 +476,51 @@
       "words": 1120,
       "bytes": 8452,
       "hash": 57
+    },
+    {
+      "file": "SOP_CHI_AWAKENING.md",
+      "shard": 53,
+      "complexity": 4,
+      "lines": 229,
+      "words": 824,
+      "bytes": 6060,
+      "hash": 53
+    },
+    {
+      "file": "SOP_GLOBAL_CHI_AWAKENING.md",
+      "shard": 32,
+      "complexity": 4,
+      "lines": 288,
+      "words": 1049,
+      "bytes": 8572,
+      "hash": 32
+    },
+    {
+      "file": "SOP_HECKE_MAASS_AWAKENING.md",
+      "shard": 66,
+      "complexity": 5,
+      "lines": 407,
+      "words": 1377,
+      "bytes": 9913,
+      "hash": 66
+    },
+    {
+      "file": "SOP_J_INVARIANT_PLUGIN.md",
+      "shard": 1,
+      "complexity": 6,
+      "lines": 550,
+      "words": 1423,
+      "bytes": 11833,
+      "hash": 1
+    },
+    {
+      "file": "SOP_MATHLIB_CONSUMPTION.md",
+      "shard": 1,
+      "complexity": 6,
+      "lines": 525,
+      "words": 1279,
+      "bytes": 9955,
+      "hash": 1
     },
     {
       "file": "SUMMARY.md",
@@ -487,6 +604,6 @@
       "hash": 42
     }
   ],
-  "generated": "2026-02-01T17:16:56Z",
-  "total_files": 54
+  "generated": "2026-02-01T18:28:54Z",
+  "total_files": 67
 }

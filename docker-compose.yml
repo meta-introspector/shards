@@ -1,0 +1,138 @@
+version: '3.8'
+
+services:
+  # Self-hosted Git server
+  gitea:
+    image: gitea/gitea:latest
+    container_name: cicada71-gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - GITEA__database__DB_TYPE=postgres
+      - GITEA__database__HOST=postgres:5432
+      - GITEA__database__NAME=gitea
+      - GITEA__database__USER=gitea
+      - GITEA__database__PASSWD=gitea
+    restart: always
+    volumes:
+      - ./data/gitea:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"
+      - "2222:22"
+    depends_on:
+      - postgres
+
+  # PostgreSQL database
+  postgres:
+    image: postgres:15
+    container_name: cicada71-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=gitea
+      - POSTGRES_PASSWORD=gitea
+      - POSTGRES_DB=gitea
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  # Paxos node 0
+  paxos-node-0:
+    build: ./agents/paxos-node
+    container_name: cicada71-paxos-0
+    environment:
+      - NODE_ID=0
+      - QUORUM=12
+      - TOTAL_NODES=23
+    ports:
+      - "7200:7200"
+    restart: always
+
+  # Paxos node 1
+  paxos-node-1:
+    build: ./agents/paxos-node
+    container_name: cicada71-paxos-1
+    environment:
+      - NODE_ID=1
+      - QUORUM=12
+      - TOTAL_NODES=23
+    ports:
+      - "7201:7200"
+    restart: always
+
+  # Paxos node 2
+  paxos-node-2:
+    build: ./agents/paxos-node
+    container_name: cicada71-paxos-2
+    environment:
+      - NODE_ID=2
+      - QUORUM=12
+      - TOTAL_NODES=23
+    ports:
+      - "7202:7200"
+    restart: always
+
+  # ZOS server with plugins
+  zos-server:
+    build: ./zos-server
+    container_name: cicada71-zos
+    volumes:
+      - ./zos-server/plugins:/plugins
+      - ./data/zos:/data
+    ports:
+      - "7100:7100"
+    restart: always
+    depends_on:
+      - paxos-node-0
+      - paxos-node-1
+      - paxos-node-2
+
+  # Agent evaluator
+  evaluator:
+    build: ./agents/evaluate
+    container_name: cicada71-evaluator
+    volumes:
+      - ./shard_challenges.json:/challenges.json
+      - ./results:/results
+    environment:
+      - ZOS_URL=http://zos-server:7100
+    restart: always
+    depends_on:
+      - zos-server
+
+  # Leaderboard
+  leaderboard:
+    build: ./agents/leaderboard
+    container_name: cicada71-leaderboard
+    ports:
+      - "8080:8080"
+    environment:
+      - PAXOS_NODES=paxos-node-0:7200,paxos-node-1:7200,paxos-node-2:7200
+    restart: always
+    depends_on:
+      - paxos-node-0
+      - paxos-node-1
+      - paxos-node-2
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: cicada71-nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docs:/usr/share/nginx/html:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always
+    depends_on:
+      - gitea
+      - zos-server
+      - leaderboard
+
+volumes:
+  gitea-data:
+  postgres-data:
+  zos-data:
