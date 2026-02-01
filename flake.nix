@@ -1,161 +1,162 @@
 {
-  description = "71-Shard Monster Group Framework";
+  description = "CICADA-71 with scheduled Hecke-Maass sharding and free-tier AI";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    rust-overlay.url = "github:oxalica/rust-overlay";
-    pipelight.url = "github:meta-introspector/pipelight";
   };
 
-  outputs = { self, nixpkgs, flake-utils, rust-overlay, pipelight }:
+  outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        overlays = [ rust-overlay.overlays.default ];
-        pkgs = import nixpkgs { inherit system overlays; };
-        rust = pkgs.rust-bin.stable.latest.default.override {
-          extensions = [ "rust-src" "rust-analyzer" ];
-        };
+        pkgs = nixpkgs.legacyPackages.${system};
+        
+        # Free-tier AI CLIs
+        gemini-cli = pkgs.writeShellScriptBin "gemini-analyze-shards" ''
+          export GEMINI_API_KEY=$(cat ~/.config/gemini/api_key 2>/dev/null || echo "")
+          
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "Warning: GEMINI_API_KEY not set"
+            exit 0
+          fi
+          
+          ${pkgs.curl}/bin/curl -s https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent \
+            -H "Content-Type: application/json" \
+            -H "x-goog-api-key: $GEMINI_API_KEY" \
+            -d @- << EOF | ${pkgs.jq}/bin/jq -r '.candidates[0].content.parts[0].text' > gemini_analysis.json
+          {
+            "contents": [{
+              "parts": [{
+                "text": "Analyze this Hecke-Maass shard manifest and identify: 1) Imbalanced shards, 2) Files that should be grouped together, 3) Optimization suggestions. Manifest: $(cat HECKE_MAASS_MANIFEST.json)"
+              }]
+            }]
+          }
+          EOF
+          
+          echo "Gemini analysis complete"
+        '';
+        
+        claude-cli = pkgs.writeShellScriptBin "claude-analyze-shards" ''
+          export ANTHROPIC_API_KEY=$(cat ~/.config/anthropic/api_key 2>/dev/null || echo "")
+          
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "Warning: ANTHROPIC_API_KEY not set"
+            exit 0
+          fi
+          
+          ${pkgs.curl}/bin/curl -s https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d @- << EOF | ${pkgs.jq}/bin/jq -r '.content[0].text' > claude_analysis.json
+          {
+            "model": "claude-3-haiku-20240307",
+            "max_tokens": 1024,
+            "messages": [{
+              "role": "user",
+              "content": "Analyze this Hecke-Maass shard manifest for mathematical correctness and distribution quality: $(cat HECKE_MAASS_MANIFEST.json | head -c 4000)"
+            }]
+          }
+          EOF
+          
+          echo "Claude analysis complete"
+        '';
+        
+        openai-cli = pkgs.writeShellScriptBin "gpt-analyze-shards" ''
+          export OPENAI_API_KEY=$(cat ~/.config/openai/api_key 2>/dev/null || echo "")
+          
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "Warning: OPENAI_API_KEY not set"
+            exit 0
+          fi
+          
+          ${pkgs.curl}/bin/curl -s https://api.openai.com/v1/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $OPENAI_API_KEY" \
+            -d @- << EOF | ${pkgs.jq}/bin/jq -r '.choices[0].message.content' > gpt_analysis.json
+          {
+            "model": "gpt-3.5-turbo",
+            "messages": [{
+              "role": "user",
+              "content": "Analyze Hecke eigenvalue distribution: $(cat HECKE_MAASS_MANIFEST.json | ${pkgs.jq}/bin/jq -c '.shards[] | {shard_id, file_count, total_weighted_norm}')"
+            }],
+            "max_tokens": 500
+          }
+          EOF
+          
+          echo "GPT analysis complete"
+        '';
+        
+        ollama-cli = pkgs.writeShellScriptBin "ollama-analyze-shards" ''
+          # Check if Ollama is running
+          if ! ${pkgs.curl}/bin/curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then
+            echo "Warning: Ollama not running"
+            exit 0
+          fi
+          
+          ${pkgs.curl}/bin/curl -s http://localhost:11434/api/generate \
+            -d @- << EOF | ${pkgs.jq}/bin/jq -r '.response' > ollama_analysis.json
+          {
+            "model": "llama3.2",
+            "prompt": "Analyze this shard distribution for balance and correctness: $(cat HECKE_MAASS_MANIFEST.json | ${pkgs.jq}/bin/jq -c '.shards[0:10]')",
+            "stream": false
+          }
+          EOF
+          
+          echo "Ollama analysis complete"
+        '';
+        
+        ai-consensus = pkgs.writeShellScriptBin "ai-consensus" ''
+          ${pkgs.python3}/bin/python3 ${./ai_consensus.py}
+        '';
+        
       in {
-        packages = {
-          # Shard 0: Hash ingestion
-          shard0-hash = pkgs.rustPlatform.buildRustPackage {
-            pname = "shard0-hash";
-            version = "0.1.0";
-            src = ./shard0/hash;
-            cargoLock.lockFile = ./shard0/hash/Cargo.lock;
-            nativeBuildInputs = [ pkgs.pkg-config ];
-            buildInputs = [ pkgs.openssl ];
-          };
-
-          # Shard 0: Cryptanalysis
-          shard0-cryptanalysis = pkgs.rustPlatform.buildRustPackage {
-            pname = "shard0-cryptanalysis";
-            version = "0.1.0";
-            src = ./shard0/cryptanalysis;
-            cargoLock.lockFile = ./shard0/cryptanalysis/Cargo.lock;
-          };
-
-          # Shard 0: P2P networking
-          shard0-p2p = pkgs.rustPlatform.buildRustPackage {
-            pname = "shard0-p2p";
-            version = "0.1.0";
-            src = ./shard0/p2p;
-            cargoLock.lockFile = ./shard0/p2p/Cargo.lock;
-          };
-
-          # Shard 0: FHE
-          shard0-fhe = pkgs.rustPlatform.buildRustPackage {
-            pname = "shard0-fhe";
-            version = "0.1.0";
-            src = ./shard0/fhe;
-            cargoLock.lockFile = ./shard0/fhe/Cargo.lock;
-            buildInputs = [ pkgs.clang pkgs.llvm ];
-          };
-
-          # Shard 0: Knowledge tapes
-          shard0-tapes = pkgs.rustPlatform.buildRustPackage {
-            pname = "shard0-tapes";
-            version = "0.1.0";
-            src = ./shard0/tapes;
-            cargoLock.lockFile = ./shard0/tapes/Cargo.lock;
-          };
-
-          # Erlang telecom
-          shard0-telecom = pkgs.stdenv.mkDerivation {
-            pname = "shard0-telecom";
-            version = "0.1.0";
-            src = ./shard0/telecom;
-            buildInputs = [ pkgs.erlang pkgs.rebar3 ];
-            buildPhase = "rebar3 compile";
-            installPhase = ''
-              mkdir -p $out
-              cp -r _build/default/lib/shard_telecom $out/
-            '';
-          };
-
-          # Lean 4 proofs
-          shard0-lean = pkgs.stdenv.mkDerivation {
-            pname = "shard0-lean";
-            version = "0.1.0";
-            src = ./shard0/lean;
-            buildInputs = [ pkgs.elan ];
-            buildPhase = "lake build";
-            installPhase = ''
-              mkdir -p $out
-              cp -r .lake/build $out/
-            '';
-          };
-
-          # Documentation site
-          docs = pkgs.stdenv.mkDerivation {
-            pname = "monster-docs";
-            version = "0.1.0";
-            src = ./.;
-            buildInputs = [ pkgs.mdbook ];
-            buildPhase = ''
-              mkdir -p book/src
-              cp *.md book/src/
-              cat > book/book.toml <<EOF
-              [book]
-              title = "71-Shard Monster Group Framework"
-              authors = ["Monster Group Research"]
-              language = "en"
-              
-              [output.html]
-              git-repository-url = "https://github.com/meta-introspector/shards"
-              EOF
-              
-              cd book && mdbook build
-            '';
-            installPhase = ''
-              mkdir -p $out
-              cp -r book/book/* $out/
-            '';
-          };
-
-          default = pkgs.symlinkJoin {
-            name = "monster-shards";
-            paths = [
-              self.packages.${system}.shard0-hash
-              self.packages.${system}.shard0-cryptanalysis
-              self.packages.${system}.shard0-p2p
-              self.packages.${system}.shard0-fhe
-              self.packages.${system}.shard0-telecom
-              self.packages.${system}.shard0-lean
+        devShells = {
+          default = pkgs.mkShell {
+            buildInputs = with pkgs; [
+              python3
+              curl
+              jq
+              git
+              pipelight
             ];
+            
+            shellHook = ''
+              echo "CICADA-71 Development Environment"
+              echo "Run: pipelight run swab_deck"
+            '';
+          };
+          
+          gemini-cli = pkgs.mkShell {
+            buildInputs = [ gemini-cli pkgs.curl pkgs.jq ];
+          };
+          
+          claude-cli = pkgs.mkShell {
+            buildInputs = [ claude-cli pkgs.curl pkgs.jq ];
+          };
+          
+          openai-cli = pkgs.mkShell {
+            buildInputs = [ openai-cli pkgs.curl pkgs.jq ];
+          };
+          
+          ollama = pkgs.mkShell {
+            buildInputs = [ ollama-cli pkgs.curl pkgs.jq ];
           };
         };
-
-        devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            rust
-            cargo
-            rustc
-            pkg-config
-            openssl
-            erlang
-            rebar3
-            elan
-            mdbook
-            git
-            pipelight.packages.${system}.default
-          ];
-
-          shellHook = ''
-            echo "🎯 Monster Group 71-Shard Framework"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "Build:     nix build"
-            echo "Develop:   nix develop"
-            echo "Pipeline:  pipelight run"
-            echo "Docs:      nix build .#docs && firefox result/index.html"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        
+        packages = {
+          inherit gemini-cli claude-cli openai-cli ollama-cli ai-consensus;
+          
+          swab-deck = pkgs.writeShellScriptBin "swab-deck" ''
+            ${./swab_the_deck.sh}
           '';
         };
-
-        apps.default = {
-          type = "app";
-          program = "${self.packages.${system}.default}/bin/shard-analyzer";
+        
+        apps = {
+          swab = {
+            type = "app";
+            program = "${self.packages.${system}.swab-deck}/bin/swab-deck";
+          };
         };
       }
     );
