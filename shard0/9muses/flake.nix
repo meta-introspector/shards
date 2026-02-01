@@ -20,7 +20,7 @@
           src = ./.;
           
           cargoLock = {
-            lockFile = ./Cargo.lock;
+            lockFile = ../../Cargo.lock;
           };
           
           meta = {

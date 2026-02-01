@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "shard0/recon",
+    "shard0/9muses",
     "agents/evaluate",
     "agents/leaderboard",
     "agents/paxos-node",
