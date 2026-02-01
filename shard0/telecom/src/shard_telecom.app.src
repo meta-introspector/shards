@@ -1,0 +1,16 @@
+{application, shard_telecom, [
+    {description, "SS7/ISUP Telecom Layer for 71 Shards"},
+    {vsn, "0.1.0"},
+    {modules, [
+        shard_telecom_app,
+        shard_telecom_sup,
+        shard_call,
+        shard_msc
+    ]},
+    {registered, [shard_telecom_sup]},
+    {applications, [kernel, stdlib, crypto]},
+    {mod, {shard_telecom_app, []}},
+    {env, [
+        {local_shard, 0}
+    ]}
+]}.

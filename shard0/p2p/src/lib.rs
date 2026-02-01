@@ -11,6 +11,25 @@ pub enum P2PProtocol {
     DeadDrop,
 }
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub enum IsupMessage {
+    IAM { call_id: [u8; 16], called_number: String, calling_number: String },
+    ACM { call_id: [u8; 16] },
+    ANM { call_id: [u8; 16] },
+    REL { call_id: [u8; 16], cause: u8 },
+    RLC { call_id: [u8; 16] },
+}
+
+impl IsupMessage {
+    pub fn encode(&self) -> Vec<u8> {
+        bincode::serialize(self).unwrap()
+    }
+    
+    pub fn decode(data: &[u8]) -> Result<Self, Box<dyn std::error::Error>> {
+        Ok(bincode::deserialize(data)?)
+    }
+}
+
 impl P2PProtocol {
     pub fn for_shard(shard: u8) -> Self {
         match shard % 7 {
