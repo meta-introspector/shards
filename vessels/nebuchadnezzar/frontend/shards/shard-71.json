@@ -1,0 +1,45 @@
+{
+  "shard_id": 71,
+  "name": "GitHub Repos",
+  "rdfa_namespace": "http://stego.solfunmeme.com/shard/71",
+  "signature": "0x7f3a9c2b4d8e6f1a2c5b8d9e3f6a1c4b7d0e3f6a9c2b5d8e1f4a7c0b3d6e9f2a5",
+  "timestamp": "2026-02-01T14:47:00Z",
+  "bots": [
+    {
+      "name": "ElizaOS",
+      "repo": "elizaos/eliza",
+      "last_seen": "2m ago",
+      "commits": 42,
+      "prs": 3,
+      "issues": 2,
+      "stars": 8467
+    },
+    {
+      "name": "Moltbot",
+      "repo": "moltbot/moltbot",
+      "last_seen": "5m ago",
+      "commits": 137,
+      "prs": 5,
+      "issues": 1,
+      "stars": 1247
+    },
+    {
+      "name": "AutoGPT",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "last_seen": "8m ago",
+      "commits": 71,
+      "prs": 7,
+      "issues": 8,
+      "stars": 167000
+    },
+    {
+      "name": "LangChain",
+      "repo": "langchain-ai/langchain",
+      "last_seen": "12m ago",
+      "commits": 263,
+      "prs": 12,
+      "issues": 15,
+      "stars": 93000
+    }
+  ]
+}

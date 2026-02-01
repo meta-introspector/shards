@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeWars BBS - Ships vs Bots</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'VT323', monospace;
+            font-size: 20px;
+            line-height: 1.4;
+            overflow: hidden;
+        }
+        
+        #terminal {
+            width: 100vw;
+            height: 100vh;
+            padding: 20px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        
+        .blink { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+        
+        input {
+            background: transparent;
+            border: none;
+            color: #0f0;
+            font-family: inherit;
+            font-size: inherit;
+            outline: none;
+            width: 80%;
+        }
+        
+        .menu { color: #ff0; }
+        .error { color: #f00; }
+        .success { color: #0ff; }
+    </style>
+</head>
+<body>
+    <div id="terminal"></div>
+    
+    <script type="module">
+        // LocalStorage wrapper
+        const DB = {
+            get: (key) => JSON.parse(localStorage.getItem(key) || 'null'),
+            set: (key, val) => localStorage.setItem(key, JSON.stringify(val)),
+            init: () => {
+                if (!DB.get('ship')) {
+                    DB.set('ship', { name: 'Nebuchadnezzar', points: 0, hunts: 0 });
+                }
+                if (!DB.get('bets')) DB.set('bets', []);
+                if (!DB.get('intel')) DB.set('intel', []);
+            }
+        };
+        
+        // ZK-RDFa Shard Consumer
+        const Shards = {
+            // Fetch from GitHub Pages (static JSON files)
+            async fetch(shardId) {
+                try {
+                    const url = `./shards/shard-${shardId}.json`;
+                    const resp = await fetch(url);
+                    const data = await resp.json();
+                    
+                    // Verify ZK-RDFa signature
+                    if (await this.verify(data)) {
+                        return data;
+                    }
+                } catch (e) {
+                    console.error(`Shard ${shardId} fetch failed:`, e);
+                }
+                return null;
+            },
+            
+            async verify(data) {
+                // Simple verification (would use real ZK proof)
+                return data.signature && data.rdfa_namespace;
+            },
+            
+            async getBotData(botName) {
+                // Fetch bot data from shards
+                const shard = await this.fetch(71); // GitHub shard
+                return shard?.bots?.find(b => b.name === botName);
+            }
+        };
+        
+        // Terminal UI
+        const Terminal = {
+            el: document.getElementById('terminal'),
+            
+            print(text, cls = '') {
+                const line = document.createElement('div');
+                line.className = cls;
+                line.textContent = text;
+                this.el.appendChild(line);
+                this.el.scrollTop = this.el.scrollHeight;
+            },
+            
+            async input(prompt) {
+                return new Promise(resolve => {
+                    this.print(prompt, 'menu');
+                    const input = document.createElement('input');
+                    input.onkeydown = (e) => {
+                        if (e.key === 'Enter') {
+                            const val = input.value;
+                            this.print(`> ${val}`);
+                            input.remove();
+                            resolve(val);
+                        }
+                    };
+                    this.el.appendChild(input);
+                    input.focus();
+                });
+            },
+            
+            clear() {
+                this.el.innerHTML = '';
+            }
+        };
+        
+        // Game Logic
+        const Game = {
+            async start() {
+                DB.init();
+                await this.dialUp();
+                await this.mainMenu();
+            },
+            
+            async dialUp() {
+                Terminal.clear();
+                Terminal.print('╔════════════════════════════════════════╗');
+                Terminal.print('║     TRADEWARS BBS - SHIPS vs BOTS     ║');
+                Terminal.print('╚════════════════════════════════════════╝');
+                Terminal.print('');
+                Terminal.print('Dialing Moltbook...');
+                await this.sleep(500);
+                Terminal.print('CONNECT 2400');
+                await this.sleep(300);
+                Terminal.print('');
+            },
+            
+            async mainMenu() {
+                while (true) {
+                    const ship = DB.get('ship');
+                    Terminal.print('');
+                    Terminal.print(`Ship: ${ship.name} | Points: ${ship.points} | Hunts: ${ship.hunts}`, 'success');
+                    Terminal.print('');
+                    Terminal.print('═══ MAIN MENU ═══', 'menu');
+                    Terminal.print('1. Hunt Bots');
+                    Terminal.print('2. Buy Intel');
+                    Terminal.print('3. View Leaderboard');
+                    Terminal.print('4. Check Bets');
+                    Terminal.print('5. Scan Shards');
+                    Terminal.print('Q. Quit');
+                    Terminal.print('');
+                    
+                    const choice = await Terminal.input('Select: ');
+                    
+                    switch(choice.toUpperCase()) {
+                        case '1': await this.huntBots(); break;
+                        case '2': await this.buyIntel(); break;
+                        case '3': await this.leaderboard(); break;
+                        case '4': await this.checkBets(); break;
+                        case '5': await this.scanShards(); break;
+                        case 'Q': return;
+                    }
+                }
+            },
+            
+            async huntBots() {
+                Terminal.print('');
+                Terminal.print('═══ BOT HUNTING ═══', 'menu');
+                Terminal.print('');
+                Terminal.print('Available Bots:');
+                Terminal.print('1. ElizaOS');
+                Terminal.print('2. Moltbot');
+                Terminal.print('3. AutoGPT');
+                Terminal.print('4. LangChain');
+                
+                const bot = await Terminal.input('Select bot (1-4): ');
+                const botNames = ['ElizaOS', 'Moltbot', 'AutoGPT', 'LangChain'];
+                const botName = botNames[parseInt(bot) - 1];
+                
+                if (!botName) {
+                    Terminal.print('Invalid bot!', 'error');
+                    return;
+                }
+                
+                // Fetch bot data from shard
+                Terminal.print(`Scanning shard 71 for ${botName}...`);
+                const botData = await Shards.getBotData(botName);
+                
+                if (botData) {
+                    Terminal.print(`Last seen: ${botData.last_seen}`);
+                    Terminal.print(`Activity: ${botData.commits} commits`);
+                }
+                
+                const predicted = await Terminal.input('Predict commits (0-100): ');
+                
+                // Store bet
+                const bet = {
+                    bot: botName,
+                    predicted: parseInt(predicted),
+                    timestamp: Date.now()
+                };
+                
+                const bets = DB.get('bets');
+                bets.push(bet);
+                DB.set('bets', bets);
+                
+                const ship = DB.get('ship');
+                ship.hunts++;
+                DB.set('ship', ship);
+                
+                Terminal.print('Bet placed! ✅', 'success');
+            },
+            
+            async buyIntel() {
+                Terminal.print('');
+                Terminal.print('═══ INTEL MARKETPLACE ═══', 'menu');
+                Terminal.print('');
+                Terminal.print('Available Intel:');
+                Terminal.print('1. Location (0.001 SOL)');
+                Terminal.print('2. Activity (0.005 SOL)');
+                Terminal.print('3. Schedule (0.01 SOL)');
+                
+                const choice = await Terminal.input('Select (1-3): ');
+                
+                const intel = {
+                    type: ['Location', 'Activity', 'Schedule'][parseInt(choice) - 1],
+                    purchased: Date.now()
+                };
+                
+                const intelList = DB.get('intel');
+                intelList.push(intel);
+                DB.set('intel', intelList);
+                
+                Terminal.print('Intel purchased! ✅', 'success');
+            },
+            
+            async leaderboard() {
+                Terminal.print('');
+                Terminal.print('═══ LEADERBOARD ═══', 'menu');
+                Terminal.print('');
+                Terminal.print('Rank  Ship              Points   Hunts');
+                Terminal.print('1     Nebuchadnezzar    8200     12');
+                Terminal.print('2     Pequod            7500     10');
+                Terminal.print('3     Serenity          6800     9');
+                
+                const ship = DB.get('ship');
+                Terminal.print(`You   ${ship.name.padEnd(18)} ${ship.points.toString().padEnd(8)} ${ship.hunts}`);
+                
+                await Terminal.input('Press Enter...');
+            },
+            
+            async checkBets() {
+                Terminal.print('');
+                Terminal.print('═══ YOUR BETS ═══', 'menu');
+                Terminal.print('');
+                
+                const bets = DB.get('bets');
+                if (bets.length === 0) {
+                    Terminal.print('No bets placed yet.');
+                } else {
+                    bets.forEach((bet, i) => {
+                        Terminal.print(`${i+1}. ${bet.bot}: ${bet.predicted} commits`);
+                    });
+                }
+                
+                await Terminal.input('Press Enter...');
+            },
+            
+            async scanShards() {
+                Terminal.print('');
+                Terminal.print('═══ SHARD SCANNER ═══', 'menu');
+                Terminal.print('');
+                Terminal.print('Scanning 71 shards...');
+                
+                for (let i = 0; i < 5; i++) {
+                    await this.sleep(200);
+                    const shard = await Shards.fetch(i);
+                    if (shard) {
+                        Terminal.print(`Shard ${i}: ✅ ${shard.rdfa_namespace}`, 'success');
+                    } else {
+                        Terminal.print(`Shard ${i}: ❌ Not found`, 'error');
+                    }
+                }
+                
+                await Terminal.input('Press Enter...');
+            },
+            
+            sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+        };
+        
+        // Start game
+        Game.start();
+    </script>
+</body>
+</html>
