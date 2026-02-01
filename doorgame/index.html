@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" vocab="https://schema.org/" typeof="WebApplication">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICADA-71 Door Game 🔮⚡</title>
+    
+    <!-- eRDFa Metadata -->
+    <meta property="name" content="CICADA-71 Door Game">
+    <meta property="description" content="BBS Door Game with 71 shards, ZK proofs, and Monster group">
+    <meta property="applicationCategory" content="Game">
+    <meta property="operatingSystem" content="Web Browser">
+    
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 { color: #0ff; text-align: center; }
+        
+        .terminal {
+            background: #001100;
+            border: 2px solid #0f0;
+            padding: 20px;
+            margin: 20px 0;
+            min-height: 400px;
+        }
+        
+        .prompt { color: #0ff; }
+        .output { color: #0f0; margin: 10px 0; }
+        .error { color: #f00; }
+        .success { color: #0f0; font-weight: bold; }
+        
+        button {
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        
+        button:hover { background: #0ff; }
+        
+        input {
+            background: #000;
+            color: #0f0;
+            border: 1px solid #0f0;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .shard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            gap: 5px;
+            margin: 20px 0;
+        }
+        
+        .shard {
+            background: #001100;
+            border: 1px solid #0f0;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .shard:hover { background: #002200; }
+        .shard.active { background: #0f0; color: #000; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .stat {
+            background: #001100;
+            border: 1px solid #0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔮⚡ CICADA-71 DOOR GAME ⚡🔮</h1>
+    
+    <div class="terminal" id="terminal">
+        <div class="output">
+            <span class="prompt">SYSTEM></span> Welcome to CICADA-71 Door Game<br>
+            <span class="prompt">SYSTEM></span> 71 Shards | Monster Group | ZK Proofs<br>
+            <span class="prompt">SYSTEM></span> Type 'help' for commands<br>
+        </div>
+        <div id="output"></div>
+        <div>
+            <span class="prompt">USER></span>
+            <input type="text" id="input" autofocus>
+        </div>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <strong>Player:</strong> <span id="player-name">Guest</span><br>
+            <strong>Shard:</strong> <span id="current-shard">0</span><br>
+            <strong>Points:</strong> <span id="points">0</span>
+        </div>
+        <div class="stat">
+            <strong>Shards Visited:</strong> <span id="shards-visited">0</span>/71<br>
+            <strong>ZK Proofs:</strong> <span id="zk-proofs">0</span><br>
+            <strong>Status:</strong> <span id="status">Active</span>
+        </div>
+    </div>
+    
+    <div class="shard-grid" id="shard-grid"></div>
+    
+    <!-- eRDFa Game Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "CICADA-71 Door Game",
+      "description": "BBS-style door game with 71 shards, Monster group mathematics, and zero-knowledge proofs",
+      "gamePlatform": "Web Browser",
+      "genre": ["Puzzle", "Strategy", "Educational"],
+      "numberOfPlayers": "1",
+      "gameItem": [
+        {
+          "@type": "Thing",
+          "name": "Shard",
+          "description": "71 shards corresponding to Hecke operators T_2 through T_71"
+        },
+        {
+          "@type": "Thing",
+          "name": "ZK Proof",
+          "description": "Zero-knowledge proof generated for each shard completion"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    
+    <script>
+        // Game State (stored in localStorage with eRDFa)
+        const gameState = {
+            player: localStorage.getItem('player') || 'Guest',
+            currentShard: parseInt(localStorage.getItem('currentShard')) || 0,
+            points: parseInt(localStorage.getItem('points')) || 0,
+            shardsVisited: JSON.parse(localStorage.getItem('shardsVisited')) || [],
+            zkProofs: JSON.parse(localStorage.getItem('zkProofs')) || []
+        };
+        
+        // Initialize
+        function init() {
+            updateStats();
+            createShardGrid();
+            
+            document.getElementById('input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    handleCommand(e.target.value);
+                    e.target.value = '';
+                }
+            });
+        }
+        
+        // Create shard grid
+        function createShardGrid() {
+            const grid = document.getElementById('shard-grid');
+            for (let i = 0; i <= 71; i++) {
+                const shard = document.createElement('div');
+                shard.className = 'shard';
+                if (gameState.shardsVisited.includes(i)) {
+                    shard.className += ' active';
+                }
+                shard.textContent = i;
+                shard.onclick = () => visitShard(i);
+                grid.appendChild(shard);
+            }
+        }
+        
+        // Handle commands
+        function handleCommand(cmd) {
+            const output = document.getElementById('output');
+            const line = document.createElement('div');
+            line.className = 'output';
+            
+            const parts = cmd.toLowerCase().trim().split(' ');
+            const command = parts[0];
+            
+            switch(command) {
+                case 'help':
+                    line.innerHTML = `
+                        <span class="success">Available Commands:</span><br>
+                        - help: Show this help<br>
+                        - shard N: Visit shard N (0-71)<br>
+                        - proof: Generate ZK proof<br>
+                        - stats: Show statistics<br>
+                        - reset: Reset game<br>
+                        - name NAME: Set player name
+                    `;
+                    break;
+                    
+                case 'shard':
+                    const shardNum = parseInt(parts[1]);
+                    if (shardNum >= 0 && shardNum <= 71) {
+                        visitShard(shardNum);
+                        return;
+                    } else {
+                        line.innerHTML = '<span class="error">Invalid shard! Use 0-71</span>';
+                    }
+                    break;
+                    
+                case 'proof':
+                    generateZKProof();
+                    return;
+                    
+                case 'stats':
+                    line.innerHTML = `
+                        <span class="success">Statistics:</span><br>
+                        Player: ${gameState.player}<br>
+                        Current Shard: ${gameState.currentShard}<br>
+                        Points: ${gameState.points}<br>
+                        Shards Visited: ${gameState.shardsVisited.length}/72<br>
+                        ZK Proofs: ${gameState.zkProofs.length}
+                    `;
+                    break;
+                    
+                case 'reset':
+                    if (confirm('Reset game progress?')) {
+                        localStorage.clear();
+                        location.reload();
+                    }
+                    return;
+                    
+                case 'name':
+                    if (parts[1]) {
+                        gameState.player = parts.slice(1).join(' ');
+                        localStorage.setItem('player', gameState.player);
+                        line.innerHTML = `<span class="success">Name set to: ${gameState.player}</span>`;
+                        updateStats();
+                    } else {
+                        line.innerHTML = '<span class="error">Usage: name YOUR_NAME</span>';
+                    }
+                    break;
+                    
+                default:
+                    line.innerHTML = `<span class="error">Unknown command: ${command}</span><br>Type 'help' for commands`;
+            }
+            
+            output.appendChild(line);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        // Visit shard
+        function visitShard(n) {
+            if (n > 71) {
+                addOutput(`<span class="error">🚨 Shard ${n} is in jail! (sus)</span>`);
+                return;
+            }
+            
+            gameState.currentShard = n;
+            
+            if (!gameState.shardsVisited.includes(n)) {
+                gameState.shardsVisited.push(n);
+                gameState.points += 10;
+            }
+            
+            saveState();
+            updateStats();
+            createShardGrid();
+            
+            const prime = getPrime(n);
+            addOutput(`<span class="success">🔮 Entered Shard ${n} (T_${prime})</span>`);
+            addOutput(`Points +10! Total: ${gameState.points}`);
+        }
+        
+        // Generate ZK proof
+        function generateZKProof() {
+            const proof = {
+                shard: gameState.currentShard,
+                timestamp: Date.now(),
+                hash: hashState(),
+                player: gameState.player
+            };
+            
+            gameState.zkProofs.push(proof);
+            gameState.points += 50;
+            
+            saveState();
+            updateStats();
+            
+            addOutput(`<span class="success">✅ ZK Proof Generated!</span>`);
+            addOutput(`Hash: ${proof.hash.substring(0, 16)}...`);
+            addOutput(`Points +50! Total: ${gameState.points}`);
+        }
+        
+        // Get prime for shard
+        function getPrime(n) {
+            const primes = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71];
+            return primes[n % 20] || 71;
+        }
+        
+        // Hash state
+        function hashState() {
+            const data = JSON.stringify(gameState);
+            let hash = 0;
+            for (let i = 0; i < data.length; i++) {
+                hash = ((hash << 5) - hash) + data.charCodeAt(i);
+                hash = hash & hash;
+            }
+            return Math.abs(hash).toString(16).padStart(16, '0');
+        }
+        
+        // Save state
+        function saveState() {
+            localStorage.setItem('player', gameState.player);
+            localStorage.setItem('currentShard', gameState.currentShard);
+            localStorage.setItem('points', gameState.points);
+            localStorage.setItem('shardsVisited', JSON.stringify(gameState.shardsVisited));
+            localStorage.setItem('zkProofs', JSON.stringify(gameState.zkProofs));
+        }
+        
+        // Update stats
+        function updateStats() {
+            document.getElementById('player-name').textContent = gameState.player;
+            document.getElementById('current-shard').textContent = gameState.currentShard;
+            document.getElementById('points').textContent = gameState.points;
+            document.getElementById('shards-visited').textContent = gameState.shardsVisited.length;
+            document.getElementById('zk-proofs').textContent = gameState.zkProofs.length;
+        }
+        
+        // Add output
+        function addOutput(html) {
+            const output = document.getElementById('output');
+            const line = document.createElement('div');
+            line.className = 'output';
+            line.innerHTML = html;
+            output.appendChild(line);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        // Initialize on load
+        window.onload = init;
+    </script>
+</body>
+</html>
