@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-02-01T16:21:27Z",
+  "protocol": "TLZ/1.0",
+  "action": "send_invite",
+  "recipient": {
+    "phone": "1-800-KAL-3RIS",
+    "numeric": "1-800-525-3747",
+    "name": "CALL-ERIS",
+    "discovered_in": "witnesses/pages/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22/pumpfun.html"
+  },
+  "invite": {
+    "format": "RDFa",
+    "file": "witnesses/invites/call_eris_invite.html",
+    "network": "71-shard FREN network",
+    "frens": 7,
+    "shards_active": [0, 3, 14, 15, 25, 30, 53]
+  },
+  "proof": {
+    "type": "zkTLS",
+    "witness": "E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22",
+    "binding_token": "47490d97c33706f70016f7289dffc66b3caf2b40341539fd3601cebf882edd57"
+  }
+}
