@@ -616,6 +616,31 @@ curl https://cicada71.org/api/stakes/$CHALLENGE | jq '.stakes[] | select(.user==
 
 ---
 
+## 71-Shard RDFa Reconstruction
+
+Each RDFa entity is split across **71 transaction shards**. All 71 transactions required to reconstruct the complete entity from the bitstream.
+
+See [71_SHARD_RDFA_RECONSTRUCTION.md](71_SHARD_RDFA_RECONSTRUCTION.md) for full details.
+
+### Quick Example
+
+```bash
+# Split RDFa entity into 71 shards
+python3 shard_entity.py stake.ttl > shards.json
+
+# Send 71 transactions (one per shard)
+for i in {0..70}; do
+    SHARD=$(jq -r ".[$i].data" shards.json)
+    solana transfer Godel27... 1.0 --memo "$SHARD"
+done
+
+# Smart contract reconstructs entity from 71 memos
+```
+
+**Erasure coding**: 71-of-71 required (or 71-of-94 with Reed-Solomon redundancy)
+
+---
+
 ## Contact
 
 - **Staking Support**: stake@solfunmeme.com
@@ -623,4 +648,4 @@ curl https://cicada71.org/api/stakes/$CHALLENGE | jq '.stakes[] | select(.user==
 
 ---
 
-**Stake on truth. Encode in price. Settle in Gödel.** 🔢💰✨
+**Stake on truth. Encode in price. Settle in Gödel. Reconstruct from shards.** 🔢💰🧩✨
