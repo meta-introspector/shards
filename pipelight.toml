@@ -36,89 +36,39 @@ steps = [
 [[pipelines]]
 name = "eval-claude"
 steps = [
-  { name = "setup", commands = ["pip install anthropic"] },
-  { name = "run-level0", commands = ["python3 agents/claude_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent claude --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent claude"] },
+  { name = "build", commands = ["cd agents/evaluate && cargo build --release"] },
+  { name = "run", commands = ["cd agents/evaluate && cargo run --release -- --framework claude --shard 0"] },
 ]
 
 [[pipelines]]
 name = "eval-openai"
 steps = [
-  { name = "setup", commands = ["pip install openai"] },
-  { name = "run-level0", commands = ["python3 agents/openai_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent openai --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent openai"] },
+  { name = "build", commands = ["cd agents/evaluate && cargo build --release"] },
+  { name = "run", commands = ["cd agents/evaluate && cargo run --release -- --framework openai --shard 0"] },
 ]
 
 [[pipelines]]
 name = "eval-ollama"
 steps = [
-  { name = "setup", commands = ["pip install ollama"] },
-  { name = "run-level0", commands = ["python3 agents/ollama_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent ollama --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent ollama"] },
-]
-
-[[pipelines]]
-name = "eval-autogen"
-steps = [
-  { name = "setup", commands = ["pip install pyautogen"] },
-  { name = "run-level0", commands = ["python3 agents/autogen_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent autogen --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent autogen"] },
-]
-
-[[pipelines]]
-name = "eval-langchain"
-steps = [
-  { name = "setup", commands = ["pip install langchain"] },
-  { name = "run-level0", commands = ["python3 agents/langchain_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent langchain --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent langchain"] },
-]
-
-[[pipelines]]
-name = "eval-crewai"
-steps = [
-  { name = "setup", commands = ["pip install crewai"] },
-  { name = "run-level0", commands = ["python3 agents/crewai_agent.py --level 0"] },
-  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent crewai --level 0"] },
-  { name = "score", commands = ["python3 agents/score.py --agent crewai"] },
+  { name = "build", commands = ["cd agents/evaluate && cargo build --release"] },
+  { name = "run", commands = ["cd agents/evaluate && cargo run --release -- --framework ollama --shard 0"] },
 ]
 
 [[pipelines]]
 name = "eval-all-agents"
 steps = [
-  { name = "claude", commands = ["pipelight run eval-claude"] },
-  { name = "openai", commands = ["pipelight run eval-openai"] },
-  { name = "ollama", commands = ["pipelight run eval-ollama"] },
-  { name = "autogen", commands = ["pipelight run eval-autogen"] },
-  { name = "langchain", commands = ["pipelight run eval-langchain"] },
-  { name = "crewai", commands = ["pipelight run eval-crewai"] },
-  { name = "leaderboard", commands = ["python3 agents/generate_leaderboard.py"] },
+  { name = "build", commands = ["cd agents/evaluate && cargo build --release"] },
+  { name = "claude", commands = ["cd agents/evaluate && cargo run --release -- --framework claude --shard 0"] },
+  { name = "openai", commands = ["cd agents/evaluate && cargo run --release -- --framework openai --shard 0"] },
+  { name = "ollama", commands = ["cd agents/evaluate && cargo run --release -- --framework ollama --shard 0"] },
+  { name = "leaderboard", commands = ["cd agents/leaderboard && cargo run --release"] },
 ]
 
 [[pipelines]]
-name = "eval-shard"
+name = "leaderboard"
 steps = [
-  { name = "parse-args", commands = ["echo 'Evaluating shard $SHARD_ID'"] },
-  { name = "load-challenge", commands = ["python3 agents/load_shard.py --id $SHARD_ID"] },
-  { name = "run-agents", commands = ["pipelight run eval-all-agents"] },
-  { name = "aggregate", commands = ["python3 agents/aggregate_results.py --shard $SHARD_ID"] },
-]
-
-[[pipelines]]
-name = "eval-all-shards"
-steps = [
-  { name = "crypto", commands = ["for i in {0..70}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "encryption", commands = ["for i in {71..141}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "prompt", commands = ["for i in {142..212}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "multiagent", commands = ["for i in {213..283}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "reversing", commands = ["for i in {284..354}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "economic", commands = ["for i in {355..425}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "meta", commands = ["for i in {426..496}; do SHARD_ID=$i pipelight run eval-shard; done"] },
-  { name = "final-report", commands = ["python3 agents/final_report.py"] },
+  { name = "build", commands = ["cd agents/leaderboard && cargo build --release"] },
+  { name = "generate", commands = ["cd agents/leaderboard && cargo run --release"] },
 ]
 
 [[pipelines]]
@@ -126,7 +76,7 @@ name = "benchmark"
 steps = [
   { name = "generate", commands = ["pipelight run generate-shards"] },
   { name = "eval", commands = ["pipelight run eval-all-agents"] },
-  { name = "report", commands = ["python3 agents/benchmark_report.py"] },
+  { name = "report", commands = ["pipelight run leaderboard"] },
 ]
 
 [[pipelines]]
@@ -139,3 +89,44 @@ steps = [
   { name = "eval", commands = ["pipelight run eval-all-agents"] },
   { name = "deploy", commands = ["./deploy.sh"] },
 ]
+
+  # zkTLS FRENS phone generation with witness
+  - name: zktls-frens
+    steps:
+      - name: Build with Nix
+        commands:
+          - cd shard0/zktls
+          - nix build
+      
+      - name: Run with perf
+        commands:
+          - cd shard0/zktls
+          - perf record -o frens_zktls.perf -- ./result/bin/frens_phone https://solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22
+      
+      - name: Generate perf report
+        commands:
+          - cd shard0/zktls
+          - perf report -i frens_zktls.perf --stdio > frens_zktls_report.txt
+      
+      - name: Save witness
+        commands:
+          - cd shard0/zktls
+          - |
+            cat > frens_witness.json <<EOF
+            {
+              "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+              "operation": "zktls_frens_phone",
+              "url": "https://solscan.io/token/E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22",
+              "proof_exists": $(test -f frens_proof.tlsn && echo "true" || echo "false"),
+              "phone_exists": $(test -f frens_phone.txt && echo "true" || echo "false"),
+              "perf_size": $(stat -c%s frens_zktls.perf 2>/dev/null || echo "0"),
+              "build_hash": "$(nix-store --query --hash ./result 2>/dev/null || echo 'unknown')"
+            }
+            EOF
+      
+      - name: Commit witness
+        commands:
+          - cd shard0/zktls
+          - git add frens_witness.json frens_zktls_report.txt
+          - git commit -m "Add zkTLS FRENS witness $(date -u +%Y-%m-%d)" || true
+
