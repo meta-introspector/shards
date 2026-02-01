@@ -10,9 +10,9 @@ triggers:
 pipelines:
   swab_deck:
     steps:
-      - name: inventory
+      - name: swab_rust
         commands:
-          - ./swab_the_deck.sh
+          - cd swab-deck && cargo run --release -- all
       
       - name: analyze_with_gemini
         commands:
