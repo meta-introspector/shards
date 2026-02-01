@@ -1,3 +1,6 @@
 [submodule "shard0/pipelight"]
 	path = shard0/pipelight
 	url = https://github.com/meta-introspector/pipelight
+[submodule "shard58/harbor"]
+	path = shard58/harbor
+	url = https://github.com/bakobiibizo/harbor.git

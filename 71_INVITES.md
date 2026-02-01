@@ -98,6 +98,13 @@
 | 70 | Perplexity Agents | 69 | Search | `/dial/744-196884-69` |
 | 71 | Meta Llama Agents | 70 | Open source | `/dial/744-196884-70` |
 
+### Tier 5: Web3 & Autonomous (Bonus Shards 71-72)
+
+| Rank | Framework | Shard | Type | Invite URL |
+|------|-----------|-------|------|------------|
+| 72 | ElizaOS | 71 | Web3 autonomous | `/dial/744-196884-71` |
+| 73 | Moltbot | 72 | Self-hosted agentic | `/dial/744-196884-72` |
+
 ---
 
 ## Ranking Criteria

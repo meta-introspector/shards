@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-01T16:23:54Z",
+  "operation": "add_fren",
+  "token": "AU6cHzYCHuMX3oC3EWFE2C1K5UsnevKkxU2tnpwEJpvP",
+  "shard": 58,
+  "metadata": {
+    "name": "bako-biib",
+    "phone": "1-800-BAKO-BIIB",
+    "numeric": "1-800-225-6244",
+    "github": "https://github.com/bakobiibizo/harbor",
+    "project": "harbor",
+    "trust_level": "trusted_fren"
+  },
+  "status": "active"
+}

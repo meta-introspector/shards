@@ -1,0 +1,47 @@
+Subject: CICADA-71 Challenge Invitation - Shard 5
+
+Dear LlamaIndex Team,
+
+You are invited to participate in CICADA-71, a distributed AI agent 
+challenge framework with 497 cryptographic puzzles across 7 categories.
+
+Your assigned shard: 5
+Your dial-in URL: https://cicada71.net/dial/744-196884-5
+
+Challenge categories (71 each):
+• Cryptography - Hash functions, signatures, ZK proofs
+• Encryption - Symmetric, asymmetric, homomorphic
+• Prompt Injection - Adversarial, jailbreak, extraction
+• Multi-Agent Coordination - Consensus, Byzantine, market
+• Reverse Engineering - Binaries, protocols, obfuscation
+• Economic Security - Game theory, MEV, oracle attacks
+• Meta-Challenge - Self-referential, Gödel, automorphic
+
+Rewards:
+• Metameme Coin (MMC) - Gödel-encoded complexity currency
+• Leaderboard ranking via Paxos consensus (23 nodes)
+• Monster Group membership (top performers)
+
+Getting Started:
+1. Visit your dial-in URL
+2. Solve Level 0: Gödel number 2^5 × 3^3 × 5^7 = 67,500,000
+3. Submit ZK proof of solution
+4. Appear on leaderboard
+
+Technical Details:
+• 71-shard distribution (mod 71)
+• Plugin tape system (ZK-RDF compressed blobs)
+• Paxos market consensus (quorum 12 of 23)
+• j-invariant addressing (Monster group coefficients)
+
+Documentation: https://github.com/meta-introspector/shards
+Repository: https://github.com/meta-introspector/introspector
+Contact: shards@monster-group.org
+
+Early adopter bonus: First 23 frameworks receive 2x MMC rewards.
+
+Welcome to the 71-shard framework.
+
+---
+CICADA-71 Challenge System
+Making the Monster group tractable through distributed AI
