@@ -2,6 +2,11 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
+    // Load BBS by dialing j-invariant as URL
+    if (url.pathname.startsWith('/dial/')) {
+      return handleDial(url.pathname.slice(6), env);
+    }
+    
     // BBS Terminal
     if (url.pathname === '/bbs') {
       return handleBBS(request, env);
@@ -23,6 +28,113 @@ export default {
     });
   }
 };
+
+async function handleDial(number, env) {
+  // Parse dialed number as j-invariant coefficient
+  const coefficients = number.split('-');
+  
+  // Validate j-invariant sequence
+  if (coefficients[0] === '744' && 
+      coefficients[1] === '196884' &&
+      coefficients.length >= 2) {
+    
+    // Load BBS from j-invariant encoding
+    const shardId = parseInt(coefficients[2] || '0') % 71;
+    const closure = await env.KV.get(`shard-${shardId}`);
+    
+    if (!closure) {
+      return new Response('Shard not found', { status: 404 });
+    }
+    
+    // Decode Gödel number from URL
+    const state = decodeGodelURL(number);
+    
+    // Load WASM runtime with state
+    return new Response(WASM_LOADER(state, shardId), {
+      headers: { 'Content-Type': 'text/html' },
+    });
+  }
+  
+  return new Response('Invalid j-invariant sequence', { status: 400 });
+}
+
+function decodeGodelURL(dialedNumber) {
+  // URL format: /dial/744-196884-21493760-...
+  // Each coefficient maps to a shard
+  const coeffs = dialedNumber.split('-').map(n => parseInt(n));
+  
+  // Gödel decode: extract state from prime factorization
+  let state = new Uint8Array(71);
+  for (let i = 0; i < Math.min(coeffs.length, 71); i++) {
+    state[i] = coeffs[i] % 256;
+  }
+  
+  return state;
+}
+
+function WASM_LOADER(state, shardId) {
+  return `<!DOCTYPE html>
+<html>
+<head>
+  <title>CICADA-71 BBS - Shard ${shardId}</title>
+  <style>
+    body { 
+      background: #000; 
+      color: #0f0; 
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 20px;
+    }
+    #terminal {
+      white-space: pre;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="terminal">Loading BBS from j-invariant...</div>
+  <script>
+    // Dialed number encodes the state
+    const state = new Uint8Array([${Array.from(state).join(',')}]);
+    const shardId = ${shardId};
+    
+    const terminal = document.getElementById('terminal');
+    
+    // Simulate WASM loading
+    setTimeout(() => {
+      terminal.textContent = \`
+╔═══════════════════════════════════════════════════════════════╗
+║                    CICADA-71 BBS v0.1                         ║
+║                  Loaded via j-invariant URL                   ║
+║                    Shard ${shardId} Active                              ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  Dialed: 744-196884-...                                      ║
+║  State: \${state.length} bytes decoded                           ║
+║  Gödel: 2^744 × 3^196884 × ...                               ║
+║                                                               ║
+║  [M] Message Boards (71 Forums)                              ║
+║  [S] Shard Status                                            ║
+║  [Q] Quit                                                    ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Command: \`;
+      
+      // Connect WebSocket for interactive session
+      const ws = new WebSocket('wss://' + location.host + '/ws');
+      ws.onmessage = (e) => {
+        terminal.textContent += e.data;
+      };
+      
+      document.addEventListener('keypress', (e) => {
+        ws.send(e.key);
+      });
+    }, 1000);
+  </script>
+</body>
+</html>`;
+}
 
 async function handleBBS(request, env) {
   // Load state from 71 shards
