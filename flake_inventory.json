@@ -1,0 +1,272 @@
+{
+  "total": 109,
+  "categories": {
+    "Shard 63": [
+      "/home/mdupont/introspector/shard-63/openclaw/flake.nix"
+    ],
+    "Shard 48": [
+      "/home/mdupont/introspector/shard-48/openclaw/flake.nix"
+    ],
+    "Shard 59": [
+      "/home/mdupont/introspector/shard-59/openclaw/flake.nix"
+    ],
+    "Shard 1": [
+      "/home/mdupont/introspector/shard-1/openclaw/flake.nix"
+    ],
+    "Shard 43": [
+      "/home/mdupont/introspector/shard-43/openclaw/flake.nix"
+    ],
+    "Shard 49": [
+      "/home/mdupont/introspector/shard-49/openclaw/flake.nix"
+    ],
+    "Emoji WASM": [
+      "/home/mdupont/introspector/emoji-wasm/flake.nix"
+    ],
+    "Shard 42": [
+      "/home/mdupont/introspector/shard-42/openclaw/flake.nix"
+    ],
+    "Shard 57": [
+      "/home/mdupont/introspector/shard-57/openclaw/flake.nix"
+    ],
+    "Shard 37": [
+      "/home/mdupont/introspector/shard-37/openclaw/flake.nix"
+    ],
+    "Shard 32": [
+      "/home/mdupont/introspector/shard-32/openclaw/flake.nix"
+    ],
+    "Shard 23": [
+      "/home/mdupont/introspector/shard-23/openclaw/flake.nix"
+    ],
+    "Shard 46": [
+      "/home/mdupont/introspector/shard-46/openclaw/flake.nix"
+    ],
+    "Shard 9": [
+      "/home/mdupont/introspector/shard-9/openclaw/flake.nix"
+    ],
+    "Moltboot": [
+      "/home/mdupont/introspector/moltboot/flake.nix"
+    ],
+    "Shard 12": [
+      "/home/mdupont/introspector/shard-12/openclaw/flake.nix"
+    ],
+    "Shard 45": [
+      "/home/mdupont/introspector/shard-45/openclaw/flake.nix"
+    ],
+    "Shard 50": [
+      "/home/mdupont/introspector/shard-50/openclaw/flake.nix"
+    ],
+    "Lobster": [
+      "/home/mdupont/introspector/lobster-flake/flake.nix"
+    ],
+    "Shard 19": [
+      "/home/mdupont/introspector/shard-19/openclaw/flake.nix"
+    ],
+    "Shard 18": [
+      "/home/mdupont/introspector/shard-18/openclaw/flake.nix"
+    ],
+    "Shard 40": [
+      "/home/mdupont/introspector/shard-40/openclaw/flake.nix"
+    ],
+    "Shard 13": [
+      "/home/mdupont/introspector/shard-13/openclaw/flake.nix"
+    ],
+    "Shard 0": [
+      "/home/mdupont/introspector/shard-0/openclaw/flake.nix"
+    ],
+    "Shard 39": [
+      "/home/mdupont/introspector/shard-39/openclaw/flake.nix"
+    ],
+    "Shard 51": [
+      "/home/mdupont/introspector/shard-51/openclaw/flake.nix"
+    ],
+    "Shard 30": [
+      "/home/mdupont/introspector/shard-30/openclaw/flake.nix"
+    ],
+    "Shard 41": [
+      "/home/mdupont/introspector/shard-41/openclaw/flake.nix"
+    ],
+    "Shard 11": [
+      "/home/mdupont/introspector/shard-11/openclaw/flake.nix"
+    ],
+    "Other": [
+      "/home/mdupont/introspector/programs/tradewars-bbs/flake.nix",
+      "/home/mdupont/introspector/vessels/nebuchadnezzar/flake.nix",
+      "/home/mdupont/introspector/shard58/harbor/flake.nix",
+      "/home/mdupont/introspector/proofs/flake.nix",
+      "/home/mdupont/introspector/flake.nix",
+      "/home/mdupont/introspector/monster-zksnark/flake.nix",
+      "/home/mdupont/introspector/monster/ml/llm_analysis/ollama-monster/flake.nix",
+      "/home/mdupont/introspector/monster/pipeline/flake.nix",
+      "/home/mdupont/introspector/monster/examples/monster-burn/flake.nix",
+      "/home/mdupont/introspector/monster/examples/iarelife/flake.nix",
+      "/home/mdupont/introspector/monster/examples/gpt2-monster/flake.nix",
+      "/home/mdupont/introspector/monster/onlyskills-repo/flake.nix",
+      "/home/mdupont/introspector/monster/flake.nix",
+      "/home/mdupont/introspector/monster/harmonics_repos/flake.nix",
+      "/home/mdupont/introspector/shard0/analysis/flake.nix",
+      "/home/mdupont/introspector/shard0/9muses/flake.nix",
+      "/home/mdupont/introspector/shard0/telecom/flake.nix",
+      "/home/mdupont/introspector/shard0/fhe/flake.nix",
+      "/home/mdupont/introspector/shard0/zx81-rust/flake.nix",
+      "/home/mdupont/introspector/shard0/hash/flake.nix",
+      "/home/mdupont/introspector/shard0/drivers/flake.nix",
+      "/home/mdupont/introspector/shard0/cryptanalysis/flake.nix",
+      "/home/mdupont/introspector/shard0/p2p/flake.nix",
+      "/home/mdupont/introspector/shard0/mmix/flake.nix",
+      "/home/mdupont/introspector/shard0/neural/flake.nix",
+      "/home/mdupont/introspector/shard0/zktls/flake.nix",
+      "/home/mdupont/introspector/shard0/pipelight/flake.nix",
+      "/home/mdupont/introspector/shard0/hamradio/flake.nix",
+      "/home/mdupont/introspector/shard0/lean/flake.nix",
+      "/home/mdupont/introspector/shard0/slackware-floppy/flake.nix"
+    ],
+    "Shard 35": [
+      "/home/mdupont/introspector/shard-35/openclaw/flake.nix"
+    ],
+    "Shard 8": [
+      "/home/mdupont/introspector/shard-8/openclaw/flake.nix"
+    ],
+    "Shard 67": [
+      "/home/mdupont/introspector/shard-67/openclaw/flake.nix"
+    ],
+    "Shard 44": [
+      "/home/mdupont/introspector/shard-44/openclaw/flake.nix"
+    ],
+    "Shard 21": [
+      "/home/mdupont/introspector/shard-21/openclaw/flake.nix"
+    ],
+    "Shard 17": [
+      "/home/mdupont/introspector/shard-17/openclaw/flake.nix"
+    ],
+    "Shard 58": [
+      "/home/mdupont/introspector/shard-58/openclaw/flake.nix"
+    ],
+    "Shard 15": [
+      "/home/mdupont/introspector/shard-15/openclaw/flake.nix"
+    ],
+    "Shard 60": [
+      "/home/mdupont/introspector/shard-60/openclaw/flake.nix"
+    ],
+    "Shard 34": [
+      "/home/mdupont/introspector/shard-34/openclaw/flake.nix"
+    ],
+    "Shard 14": [
+      "/home/mdupont/introspector/shard-14/openclaw/flake.nix"
+    ],
+    "Shard 54": [
+      "/home/mdupont/introspector/shard-54/openclaw/flake.nix"
+    ],
+    "Shard 36": [
+      "/home/mdupont/introspector/shard-36/openclaw/flake.nix"
+    ],
+    "Shard 53": [
+      "/home/mdupont/introspector/shard-53/openclaw/flake.nix"
+    ],
+    "Shard 29": [
+      "/home/mdupont/introspector/shard-29/openclaw/flake.nix"
+    ],
+    "Shard 70": [
+      "/home/mdupont/introspector/shard-70/openclaw/flake.nix"
+    ],
+    "Shard 28": [
+      "/home/mdupont/introspector/shard-28/openclaw/flake.nix"
+    ],
+    "Shard 26": [
+      "/home/mdupont/introspector/shard-26/openclaw/flake.nix"
+    ],
+    "Shard 2": [
+      "/home/mdupont/introspector/shard-2/openclaw/flake.nix"
+    ],
+    "Shard 66": [
+      "/home/mdupont/introspector/shard-66/openclaw/flake.nix"
+    ],
+    "Shard 64": [
+      "/home/mdupont/introspector/shard-64/openclaw/flake.nix"
+    ],
+    "Shard 27": [
+      "/home/mdupont/introspector/shard-27/openclaw/flake.nix"
+    ],
+    "Shard 47": [
+      "/home/mdupont/introspector/shard-47/openclaw/flake.nix"
+    ],
+    "Shard 20": [
+      "/home/mdupont/introspector/shard-20/openclaw/flake.nix"
+    ],
+    "Shard 33": [
+      "/home/mdupont/introspector/shard-33/openclaw/flake.nix"
+    ],
+    "Shard 38": [
+      "/home/mdupont/introspector/shard-38/openclaw/flake.nix"
+    ],
+    "Battle Royale": [
+      "/home/mdupont/introspector/battle-royale/flake.nix"
+    ],
+    "Gemini": [
+      "/home/mdupont/introspector/gemini-locate/flake.nix"
+    ],
+    "Shard 6": [
+      "/home/mdupont/introspector/shard-6/openclaw/flake.nix"
+    ],
+    "Shard 52": [
+      "/home/mdupont/introspector/shard-52/openclaw/flake.nix"
+    ],
+    "Shard 4": [
+      "/home/mdupont/introspector/shard-4/openclaw/flake.nix"
+    ],
+    "Shard 68": [
+      "/home/mdupont/introspector/shard-68/openclaw/flake.nix"
+    ],
+    "Shard 55": [
+      "/home/mdupont/introspector/shard-55/openclaw/flake.nix"
+    ],
+    "Shard 16": [
+      "/home/mdupont/introspector/shard-16/openclaw/flake.nix"
+    ],
+    "BBS 8080": [
+      "/home/mdupont/introspector/bbs-8080-zos/flake.nix",
+      "/home/mdupont/introspector/bbs-8080/flake.nix"
+    ],
+    "Shard 65": [
+      "/home/mdupont/introspector/shard-65/openclaw/flake.nix"
+    ],
+    "Shard 22": [
+      "/home/mdupont/introspector/shard-22/openclaw/flake.nix"
+    ],
+    "Shard 7": [
+      "/home/mdupont/introspector/shard-7/openclaw/flake.nix"
+    ],
+    "Shard 24": [
+      "/home/mdupont/introspector/shard-24/openclaw/flake.nix"
+    ],
+    "Shard 61": [
+      "/home/mdupont/introspector/shard-61/openclaw/flake.nix"
+    ],
+    "Shard 56": [
+      "/home/mdupont/introspector/shard-56/openclaw/flake.nix"
+    ],
+    "Shard 5": [
+      "/home/mdupont/introspector/shard-5/openclaw/flake.nix"
+    ],
+    "Shard 62": [
+      "/home/mdupont/introspector/shard-62/openclaw/flake.nix"
+    ],
+    "Shard 25": [
+      "/home/mdupont/introspector/shard-25/openclaw/flake.nix"
+    ],
+    "Shard 3": [
+      "/home/mdupont/introspector/shard-3/openclaw/flake.nix"
+    ],
+    "Shard 31": [
+      "/home/mdupont/introspector/shard-31/openclaw/flake.nix"
+    ],
+    "Shard 10": [
+      "/home/mdupont/introspector/shard-10/openclaw/flake.nix"
+    ],
+    "Shard 69": [
+      "/home/mdupont/introspector/shard-69/openclaw/flake.nix"
+    ],
+    "LMFDB": [
+      "/home/mdupont/introspector/lmfdb-locate/flake.nix"
+    ]
+  }
+}
