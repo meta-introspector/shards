@@ -4,3 +4,6 @@
 [submodule "shard58/harbor"]
 	path = shard58/harbor
 	url = https://github.com/bakobiibizo/harbor.git
+[submodule "monster"]
+	path = monster
+	url = /home/mdupont/experiments/monster
