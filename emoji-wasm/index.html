@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CICADA-71 Emoji Optimizer (WASM)</title>
+    <style>
+        body { 
+            font-family: monospace; 
+            background: #000; 
+            color: #0f0; 
+            padding: 20px; 
+        }
+        .emoji { font-size: 2em; }
+        button { 
+            background: #0f0; 
+            color: #000; 
+            border: none; 
+            padding: 10px 20px; 
+            font-size: 1.2em; 
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <h1>🔮⚡ CICADA-71 Emoji Optimizer</h1>
+    <p>MiniZinc → LLVM → WASM</p>
+    
+    <button onclick="runOptimizer()">Optimize Emojis</button>
+    
+    <div id="output"></div>
+    
+    <script src="emoji_opt.js"></script>
+    <script>
+        const emojiMap = {
+            1: '🔮', 2: '⚡', 3: '🕳️', 4: '🛋️', 5: '🌀',
+            6: '✨', 7: '🎵', 8: '🔐', 9: '📐', 10: '🌊',
+            11: '🧮', 12: '🎭', 13: '🌙', 14: '⭐', 15: '🔬',
+            16: '🎨', 17: '🏛️', 18: '🌈', 19: '🔥', 20: '💫'
+        };
+        
+        function runOptimizer() {
+            Module.onRuntimeInitialized = () => {
+                const result = Module.ccall('main', 'number', [], []);
+                
+                const output = document.getElementById('output');
+                output.innerHTML = '<h2>Optimized Emojis:</h2><div class="emoji">';
+                
+                // Display top emojis
+                for (let i = 1; i <= 20; i++) {
+                    output.innerHTML += emojiMap[i] || '?';
+                }
+                
+                output.innerHTML += '</div><p>Compiled with LLVM → WASM</p>';
+            };
+        }
+    </script>
+</body>
+</html>
