@@ -1,0 +1,180 @@
+{
+  "total_files": 174419,
+  "lattice": {
+    "2": {
+      "value": "2",
+      "godel": 431288,
+      "usage": 43,
+      "files": [
+        "/home/mdupont/experiments/monster/commit_reviews_135dfbd2.json",
+        "/home/mdupont/experiments/monster/perf_8a7ffe2c.data",
+        "/home/mdupont/experiments/monster/review_464ae7b2.json",
+        "/home/mdupont/experiments/monster/review_b2e72828.json",
+        "/home/mdupont/experiments/monster/review_7e2ac2b2.json",
+        "/home/mdupont/experiments/monster/review_7e2ac2b2.json",
+        "/home/mdupont/experiments/monster/review_7e2ac2b2.json",
+        "/home/mdupont/experiments/monster/perf_2c5ceac7.txt",
+        "/home/mdupont/experiments/monster/p2p-zk-meme-generator.html",
+        "/home/mdupont/experiments/monster/chunk_2.py"
+      ],
+      "metadata": {
+        "prime": 2,
+        "hecke": "T_2",
+        "freq": 864
+      }
+    },
+    "3": {
+      "value": "3",
+      "godel": 450663,
+      "usage": 36,
+      "files": [
+        "/home/mdupont/experiments/monster/review_691074e3.json",
+        "/home/mdupont/experiments/monster/zkp_perf_dfa87ff3.circom",
+        "/home/mdupont/experiments/monster/zkp_perf_3fd45435.circom",
+        "/home/mdupont/experiments/monster/zkp_perf_3a1b6149.circom",
+        "/home/mdupont/experiments/monster/commit_reviews_dfa87ff3.json",
+        "/home/mdupont/experiments/monster/perf_7e5628b3.data",
+        "/home/mdupont/experiments/monster/perf_d3d41d0d.data",
+        "/home/mdupont/experiments/monster/perf_7e5628b3.txt",
+        "/home/mdupont/experiments/monster/commit_reviews_3a1b6149.json",
+        "/home/mdupont/experiments/monster/perf_c3a71b09.data"
+      ],
+      "metadata": {
+        "prime": 3,
+        "hecke": "T_3",
+        "freq": 1296
+      }
+    },
+    "5": {
+      "value": "5",
+      "godel": 482926,
+      "usage": 35,
+      "files": [
+        "/home/mdupont/experiments/monster/zkp_perf_5ec5205c.circom",
+        "/home/mdupont/experiments/monster/commit_reviews_5ec5205c.json",
+        "/home/mdupont/experiments/monster/zkp_perf_5ce07b27.circom",
+        "/home/mdupont/experiments/monster/perf_5f65c481.data",
+        "/home/mdupont/experiments/monster/perf_2c5ceac7.txt",
+        "/home/mdupont/experiments/monster/perf_e87beeb5.txt",
+        "/home/mdupont/experiments/monster/zkp_perf_e87beeb5.circom",
+        "/home/mdupont/experiments/monster/zkp_perf_5f7acf2f.circom",
+        "/home/mdupont/experiments/monster/review_5f7acf2f.json",
+        "/home/mdupont/experiments/monster/zkp_perf_5e1a0d61.circom"
+      ],
+      "metadata": {
+        "prime": 5,
+        "hecke": "T_5",
+        "freq": 2160
+      }
+    },
+    "7": {
+      "value": "7",
+      "godel": 698779,
+      "usage": 48,
+      "files": [
+        "/home/mdupont/experiments/monster/zkp_perf_dcaf7b6d.circom",
+        "/home/mdupont/experiments/monster/perf_8a7ffe2c.data",
+        "/home/mdupont/experiments/monster/review_464ae7b2.json",
+        "/home/mdupont/experiments/monster/review_7e2ac2b2.json",
+        "/home/mdupont/experiments/monster/perf_2c5ceac7.txt",
+        "/home/mdupont/experiments/monster/perf_7e5628b3.data",
+        "/home/mdupont/experiments/monster/commit_reviews_565042d7.json",
+        "/home/mdupont/experiments/monster/perf_7e5628b3.txt",
+        "/home/mdupont/experiments/monster/review_dcaf7b6d.json",
+        "/home/mdupont/experiments/monster/zkp_perf_83717d7d.circom"
+      ],
+      "metadata": {
+        "prime": 7,
+        "hecke": "T_7",
+        "freq": 3024
+      }
+    },
+    "8": {
+      "value": "8",
+      "godel": 8105,
+      "usage": 20,
+      "files": [
+        "/home/mdupont/experiments/monster/perf_431f1af8.txt",
+        "/home/mdupont/experiments/monster/perf_8a7ffe2c.data",
+        "/home/mdupont/experiments/monster/perf_455b8d98.data",
+        "/home/mdupont/experiments/monster/perf_bdd8dd5f.data",
+        "/home/mdupont/experiments/monster/perf_8a7ffe2c.txt",
+        "/home/mdupont/experiments/monster/review_aa9c8b07.json",
+        "/home/mdupont/experiments/monster/perf_aa9c8b07.data",
+        "/home/mdupont/experiments/monster/review_431f1af8.json",
+        "/home/mdupont/experiments/monster/zkp_perf_aa9c8b07.circom",
+        "/home/mdupont/experiments/monster/review_455b8d98.json"
+      ],
+      "metadata": {
+        "bott": 8,
+        "periodicity": "Bott"
+      }
+    },
+    "10": {
+      "value": "10",
+      "godel": 800356,
+      "usage": 3,
+      "files": [
+        "/home/mdupont/experiments/monster/vectors_layer_10.parquet.tmp",
+        "/home/mdupont/experiments/monster/markov_shard_10.parquet",
+        "/home/mdupont/experiments/monster/vectors_layer_10.parquet"
+      ],
+      "metadata": {
+        "tenfold": 10,
+        "way": "10-fold"
+      }
+    },
+    "71": {
+      "value": "71",
+      "godel": 856868,
+      "usage": 52,
+      "files": [
+        "/home/mdupont/experiments/monster/THE_IDEA_OF_71.md",
+        "/home/mdupont/experiments/monster/ZK71_QUINE_SUMMARY.md",
+        "/home/mdupont/experiments/monster/extract_71_objects.py",
+        "/home/mdupont/experiments/monster/lmfdb_71_complexity.json",
+        "/home/mdupont/experiments/monster/CORRECTED_71_ANALYSIS.md",
+        "/home/mdupont/experiments/monster/lmfdb_71_sweep.json",
+        "/home/mdupont/experiments/monster/zk71_sweep_report.txt",
+        "/home/mdupont/experiments/monster/sweep_all_71_objects.py",
+        "/home/mdupont/experiments/monster/shard_lmfdb_by_71.py",
+        "/home/mdupont/experiments/monster/quick_71_check.sh"
+      ],
+      "metadata": {
+        "shards": 71,
+        "max": "CICADA-71"
+      }
+    },
+    "72": {
+      "value": "72",
+      "godel": 83492,
+      "usage": 0,
+      "files": [],
+      "metadata": {
+        "sus": true,
+        "status": "QUARANTINED"
+      }
+    },
+    "196884": {
+      "value": "196884",
+      "godel": 77169,
+      "usage": 0,
+      "files": [],
+      "metadata": {
+        "j_invariant": true,
+        "monster": "coefficient"
+      }
+    }
+  },
+  "monster_constants": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "8",
+    "10",
+    "71",
+    "72",
+    "196884"
+  ]
+}
