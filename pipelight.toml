@@ -54,6 +54,8 @@ pipelines:
           - nix build .#shard0-p2p
           - nix build .#shard0-fhe
           - nix build .#shard0-tapes
+          - nix build .#shard0-level1
+          - nix build .#shard0-level2
 
       - name: Build Erlang telecom
         commands:

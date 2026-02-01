@@ -15,7 +15,7 @@ struct DataTape {
     godel_seed: u128,
 }
 
-const TAPES: [DataTape; 6] = [
+const TAPES: [DataTape; 10] = [
     DataTape {
         name: "OEIS",
         url: "https://oeis.org/",
@@ -45,6 +45,26 @@ const TAPES: [DataTape; 6] = [
         name: "Gutenberg",
         url: "https://www.gutenberg.org/",
         godel_seed: 31_u128.pow(71) * 37_u128.pow(23),
+    },
+    DataTape {
+        name: "GNU-Mes",
+        url: "https://www.gnu.org/software/mes/",
+        godel_seed: 41_u128.pow(71) * 43_u128.pow(23),
+    },
+    DataTape {
+        name: "TinyCC",
+        url: "https://bellard.org/tcc/",
+        godel_seed: 47_u128.pow(71) * 53_u128.pow(23),
+    },
+    DataTape {
+        name: "GCC-History",
+        url: "https://gcc.gnu.org/",
+        godel_seed: 59_u128.pow(71) * 61_u128.pow(23),
+    },
+    DataTape {
+        name: "Bootstrap-Seeds",
+        url: "https://bootstrappable.org/",
+        godel_seed: 67_u128.pow(71) * 71_u128.pow(23),
     },
 ];
 
@@ -146,13 +166,45 @@ fn main() -> Result<()> {
     writeln!(manifest, "  - Complete Mars library")?;
     writeln!(manifest, "  - Offline knowledge preservation")?;
     writeln!(manifest)?;
+    writeln!(manifest, "GNU Mes (Bootstrappable Scheme)")?;
+    writeln!(manifest, "  - 357-byte bootstrap seed")?;
+    writeln!(manifest, "  - Trusting Trust solution")?;
+    writeln!(manifest, "  - Full toolchain from source")?;
+    writeln!(manifest)?;
+    writeln!(manifest, "TinyCC (Tiny C Compiler)")?;
+    writeln!(manifest, "  - 100KB compiler")?;
+    writeln!(manifest, "  - 9x faster than GCC")?;
+    writeln!(manifest, "  - Self-hosting in <1 second")?;
+    writeln!(manifest)?;
+    writeln!(manifest, "GCC History (1987-2000)")?;
+    writeln!(manifest, "  - GCC 1.0 (1987)")?;
+    writeln!(manifest, "  - GCC 2.95 (1999, pre-C++ rewrite)")?;
+    writeln!(manifest, "  - Complete 20th century toolchain")?;
+    writeln!(manifest)?;
+    writeln!(manifest, "Bootstrap Seeds (Stage0)")?;
+    writeln!(manifest, "  - 357 bytes hand-auditable hex")?;
+    writeln!(manifest, "  - hex0 → hex1 → hex2 → M0 → cc_x86")?;
+    writeln!(manifest, "  - Reproducible from nothing")?;
+    writeln!(manifest)?;
+    writeln!(manifest, "LEVEL 0 PRIORITY:")?;
+    writeln!(manifest, "  Focus: GNU Mes, TinyCC, GCC, Bootstrap Seeds")?;
+    writeln!(manifest, "  Goal: Rebuild computing from 357 bytes")?;
+    writeln!(manifest, "  History: 1900-2000 compiler evolution")?;
+    writeln!(manifest)?;
+    writeln!(manifest, "FUTURE SHARDS:")?;
+    writeln!(manifest, "  - ArXiv (scientific papers)")?;
+    writeln!(manifest, "  - Hugging Face (AI models)")?;
+    writeln!(manifest, "  - Archive.org (web history)")?;
+    writeln!(manifest, "  - GitHub (source code)")?;
+    writeln!(manifest)?;
     writeln!(manifest, "MARS DEPLOYMENT:")?;
     writeln!(manifest, "  - 26 months (8mo travel + 10mo surface + 8mo return)")?;
     writeln!(manifest, "  - 20-minute light delay")?;
     writeln!(manifest, "  - 100GB compressed → 128GB microSD")?;
     
     println!("✅ Generated TAPE_MANIFEST.txt");
-    println!("\n🚀 Mars deployment ready!");
+    println!("\n🔧 Level 0: Bootstrap toolchain ready!");
+    println!("🚀 Mars deployment ready!");
     
     Ok(())
 }
