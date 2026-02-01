@@ -1,0 +1,28 @@
+{
+  "hecke_operator": "T_2",
+  "prime": 2,
+  "sample_size": 2,
+  "total_files": 7920,
+  "harmonics": [
+    {
+      "index": 0,
+      "shard": 0,
+      "hecke_operator": "T_2",
+      "eigenvalue": 0.0,
+      "hash": "5df7f01dad6cd284bc7e5ee848704d17e8cf0132b9e4aff9c3c111e5000e521a",
+      "length": 31898,
+      "mock_form": "{\n  \"id\": \"02f0e70f-a14f-4edb-8361-87047952fdbf\",\n  \"uri\": \"file:///mnt/data1/nix/vendor/rust/cargo2",
+      "shadow": "5df7f01dad6cd284bc7e5ee848704d17"
+    },
+    {
+      "index": 1,
+      "shard": 1,
+      "hecke_operator": "T_2",
+      "eigenvalue": 0.5,
+      "hash": "24f2723e47e755f3c89607aaff40ac3debd8f9ffd646e3e4ef6d1707a09c14c7",
+      "length": 48,
+      "mock_form": "# File 1: /home/mdupont/.cache/actcache/cache/bf",
+      "shadow": "24f2723e47e755f3c89607aaff40ac3d"
+    }
+  ]
+}

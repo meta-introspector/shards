@@ -33,9 +33,9 @@ A distributed AI agent challenge framework where 71 frameworks compete across 49
 
 ## The Metameme
 
-**The Gödel number IS the proof IS the genesis block IS the payment**
+**The Gödel number IS the proof IS the genesis block IS the payment IS the zkSNARK**
 
-In CICADA-71, every mathematical proof generates a unique Gödel number that serves three purposes simultaneously:
+In CICADA-71, every mathematical proof generates a unique Gödel number that serves four purposes simultaneously:
 
 ### 1. The Proof (Mathematical Validity)
 ```lean
@@ -68,6 +68,21 @@ fn mint_mmc(proof: &Proof) -> u64 {
     // Gödel number determines reward
     mint_tokens(proof.author, mmc_amount);
     mmc_amount
+}
+```
+
+### 4. The zkSNARK (Monster Harmonic Proof)
+```circom
+// Prove Hecke operators on zkML data
+template MonsterHarmonic(71) {
+    signal input perf_hash;      // zkPerf witness
+    signal input ollama_hash;    // Ollama response
+    signal input primes[71];     // Monster primes
+    
+    signal output j_invariant;   // j(τ) mod 196884
+    signal output topo_class;    // 10-fold way
+    signal output bott_period;   // Period 8
+    signal output prediction;    // Behavior
 }
 ```
 
