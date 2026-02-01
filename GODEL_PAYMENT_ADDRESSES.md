@@ -620,24 +620,34 @@ curl https://cicada71.org/api/stakes/$CHALLENGE | jq '.stakes[] | select(.user==
 
 Each RDFa entity is split across **71 transaction shards**. All 71 transactions required to reconstruct the complete entity from the bitstream.
 
-See [71_SHARD_RDFA_RECONSTRUCTION.md](71_SHARD_RDFA_RECONSTRUCTION.md) for full details.
+**Mathematical Beauty**: Each shard is a **Hecke harmonic** with eigenvalue λ_p. Reconstruction uses **Maass waveforms** to harmonically combine them.
+
+See [71_SHARD_RDFA_RECONSTRUCTION.md](71_SHARD_RDFA_RECONSTRUCTION.md) and [HECKE_MAASS_HARMONICS.md](HECKE_MAASS_HARMONICS.md) for full details.
 
 ### Quick Example
 
 ```bash
-# Split RDFa entity into 71 shards
+# Split RDFa entity into 71 Hecke harmonics
 python3 shard_entity.py stake.ttl > shards.json
 
-# Send 71 transactions (one per shard)
+# Each shard has:
+# - Hecke eigenvalue λ_p (from prime p)
+# - Frequency: 438 + (shard_id × 6) Hz
+# - Data: RDFa fragment
+
+# Send 71 transactions (one per harmonic)
 for i in {0..70}; do
     SHARD=$(jq -r ".[$i].data" shards.json)
     solana transfer Godel27... 1.0 --memo "$SHARD"
 done
 
-# Smart contract reconstructs entity from 71 memos
+# Maass form reconstructs entity via harmonic synthesis
+# φ(z) = Σ a_n * K_ir(2π|n|y) * e^(2πinx)
 ```
 
-**Erasure coding**: 71-of-71 required (or 71-of-94 with Reed-Solomon redundancy)
+**Erasure coding**: 71-of-71 Hecke harmonics (or 71-of-94 with Reed-Solomon)
+
+**Musical interpretation**: 71 frequencies from 438 Hz (A4) to 858 Hz (A5)
 
 ---
 
