@@ -1,0 +1,65 @@
+policy_module(shard71, 1.0.0)
+
+require {
+    type unconfined_t;
+    class process { transition };
+    class file { read write };
+}
+
+# Base types for 71 zones
+type shard_network_t;
+type shard_disk_ro_t;
+type shard_stat_t;
+type shard_diff_t;
+type shard_tmto_t;
+type shard_attack_t;
+type shard_sidechan_t;
+type shard_algebra_t;
+type shard_proto_t;
+type shard_coord_t;
+type shard_qemu_t;
+type shard_container_t;
+type shard_systemd_t;
+
+# Zone 0: Network only
+allow shard_network_t self:tcp_socket { create connect read write };
+allow shard_network_t self:udp_socket { create connect read write };
+neverallow shard_network_t file_type:file { write append };
+
+# Zone 1: Disk read-only
+allow shard_disk_ro_t file_type:file read;
+neverallow shard_disk_ro_t file_type:file { write append };
+
+# Information flow: lower -> higher only
+allow shard_stat_t shard_network_t:fifo_file read;
+allow shard_stat_t shard_disk_ro_t:file read;
+
+allow shard_diff_t shard_stat_t:fifo_file read;
+allow shard_diff_t self:process ptrace;
+
+allow shard_tmto_t shard_diff_t:fifo_file read;
+allow shard_tmto_t self:process setrlimit;
+
+allow shard_attack_t shard_tmto_t:fifo_file read;
+
+allow shard_sidechan_t shard_attack_t:fifo_file read;
+allow shard_sidechan_t proc_t:file read;
+
+allow shard_algebra_t shard_sidechan_t:fifo_file read;
+
+allow shard_proto_t shard_algebra_t:fifo_file read;
+allow shard_proto_t self:rawip_socket create;
+
+# Coordinators can read all
+allow shard_coord_t { shard_network_t shard_disk_ro_t shard_stat_t shard_diff_t shard_tmto_t shard_attack_t shard_sidechan_t shard_algebra_t shard_proto_t }:fifo_file read;
+
+# QEMU isolation
+allow shard_qemu_t file_type:file read;
+neverallow shard_qemu_t file_type:file { write append };
+
+# Container isolation
+allow shard_container_t container_file_t:file { read write };
+neverallow shard_container_t file_type:file { write append };
+
+# Systemd orchestration
+allow shard_systemd_t domain:process signal;
