@@ -9,9 +9,11 @@ Early adopters and contributors receive FRENS tokens for participation.
 
 ### Core Contributors
 
-**Nathaniel**
-- Solana Address: `0x2c6cDd7e0EaDF461e27bA2fec785bB7c27CBb4BA`
-- Chain: Solana (also supports ETH)
+**nathan**
+- Address: `0x2c6cDd7e0EaDF461e27bA2fec785bB7c27CBb4BA`
+- Chain: ethereum
+- Email: 71@solfunmeme.com
+- URL: https://etherscan.io/address/0x2c6cDd7e0EaDF461e27bA2fec785bB7c27CBb4BA
 - Role: Early adopter
 - Rewards: 2x MMC multiplier
 - Status: Active
