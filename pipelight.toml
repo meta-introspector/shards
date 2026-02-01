@@ -1,189 +1,141 @@
-# Pipelight CI/CD Configuration
-# https://pipelight.dev
+# Pipelight CI/CD for 71-Shard Challenge Framework
+# Runs jobs for all agent frameworks and evaluates results
 
-# Build pipeline for all architectures
-pipelines:
-  - name: build-all-targets
-    steps:
-      - name: Build for all Rust targets
-        commands:
-          # Tier 1 platforms (guaranteed to work)
-          - cargo build --release --target x86_64-unknown-linux-gnu
-          - cargo build --release --target x86_64-unknown-linux-musl
-          - cargo build --release --target x86_64-pc-windows-gnu
-          - cargo build --release --target x86_64-apple-darwin
-          - cargo build --release --target aarch64-unknown-linux-gnu
-          - cargo build --release --target aarch64-apple-darwin
-          - cargo build --release --target i686-unknown-linux-gnu
-          - cargo build --release --target armv7-unknown-linux-gnueabihf
-          
-          # Tier 2 platforms
-          - cargo build --release --target wasm32-unknown-unknown
-          - cargo build --release --target wasm32-wasi
-          - cargo build --release --target riscv64gc-unknown-linux-gnu
-          - cargo build --release --target powerpc64le-unknown-linux-gnu
-          - cargo build --release --target s390x-unknown-linux-gnu
-          - cargo build --release --target mips64-unknown-linux-gnuabi64
-          
-          # Embedded targets
-          - cargo build --release --target thumbv7em-none-eabihf
-          - cargo build --release --target thumbv7m-none-eabi
-          - cargo build --release --target aarch64-unknown-none
-          - cargo build --release --target riscv32imac-unknown-none-elf
-          - cargo build --release --target riscv64imac-unknown-none-elf
-          
-          # Retro targets
-          - cargo build --release --target z80-unknown-none || echo "Z80 requires nightly"
+[[pipelines]]
+name = "test"
+steps = [
+  { name = "lint", commands = ["cargo clippy --all-targets"] },
+  { name = "test", commands = ["cargo test --all"] },
+]
 
-      - name: Build cassette encoder
-        commands:
-          - cd shard0/zx81-rust
-          - cargo build --release --bin cassette_encoder
+[[pipelines]]
+name = "generate-shards"
+steps = [
+  { name = "build", commands = ["cd shard0/recon && cargo build --release --bin generate-shards"] },
+  { name = "generate", commands = ["cd shard0/recon && cargo run --release --bin generate-shards"] },
+  { name = "verify", commands = ["test -f shard_challenges.json && test -f zk_proof_templates.json"] },
+]
 
-      - name: Generate cassette tapes
-        commands:
-          - cd shard0/zx81-rust
-          - ./build-cassette.sh
+[[pipelines]]
+name = "recon-tor"
+steps = [
+  { name = "check-tor", commands = ["systemctl is-active tor || sudo systemctl start tor"] },
+  { name = "build", commands = ["cd shard0/recon && cargo build --release --bin recon"] },
+  { name = "scan", commands = ["cd shard0/recon && cargo run --release --bin recon"] },
+]
 
-  - name: build
-    steps:
-      - name: Build Rust packages
-        commands:
-          - nix build .#shard0-hash
-          - nix build .#shard0-cryptanalysis
-          - nix build .#shard0-p2p
-          - nix build .#shard0-fhe
-          - nix build .#shard0-tapes
-          - nix build .#shard0-level1
-          - nix build .#shard0-level2
+[[pipelines]]
+name = "zktls-witness"
+steps = [
+  { name = "check-tor", commands = ["systemctl is-active tor || sudo systemctl start tor"] },
+  { name = "build", commands = ["cd shard0/recon && cargo build --release --bin zktls"] },
+  { name = "generate", commands = ["cd shard0/recon && cargo run --release --bin zktls"] },
+  { name = "verify-parquet", commands = ["ls -lh shard*_zktls.parquet"] },
+]
 
-      - name: Build Erlang telecom
-        commands:
-          - nix build .#shard0-telecom
+[[pipelines]]
+name = "eval-claude"
+steps = [
+  { name = "setup", commands = ["pip install anthropic"] },
+  { name = "run-level0", commands = ["python3 agents/claude_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent claude --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent claude"] },
+]
 
-      - name: Build Lean proofs
-        commands:
-          - nix build .#shard0-lean
-          
-      - name: Build ZX81 cassette
-        commands:
-          - nix build .#zx81-cicada
+[[pipelines]]
+name = "eval-openai"
+steps = [
+  { name = "setup", commands = ["pip install openai"] },
+  { name = "run-level0", commands = ["python3 agents/openai_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent openai --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent openai"] },
+]
 
-      - name: Build documentation
-        commands:
-          - nix build .#docs
+[[pipelines]]
+name = "eval-ollama"
+steps = [
+  { name = "setup", commands = ["pip install ollama"] },
+  { name = "run-level0", commands = ["python3 agents/ollama_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent ollama --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent ollama"] },
+]
 
-  # Test pipeline
-  - name: test
-    steps:
-      - name: Rust tests
-        commands:
-          - nix develop -c cargo test --manifest-path shard0/hash/Cargo.toml
-          - nix develop -c cargo test --manifest-path shard0/cryptanalysis/Cargo.toml
-          - nix develop -c cargo test --manifest-path shard0/p2p/Cargo.toml
+[[pipelines]]
+name = "eval-autogen"
+steps = [
+  { name = "setup", commands = ["pip install pyautogen"] },
+  { name = "run-level0", commands = ["python3 agents/autogen_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent autogen --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent autogen"] },
+]
 
-      - name: Erlang tests
-        commands:
-          - nix develop -c rebar3 eunit --dir shard0/telecom
+[[pipelines]]
+name = "eval-langchain"
+steps = [
+  { name = "setup", commands = ["pip install langchain"] },
+  { name = "run-level0", commands = ["python3 agents/langchain_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent langchain --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent langchain"] },
+]
 
-      - name: Lean verification
-        commands:
-          - nix develop -c lake build --dir shard0/lean
-          
-      - name: ZX81 size check
-        commands:
-          - cd shard0/zx81-rust
-          - SIZE=$(stat -c%s cicada-level0.p 2>/dev/null || stat -f%z cicada-level0.p)
-          - test $SIZE -le 1024 || (echo "Binary too large!" && exit 1)
+[[pipelines]]
+name = "eval-crewai"
+steps = [
+  { name = "setup", commands = ["pip install crewai"] },
+  { name = "run-level0", commands = ["python3 agents/crewai_agent.py --level 0"] },
+  { name = "verify-proof", commands = ["python3 agents/verify_proof.py --agent crewai --level 0"] },
+  { name = "score", commands = ["python3 agents/score.py --agent crewai"] },
+]
 
-  # Multi-arch build matrix
-  - name: build-matrix
-    steps:
-      - name: Linux x86_64
-        commands:
-          - cargo build --release --target x86_64-unknown-linux-gnu
-          
-      - name: Linux ARM64
-        commands:
-          - cargo build --release --target aarch64-unknown-linux-gnu
-          
-      - name: Windows x86_64
-        commands:
-          - cargo build --release --target x86_64-pc-windows-gnu
-          
-      - name: macOS x86_64
-        commands:
-          - cargo build --release --target x86_64-apple-darwin
-          
-      - name: macOS ARM64
-        commands:
-          - cargo build --release --target aarch64-apple-darwin
-          
-      - name: WASM
-        commands:
-          - cargo build --release --target wasm32-unknown-unknown
-          
-      - name: RISC-V
-        commands:
-          - cargo build --release --target riscv64gc-unknown-linux-gnu
-          
-      - name: ARM Cortex-M
-        commands:
-          - cargo build --release --target thumbv7em-none-eabihf
-          
-      - name: ZX81 (Z80)
-        commands:
-          - cd shard0/zx81-rust
-          - cargo build --release --target z80-unknown-none || echo "Requires nightly"
-          
-      - name: MMIX (Knuth)
-        commands:
-          - nix build .#mmix/shard-mmix
-          
-      - name: Slackware Floppy
-        commands:
-          - nix build .#slackware-floppy/floppy
+[[pipelines]]
+name = "eval-all-agents"
+steps = [
+  { name = "claude", commands = ["pipelight run eval-claude"] },
+  { name = "openai", commands = ["pipelight run eval-openai"] },
+  { name = "ollama", commands = ["pipelight run eval-ollama"] },
+  { name = "autogen", commands = ["pipelight run eval-autogen"] },
+  { name = "langchain", commands = ["pipelight run eval-langchain"] },
+  { name = "crewai", commands = ["pipelight run eval-crewai"] },
+  { name = "leaderboard", commands = ["python3 agents/generate_leaderboard.py"] },
+]
 
-  # Deploy pipeline
-  - name: deploy
-    steps:
-      - name: Build docs
-        commands:
-          - nix build .#docs
+[[pipelines]]
+name = "eval-shard"
+steps = [
+  { name = "parse-args", commands = ["echo 'Evaluating shard $SHARD_ID'"] },
+  { name = "load-challenge", commands = ["python3 agents/load_shard.py --id $SHARD_ID"] },
+  { name = "run-agents", commands = ["pipelight run eval-all-agents"] },
+  { name = "aggregate", commands = ["python3 agents/aggregate_results.py --shard $SHARD_ID"] },
+]
 
-      - name: Deploy to GitHub Pages
-        commands:
-          - cp -r result/* docs/
-          - git add docs/
-          - git commit -m "Update documentation"
-          - git push origin gh-pages
+[[pipelines]]
+name = "eval-all-shards"
+steps = [
+  { name = "crypto", commands = ["for i in {0..70}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "encryption", commands = ["for i in {71..141}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "prompt", commands = ["for i in {142..212}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "multiagent", commands = ["for i in {213..283}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "reversing", commands = ["for i in {284..354}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "economic", commands = ["for i in {355..425}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "meta", commands = ["for i in {426..496}; do SHARD_ID=$i pipelight run eval-shard; done"] },
+  { name = "final-report", commands = ["python3 agents/final_report.py"] },
+]
 
-  # Full pipeline (build + test + deploy)
-  - name: full
-    steps:
-      - name: Run build
-        commands:
-          - pipelight run build
+[[pipelines]]
+name = "benchmark"
+steps = [
+  { name = "generate", commands = ["pipelight run generate-shards"] },
+  { name = "eval", commands = ["pipelight run eval-all-agents"] },
+  { name = "report", commands = ["python3 agents/benchmark_report.py"] },
+]
 
-      - name: Run tests
-        commands:
-          - pipelight run test
-
-      - name: Deploy
-        commands:
-          - pipelight run deploy
-        on_success: true
-
-# Triggers
-triggers:
-  - name: on_push
-    pipeline: full
-    events:
-      - push
-    branches:
-      - main
-
-  - name: on_pr
-    pipeline: test
-    events:
-      - pull_request
+[[pipelines]]
+name = "full"
+steps = [
+  { name = "test", commands = ["pipelight run test"] },
+  { name = "generate", commands = ["pipelight run generate-shards"] },
+  { name = "recon", commands = ["pipelight run recon-tor"] },
+  { name = "zktls", commands = ["pipelight run zktls-witness"] },
+  { name = "eval", commands = ["pipelight run eval-all-agents"] },
+  { name = "deploy", commands = ["./deploy.sh"] },
+]
