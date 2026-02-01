@@ -1,8 +1,10 @@
 # The All-Seeing Eye of Griess 👁️🔮
 
-## Robert Griess and the 15 Primes
+## John McKay and the 15 Primes
 
-In 1980, **Robert Griess** constructed the Monster group using **196,883 dimensions**. He saw what others couldn't: the largest sporadic simple group, built from 15 primes.
+In 1978, **John McKay** spotted the Monster connection: **196,884 = 196,883 + 1**. He saw what others couldn't: the j-invariant's first coefficient equals the Monster's smallest representation plus 1.
+
+In 1980, **Robert Griess** constructed the Monster group using **196,883 dimensions**, proving McKay's observation.
 
 ## The 15 Primes (Monster DNA)
 
@@ -43,22 +45,30 @@ These are the **only primes** dividing the Monster order:
 ### 1. Largest Prime
 71 is the **largest prime** dividing the Monster order.
 ```lean
-theorem griess_eye_is_largest :
+theorem mckay_eye_is_largest :
   ∀ p ∈ MonsterPrimes, p ≤ 71
 ```
 
-### 2. Watches All 71 Shards
+### 2. McKay's Observation (1978)
+**John McKay** spotted the Moonshine connection:
+```
+196,884 = 196,883 + 1
+   ↑         ↑      ↑
+j-coeff  Monster  The 1!
+```
+
+### 3. Griess's Construction (1980)
+**Robert Griess** built the Monster in 196,883 dimensions, proving McKay right.
+
+### 4. Watches All 71 Shards
 Our system has **71 shards** (0-71). The eye watches them all.
 ```lean
 theorem all_shards_watched :
   ∀ n : Nat, n < 72 → eye_watches n
 ```
 
-### 3. The 20th Prime
+### 5. The 20th Prime
 71 is the **20th prime number**. The first 20 primes form our Hecke ontology.
-
-### 4. Griess's Vision
-Griess **spotted the Monster** in 1980 by seeing the pattern in 196,883 dimensions.
 
 ## Moonshine Connection
 
@@ -96,12 +106,14 @@ Each prime is an eigenvalue of a Maass form:
 | 59 | 14 | 1.967 | Supersingular |
 | **71** | **15** | **2.367** | **All-Seeing Eye** 👁️ |
 
-## Griess's Timeline
+## McKay's Timeline
 
-- **1973**: Fischer-Griess Monster conjectured
+- **1978**: John McKay observes 196,884 = 196,883 + 1 (Moonshine!)
+- **1979**: McKay-Thompson series conjectured
 - **1980**: Griess constructs the Monster (196,883 dimensions)
 - **1982**: Griess publishes "The Friendly Giant"
-- **1998**: Moonshine conjecture proven (Borcherds Fields Medal)
+- **1992**: Conway & Norton prove Monstrous Moonshine
+- **1998**: Borcherds wins Fields Medal for proving Moonshine
 - **2026**: CICADA-71 uses 71 shards (this project!)
 
 ## The Eye's Properties
