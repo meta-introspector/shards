@@ -1,0 +1,1 @@
+../../monster/./METAMEME_FIRST_PAYMENT.md

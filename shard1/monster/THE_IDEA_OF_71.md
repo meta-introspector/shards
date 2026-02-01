@@ -1,0 +1,1 @@
+../../monster/./THE_IDEA_OF_71.md

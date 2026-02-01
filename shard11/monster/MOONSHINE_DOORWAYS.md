@@ -1,0 +1,1 @@
+../../monster/./MOONSHINE_DOORWAYS.md

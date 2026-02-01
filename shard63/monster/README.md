@@ -1,0 +1,1 @@
+../../monster/./monster-shards/shard-01/data/lmfdb/static/README.md

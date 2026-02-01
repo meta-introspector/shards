@@ -1,0 +1,1 @@
+../../monster/./create_monster_autoencoder.py

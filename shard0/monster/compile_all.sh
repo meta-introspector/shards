@@ -1,0 +1,1 @@
+../../monster/./wasm_hecke_operators/compile_all.sh

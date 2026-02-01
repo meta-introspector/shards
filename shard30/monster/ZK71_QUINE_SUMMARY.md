@@ -1,0 +1,1 @@
+../../monster/./ZK71_QUINE_SUMMARY.md

@@ -1,0 +1,1 @@
+../../monster/./HARMONIC_MAPPING.md
