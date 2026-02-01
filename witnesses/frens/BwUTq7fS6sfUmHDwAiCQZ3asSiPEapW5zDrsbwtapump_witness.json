@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "BwUTq7fS6sfUmHDwAiCQZ3asSiPEapW5zDrsbwtapump",
+  "shard": 30,
+  "metadata": {
+    "name": "BwUT",
+    "source": "solfunmeme",
+    "archive_date": "2025-04-25",
+    "has_rpc_cache": true,
+    "rpc_cache_path": "/mnt/data1/meta-introspector/submodules/solfunmeme-introspector/rpc_cache2"
+  },
+  "status": "active"
+}

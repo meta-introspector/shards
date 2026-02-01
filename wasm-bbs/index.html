@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CICADA-71 WASM BBS - Paxos Market</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+        }
+        .terminal {
+            border: 1px solid #0f0;
+            padding: 20px;
+            max-width: 800px;
+        }
+        .quote {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 3px solid #0f0;
+        }
+        input, button {
+            background: #000;
+            color: #0f0;
+            border: 1px solid #0f0;
+            padding: 5px;
+            font-family: monospace;
+        }
+        #url-state {
+            word-break: break-all;
+            color: #0ff;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h1>🔷 CICADA-71 WASM BBS</h1>
+        <h2>Paxos Market Leaderboard</h2>
+        
+        <p>Node ID: <span id="node-id">0</span></p>
+        <p>Proposal: <span id="proposal">0</span></p>
+        
+        <h3>Market Quotes</h3>
+        <div id="quotes"></div>
+        
+        <h3>Actions</h3>
+        <button onclick="loadFromUrl()">Load from URL</button>
+        <button onclick="proposeUpdate()">Propose Update</button>
+        <button onclick="shareState()">Share State</button>
+        
+        <h3>Encrypted State (in URL)</h3>
+        <div id="url-state"></div>
+        
+        <h3>Console</h3>
+        <div id="console"></div>
+    </div>
+
+    <script type="module">
+        import init, { WasmPaxosNode } from './pkg/wasm_bbs.js';
+
+        let node;
+
+        async function setup() {
+            await init();
+            
+            // Try to load from URL, otherwise create new
+            try {
+                node = WasmPaxosNode.load_from_url();
+                log("✅ Loaded state from URL");
+            } catch (e) {
+                node = new WasmPaxosNode(0);
+                log("🆕 Created new node");
+            }
+            
+            updateDisplay();
+        }
+
+        window.loadFromUrl = function() {
+            try {
+                node = WasmPaxosNode.load_from_url();
+                updateDisplay();
+                log("✅ Loaded from URL");
+            } catch (e) {
+                log("❌ Failed to load: " + e);
+            }
+        };
+
+        window.proposeUpdate = function() {
+            const quotes = [
+                { framework: "claude", score: 50000, bid: 49.5, ask: 50.5 },
+                { framework: "openai", score: 45000, bid: 44.5, ask: 45.5 },
+                { framework: "ollama", score: 40000, bid: 39.5, ask: 40.5 }
+            ];
+            
+            const encoded = node.propose(JSON.stringify(quotes));
+            updateDisplay();
+            log("📤 Proposed update: " + encoded.substring(0, 20) + "...");
+        };
+
+        window.shareState = function() {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url);
+            log("📋 URL copied to clipboard!");
+        };
+
+        function updateDisplay() {
+            const hash = window.location.hash;
+            if (hash.length > 1) {
+                const encoded = hash.substring(1);
+                document.getElementById('url-state').textContent = encoded;
+                
+                try {
+                    const state = WasmPaxosNode.decode_state(encoded);
+                    document.getElementById('node-id').textContent = state.node_id;
+                    document.getElementById('proposal').textContent = state.proposal;
+                    
+                    const quotesDiv = document.getElementById('quotes');
+                    quotesDiv.innerHTML = state.quotes.map(q => `
+                        <div class="quote">
+                            ${q.framework}: ${q.score} pts | 
+                            Bid: ${q.bid} | Ask: ${q.ask}
+                        </div>
+                    `).join('');
+                } catch (e) {
+                    log("⚠️ Invalid state in URL");
+                }
+            }
+        }
+
+        function log(msg) {
+            const console = document.getElementById('console');
+            const time = new Date().toLocaleTimeString();
+            console.innerHTML += `<div>[${time}] ${msg}</div>`;
+            console.scrollTop = console.scrollHeight;
+        }
+
+        // Watch for URL changes
+        window.addEventListener('hashchange', updateDisplay);
+
+        setup();
+    </script>
+</body>
+</html>

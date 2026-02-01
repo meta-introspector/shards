@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "Fuj6EDWQHBnQ3eEvYDujNQ4rPLSkhm3pBySbQ79Bpump",
+  "shard": 25,
+  "metadata": {
+    "name": "Fuj6",
+    "type": "pump"
+  },
+  "status": "active"
+}

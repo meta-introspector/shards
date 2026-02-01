@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "DD87KkJH3hJeTC8U3msdrbzwkApmjDrxXA3sTbC7FAKE",
+  "shard": 14,
+  "metadata": {
+    "name": "DD87",
+    "activity": "2 other buys",
+    "notes": "Has some trading activity"
+  },
+  "status": "active"
+}

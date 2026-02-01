@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "9DgKaWyhitMG1AtAdAAozy9ZspRUa42omzrZHnHw5FUN",
+  "shard": 15,
+  "metadata": {
+    "name": "9DgK",
+    "activity": "solo holder",
+    "notes": "Just me - that's yikes",
+    "lonely": true
+  },
+  "status": "active"
+}

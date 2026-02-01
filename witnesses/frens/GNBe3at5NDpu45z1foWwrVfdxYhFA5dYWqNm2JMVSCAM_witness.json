@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "GNBe3at5NDpu45z1foWwrVfdxYhFA5dYWqNm2JMVSCAM",
+  "shard": 3,
+  "metadata": {
+    "name": "GNBe",
+    "status": "bonded",
+    "notes": "Bonded token"
+  },
+  "status": "active"
+}

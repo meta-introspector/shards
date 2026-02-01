@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-01T15:45:05Z",
+  "operation": "add_fren",
+  "token": "E6QQQ1xECshESosESjgtGvnLaHXJSkDcHPV6pd2RQv22",
+  "shard": 53,
+  "metadata": {
+    "name": "FRENS",
+    "original": true,
+    "has_zktls_proof": true,
+    "has_muses_consensus": true
+  },
+  "status": "active"
+}
