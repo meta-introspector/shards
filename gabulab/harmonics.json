@@ -1,0 +1,518 @@
+[
+  {
+    "shard": 0,
+    "prime": 2,
+    "hecke_operator": "T_2",
+    "j_invariant": 0,
+    "bott_period": 0,
+    "topology": {
+      "nodes": [
+        {
+          "id": "input_0",
+          "type": "input",
+          "content": "playerName"
+        }
+      ],
+      "edges": [
+        {
+          "from": "input_0",
+          "to": "input_1",
+          "type": "dataflow"
+        }
+      ],
+      "personas": [
+        {
+          "name": "Jane",
+          "description": "Jane, experienced cryptographer and ZK proof expert",
+          "shard": 0
+        }
+      ]
+    }
+  },
+  {
+    "shard": 1,
+    "prime": 3,
+    "hecke_operator": "T_3",
+    "j_invariant": 744,
+    "bott_period": 1,
+    "topology": {
+      "nodes": [
+        {
+          "id": "input_1",
+          "type": "input",
+          "content": "targetShard"
+        }
+      ],
+      "edges": [
+        {
+          "from": "input_1",
+          "to": "output_2",
+          "type": "dataflow"
+        }
+      ],
+      "personas": [
+        {
+          "name": "Alice",
+          "description": "Alice, zero-knowledge proof specialist",
+          "shard": 1
+        }
+      ]
+    }
+  },
+  {
+    "shard": 2,
+    "prime": 5,
+    "hecke_operator": "T_5",
+    "j_invariant": 1488,
+    "bott_period": 2,
+    "topology": {
+      "nodes": [
+        {
+          "id": "output_2",
+          "type": "output",
+          "content": "shardResult"
+        }
+      ],
+      "edges": [
+        {
+          "from": "output_2",
+          "to": "section_3",
+          "type": "dataflow"
+        }
+      ],
+      "personas": [
+        {
+          "name": "Bob",
+          "description": "Bob, game statistician",
+          "shard": 2
+        }
+      ]
+    }
+  },
+  {
+    "shard": 3,
+    "prime": 7,
+    "hecke_operator": "T_7",
+    "j_invariant": 2232,
+    "bott_period": 3,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_3",
+          "type": "section",
+          "content": "## Visit Shard"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_3",
+          "to": "persona_4",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 4,
+    "prime": 11,
+    "hecke_operator": "T_11",
+    "j_invariant": 2976,
+    "bott_period": 4,
+    "topology": {
+      "nodes": [
+        {
+          "id": "persona_4",
+          "type": "persona",
+          "content": "Jane"
+        }
+      ],
+      "edges": [
+        {
+          "from": "persona_4",
+          "to": "section_5",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 5,
+    "prime": 13,
+    "hecke_operator": "T_13",
+    "j_invariant": 3720,
+    "bott_period": 5,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_5",
+          "type": "section",
+          "content": "## Your Role"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_5",
+          "to": "section_6",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 6,
+    "prime": 17,
+    "hecke_operator": "T_17",
+    "j_invariant": 4464,
+    "bott_period": 6,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_6",
+          "type": "section",
+          "content": "## Current Mission"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_6",
+          "to": "section_7",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 7,
+    "prime": 19,
+    "hecke_operator": "T_19",
+    "j_invariant": 5208,
+    "bott_period": 7,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_7",
+          "type": "section",
+          "content": "## Shard System"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_7",
+          "to": "section_8",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 8,
+    "prime": 23,
+    "hecke_operator": "T_23",
+    "j_invariant": 5952,
+    "bott_period": 0,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_8",
+          "type": "section",
+          "content": "## Rewards"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_8",
+          "to": "section_9",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 9,
+    "prime": 29,
+    "hecke_operator": "T_29",
+    "j_invariant": 6696,
+    "bott_period": 1,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_9",
+          "type": "section",
+          "content": "## Your Task"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_9",
+          "to": "section_10",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 10,
+    "prime": 31,
+    "hecke_operator": "T_31",
+    "j_invariant": 7440,
+    "bott_period": 2,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_10",
+          "type": "section",
+          "content": "## Instructions"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_10",
+          "to": "section_11",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 11,
+    "prime": 41,
+    "hecke_operator": "T_41",
+    "j_invariant": 8184,
+    "bott_period": 3,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_11",
+          "type": "section",
+          "content": "## Generate ZK Proof"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_11",
+          "to": "persona_12",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 12,
+    "prime": 47,
+    "hecke_operator": "T_47",
+    "j_invariant": 8928,
+    "bott_period": 4,
+    "topology": {
+      "nodes": [
+        {
+          "id": "persona_12",
+          "type": "persona",
+          "content": "Alice"
+        }
+      ],
+      "edges": [
+        {
+          "from": "persona_12",
+          "to": "section_13",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 13,
+    "prime": 59,
+    "hecke_operator": "T_59",
+    "j_invariant": 9672,
+    "bott_period": 5,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_13",
+          "type": "section",
+          "content": "## Mission"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_13",
+          "to": "section_14",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 14,
+    "prime": 71,
+    "hecke_operator": "T_71",
+    "j_invariant": 10416,
+    "bott_period": 6,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_14",
+          "type": "section",
+          "content": "## ZK Proof Structure"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_14",
+          "to": "section_15",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 15,
+    "prime": 2,
+    "hecke_operator": "T_2",
+    "j_invariant": 11160,
+    "bott_period": 7,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_15",
+          "type": "section",
+          "content": "## Instructions"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_15",
+          "to": "section_16",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 16,
+    "prime": 3,
+    "hecke_operator": "T_3",
+    "j_invariant": 11904,
+    "bott_period": 0,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_16",
+          "type": "section",
+          "content": "## Show Stats"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_16",
+          "to": "persona_17",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 17,
+    "prime": 5,
+    "hecke_operator": "T_5",
+    "j_invariant": 12648,
+    "bott_period": 1,
+    "topology": {
+      "nodes": [
+        {
+          "id": "persona_17",
+          "type": "persona",
+          "content": "Bob"
+        }
+      ],
+      "edges": [
+        {
+          "from": "persona_17",
+          "to": "section_18",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 18,
+    "prime": 7,
+    "hecke_operator": "T_7",
+    "j_invariant": 13392,
+    "bott_period": 2,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_18",
+          "type": "section",
+          "content": "## Mission"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_18",
+          "to": "section_19",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 19,
+    "prime": 11,
+    "hecke_operator": "T_11",
+    "j_invariant": 14136,
+    "bott_period": 3,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_19",
+          "type": "section",
+          "content": "## Stats Format"
+        }
+      ],
+      "edges": [
+        {
+          "from": "section_19",
+          "to": "section_20",
+          "type": "dataflow"
+        }
+      ],
+      "personas": []
+    }
+  },
+  {
+    "shard": 20,
+    "prime": 13,
+    "hecke_operator": "T_13",
+    "j_invariant": 14880,
+    "bott_period": 4,
+    "topology": {
+      "nodes": [
+        {
+          "id": "section_20",
+          "type": "section",
+          "content": "## Ranks"
+        }
+      ],
+      "edges": [],
+      "personas": []
+    }
+  }
+]

@@ -131,8 +131,55 @@ doorgame/
 └── README.md          # This file
 ```
 
+## Promptbook Integration
+
+### What is Promptbook?
+
+[Promptbook](https://github.com/webgptorg/promptbook) is a framework for writing software in plain human language using `.book.md` files. It's the next generation of programming - executable by both humans and AI.
+
+### CICADA-71 Book
+
+The door game is now available as a Promptbook pipeline:
+
+```bash
+# Install promptbook
+npm install -g promptbook
+
+# Run the book
+npx ptbk run cicada71.book.md \
+  --input playerName="Alice" \
+  --input targetShard="42"
+
+# Or use the runner
+node promptbook_runner.js Alice 42
+```
+
+### Book Structure
+
+```markdown
+# CICADA-71 Door Game
+
+- INPUT PARAMETER {playerName}
+- INPUT PARAMETER {targetShard}
+- OUTPUT PARAMETER {shardResult}
+
+## Visit Shard
+- PERSONA Jane, cryptographer
+- EXPECT JSON
+...
+```
+
+### Features
+
+- ✅ Visit shards via natural language
+- ✅ Generate ZK proofs with AI
+- ✅ Track stats and achievements
+- ✅ Atmospheric lore generation
+- ✅ JSON output for automation
+
 ## Future Enhancements
 
+- [x] Promptbook integration
 - [ ] Multiplayer via WebRTC
 - [ ] Real ZK-SNARKs (Groth16)
 - [ ] Brainfuck tape execution

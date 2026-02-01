@@ -147,6 +147,25 @@
           openai-cli = openai-cli;
           ollama-cli = ollama-cli;
           ai-consensus = ai-consensus;
+          
+          # Paxos consensus node
+          paxos-node = pkgs.rustPlatform.buildRustPackage {
+            pname = "paxos-node";
+            version = "0.1.0";
+            src = ./agents/paxos-node;
+            
+            cargoLock = {
+              lockFile = ./agents/paxos-node/Cargo.lock;
+            };
+            
+            nativeBuildInputs = [ rustToolchain ];
+            
+            meta = {
+              description = "Paxos consensus node for CICADA-71";
+              license = pkgs.lib.licenses.agpl3Plus;
+            };
+          };
+          
           default = moltbook-register;
         };
         
