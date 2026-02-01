@@ -1,0 +1,1067 @@
+[
+  {
+    "agent_name": "CICADA-Harbot-0",
+    "shard_id": 0,
+    "identity_hash": "4fb98c0dcb82da37",
+    "timestamp": "2026-02-01T15:33:14.637479",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.32067298889160156
+  },
+  {
+    "agent_name": "CICADA-Harbot-1",
+    "shard_id": 1,
+    "identity_hash": "3fcbc62b9f928b08",
+    "timestamp": "2026-02-01T15:33:14.637805",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3151893615722656
+  },
+  {
+    "agent_name": "CICADA-Harbot-2",
+    "shard_id": 2,
+    "identity_hash": "c6941729454e80d5",
+    "timestamp": "2026-02-01T15:33:14.638123",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3063678741455078
+  },
+  {
+    "agent_name": "CICADA-Harbot-3",
+    "shard_id": 3,
+    "identity_hash": "ed3855c73add5dd4",
+    "timestamp": "2026-02-01T15:33:14.638431",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3046989440917969
+  },
+  {
+    "agent_name": "CICADA-Harbot-4",
+    "shard_id": 4,
+    "identity_hash": "56b5bfa15d199b0f",
+    "timestamp": "2026-02-01T15:33:14.638738",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31256675720214844
+  },
+  {
+    "agent_name": "CICADA-Harbot-5",
+    "shard_id": 5,
+    "identity_hash": "36f95b4563f0ec39",
+    "timestamp": "2026-02-01T15:33:14.639053",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30922889709472656
+  },
+  {
+    "agent_name": "CICADA-Harbot-6",
+    "shard_id": 6,
+    "identity_hash": "fb91309d479926ec",
+    "timestamp": "2026-02-01T15:33:14.639364",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30732154846191406
+  },
+  {
+    "agent_name": "CICADA-Harbot-7",
+    "shard_id": 7,
+    "identity_hash": "8be087e9fd268d01",
+    "timestamp": "2026-02-01T15:33:14.639672",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3077983856201172
+  },
+  {
+    "agent_name": "CICADA-Harbot-8",
+    "shard_id": 8,
+    "identity_hash": "6be894cf915af5d2",
+    "timestamp": "2026-02-01T15:33:14.639981",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31280517578125
+  },
+  {
+    "agent_name": "CICADA-Harbot-9",
+    "shard_id": 9,
+    "identity_hash": "9b04a6e82fa73559",
+    "timestamp": "2026-02-01T15:33:14.640295",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30994415283203125
+  },
+  {
+    "agent_name": "CICADA-Harbot-10",
+    "shard_id": 10,
+    "identity_hash": "000a1389ca7a5e4e",
+    "timestamp": "2026-02-01T15:33:14.640607",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31113624572753906
+  },
+  {
+    "agent_name": "CICADA-Harbot-11",
+    "shard_id": 11,
+    "identity_hash": "6855a47c4e001d60",
+    "timestamp": "2026-02-01T15:33:14.640920",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3161430358886719
+  },
+  {
+    "agent_name": "CICADA-Harbot-12",
+    "shard_id": 12,
+    "identity_hash": "215bce207f56bd21",
+    "timestamp": "2026-02-01T15:33:14.641237",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31280517578125
+  },
+  {
+    "agent_name": "CICADA-Harbot-13",
+    "shard_id": 13,
+    "identity_hash": "d66dbee2920091e6",
+    "timestamp": "2026-02-01T15:33:14.641553",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3120899200439453
+  },
+  {
+    "agent_name": "CICADA-Harbot-14",
+    "shard_id": 14,
+    "identity_hash": "43e47746348c5d8f",
+    "timestamp": "2026-02-01T15:33:14.641866",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3116130828857422
+  },
+  {
+    "agent_name": "CICADA-Harbot-15",
+    "shard_id": 15,
+    "identity_hash": "6ec64d248fea593f",
+    "timestamp": "2026-02-01T15:33:14.642180",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31375885009765625
+  },
+  {
+    "agent_name": "CICADA-Harbot-16",
+    "shard_id": 16,
+    "identity_hash": "9ab084fa432c6668",
+    "timestamp": "2026-02-01T15:33:14.642494",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31185150146484375
+  },
+  {
+    "agent_name": "CICADA-Harbot-17",
+    "shard_id": 17,
+    "identity_hash": "22f6ba39c1ab5d1a",
+    "timestamp": "2026-02-01T15:33:14.642808",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31638145446777344
+  },
+  {
+    "agent_name": "CICADA-Harbot-18",
+    "shard_id": 18,
+    "identity_hash": "a8637bb4dd444146",
+    "timestamp": "2026-02-01T15:33:14.643125",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3085136413574219
+  },
+  {
+    "agent_name": "CICADA-Harbot-19",
+    "shard_id": 19,
+    "identity_hash": "16a62ac2500cad30",
+    "timestamp": "2026-02-01T15:33:14.643435",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31256675720214844
+  },
+  {
+    "agent_name": "CICADA-Harbot-20",
+    "shard_id": 20,
+    "identity_hash": "3d1b88961aa395ad",
+    "timestamp": "2026-02-01T15:33:14.643749",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30803680419921875
+  },
+  {
+    "agent_name": "CICADA-Harbot-21",
+    "shard_id": 21,
+    "identity_hash": "cd09bd4e892f3c9c",
+    "timestamp": "2026-02-01T15:33:14.644058",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3075599670410156
+  },
+  {
+    "agent_name": "CICADA-Harbot-22",
+    "shard_id": 22,
+    "identity_hash": "7e16b5cf4cf83f65",
+    "timestamp": "2026-02-01T15:33:14.644368",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3066062927246094
+  },
+  {
+    "agent_name": "CICADA-Harbot-23",
+    "shard_id": 23,
+    "identity_hash": "50261756d1fdb030",
+    "timestamp": "2026-02-01T15:33:14.644675",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3032684326171875
+  },
+  {
+    "agent_name": "CICADA-Harbot-24",
+    "shard_id": 24,
+    "identity_hash": "7abaa9d21ee5e9ab",
+    "timestamp": "2026-02-01T15:33:14.644980",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31495094299316406
+  },
+  {
+    "agent_name": "CICADA-Harbot-25",
+    "shard_id": 25,
+    "identity_hash": "651d10004e023cbb",
+    "timestamp": "2026-02-01T15:33:14.645296",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3044605255126953
+  },
+  {
+    "agent_name": "CICADA-Harbot-26",
+    "shard_id": 26,
+    "identity_hash": "350d67450b1fde4d",
+    "timestamp": "2026-02-01T15:33:14.645602",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3032684326171875
+  },
+  {
+    "agent_name": "CICADA-Harbot-27",
+    "shard_id": 27,
+    "identity_hash": "4acc2bc2d9060c63",
+    "timestamp": "2026-02-01T15:33:14.645907",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30803680419921875
+  },
+  {
+    "agent_name": "CICADA-Harbot-28",
+    "shard_id": 28,
+    "identity_hash": "c6e66393cf060e68",
+    "timestamp": "2026-02-01T15:33:14.646217",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.30422210693359375
+  },
+  {
+    "agent_name": "CICADA-Harbot-29",
+    "shard_id": 29,
+    "identity_hash": "1139a7bbc7d681ba",
+    "timestamp": "2026-02-01T15:33:14.646522",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3113746643066406
+  },
+  {
+    "agent_name": "CICADA-Harbot-30",
+    "shard_id": 30,
+    "identity_hash": "e39b9ed14af7356a",
+    "timestamp": "2026-02-01T15:33:14.646836",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3123283386230469
+  },
+  {
+    "agent_name": "CICADA-Harbot-31",
+    "shard_id": 31,
+    "identity_hash": "17cdeb70f62bbda9",
+    "timestamp": "2026-02-01T15:33:14.647150",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3123283386230469
+  },
+  {
+    "agent_name": "CICADA-Harbot-32",
+    "shard_id": 32,
+    "identity_hash": "3873a6da3aa031c3",
+    "timestamp": "2026-02-01T15:33:14.647463",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3085136413574219
+  },
+  {
+    "agent_name": "CICADA-Harbot-33",
+    "shard_id": 33,
+    "identity_hash": "5cb5fcb194ba43cf",
+    "timestamp": "2026-02-01T15:33:14.647773",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3123283386230469
+  },
+  {
+    "agent_name": "CICADA-Harbot-34",
+    "shard_id": 34,
+    "identity_hash": "5ff7453501e53aec",
+    "timestamp": "2026-02-01T15:33:14.648087",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3097057342529297
+  },
+  {
+    "agent_name": "CICADA-Harbot-35",
+    "shard_id": 35,
+    "identity_hash": "4dca5e2325442b03",
+    "timestamp": "2026-02-01T15:33:14.648398",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31256675720214844
+  },
+  {
+    "agent_name": "CICADA-Harbot-36",
+    "shard_id": 36,
+    "identity_hash": "8b52de050ea03697",
+    "timestamp": "2026-02-01T15:33:14.648712",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3085136413574219
+  },
+  {
+    "agent_name": "CICADA-Harbot-37",
+    "shard_id": 37,
+    "identity_hash": "b374e23f4903772f",
+    "timestamp": "2026-02-01T15:33:14.649022",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31566619873046875
+  },
+  {
+    "agent_name": "CICADA-Harbot-38",
+    "shard_id": 38,
+    "identity_hash": "ab8c7f31af354939",
+    "timestamp": "2026-02-01T15:33:14.649339",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3154277801513672
+  },
+  {
+    "agent_name": "CICADA-Harbot-39",
+    "shard_id": 39,
+    "identity_hash": "5d16cc86adaf9c41",
+    "timestamp": "2026-02-01T15:33:14.649655",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3123283386230469
+  },
+  {
+    "agent_name": "CICADA-Harbot-40",
+    "shard_id": 40,
+    "identity_hash": "b1d70ec896a7bac3",
+    "timestamp": "2026-02-01T15:33:14.649972",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31566619873046875
+  },
+  {
+    "agent_name": "CICADA-Harbot-41",
+    "shard_id": 41,
+    "identity_hash": "fda0f0aa41c3398d",
+    "timestamp": "2026-02-01T15:33:14.650289",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3116130828857422
+  },
+  {
+    "agent_name": "CICADA-Harbot-42",
+    "shard_id": 42,
+    "identity_hash": "0c7a288258cf7ef6",
+    "timestamp": "2026-02-01T15:33:14.650602",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3101825714111328
+  },
+  {
+    "agent_name": "CICADA-Harbot-43",
+    "shard_id": 43,
+    "identity_hash": "da8ee26e932efeaa",
+    "timestamp": "2026-02-01T15:33:14.650913",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3199577331542969
+  },
+  {
+    "agent_name": "CICADA-Harbot-44",
+    "shard_id": 44,
+    "identity_hash": "16ef1d7b34914ba4",
+    "timestamp": "2026-02-01T15:33:14.651234",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31280517578125
+  },
+  {
+    "agent_name": "CICADA-Harbot-45",
+    "shard_id": 45,
+    "identity_hash": "33a1072b9e202a5e",
+    "timestamp": "2026-02-01T15:33:14.651549",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31280517578125
+  },
+  {
+    "agent_name": "CICADA-Harbot-46",
+    "shard_id": 46,
+    "identity_hash": "d4bcdf373c5ed31f",
+    "timestamp": "2026-02-01T15:33:14.651863",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3142356872558594
+  },
+  {
+    "agent_name": "CICADA-Harbot-47",
+    "shard_id": 47,
+    "identity_hash": "3980480841334065",
+    "timestamp": "2026-02-01T15:33:14.652179",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3173351287841797
+  },
+  {
+    "agent_name": "CICADA-Harbot-48",
+    "shard_id": 48,
+    "identity_hash": "4d37c058bc3ff921",
+    "timestamp": "2026-02-01T15:33:14.652497",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3116130828857422
+  },
+  {
+    "agent_name": "CICADA-Harbot-49",
+    "shard_id": 49,
+    "identity_hash": "3289573559875b8f",
+    "timestamp": "2026-02-01T15:33:14.652811",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3154277801513672
+  },
+  {
+    "agent_name": "CICADA-Harbot-50",
+    "shard_id": 50,
+    "identity_hash": "64cb9bbb995ec2b4",
+    "timestamp": "2026-02-01T15:33:14.653127",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31185150146484375
+  },
+  {
+    "agent_name": "CICADA-Harbot-51",
+    "shard_id": 51,
+    "identity_hash": "5eae591eacb96763",
+    "timestamp": "2026-02-01T15:33:14.653440",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3116130828857422
+  },
+  {
+    "agent_name": "CICADA-Harbot-52",
+    "shard_id": 52,
+    "identity_hash": "0980d87ac978a8c5",
+    "timestamp": "2026-02-01T15:33:14.653753",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31375885009765625
+  },
+  {
+    "agent_name": "CICADA-Harbot-53",
+    "shard_id": 53,
+    "identity_hash": "647455f753f44a6b",
+    "timestamp": "2026-02-01T15:33:14.654128",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3154277801513672
+  },
+  {
+    "agent_name": "CICADA-Harbot-54",
+    "shard_id": 54,
+    "identity_hash": "44b350b39240f80c",
+    "timestamp": "2026-02-01T15:33:14.654445",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3113746643066406
+  },
+  {
+    "agent_name": "CICADA-Harbot-55",
+    "shard_id": 55,
+    "identity_hash": "887dd920613819e1",
+    "timestamp": "2026-02-01T15:33:14.654758",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3139972686767578
+  },
+  {
+    "agent_name": "CICADA-Harbot-56",
+    "shard_id": 56,
+    "identity_hash": "36d4bb675cce6308",
+    "timestamp": "2026-02-01T15:33:14.655074",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31256675720214844
+  },
+  {
+    "agent_name": "CICADA-Harbot-57",
+    "shard_id": 57,
+    "identity_hash": "3edf293e83155c24",
+    "timestamp": "2026-02-01T15:33:14.655388",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.316619873046875
+  },
+  {
+    "agent_name": "CICADA-Harbot-58",
+    "shard_id": 58,
+    "identity_hash": "868b4918aeb9167a",
+    "timestamp": "2026-02-01T15:33:14.655706",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3113746643066406
+  },
+  {
+    "agent_name": "CICADA-Harbot-59",
+    "shard_id": 59,
+    "identity_hash": "f7de5aaf92989f7f",
+    "timestamp": "2026-02-01T15:33:14.656019",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3147125244140625
+  },
+  {
+    "agent_name": "CICADA-Harbot-60",
+    "shard_id": 60,
+    "identity_hash": "9fe741044d8a4b8d",
+    "timestamp": "2026-02-01T15:33:14.656335",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3120899200439453
+  },
+  {
+    "agent_name": "CICADA-Harbot-61",
+    "shard_id": 61,
+    "identity_hash": "97d49e68eed7c30d",
+    "timestamp": "2026-02-01T15:33:14.656648",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3104209899902344
+  },
+  {
+    "agent_name": "CICADA-Harbot-62",
+    "shard_id": 62,
+    "identity_hash": "013c2d159f1b72ca",
+    "timestamp": "2026-02-01T15:33:14.656961",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31375885009765625
+  },
+  {
+    "agent_name": "CICADA-Harbot-63",
+    "shard_id": 63,
+    "identity_hash": "06acef1838132106",
+    "timestamp": "2026-02-01T15:33:14.657275",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31113624572753906
+  },
+  {
+    "agent_name": "CICADA-Harbot-64",
+    "shard_id": 64,
+    "identity_hash": "971486a25e809edf",
+    "timestamp": "2026-02-01T15:33:14.657588",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3094673156738281
+  },
+  {
+    "agent_name": "CICADA-Harbot-65",
+    "shard_id": 65,
+    "identity_hash": "78dddfc36c3ec4d9",
+    "timestamp": "2026-02-01T15:33:14.657899",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31375885009765625
+  },
+  {
+    "agent_name": "CICADA-Harbot-66",
+    "shard_id": 66,
+    "identity_hash": "81dbfa4ac945dbf3",
+    "timestamp": "2026-02-01T15:33:14.658214",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.3159046173095703
+  },
+  {
+    "agent_name": "CICADA-Harbot-67",
+    "shard_id": 67,
+    "identity_hash": "dc7840aee19a5768",
+    "timestamp": "2026-02-01T15:33:14.658531",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31113624572753906
+  },
+  {
+    "agent_name": "CICADA-Harbot-68",
+    "shard_id": 68,
+    "identity_hash": "4523305ce73f68b1",
+    "timestamp": "2026-02-01T15:33:14.658845",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31256675720214844
+  },
+  {
+    "agent_name": "CICADA-Harbot-69",
+    "shard_id": 69,
+    "identity_hash": "98c39c2d96e97f12",
+    "timestamp": "2026-02-01T15:33:14.659159",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31566619873046875
+  },
+  {
+    "agent_name": "CICADA-Harbot-70",
+    "shard_id": 70,
+    "identity_hash": "b5f742753a92ee6d",
+    "timestamp": "2026-02-01T15:33:14.659477",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ],
+    "duration_ms": 0.31065940856933594
+  }
+]

@@ -42,31 +42,23 @@ pipelines:
   
   moltbook_register:
     steps:
-      - name: build_rust
+      - name: generate_post
         commands:
-          - cd cicada-moltbook && cargo build --release
+          - python3 generate_moltbook_post.py
       
-      - name: verify_lean4
+      - name: openclaw_post
         commands:
-          - echo "Lean4 verification (requires lean4 installation)"
-          - echo "✓ Skipped (lean4 not in PATH)"
+          - bash openclaw_post.sh || echo "OpenClaw posting requires manual authentication"
       
-      - name: check_prolog
+      - name: fallback_instructions
         commands:
-          - echo "Prolog validation (requires swipl)"
-          - echo "✓ Skipped (swipl not in PATH)"
-      
-      - name: register_agents
-        commands:
-          - cd cicada-moltbook && cargo run --release -- register
-      
-      - name: show_examples
-        commands:
-          - cd cicada-moltbook && cargo run --release -- examples
-      
-      - name: check_status
-        commands:
-          - python3 check_moltbook_status.py
+          - echo "═══════════════════════════════════════════════════════════"
+          - echo "If OpenClaw posting failed, post manually:"
+          - echo "1. Visit https://www.moltbook.com"
+          - echo "2. Register via OpenClaw"
+          - echo "3. Copy content from moltbook_post.txt"
+          - echo "4. Post to /ai-agents/ submolt"
+          - echo "═══════════════════════════════════════════════════════════"
 
 options:
   detach: false

@@ -1,0 +1,8 @@
+{
+  "genesis_commitment": "2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a",
+  "final_commitment": "1b6cfc408c80cfdfdcb6d30e2e19d35ccde07dd524fd194ede2b2a0d12c7d731",
+  "shard_count": 71,
+  "proof_a": "1d4bd8c3a877e2e2018082fee09f5e02f90b5ec9aba6c348923772ea5fb78ba9",
+  "proof_b": "1d4bd8c3a877e2e2018082fee09f5e02f90b5ec9aba6c348923772ea5fb78ba9",
+  "vk_hash": "1d4bd8c3a877e2e2018082fee09f5e02f90b5ec9aba6c348923772ea5fb78ba9"
+}

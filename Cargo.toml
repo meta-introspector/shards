@@ -5,6 +5,7 @@ members = [
     "agents/evaluate",
     "agents/leaderboard",
     "agents/paxos-node",
+    "moltboot",
 ]
 
 [workspace.package]

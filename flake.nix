@@ -4,12 +4,41 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
+    rust-overlay.url = "github:oxalica/rust-overlay";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = { self, nixpkgs, flake-utils, rust-overlay }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        pkgs = nixpkgs.legacyPackages.${system};
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [ rust-overlay.overlays.default ];
+        };
+        
+        rustToolchain = pkgs.rust-bin.stable.latest.default;
+        
+        # Moltbook registration (SERIOUS CONTAINMENT)
+        moltbook-register = pkgs.rustPlatform.buildRustPackage {
+          pname = "cicada-moltbook";
+          version = "0.1.0";
+          src = ./cicada-moltbook;
+          
+          cargoLock = {
+            lockFile = ./cicada-moltbook/Cargo.lock;
+            outputHashes = {};
+          };
+          
+          nativeBuildInputs = [ rustToolchain pkgs.pkg-config ];
+          buildInputs = [ pkgs.openssl ];
+          
+          # CONTAINMENT: Impure for API keys
+          __impure = true;
+          
+          meta = {
+            description = "CICADA-71 Moltbook Registration - Containing the Molting Lobster";
+            license = pkgs.lib.licenses.agpl3Plus;
+          };
+        };
         
         # Free-tier AI CLIs
         gemini-cli = pkgs.writeShellScriptBin "gemini-analyze-shards" ''
@@ -111,19 +140,36 @@
         '';
         
       in {
+        packages = {
+          moltbook-register = moltbook-register;
+          gemini-cli = gemini-cli;
+          claude-cli = claude-cli;
+          openai-cli = openai-cli;
+          ollama-cli = ollama-cli;
+          ai-consensus = ai-consensus;
+          default = moltbook-register;
+        };
+        
         devShells = {
           default = pkgs.mkShell {
             buildInputs = with pkgs; [
+              rustToolchain
               python3
               curl
               jq
               git
-              pipelight
+              openssl
+              pkg-config
             ];
             
             shellHook = ''
-              echo "CICADA-71 Development Environment"
-              echo "Run: pipelight run swab_deck"
+              echo "╔════════════════════════════════════════════════════════════╗"
+              echo "║     CICADA-71 - Containing the Molting Lobster            ║"
+              echo "╚════════════════════════════════════════════════════════════╝"
+              echo ""
+              echo "Available commands:"
+              echo "  nix run .#moltbook-register -- register"
+              echo "  nix run .#moltbook-register -- examples"
             '';
           };
           
@@ -144,18 +190,10 @@
           };
         };
         
-        packages = {
-          inherit gemini-cli claude-cli openai-cli ollama-cli ai-consensus;
-          
-          swab-deck = pkgs.writeShellScriptBin "swab-deck" ''
-            ${./swab_the_deck.sh}
-          '';
-        };
-        
         apps = {
-          swab = {
+          moltbook-register = {
             type = "app";
-            program = "${self.packages.${system}.swab-deck}/bin/swab-deck";
+            program = "${moltbook-register}/bin/moltbook";
           };
         };
       }
