@@ -1,5 +1,14 @@
+#!/usr/bin/env bash
+# Generate zkPerf-wrapped flake.nix for all 71 shards
+
+set -e
+
+echo "Generating zkPerf-wrapped flake.nix for 71 shards..."
+
+for shard_id in {0..70}; do
+  cat > "shard-$shard_id/openclaw/flake.nix" << 'EOF'
 {
-  description = "CICADA-71 Shard 27 - OpenClaw + zkPerf Witness";
+  description = "CICADA-71 Shard SHARD_ID - OpenClaw + zkPerf Witness";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -7,12 +16,12 @@
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-      shard_id = 27;
+      shard_id = SHARD_ID;
       
     in {
       packages.${system} = {
         openclaw-agent = pkgs.writeShellScriptBin "openclaw-agent-${toString shard_id}" ''
-          export 27=${toString shard_id}
+          export SHARD_ID=${toString shard_id}
           export OPENCLAW_CONFIG=~/.openclaw/shard-${toString shard_id}
           export PATH=${pkgs.nodejs}/bin:${pkgs.curl}/bin:${pkgs.linuxPackages.perf}/bin:$PATH
           
@@ -67,3 +76,21 @@ WITNESS
       };
     };
 }
+EOF
+  
+  # Replace SHARD_ID placeholder
+  sed -i "s/SHARD_ID/$shard_id/g" "shard-$shard_id/openclaw/flake.nix"
+  
+  if [ $shard_id -lt 5 ] || [ $shard_id -gt 67 ]; then
+    echo "  ✓ shard-$shard_id/openclaw/flake.nix [zkPerf]"
+  elif [ $shard_id -eq 5 ]; then
+    echo "  ... (generating shards 5-67 with zkPerf) ..."
+  fi
+done
+
+echo ""
+echo "✓ Generated 71 zkPerf-wrapped flake.nix files"
+echo ""
+echo "Each shard now generates:"
+echo "  - ~/.openclaw/shard-N/zkperf-N.data (perf record)"
+echo "  - ~/.openclaw/shard-N/zkwitness-N.json (ZK witness)"
