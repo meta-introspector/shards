@@ -1,0 +1,86 @@
+# Pipelight CI/CD Configuration
+# https://pipelight.dev
+
+# Build pipeline
+pipelines:
+  - name: build
+    steps:
+      - name: Build Rust packages
+        commands:
+          - nix build .#shard0-hash
+          - nix build .#shard0-cryptanalysis
+          - nix build .#shard0-p2p
+          - nix build .#shard0-fhe
+
+      - name: Build Erlang telecom
+        commands:
+          - nix build .#shard0-telecom
+
+      - name: Build Lean proofs
+        commands:
+          - nix build .#shard0-lean
+
+      - name: Build documentation
+        commands:
+          - nix build .#docs
+
+  # Test pipeline
+  - name: test
+    steps:
+      - name: Rust tests
+        commands:
+          - nix develop -c cargo test --manifest-path shard0/hash/Cargo.toml
+          - nix develop -c cargo test --manifest-path shard0/cryptanalysis/Cargo.toml
+          - nix develop -c cargo test --manifest-path shard0/p2p/Cargo.toml
+
+      - name: Erlang tests
+        commands:
+          - nix develop -c rebar3 eunit --dir shard0/telecom
+
+      - name: Lean verification
+        commands:
+          - nix develop -c lake build --dir shard0/lean
+
+  # Deploy pipeline
+  - name: deploy
+    steps:
+      - name: Build docs
+        commands:
+          - nix build .#docs
+
+      - name: Deploy to GitHub Pages
+        commands:
+          - cp -r result/* docs/
+          - git add docs/
+          - git commit -m "Update documentation"
+          - git push origin gh-pages
+
+  # Full pipeline (build + test + deploy)
+  - name: full
+    steps:
+      - name: Run build
+        commands:
+          - pipelight run build
+
+      - name: Run tests
+        commands:
+          - pipelight run test
+
+      - name: Deploy
+        commands:
+          - pipelight run deploy
+        on_success: true
+
+# Triggers
+triggers:
+  - name: on_push
+    pipeline: full
+    events:
+      - push
+    branches:
+      - main
+
+  - name: on_pr
+    pipeline: test
+    events:
+      - pull_request
