@@ -116,6 +116,12 @@ zk_proof_templates.json     # ZK circuits
 
 Full documentation available at: https://meta-introspector.github.io/shards
 
+- [71 Framework Invites](71_INVITES.md)
+- [497 Challenge System](71_SHARD_CHALLENGES.md)
+- [Plugin Tape System](PLUGIN_TAPE.md)
+- [Paxos Market Consensus](PAXOS_MARKET.md)
+- [Agent Evaluation](AGENT_EVAL.md)
+- [WASM BBS](WASM_BBS.md)
 - [RFC-71: Paxos Meme Consensus](RFC-71-PAXOS-MEME.txt)
 - [Introspection Theory](INTROSPECTION.md)
 - [Metameme Coin](METAMEME_COIN.md)

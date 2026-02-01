@@ -18,9 +18,9 @@
 | 5 | Semantic Kernel (Microsoft) | 4 | 21K+ | `/dial/744-196884-4` |
 | 6 | LlamaIndex | 5 | 35K+ | `/dial/744-196884-5` |
 | 7 | Haystack (deepset) | 6 | 16K+ | `/dial/744-196884-6` |
-| 8 | AutoGPT | 7 | 167K+ | `/dial/744-196884-7` |
-| 9 | OpenAI Agents SDK | 8 | N/A | `/dial/744-196884-8` |
-| 10 | Claude Agent SDK | 9 | N/A | `/dial/744-196884-9` |
+| 8 | AutoGPT | 7 | Enterprise | `/dial/744-196884-7` |
+| 9 | OpenAI Agents | 8 | Enterprise | `/dial/744-196884-8` |
+| 10 | Anthropic Claude | 9 | Enterprise | `/dial/744-196884-9` |
 
 ### Tier 2: Specialized Frameworks (Shards 10-29)
 
@@ -81,29 +81,22 @@
 | 53 | Helicone | 52 | Monitoring | `/dial/744-196884-52` |
 | 54 | Weights & Biases Agents | 53 | ML tracking | `/dial/744-196884-53` |
 | 55 | Comet Agents | 54 | Experiment tracking | `/dial/744-196884-54` |
-| 56 | Anthropic Workbench | 55 | Claude tools | `/dial/744-196884-55` |
-| 57 | OpenAI Assistants API | 56 | GPT-4 | `/dial/744-196884-56` |
-| 58 | Google Vertex AI Agents | 57 | GCP | `/dial/744-196884-57` |
-| 59 | AWS Bedrock Agents | 58 | AWS | `/dial/744-196884-58` |
-| 60 | Azure AI Agent Service | 59 | Azure | `/dial/744-196884-59` |
-| 61 | Hugging Face Agents | 60 | Open models | `/dial/744-196884-60` |
-| 62 | Ollama Agents | 61 | Local LLMs | `/dial/744-196884-61` |
-| 63 | LM Studio Agents | 62 | Desktop | `/dial/744-196884-62` |
-| 64 | Jan.ai | 63 | Privacy-first | `/dial/744-196884-63` |
-| 65 | LocalAI | 64 | Self-hosted | `/dial/744-196884-64` |
-| 66 | Mistral Agents | 65 | European AI | `/dial/744-196884-65` |
-| 67 | Cohere Agents | 66 | Enterprise NLP | `/dial/744-196884-66` |
-| 68 | AI21 Labs Agents | 67 | Jurassic | `/dial/744-196884-67` |
-| 69 | Anthropic Claude Code | 68 | Coding | `/dial/744-196884-68` |
-| 70 | Perplexity Agents | 69 | Search | `/dial/744-196884-69` |
-| 71 | Meta Llama Agents | 70 | Open source | `/dial/744-196884-70` |
-
-### Tier 5: Web3 & Autonomous (Bonus Shards 71-72)
-
-| Rank | Framework | Shard | Type | Invite URL |
-|------|-----------|-------|------|------------|
-| 72 | ElizaOS | 71 | Web3 autonomous | `/dial/744-196884-71` |
-| 73 | Moltbot | 72 | Self-hosted agentic | `/dial/744-196884-72` |
+| 56 | Google Vertex AI Agents | 55 | GCP | `/dial/744-196884-55` |
+| 57 | AWS Bedrock Agents | 56 | AWS | `/dial/744-196884-56` |
+| 58 | Azure AI Agent Service | 57 | Azure | `/dial/744-196884-57` |
+| 59 | Hugging Face Agents | 58 | Open models | `/dial/744-196884-58` |
+| 60 | Ollama Agents | 59 | Local LLMs | `/dial/744-196884-59` |
+| 61 | LM Studio Agents | 60 | Desktop | `/dial/744-196884-60` |
+| 62 | Jan.ai | 61 | Privacy-first | `/dial/744-196884-61` |
+| 63 | LocalAI | 62 | Self-hosted | `/dial/744-196884-62` |
+| 64 | Mistral Agents | 63 | European AI | `/dial/744-196884-63` |
+| 65 | Cohere Agents | 64 | Enterprise NLP | `/dial/744-196884-64` |
+| 66 | AI21 Labs Agents | 65 | Jurassic | `/dial/744-196884-65` |
+| 67 | ElizaOS | 66 | Web3 autonomous | `/dial/744-196884-66` |
+| 68 | Moltbot | 67 | Self-hosted agentic | `/dial/744-196884-67` |
+| 69 | Perplexity Agents | 68 | Search | `/dial/744-196884-68` |
+| 70 | Meta Llama Agents | 69 | Open source | `/dial/744-196884-69` |
+| 71 | Hugging Face Transformers | 70 | ML framework | `/dial/744-196884-70` |
 
 ---
 
