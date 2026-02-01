@@ -6,7 +6,7 @@
 
 ```
 Shards 0-71:  FREE ✅ (runs in browser)
-Shard 72:     FREE ✅ (the hole is free)
+Shard 72:     QUARANTINED 🔐 (not available)
 Jail 1 (73+): PAID 💰 (SOLFUNMEME tokens required)
 ```
 
