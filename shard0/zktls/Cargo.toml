@@ -3,9 +3,18 @@ name = "frens-zktls"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "frens_proof"
+path = "frens_proof.rs"
+
+[[bin]]
+name = "frens_phone"
+path = "frens_phone.rs"
+
 [dependencies]
 tlsn-core = "0.1"
 tokio = { version = "1", features = ["full"] }
 urlencoding = "2.1"
 chrono = "0.4"
 serde_json = "1.0"
+bs58 = "0.5"
