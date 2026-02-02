@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-02T05:49:34.411414",
+  "claim": "Python \u2245 Rust via Monster group conformal mapping",
+  "python_functions": 2,
+  "rust_functions": 2,
+  "conformal_pairs": 2,
+  "all_conformal": true,
+  "proofs": [
+    {
+      "python_function": "generate_agent",
+      "rust_function": "new",
+      "shard_id": 41,
+      "prime": 181,
+      "j_invariant": 8072988,
+      "conformal": true
+    },
+    {
+      "python_function": "generate_all_agents",
+      "rust_function": "generate_all_agents",
+      "shard_id": 30,
+      "prime": 127,
+      "j_invariant": 5907264,
+      "conformal": true
+    }
+  ]
+}
