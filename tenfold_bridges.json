@@ -1,0 +1,442 @@
+{
+  "theory": "Theory 1: 10-fold way bridges",
+  "total_bridges": 1906,
+  "transitions": 36,
+  "canonical_bridges": 36,
+  "sample": {
+    "pair": [
+      232,
+      323
+    ],
+    "transition": "AI \u2192 BDI",
+    "significance": "Life-bearing bridge"
+  },
+  "bridges": [
+    {
+      "pair": [
+        101,
+        202
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          101
+        ]
+      ],
+      "delta": 101,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        212
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          2,
+          53
+        ]
+      ],
+      "delta": 111,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        222
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          3,
+          37
+        ]
+      ],
+      "delta": 121,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        242
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          11,
+          11
+        ]
+      ],
+      "delta": 141,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        262
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          131
+        ]
+      ],
+      "delta": 161,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        282
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          3,
+          47
+        ]
+      ],
+      "delta": 181,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        292
+      ],
+      "topo_classes": [
+        1,
+        2
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          2,
+          73
+        ]
+      ],
+      "delta": 191,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        303
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          3,
+          101
+        ]
+      ],
+      "delta": 202,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        313
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          313
+        ]
+      ],
+      "delta": 212,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        323
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          17,
+          19
+        ]
+      ],
+      "delta": 222,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        333
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          3,
+          3,
+          37
+        ]
+      ],
+      "delta": 232,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        343
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          7,
+          7,
+          7
+        ]
+      ],
+      "delta": 242,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        353
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          353
+        ]
+      ],
+      "delta": 252,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        363
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          3,
+          11,
+          11
+        ]
+      ],
+      "delta": 262,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        373
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          373
+        ]
+      ],
+      "delta": 272,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        383
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          383
+        ]
+      ],
+      "delta": 282,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        393
+      ],
+      "topo_classes": [
+        1,
+        3
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          3,
+          131
+        ]
+      ],
+      "delta": 292,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        404
+      ],
+      "topo_classes": [
+        1,
+        4
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          2,
+          101
+        ]
+      ],
+      "delta": 303,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        434
+      ],
+      "topo_classes": [
+        1,
+        4
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          7,
+          31
+        ]
+      ],
+      "delta": 333,
+      "shadow_flip": true
+    },
+    {
+      "pair": [
+        101,
+        454
+      ],
+      "topo_classes": [
+        1,
+        4
+      ],
+      "factors": [
+        [
+          101
+        ],
+        [
+          2,
+          227
+        ]
+      ],
+      "delta": 353,
+      "shadow_flip": true
+    }
+  ]
+}

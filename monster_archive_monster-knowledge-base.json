@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "collection": "monster-knowledge-base",
+    "title": "Monster Archive: monster-knowledge-base",
+    "description": "Knowledge mapped to 196,883 Monster dimensions with emoji shards",
+    "subject": [
+      "monster-group",
+      "wikidata",
+      "archive-team",
+      "emoji",
+      "zkrdf"
+    ],
+    "monster_dimension": 196883,
+    "monster_crowns": [
+      71,
+      59,
+      47
+    ],
+    "base_frequency": 432,
+    "items": 8,
+    "timestamp": "2026-02-02T10:58:06.703540"
+  },
+  "files": {
+    "monster-knowledge-base.json": [
+      {
+        "id": "Q5",
+        "godel": 187200,
+        "dimension": 187200,
+        "shard": 44,
+        "crown": [
+          44,
+          52,
+          46
+        ],
+        "frequency": 19008,
+        "emoji": "🔷",
+        "data": {
+          "id": "Q5",
+          "label": "human",
+          "description": "common name of Homo sapiens"
+        },
+        "timestamp": "2026-02-02T10:58:06.703506"
+      },
+      {
+        "id": "Q2",
+        "godel": 116964,
+        "dimension": 116964,
+        "shard": 27,
+        "crown": [
+          27,
+          26,
+          28
+        ],
+        "frequency": 11664,
+        "emoji": "⚔",
+        "data": {
+          "id": "Q2",
+          "label": "Earth",
+          "description": "third planet from the Sun"
+        },
+        "timestamp": "2026-02-02T10:58:06.703519"
+      },
+      {
+        "id": "Q42",
+        "godel": 108716,
+        "dimension": 108716,
+        "shard": 15,
+        "crown": [
+          15,
+          38,
+          5
+        ],
+        "frequency": 6480,
+        "emoji": "🦅",
+        "data": {
+          "id": "Q42",
+          "label": "Douglas Adams",
+          "description": "English writer and humorist"
+        },
+        "timestamp": "2026-02-02T10:58:06.703522"
+      },
+      {
+        "id": "Q71",
+        "godel": 169427,
+        "dimension": 169427,
+        "shard": 21,
+        "crown": [
+          21,
+          38,
+          39
+        ],
+        "frequency": 9072,
+        "emoji": "️",
+        "data": {
+          "id": "Q71",
+          "label": "71",
+          "description": "natural number"
+        },
+        "timestamp": "2026-02-02T10:58:06.703524"
+      },
+      {
+        "id": "Q196883",
+        "godel": 48026,
+        "dimension": 48026,
+        "shard": 30,
+        "crown": [
+          30,
+          0,
+          39
+        ],
+        "frequency": 12960,
+        "emoji": "🌎",
+        "data": {
+          "id": "Q196883",
+          "label": "Monster group",
+          "description": "largest sporadic simple group"
+        },
+        "timestamp": "2026-02-02T10:58:06.703528"
+      },
+      {
+        "id": "geocities-2009",
+        "godel": 146855,
+        "dimension": 146855,
+        "shard": 27,
+        "crown": [
+          27,
+          4,
+          27
+        ],
+        "frequency": 11664,
+        "emoji": "🌳",
+        "data": {
+          "id": "geocities-2009",
+          "size": "1TB",
+          "items": 38000000
+        },
+        "timestamp": "2026-02-02T10:58:06.703533"
+      },
+      {
+        "id": "yahoo-groups-2019",
+        "godel": 95786,
+        "dimension": 95786,
+        "shard": 7,
+        "crown": [
+          7,
+          29,
+          0
+        ],
+        "frequency": 3024,
+        "emoji": "🌻",
+        "data": {
+          "id": "yahoo-groups-2019",
+          "size": "100GB",
+          "items": 2000000
+        },
+        "timestamp": "2026-02-02T10:58:06.703535"
+      },
+      {
+        "id": "flash-games-2020",
+        "godel": 77405,
+        "dimension": 77405,
+        "shard": 15,
+        "crown": [
+          15,
+          56,
+          43
+        ],
+        "frequency": 6480,
+        "emoji": "💎",
+        "data": {
+          "id": "flash-games-2020",
+          "size": "500GB",
+          "items": 5000000
+        },
+        "timestamp": "2026-02-02T10:58:06.703537"
+      }
+    ],
+    "monster-knowledge-base_index.json": {
+      "total_items": 8,
+      "dimensions_used": 8,
+      "shards_covered": 6,
+      "frequency_range": [
+        3024,
+        19008
+      ]
+    }
+  }
+}

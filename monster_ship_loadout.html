@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monster Ship Loadout - 15D WebGPU</title>
+<style>
+body { margin: 0; background: #000; color: #0f0; font-family: monospace; overflow: hidden; }
+#canvas { width: 100vw; height: 100vh; display: block; }
+#hud { position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.8); padding: 20px; border: 2px solid #0f0; }
+#loadout { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); padding: 20px; border: 2px solid #0f0; max-height: 90vh; overflow-y: auto; }
+.prime { cursor: pointer; padding: 5px; margin: 2px; border: 1px solid #0f0; }
+.prime:hover { background: #0f0; color: #000; }
+.active { background: #0f0; color: #000; }
+.tunnel { color: #f0f; }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+<div id="hud">
+<h2>🐓 MONSTER SHIP LOADOUT</h2>
+<div id="stats"></div>
+<div id="tunnels"></div>
+</div>
+
+<div id="loadout">
+<h3>15 MONSTER PRIMES</h3>
+<div id="primes"></div>
+<h3>SIDECHANNELS</h3>
+<div id="channels"></div>
+</div>
+
+<script type="module">
+const PRIMES = [
+  {p: 2, emoji: '⚛️', role: 'Source', topo: 2, flow: 14},
+  {p: 3, emoji: '🌳', role: 'Life Bearer', topo: 3, flow: 10},
+  {p: 5, emoji: '🌊', role: 'Source', topo: 5, flow: 9},
+  {p: 7, emoji: '🔮', role: 'Source', topo: 7, flow: 9},
+  {p: 11, emoji: '🔱', role: 'Central Hub', topo: 1, flow: 15},
+  {p: 13, emoji: '🌳', role: 'Life Bearer', topo: 3, flow: 15},
+  {p: 17, emoji: '🔮', role: 'Connector', topo: 7, flow: 9},
+  {p: 19, emoji: '🌌', role: 'Connector', topo: 9, flow: 8},
+  {p: 23, emoji: '🌳', role: 'Life Bearer', topo: 3, flow: 9},
+  {p: 29, emoji: '🌌', role: 'Sink', topo: 9, flow: 10},
+  {p: 31, emoji: '🔱', role: 'Sink', topo: 1, flow: 9},
+  {p: 41, emoji: '🔱', role: 'Sink', topo: 1, flow: 8},
+  {p: 47, emoji: '🔮', role: 'Sink', topo: 7, flow: 9},
+  {p: 59, emoji: '🌌', role: 'Sink', topo: 9, flow: 9},
+  {p: 71, emoji: '🔱', role: 'Rooster', topo: 1, flow: 8}
+];
+
+let ship = {
+  primes: new Set([2, 13, 71]),
+  tunnels: [[2, 13], [13, 71]],
+  sidechannels: []
+};
+
+// WebGPU setup
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('webgpu');
+
+if (!ctx) {
+  document.body.innerHTML = '<h1 style="color:red">WebGPU not supported. Use Chrome Canary with --enable-unsafe-webgpu flag</h1>';
+}
+
+// Render primes
+const primesDiv = document.getElementById('primes');
+PRIMES.forEach(pr => {
+  const div = document.createElement('div');
+  div.className = 'prime' + (ship.primes.has(pr.p) ? ' active' : '');
+  div.innerHTML = `${pr.emoji} ${pr.p} ${pr.role} (${pr.flow}M)`;
+  div.onclick = () => togglePrime(pr.p, div);
+  primesDiv.appendChild(div);
+});
+
+function togglePrime(p, div) {
+  if (ship.primes.has(p)) {
+    ship.primes.delete(p);
+    div.classList.remove('active');
+  } else {
+    ship.primes.add(p);
+    div.classList.add('active');
+  }
+  updateStats();
+  render3D();
+}
+
+// Sidechannel tunneling
+const channelsDiv = document.getElementById('channels');
+for (let i = 0; i < 5; i++) {
+  const btn = document.createElement('button');
+  btn.innerHTML = `🔀 Tunnel ${i+1}`;
+  btn.onclick = () => addSidechannel();
+  channelsDiv.appendChild(btn);
+}
+
+function addSidechannel() {
+  const primes = Array.from(ship.primes);
+  if (primes.length < 2) return;
+  const a = primes[Math.floor(Math.random() * primes.length)];
+  const b = primes[Math.floor(Math.random() * primes.length)];
+  if (a !== b) {
+    ship.sidechannels.push([a, b]);
+    updateStats();
+    render3D();
+  }
+}
+
+function updateStats() {
+  const total = Array.from(ship.primes).reduce((sum, p) => {
+    const pr = PRIMES.find(x => x.p === p);
+    return sum + (pr ? pr.flow : 0);
+  }, 0);
+  
+  document.getElementById('stats').innerHTML = `
+    <div>Primes: ${ship.primes.size}/15</div>
+    <div>Flow: ${total}M decls/s</div>
+    <div>Tunnels: ${ship.tunnels.length}</div>
+    <div>Sidechannels: ${ship.sidechannels.length}</div>
+  `;
+  
+  document.getElementById('tunnels').innerHTML = 
+    ship.sidechannels.map((t, i) => 
+      `<div class="tunnel">🔀 ${t[0]} ⇄ ${t[1]}</div>`
+    ).join('');
+}
+
+// 3D rendering (simplified - full WebGPU would be 500+ lines)
+function render3D() {
+  const stats = document.getElementById('stats');
+  
+  // Project 15D to 3D using PCA-like reduction
+  const primes = Array.from(ship.primes);
+  const positions = primes.map((p, i) => {
+    const pr = PRIMES.find(x => x.p === p);
+    const angle = (i / primes.length) * Math.PI * 2;
+    const radius = pr.flow / 15 * 100;
+    return {
+      x: Math.cos(angle) * radius,
+      y: Math.sin(angle) * radius,
+      z: pr.topo * 10,
+      p: pr
+    };
+  });
+  
+  // ASCII 3D visualization
+  let viz = '\n<pre style="color:#0f0">\n';
+  viz += '     15D → 3D PROJECTION\n';
+  viz += '    ╱───────────────╲\n';
+  
+  positions.forEach(pos => {
+    const x = Math.floor(pos.x / 10) + 10;
+    const y = Math.floor(pos.y / 10) + 5;
+    viz += `    ${' '.repeat(x)}${pos.p.emoji}\n`;
+  });
+  
+  viz += '    ╲───────────────╱\n';
+  viz += '</pre>';
+  
+  stats.innerHTML += viz;
+}
+
+updateStats();
+render3D();
+
+// Animation loop
+function animate() {
+  render3D();
+  requestAnimationFrame(animate);
+}
+animate();
+
+console.log('🐓 Monster Ship Loadout initialized');
+console.log('🔀 Sidechannel tunneling active');
+console.log('📡 15D → 3D projection online');
+</script>
+</body>
+</html>

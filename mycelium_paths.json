@@ -1,0 +1,28 @@
+{
+  "canonical_pair": {
+    "nodes": [
+      232,
+      323
+    ],
+    "coordinate": {
+      "p": [
+        [
+          2,
+          29
+        ],
+        [
+          17,
+          19
+        ]
+      ],
+      "\u03c3": -1,
+      "\u03b5": 1
+    },
+    "interpretation": "Path through incompatible symmetry strata"
+  },
+  "theory": {
+    "quasi": "Path not homomorphism, closes up to commutant",
+    "meta": "Lives between VOAs, not inside one grading",
+    "mycelium": "Connective, not hierarchical"
+  }
+}

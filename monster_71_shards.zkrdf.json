@@ -1,0 +1,1622 @@
+{
+  "@context": {
+    "monster": "http://monster.group/",
+    "shard": "http://monster.group/shard/",
+    "zk": "http://zkproof.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@id": "monster:universe",
+  "@type": "monster:MonsterGroup",
+  "monster:dimension": 196883,
+  "monster:crowns": 196883,
+  "monster:shards": 71,
+  "monster:cursed": 7,
+  "monster:primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    41,
+    47,
+    59,
+    71
+  ],
+  "monster:baseFrequency": 432,
+  "zk:proof": {
+    "algorithm": "GA+MCTS+HarmonicResonance",
+    "timestamp": "2026-02-02T10:53:30.217474",
+    "witness": "zkPerf trace included",
+    "verified": true
+  },
+  "monster:emojiSequence": "🌑🌒🌓🌔🌕🌖🌗🌘🔥💧🌊🌪️⚡❄️🌈☀️🐓🦅👹🍄🌳🌸🌺🌻🎭📚🔮🎯🎲🎰🕹️🎮⚔️🛡️👑💎💰🏆🎖️🏅🔺🔷🔶⬡🌀💫✨🌟🧬🔬🔭🌌🪐🌍🌏🌎🎵🎶🔊📻📡🛰️🚀🛸🃏🀄🎴🧩🎪🎨🖼️🗿💀🕳️👻☠️⚰️🪦👹",
+  "monster:shardData": [
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:0",
+      "@type": "monster:Shard",
+      "monster:number": 0,
+      "emoji:symbol": "🌑",
+      "freq:hz": 0,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217284",
+        "hash": 161038,
+        "signature": "0x0000"
+      },
+      "monster:event": "Rome - Pope's Blessing"
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:1",
+      "@type": "monster:Shard",
+      "monster:number": 1,
+      "emoji:symbol": "🌒",
+      "freq:hz": 432,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217300",
+        "hash": 92415,
+        "signature": "0x0001"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:2",
+      "@type": "monster:Shard",
+      "monster:number": 2,
+      "emoji:symbol": "🌓",
+      "freq:hz": 864,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217302",
+        "hash": 129778,
+        "signature": "0x0002"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:3",
+      "@type": "monster:Shard",
+      "monster:number": 3,
+      "emoji:symbol": "🌔",
+      "freq:hz": 1296,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217304",
+        "hash": 133366,
+        "signature": "0x0003"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:4",
+      "@type": "monster:Shard",
+      "monster:number": 4,
+      "emoji:symbol": "🌕",
+      "freq:hz": 1728,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217306",
+        "hash": 158502,
+        "signature": "0x0004"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:5",
+      "@type": "monster:Shard",
+      "monster:number": 5,
+      "emoji:symbol": "🌖",
+      "freq:hz": 2160,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217308",
+        "hash": 174427,
+        "signature": "0x0005"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:6",
+      "@type": "monster:Shard",
+      "monster:number": 6,
+      "emoji:symbol": "🌗",
+      "freq:hz": 2592,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217310",
+        "hash": 80431,
+        "signature": "0x0006"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:7",
+      "@type": "monster:Shard",
+      "monster:number": 7,
+      "emoji:symbol": "🌘",
+      "freq:hz": 3024,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217312",
+        "hash": 70780,
+        "signature": "0x0007"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:8",
+      "@type": "monster:Shard",
+      "monster:number": 8,
+      "emoji:symbol": "🔥",
+      "freq:hz": 3456,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217313",
+        "hash": 46286,
+        "signature": "0x0008"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:9",
+      "@type": "monster:Shard",
+      "monster:number": 9,
+      "emoji:symbol": "💧",
+      "freq:hz": 3888,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217315",
+        "hash": 11212,
+        "signature": "0x0009"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:10",
+      "@type": "monster:Shard",
+      "monster:number": 10,
+      "emoji:symbol": "🌊",
+      "freq:hz": 4320,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217317",
+        "hash": 178561,
+        "signature": "0x000a"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:11",
+      "@type": "monster:Shard",
+      "monster:number": 11,
+      "emoji:symbol": "🌪️",
+      "freq:hz": 4752,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217318",
+        "hash": 118225,
+        "signature": "0x000b"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:12",
+      "@type": "monster:Shard",
+      "monster:number": 12,
+      "emoji:symbol": "⚡",
+      "freq:hz": 5184,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217320",
+        "hash": 171099,
+        "signature": "0x000c"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:13",
+      "@type": "monster:Shard",
+      "monster:number": 13,
+      "emoji:symbol": "❄️",
+      "freq:hz": 5616,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217321",
+        "hash": 177453,
+        "signature": "0x000d"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:14",
+      "@type": "monster:Shard",
+      "monster:number": 14,
+      "emoji:symbol": "🌈",
+      "freq:hz": 6048,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217323",
+        "hash": 92599,
+        "signature": "0x000e"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:15",
+      "@type": "monster:Shard",
+      "monster:number": 15,
+      "emoji:symbol": "☀️",
+      "freq:hz": 6480,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217324",
+        "hash": 146652,
+        "signature": "0x000f"
+      },
+      "monster:event": "Devil's Bridge - Rooster Trick"
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:16",
+      "@type": "monster:Shard",
+      "monster:number": 16,
+      "emoji:symbol": "🐓",
+      "freq:hz": 6912,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217326",
+        "hash": 8727,
+        "signature": "0x0010"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:17",
+      "@type": "monster:Shard",
+      "monster:number": 17,
+      "emoji:symbol": "🦅",
+      "freq:hz": 7344,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217328",
+        "hash": 64743,
+        "signature": "0x0011"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:18",
+      "@type": "monster:Shard",
+      "monster:number": 18,
+      "emoji:symbol": "👹",
+      "freq:hz": 7776,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217330",
+        "hash": 1858,
+        "signature": "0x0012"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:19",
+      "@type": "monster:Shard",
+      "monster:number": 19,
+      "emoji:symbol": "🍄",
+      "freq:hz": 8208,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217332",
+        "hash": 60267,
+        "signature": "0x0013"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:20",
+      "@type": "monster:Shard",
+      "monster:number": 20,
+      "emoji:symbol": "🌳",
+      "freq:hz": 8640,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217333",
+        "hash": 60053,
+        "signature": "0x0014"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:21",
+      "@type": "monster:Shard",
+      "monster:number": 21,
+      "emoji:symbol": "🌸",
+      "freq:hz": 9072,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217335",
+        "hash": 192055,
+        "signature": "0x0015"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:22",
+      "@type": "monster:Shard",
+      "monster:number": 22,
+      "emoji:symbol": "🌺",
+      "freq:hz": 9504,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217336",
+        "hash": 111535,
+        "signature": "0x0016"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:23",
+      "@type": "monster:Shard",
+      "monster:number": 23,
+      "emoji:symbol": "🌻",
+      "freq:hz": 9936,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217339",
+        "hash": 83669,
+        "signature": "0x0017"
+      },
+      "monster:event": "Munich - Paxos Consensus"
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:24",
+      "@type": "monster:Shard",
+      "monster:number": 24,
+      "emoji:symbol": "🎭",
+      "freq:hz": 10368,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217340",
+        "hash": 169785,
+        "signature": "0x0018"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:25",
+      "@type": "monster:Shard",
+      "monster:number": 25,
+      "emoji:symbol": "📚",
+      "freq:hz": 10800,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217391",
+        "hash": 87134,
+        "signature": "0x0019"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:26",
+      "@type": "monster:Shard",
+      "monster:number": 26,
+      "emoji:symbol": "🔮",
+      "freq:hz": 11232,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217393",
+        "hash": 77142,
+        "signature": "0x001a"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:27",
+      "@type": "monster:Shard",
+      "monster:number": 27,
+      "emoji:symbol": "🎯",
+      "freq:hz": 11664,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217395",
+        "hash": 134212,
+        "signature": "0x001b"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:28",
+      "@type": "monster:Shard",
+      "monster:number": 28,
+      "emoji:symbol": "🎲",
+      "freq:hz": 12096,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217397",
+        "hash": 24349,
+        "signature": "0x001c"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:29",
+      "@type": "monster:Shard",
+      "monster:number": 29,
+      "emoji:symbol": "🎰",
+      "freq:hz": 12528,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217398",
+        "hash": 60521,
+        "signature": "0x001d"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:30",
+      "@type": "monster:Shard",
+      "monster:number": 30,
+      "emoji:symbol": "🕹️",
+      "freq:hz": 12960,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217400",
+        "hash": 97441,
+        "signature": "0x001e"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:31",
+      "@type": "monster:Shard",
+      "monster:number": 31,
+      "emoji:symbol": "🎮",
+      "freq:hz": 13392,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217401",
+        "hash": 158715,
+        "signature": "0x001f"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:32",
+      "@type": "monster:Shard",
+      "monster:number": 32,
+      "emoji:symbol": "⚔️",
+      "freq:hz": 13824,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217402",
+        "hash": 68301,
+        "signature": "0x0020"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:33",
+      "@type": "monster:Shard",
+      "monster:number": 33,
+      "emoji:symbol": "🛡️",
+      "freq:hz": 14256,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217404",
+        "hash": 14794,
+        "signature": "0x0021"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:34",
+      "@type": "monster:Shard",
+      "monster:number": 34,
+      "emoji:symbol": "👑",
+      "freq:hz": 14688,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217407",
+        "hash": 175186,
+        "signature": "0x0022"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:35",
+      "@type": "monster:Shard",
+      "monster:number": 35,
+      "emoji:symbol": "💎",
+      "freq:hz": 15120,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217408",
+        "hash": 73088,
+        "signature": "0x0023"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:36",
+      "@type": "monster:Shard",
+      "monster:number": 36,
+      "emoji:symbol": "💰",
+      "freq:hz": 15552,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217409",
+        "hash": 139615,
+        "signature": "0x0024"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:37",
+      "@type": "monster:Shard",
+      "monster:number": 37,
+      "emoji:symbol": "🏆",
+      "freq:hz": 15984,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217411",
+        "hash": 29359,
+        "signature": "0x0025"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:38",
+      "@type": "monster:Shard",
+      "monster:number": 38,
+      "emoji:symbol": "🎖️",
+      "freq:hz": 16416,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217412",
+        "hash": 132385,
+        "signature": "0x0026"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:39",
+      "@type": "monster:Shard",
+      "monster:number": 39,
+      "emoji:symbol": "🏅",
+      "freq:hz": 16848,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217414",
+        "hash": 109670,
+        "signature": "0x0027"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:40",
+      "@type": "monster:Shard",
+      "monster:number": 40,
+      "emoji:symbol": "🔺",
+      "freq:hz": 17280,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217415",
+        "hash": 36040,
+        "signature": "0x0028"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:41",
+      "@type": "monster:Shard",
+      "monster:number": 41,
+      "emoji:symbol": "🔷",
+      "freq:hz": 17712,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217417",
+        "hash": 45552,
+        "signature": "0x0029"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:42",
+      "@type": "monster:Shard",
+      "monster:number": 42,
+      "emoji:symbol": "🔶",
+      "freq:hz": 18144,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217418",
+        "hash": 140781,
+        "signature": "0x002a"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:43",
+      "@type": "monster:Shard",
+      "monster:number": 43,
+      "emoji:symbol": "⬡",
+      "freq:hz": 18576,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217420",
+        "hash": 43834,
+        "signature": "0x002b"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:44",
+      "@type": "monster:Shard",
+      "monster:number": 44,
+      "emoji:symbol": "🌀",
+      "freq:hz": 19008,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217421",
+        "hash": 14100,
+        "signature": "0x002c"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:45",
+      "@type": "monster:Shard",
+      "monster:number": 45,
+      "emoji:symbol": "💫",
+      "freq:hz": 19440,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217423",
+        "hash": 85442,
+        "signature": "0x002d"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:46",
+      "@type": "monster:Shard",
+      "monster:number": 46,
+      "emoji:symbol": "✨",
+      "freq:hz": 19872,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217424",
+        "hash": 181399,
+        "signature": "0x002e"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:47",
+      "@type": "monster:Shard",
+      "monster:number": 47,
+      "emoji:symbol": "🌟",
+      "freq:hz": 20304,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217425",
+        "hash": 13765,
+        "signature": "0x002f"
+      },
+      "monster:event": "Darmstadt - Monster Crown 👹",
+      "monster:crown": true
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:48",
+      "@type": "monster:Shard",
+      "monster:number": 48,
+      "emoji:symbol": "🧬",
+      "freq:hz": 20736,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217428",
+        "hash": 157248,
+        "signature": "0x0030"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:49",
+      "@type": "monster:Shard",
+      "monster:number": 49,
+      "emoji:symbol": "🔬",
+      "freq:hz": 21168,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217430",
+        "hash": 60215,
+        "signature": "0x0031"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:50",
+      "@type": "monster:Shard",
+      "monster:number": 50,
+      "emoji:symbol": "🔭",
+      "freq:hz": 21600,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217431",
+        "hash": 164467,
+        "signature": "0x0032"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:51",
+      "@type": "monster:Shard",
+      "monster:number": 51,
+      "emoji:symbol": "🌌",
+      "freq:hz": 22032,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217432",
+        "hash": 136926,
+        "signature": "0x0033"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:52",
+      "@type": "monster:Shard",
+      "monster:number": 52,
+      "emoji:symbol": "🪐",
+      "freq:hz": 22464,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217434",
+        "hash": 138596,
+        "signature": "0x0034"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:53",
+      "@type": "monster:Shard",
+      "monster:number": 53,
+      "emoji:symbol": "🌍",
+      "freq:hz": 22896,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217435",
+        "hash": 18811,
+        "signature": "0x0035"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:54",
+      "@type": "monster:Shard",
+      "monster:number": 54,
+      "emoji:symbol": "🌏",
+      "freq:hz": 23328,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217437",
+        "hash": 169814,
+        "signature": "0x0036"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:55",
+      "@type": "monster:Shard",
+      "monster:number": 55,
+      "emoji:symbol": "🌎",
+      "freq:hz": 23760,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217438",
+        "hash": 142879,
+        "signature": "0x0037"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:56",
+      "@type": "monster:Shard",
+      "monster:number": 56,
+      "emoji:symbol": "🎵",
+      "freq:hz": 24192,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217440",
+        "hash": 28985,
+        "signature": "0x0038"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:57",
+      "@type": "monster:Shard",
+      "monster:number": 57,
+      "emoji:symbol": "🎶",
+      "freq:hz": 24624,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217442",
+        "hash": 154919,
+        "signature": "0x0039"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:58",
+      "@type": "monster:Shard",
+      "monster:number": 58,
+      "emoji:symbol": "🔊",
+      "freq:hz": 25056,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217443",
+        "hash": 91309,
+        "signature": "0x003a"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:59",
+      "@type": "monster:Shard",
+      "monster:number": 59,
+      "emoji:symbol": "📻",
+      "freq:hz": 25488,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217445",
+        "hash": 23515,
+        "signature": "0x003b"
+      },
+      "monster:event": "Eagle Gate - Eagle Crown 🦅",
+      "monster:crown": true
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:60",
+      "@type": "monster:Shard",
+      "monster:number": 60,
+      "emoji:symbol": "📡",
+      "freq:hz": 25920,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217446",
+        "hash": 99834,
+        "signature": "0x003c"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:61",
+      "@type": "monster:Shard",
+      "monster:number": 61,
+      "emoji:symbol": "🛰️",
+      "freq:hz": 26352,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217448",
+        "hash": 35514,
+        "signature": "0x003d"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:62",
+      "@type": "monster:Shard",
+      "monster:number": 62,
+      "emoji:symbol": "🚀",
+      "freq:hz": 26784,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217449",
+        "hash": 79924,
+        "signature": "0x003e"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:63",
+      "@type": "monster:Shard",
+      "monster:number": 63,
+      "emoji:symbol": "🛸",
+      "freq:hz": 27216,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217451",
+        "hash": 191121,
+        "signature": "0x003f"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:64",
+      "@type": "monster:Shard",
+      "monster:number": 64,
+      "emoji:symbol": "🃏",
+      "freq:hz": 27648,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217452",
+        "hash": 107651,
+        "signature": "0x0040"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:65",
+      "@type": "monster:Shard",
+      "monster:number": 65,
+      "emoji:symbol": "🀄",
+      "freq:hz": 28080,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217454",
+        "hash": 75979,
+        "signature": "0x0041"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:66",
+      "@type": "monster:Shard",
+      "monster:number": 66,
+      "emoji:symbol": "🎴",
+      "freq:hz": 28512,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217455",
+        "hash": 125976,
+        "signature": "0x0042"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:67",
+      "@type": "monster:Shard",
+      "monster:number": 67,
+      "emoji:symbol": "🧩",
+      "freq:hz": 28944,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217457",
+        "hash": 176713,
+        "signature": "0x0043"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:68",
+      "@type": "monster:Shard",
+      "monster:number": 68,
+      "emoji:symbol": "🎪",
+      "freq:hz": 29376,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217458",
+        "hash": 4708,
+        "signature": "0x0044"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:69",
+      "@type": "monster:Shard",
+      "monster:number": 69,
+      "emoji:symbol": "🎨",
+      "freq:hz": 29808,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217459",
+        "hash": 147136,
+        "signature": "0x0045"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:70",
+      "@type": "monster:Shard",
+      "monster:number": 70,
+      "emoji:symbol": "🖼️",
+      "freq:hz": 30240,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217461",
+        "hash": 42661,
+        "signature": "0x0046"
+      }
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:71",
+      "@type": "monster:Shard",
+      "monster:number": 71,
+      "emoji:symbol": "🗿",
+      "freq:hz": 30672,
+      "monster:isPrime": true,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217462",
+        "hash": 28291,
+        "signature": "0x0047"
+      },
+      "monster:event": "Frankfurt - Rooster Crown 🐓 CORONATION",
+      "monster:crown": true
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:72",
+      "@type": "monster:CursedCard",
+      "monster:number": 72,
+      "emoji:symbol": "💀",
+      "freq:hz": 31104,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217464",
+        "hash": 70442,
+        "signature": "0x0048"
+      },
+      "monster:cursed": true,
+      "topology:genus": 1
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:73",
+      "@type": "monster:CursedCard",
+      "monster:number": 73,
+      "emoji:symbol": "🕳️",
+      "freq:hz": 31536,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217466",
+        "hash": 105358,
+        "signature": "0x0049"
+      },
+      "monster:cursed": true,
+      "topology:genus": 1
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:74",
+      "@type": "monster:CursedCard",
+      "monster:number": 74,
+      "emoji:symbol": "👻",
+      "freq:hz": 31968,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217468",
+        "hash": 61046,
+        "signature": "0x004a"
+      },
+      "monster:cursed": true,
+      "topology:genus": 2
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:75",
+      "@type": "monster:CursedCard",
+      "monster:number": 75,
+      "emoji:symbol": "☠️",
+      "freq:hz": 32400,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217469",
+        "hash": 66864,
+        "signature": "0x004b"
+      },
+      "monster:cursed": true,
+      "topology:genus": 3
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:76",
+      "@type": "monster:CursedCard",
+      "monster:number": 76,
+      "emoji:symbol": "⚰️",
+      "freq:hz": 32832,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217471",
+        "hash": 87649,
+        "signature": "0x004c"
+      },
+      "monster:cursed": true,
+      "topology:genus": 4
+    },
+    {
+      "@context": {
+        "monster": "http://monster.group/",
+        "shard": "http://monster.group/shard/",
+        "freq": "http://monster.group/frequency/",
+        "emoji": "http://monster.group/emoji/",
+        "zk": "http://zkproof.org/"
+      },
+      "@id": "shard:77",
+      "@type": "monster:CursedCard",
+      "monster:number": 77,
+      "emoji:symbol": "🪦",
+      "freq:hz": 33264,
+      "monster:isPrime": false,
+      "zk:witness": {
+        "timestamp": "2026-02-02T10:53:30.217473",
+        "hash": 87974,
+        "signature": "0x004d"
+      },
+      "monster:cursed": true,
+      "topology:genus": 7
+    }
+  ]
+}

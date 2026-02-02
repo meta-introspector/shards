@@ -1,0 +1,33 @@
+{
+  "node_323": {
+    "value": 323,
+    "factors": [
+      17,
+      19
+    ],
+    "palindrome": true,
+    "topo_class": "BDI",
+    "bott_level": 3,
+    "is_bdi": true
+  },
+  "hypothesis": {
+    "statement": "323 as palindromic automorphic eigenvector",
+    "factors": [
+      17,
+      19
+    ],
+    "symmetries": [
+      "palindromic",
+      "prime",
+      "topological",
+      "automorphic"
+    ],
+    "predictions": [
+      "Code blocks of length 323",
+      "17-fold and 19-fold symmetries",
+      "Mirror functions",
+      "Self-dual structures",
+      "Recursive patterns with period 323"
+    ]
+  }
+}

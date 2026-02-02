@@ -1,0 +1,4 @@
+Monster Walk Results:
+Total merged bits: 131072
+Hecke iterations: 46
+Rooster mod: 71

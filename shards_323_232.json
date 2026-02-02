@@ -1,0 +1,140 @@
+{
+  "node_323": {
+    "value": 323,
+    "per_shard": 4,
+    "remainder": 39,
+    "shards": [
+      {
+        "shard_id": 0,
+        "value": 5,
+        "mod_71": 0,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 1,
+        "value": 5,
+        "mod_71": 1,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 2,
+        "value": 5,
+        "mod_71": 2,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 3,
+        "value": 5,
+        "mod_71": 3,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 4,
+        "value": 5,
+        "mod_71": 4,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 5,
+        "value": 5,
+        "mod_71": 5,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 6,
+        "value": 5,
+        "mod_71": 6,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 7,
+        "value": 5,
+        "mod_71": 7,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 8,
+        "value": 5,
+        "mod_71": 8,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 9,
+        "value": 5,
+        "mod_71": 9,
+        "is_rooster": false
+      }
+    ]
+  },
+  "node_232": {
+    "value": 232,
+    "per_shard": 3,
+    "remainder": 19,
+    "shards": [
+      {
+        "shard_id": 0,
+        "value": 4,
+        "mod_71": 0,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 1,
+        "value": 4,
+        "mod_71": 1,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 2,
+        "value": 4,
+        "mod_71": 2,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 3,
+        "value": 4,
+        "mod_71": 3,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 4,
+        "value": 4,
+        "mod_71": 4,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 5,
+        "value": 4,
+        "mod_71": 5,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 6,
+        "value": 4,
+        "mod_71": 6,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 7,
+        "value": 4,
+        "mod_71": 7,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 8,
+        "value": 4,
+        "mod_71": 8,
+        "is_rooster": false
+      },
+      {
+        "shard_id": 9,
+        "value": 4,
+        "mod_71": 9,
+        "is_rooster": false
+      }
+    ]
+  },
+  "path": {
+    "delta": 91,
+    "ratio": 1.3922413793103448
+  }
+}

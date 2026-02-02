@@ -1,0 +1,6 @@
+Monster Ternary Walk Results:
+Ternary slice: 3^20 = 3486784401
+Iterations: 20
+Total bits: 131072
+RDF triples: 20 per bit
+Total triples: 2621440
