@@ -10,3 +10,15 @@
 [submodule "zkmame"]
 	path = zkmame
 	url = https://github.com/meta-introspector/zkmame
+[submodule "shard06-terpsichore/dpemotes"]
+	path = shard06-terpsichore/dpemotes
+	url = https://github.com/andristum/dpemotes.git
+[submodule "shard06-terpsichore/mrm-dances"]
+	path = shard06-terpsichore/mrm-dances
+	url = https://github.com/MrM-Scripts/mrm-dances.git
+[submodule "shard06-terpsichore/choreomaster"]
+	path = shard06-terpsichore/choreomaster
+	url = https://github.com/NetEase-GameAI/ChoreoMaster.git
+[submodule "shard06-terpsichore/rpemotes-reborn"]
+	path = shard06-terpsichore/rpemotes-reborn
+	url = https://github.com/alberttheprince/rpemotes-reborn.git
