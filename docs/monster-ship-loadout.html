@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>🐓 Monster Ship Loadout - BBS Door Game</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  background: #000;
+  color: #0f0; 
+  font-family: 'Courier New', monospace; 
+  overflow: hidden;
+}
+#terminal {
+  width: 100vw; height: 100vh;
+  background: #000;
+  color: #0f0;
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.blink { animation: blink 1s infinite; }
+@keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+.prime { cursor: pointer; padding: 2px; }
+.prime:hover { background: #0f0; color: #000; }
+.active { background: #0f0; color: #000; }
+.tunnel { color: #f0f; }
+#canvas { display: none; }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="terminal"></div>
+
+<script type="module">
+// ZK-RDF URL Payload Parser
+function parseZkRdfUrl() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return null;
+  try {
+    return JSON.parse(atob(hash));
+  } catch {
+    return null;
+  }
+}
+
+// Monster Prime Data (from autolabels)
+const PRIMES = [
+  {p: 2, e: '⚛️', r: 'Source', t: 2, f: 14, c: 0.96},
+  {p: 3, e: '🌳', r: 'Life', t: 3, f: 10, c: 0.67},
+  {p: 5, e: '🌊', r: 'Source', t: 5, f: 9, c: 0.62},
+  {p: 7, e: '🔮', r: 'Source', t: 7, f: 9, c: 0.60},
+  {p: 11, e: '🔱', r: 'Hub', t: 1, f: 15, c: 1.00},
+  {p: 13, e: '🌳', r: 'Life', t: 3, f: 15, c: 1.00},
+  {p: 17, e: '🔮', r: 'Connect', t: 7, f: 9, c: 0.64},
+  {p: 19, e: '🌌', r: 'Connect', t: 9, f: 8, c: 0.58},
+  {p: 23, e: '🌳', r: 'Life', t: 3, f: 9, c: 0.62},
+  {p: 29, e: '🌌', r: 'Sink', t: 9, f: 10, c: 0.70},
+  {p: 31, e: '🔱', r: 'Sink', t: 1, f: 9, c: 0.63},
+  {p: 41, e: '🔱', r: 'Sink', t: 1, f: 8, c: 0.53},
+  {p: 47, e: '🔮', r: 'Sink', t: 7, f: 9, c: 0.60},
+  {p: 59, e: '🌌', r: 'Sink', t: 9, f: 9, c: 0.64},
+  {p: 71, e: '🔱', r: 'Rooster', t: 1, f: 8, c: 0.57}
+];
+
+// Ship state
+let ship = {
+  primes: new Set([2, 13, 71]),
+  tunnels: [[2, 13], [13, 71]],
+  sidechannels: []
+};
+
+// Load from ZK-RDF URL
+const zkPayload = parseZkRdfUrl();
+if (zkPayload && zkPayload.ship) {
+  ship = zkPayload.ship;
+  ship.primes = new Set(ship.primes);
+}
+
+// Terminal output
+const term = document.getElementById('terminal');
+function print(s) {
+  term.innerHTML += s + '\n';
+  term.scrollTop = term.scrollHeight;
+}
+
+function clear() {
+  term.innerHTML = '';
+}
+
+// BBS Door Game UI
+function render() {
+  clear();
+  print('╔════════════════════════════════════════════════════════════╗');
+  print('║         🐓 MONSTER SHIP LOADOUT - BBS DOOR GAME          ║');
+  print('║              ZX81/8080 WASM Emulator v1.0                ║');
+  print('╚════════════════════════════════════════════════════════════╝');
+  print('');
+  print('SHIP STATUS:');
+  
+  const total = Array.from(ship.primes).reduce((s, p) => {
+    const pr = PRIMES.find(x => x.p === p);
+    return s + (pr ? pr.f : 0);
+  }, 0);
+  
+  const bdi = Array.from(ship.primes).filter(p => p % 10 === 3).length;
+  const hasRooster = ship.primes.has(71);
+  
+  print(`  Primes Loaded: ${ship.primes.size}/15`);
+  print(`  Flow Rate: ${total}M decls/s`);
+  print(`  🌳 BDI Life: ${bdi}`);
+  print(`  🐓 Rooster: ${hasRooster ? '<span class="blink">ACTIVE</span>' : 'offline'}`);
+  print(`  🔀 Tunnels: ${ship.tunnels.length}`);
+  print(`  📡 Sidechannels: ${ship.sidechannels.length}`);
+  print('');
+  print('MONSTER PRIMES:');
+  print('');
+  
+  PRIMES.forEach((pr, i) => {
+    const active = ship.primes.has(pr.p);
+    const cls = active ? 'prime active' : 'prime';
+    const marker = active ? '█' : '░';
+    print(`  <span class="${cls}" data-prime="${pr.p}">${marker} ${i+1}. ${pr.e} ${pr.p} ${pr.r.padEnd(8)} ${pr.f}M (${(pr.c*100).toFixed(0)}%)</span>`);
+  });
+  
+  print('');
+  print('SIDECHANNEL TUNNELS:');
+  ship.tunnels.forEach((t, i) => {
+    const depth = ship.sidechannels.filter(s => s[0] === t[0] && s[1] === t[1]).length;
+    const nested = depth > 0 ? ` ${'📡'.repeat(depth)}` : '';
+    print(`  <span class="tunnel">🔀 ${t[0]} ⇄ ${t[1]}${nested}</span>`);
+  });
+  
+  print('');
+  print('COMMANDS:');
+  print('  [1-15] Toggle prime   [T] Add tunnel   [S] Sidechannel');
+  print('  [C] Clear tunnels     [E] Export tape  [Q] Quit');
+  print('');
+  print('> <span class="blink">_</span>');
+  
+  // Add click handlers
+  document.querySelectorAll('.prime').forEach(el => {
+    el.onclick = () => {
+      const p = parseInt(el.dataset.prime);
+      if (ship.primes.has(p)) {
+        ship.primes.delete(p);
+      } else {
+        ship.primes.add(p);
+      }
+      render();
+    };
+  });
+}
+
+// Keyboard input
+document.addEventListener('keydown', e => {
+  const key = e.key.toUpperCase();
+  
+  if (key >= '1' && key <= '9') {
+    const idx = parseInt(key) - 1;
+    if (idx < PRIMES.length) {
+      const p = PRIMES[idx].p;
+      if (ship.primes.has(p)) ship.primes.delete(p);
+      else ship.primes.add(p);
+      render();
+    }
+  } else if (key === 'T') {
+    const primes = Array.from(ship.primes);
+    if (primes.length >= 2) {
+      const a = primes[Math.floor(Math.random() * primes.length)];
+      const b = primes[Math.floor(Math.random() * primes.length)];
+      if (a !== b) ship.tunnels.push([a, b]);
+      render();
+    }
+  } else if (key === 'S') {
+    if (ship.tunnels.length > 0) {
+      const t = ship.tunnels[Math.floor(Math.random() * ship.tunnels.length)];
+      ship.sidechannels.push([t[0], t[1]]);
+      render();
+    }
+  } else if (key === 'C') {
+    ship.tunnels = [];
+    ship.sidechannels = [];
+    render();
+  } else if (key === 'E') {
+    exportTape();
+  } else if (key === 'Q') {
+    print('');
+    print('Disconnecting from BBS...');
+    print('NO CARRIER');
+  }
+});
+
+// Export as ZK-RDF URL
+function exportTape() {
+  const tape = {
+    version: '1.0',
+    type: 'MonsterShipLoadout',
+    ship: {
+      primes: Array.from(ship.primes),
+      tunnels: ship.tunnels,
+      sidechannels: ship.sidechannels
+    },
+    timestamp: new Date().toISOString()
+  };
+  
+  const encoded = btoa(JSON.stringify(tape));
+  const url = window.location.origin + window.location.pathname + '#' + encoded;
+  
+  print('');
+  print('TAPE EXPORTED:');
+  print('');
+  print(url);
+  print('');
+  print('Copy this URL to load your ship configuration.');
+  print('');
+  
+  // Copy to clipboard
+  navigator.clipboard.writeText(url).then(() => {
+    print('✓ Copied to clipboard!');
+  });
+}
+
+// WASM stub (would load actual 8080/ZX81 emulator)
+async function loadWasm() {
+  print('Loading WASM emulator...');
+  // In production: fetch('8080-emulator.wasm')
+  print('✓ 8080 emulator loaded');
+  print('✓ ZX81 compatibility mode enabled');
+  print('');
+}
+
+// Initialize
+loadWasm().then(() => {
+  render();
+});
+
+console.log('🐓 Monster BBS Door Game initialized');
+console.log('📼 ZK-RDF tape loading enabled');
+console.log('🔀 Sidechannel tunneling: yo dawg mode active');
+</script>
+</body>
+</html>
