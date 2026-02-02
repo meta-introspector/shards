@@ -1,0 +1,164 @@
+[
+  {
+    "location": "Earth",
+    "distance": 2.46e+20,
+    "time_dilation": 1.000000000025,
+    "performance_factor": 0.999999999975,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 2.46e+20,
+      "time_dilation": 1.000000000025,
+      "performance_factor": 0.999999999975,
+      "base_fps": 60,
+      "actual_fps": 62.4999999984375,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.0000000004,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006799697875976562
+    }
+  },
+  {
+    "location": "1000 ly from BH",
+    "distance": 9.46e+18,
+    "time_dilation": 1.0000000006501057,
+    "performance_factor": 0.9999999993498943,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 9.46e+18,
+      "time_dilation": 1.0000000006501057,
+      "performance_factor": 0.9999999993498943,
+      "base_fps": 60,
+      "actual_fps": 62.49999995936838,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.000000010401692,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006666183471679688
+    }
+  },
+  {
+    "location": "100 ly from BH",
+    "distance": 9.46e+17,
+    "time_dilation": 1.0000000065010572,
+    "performance_factor": 0.9999999934989428,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 9.46e+17,
+      "time_dilation": 1.0000000065010572,
+      "performance_factor": 0.9999999934989428,
+      "base_fps": 60,
+      "actual_fps": 62.499999593683924,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.000000104016916,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006606578826904297
+    }
+  },
+  {
+    "location": "10 ly from BH",
+    "distance": 9.46e+16,
+    "time_dilation": 1.0000000650105771,
+    "performance_factor": 0.9999999349894271,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 9.46e+16,
+      "time_dilation": 1.0000000650105771,
+      "performance_factor": 0.9999999349894271,
+      "base_fps": 60,
+      "actual_fps": 62.499995936839184,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.000001040169234,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006742477416992188
+    }
+  },
+  {
+    "location": "1 ly from BH",
+    "distance": 9460000000000000.0,
+    "time_dilation": 1.000000650106342,
+    "performance_factor": 0.9999993498940806,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 9460000000000000.0,
+      "time_dilation": 1.000000650106342,
+      "performance_factor": 0.9999993498940806,
+      "base_fps": 60,
+      "actual_fps": 62.49995936838004,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.000010401701473,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006577968597412109
+    }
+  },
+  {
+    "location": "100 r_s",
+    "distance": 1230000000000.0,
+    "time_dilation": 1.005037815259212,
+    "performance_factor": 0.99498743710662,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 1230000000000.0,
+      "time_dilation": 1.005037815259212,
+      "performance_factor": 0.99498743710662,
+      "base_fps": 60,
+      "actual_fps": 62.18671481916374,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.080605044147397,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006341934204101562
+    }
+  },
+  {
+    "location": "10 r_s",
+    "distance": 123000000000.0,
+    "time_dilation": 1.0540925533894598,
+    "performance_factor": 0.9486832980505138,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 123000000000.0,
+      "time_dilation": 1.0540925533894598,
+      "performance_factor": 0.9486832980505138,
+      "base_fps": 60,
+      "actual_fps": 59.29270612815711,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 16.865480854231357,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006818771362304688
+    }
+  },
+  {
+    "location": "2 r_s",
+    "distance": 24600000000.0,
+    "time_dilation": 1.414213562373095,
+    "performance_factor": 0.7071067811865476,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 24600000000.0,
+      "time_dilation": 1.414213562373095,
+      "performance_factor": 0.7071067811865476,
+      "base_fps": 60,
+      "actual_fps": 44.19417382415922,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 22.62741699796952,
+      "iterations": 10,
+      "elapsed_time_s": 0.0006201267242431641
+    }
+  },
+  {
+    "location": "1.01 r_s (EDGE)",
+    "distance": 12423000000.0,
+    "time_dilation": 10.049875621120886,
+    "performance_factor": 0.09950371902099896,
+    "game_result": {
+      "game": "Pac-Man",
+      "distance_from_bh": 12423000000.0,
+      "time_dilation": 10.049875621120886,
+      "performance_factor": 0.09950371902099896,
+      "base_fps": 60,
+      "actual_fps": 6.218982438812434,
+      "base_frame_time_ms": 16.0,
+      "actual_frame_time_ms": 160.79800993793418,
+      "iterations": 10,
+      "elapsed_time_s": 0.0005497932434082031
+    }
+  }
+]
