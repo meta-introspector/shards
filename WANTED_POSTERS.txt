@@ -1,0 +1,479 @@
+🚨 WANTED: MISSING HECKE OPERATORS
+================================================================================
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #03                        ║
+║                                                                ║
+║                        👿                              ║
+║                       👁️👁️                             ║
+║                        👃                              ║
+║                        🌳                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: YES ✅                                        ║
+║    Monster Prime: YES 👿                           ║
+║    Factors: 3                                       ║
+║    Shard: BDI  (class 3)                                   ║
+║    Mod 10: 3                                                     ║
+║                                                                ║
+║  REWARD: 2,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐⭐⭐                                         ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 03      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #11                        ║
+║                                                                ║
+║                        👿                              ║
+║                       👁️👁️                             ║
+║                        🔺                              ║
+║                        😊                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: YES ✅                                        ║
+║    Monster Prime: YES 👿                           ║
+║    Factors: 11                                      ║
+║    Shard: AIII (class 1)                                   ║
+║    Mod 10: 1                                                     ║
+║                                                                ║
+║  REWARD: 2,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐⭐⭐                                         ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 11      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #12                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        👃                              ║
+║                        😎                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 2 × 3                               ║
+║    Shard: AI   (class 2)                                   ║
+║    Mod 10: 2                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 12      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #18                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        👃                              ║
+║                        🐓                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 3 × 3                               ║
+║    Shard: C    (class 8)                                   ║
+║    Mod 10: 8                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 18      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #25                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        🔺                              ║
+║                        🍄                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 5 × 5                                   ║
+║    Shard: DIII (class 5)                                   ║
+║    Mod 10: 5                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 25      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #26                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        🔺                              ║
+║                        🦅                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 13                                  ║
+║    Shard: AII  (class 6)                                   ║
+║    Mod 10: 6                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 26      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #30                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        👃                              ║
+║                        😐                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 3 × 5                               ║
+║    Shard: A    (class 0)                                   ║
+║    Mod 10: 0                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 30      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #34                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        🔺                              ║
+║                        😈                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 17                                  ║
+║    Shard: D    (class 4)                                   ║
+║    Mod 10: 4                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 34      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #36                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        👃                              ║
+║                        🦅                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 2 × 3 × 3                           ║
+║    Shard: AII  (class 6)                                   ║
+║    Mod 10: 6                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 36      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #38                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        🔺                              ║
+║                        🐓                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 19                                  ║
+║    Shard: C    (class 8)                                   ║
+║    Mod 10: 8                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 38      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #39                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        👃                              ║
+║                        🌀                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 3 × 13                                  ║
+║    Shard: CI   (class 9)                                   ║
+║    Mod 10: 9                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 39      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #40                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        🔺                              ║
+║                        😐                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 2 × 2 × 5                           ║
+║    Shard: A    (class 0)                                   ║
+║    Mod 10: 0                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 40      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #41                        ║
+║                                                                ║
+║                        👿                              ║
+║                       👁️👁️                             ║
+║                        🔺                              ║
+║                        😊                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: YES ✅                                        ║
+║    Monster Prime: YES 👿                           ║
+║    Factors: 41                                      ║
+║    Shard: AIII (class 1)                                   ║
+║    Mod 10: 1                                                     ║
+║                                                                ║
+║  REWARD: 2,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐⭐⭐                                         ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 41      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #43                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👁️👁️                             ║
+║                        🔺                              ║
+║                        🌳                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: YES ✅                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 43                                      ║
+║    Shard: BDI  (class 3)                                   ║
+║    Mod 10: 3                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 43      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #46                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        🔺                              ║
+║                        🦅                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 23                                  ║
+║    Shard: AII  (class 6)                                   ║
+║    Mod 10: 6                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 46      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #57                        ║
+║                                                                ║
+║                        👾                              ║
+║                       👀                             ║
+║                        👃                              ║
+║                        👹                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 3 × 19                                  ║
+║    Shard: CII  (class 7)                                   ║
+║    Mod 10: 7                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 57      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+
+╔════════════════════════════════════════════════════════════════╗
+║                         🚨 WANTED 🚨                           ║
+║                                                                ║
+║                    HECKE OPERATOR #60                        ║
+║                                                                ║
+║                        👾                              ║
+║                       🔴🔴                             ║
+║                        👃                              ║
+║                        😐                              ║
+║                                                                ║
+║  PROPERTIES:                                                   ║
+║    Prime: NO ❌                                        ║
+║    Monster Prime: NO 👾                           ║
+║    Factors: 2 × 2 × 3 × 5                           ║
+║    Shard: A    (class 0)                                   ║
+║    Mod 10: 0                                                     ║
+║                                                                ║
+║  REWARD: 1,000 MMC                                            ║
+║  DIFFICULTY: ⭐⭐⭐                                           ║
+║                                                                ║
+║  LAST SEEN: Never (missing from codebase!)                     ║
+║                                                                ║
+║  IF FOUND: Submit file with hash(path, size) mod 71 = 60      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
