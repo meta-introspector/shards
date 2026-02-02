@@ -2,50 +2,62 @@ triggers:
   - on_push
 
 pipelines:
-  full_proof_system:
-    name: "CICADA-71 Complete Proof System"
+  complete_proof_system:
+    name: "Complete Proof System - All CPU Cycles"
     steps:
-      - name: "Build Rust Core"
+      - name: "Setup"
         commands:
-          - nix build .#harbot-core
-          - echo "✓ Rust core built"
+          - mkdir -p complete_proofs
+          - echo "Starting complete proof system..."
       
-      - name: "Build WASM"
+      - name: "Build Rust (zkPerf)"
         commands:
-          - nix build .#harbot-wasm
-          - echo "✓ WASM built"
+          - perf record -o complete_proofs/rust_build.perf.data -g -- nix build .#harbot-core
+          - nix path-info .#harbot-core | xargs nix-store --query --hash > complete_proofs/rust_hash.txt
       
-      - name: "Verify Lean4 Proofs"
+      - name: "Build WASM (zkPerf)"
         commands:
-          - nix build .#harbot-lean
-          - echo "✓ Lean4 proofs verified"
+          - perf record -o complete_proofs/wasm_build.perf.data -g -- nix build .#harbot-wasm
+          - nix path-info .#harbot-wasm | xargs nix-store --query --hash > complete_proofs/wasm_hash.txt
       
-      - name: "Verify Coq Proofs"
+      - name: "Test Rust (zkPerf)"
         commands:
-          - nix build .#harbot-coq
-          - echo "✓ Coq proofs verified"
+          - cd rust-core && perf record -o ../complete_proofs/rust_test.perf.data -g -- cargo test --release
       
-      - name: "Run Prolog Proofs"
+      - name: "Verify Lean4 (zkPerf)"
         commands:
-          - nix build .#harbot-prolog
-          - echo "✓ Prolog proofs verified"
+          - perf record -o complete_proofs/lean4_verify.perf.data -g -- nix build .#harbot-lean
       
-      - name: "Solve MiniZinc Models"
+      - name: "Verify Coq (zkPerf)"
         commands:
-          - nix build .#harbot-minizinc
-          - echo "✓ MiniZinc models solved"
+          - perf record -o complete_proofs/coq_verify.perf.data -g -- nix build .#harbot-coq
       
-      - name: "Generate zkPerf Witnesses"
+      - name: "Verify Prolog (zkPerf)"
         commands:
-          - nix run .#zkperf-witness
-          - echo "✓ zkPerf witnesses generated"
+          - perf record -o complete_proofs/prolog_verify.perf.data -g -- swipl -g main -t halt prolog-proofs/harbot_equivalence.pl
       
-      - name: "Run Tests"
+      - name: "Optimize MiniZinc (zkPerf)"
         commands:
-          - cd rust-core && cargo test
-          - echo "✓ All tests passed"
+          - perf record -o complete_proofs/minizinc_solve.perf.data -g -- minizinc minizinc-models/harbot_efficiency.mzn
       
-      - name: "Generate Final Witness"
+      - name: "Map Python to Monster (zkPerf)"
+        commands:
+          - perf record -o complete_proofs/python_monster.perf.data -g -- python3 map_python_to_monster.py
+      
+      - name: "Map Rust to Monster (zkPerf)"
+        commands:
+          - perf record -o complete_proofs/rust_monster.perf.data -g -- python3 map_rust_to_monster.py
+      
+      - name: "Prove Conformal (zkPerf)"
+        commands:
+          - perf record -o complete_proofs/conformal_proof.perf.data -g -- python3 prove_conformal.py
+      
+      - name: "Extract Perf Data"
+        commands:
+          - for f in complete_proofs/*.perf.data; do perf script -i "$f" > "${f%.data}.script"; done
+          - for f in complete_proofs/*.perf.data; do perf report -i "$f" --stdio > "${f%.data}.report"; done
+      
+      - name: "Generate Composite Witness"
         commands:
           - python3 generate_composite_witness.py
-          - echo "✓ Composite witness generated"
+          - echo "✅ Complete proof system finished"
