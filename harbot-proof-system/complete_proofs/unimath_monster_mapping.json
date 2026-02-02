@@ -1,0 +1,299 @@
+{
+  "mycelium_path": {
+    "source": 232,
+    "target": 323,
+    "prime_support": [
+      [
+        8,
+        29
+      ],
+      [
+        17,
+        19
+      ]
+    ],
+    "shadow_parity": -1,
+    "framing_residue": 8
+  },
+  "mappings": [
+    {
+      "data_type": "coq_definition",
+      "shard": 68,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 13388856
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 51,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 10041828
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 8,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 66,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 12995088
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 49,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 9648060
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 67,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 13191972
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 2,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 394512
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 36,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 7088568
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 17,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 3347772
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 19,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 3741540
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 15,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 2954004
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 58,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 11420016
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 23,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 4529076
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 68,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 13388856
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 30,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 5907264
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 5,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 985164
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 7,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 1378932
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 21,
+      "side": "source",
+      "node": 232,
+      "active_primes": [
+        8,
+        29
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 4135308
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 40,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 7876104
+    },
+    {
+      "data_type": "coq_definition",
+      "shard": 66,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 12995088
+    },
+    {
+      "data_type": "coq_extract",
+      "shard": 52,
+      "side": "target",
+      "node": 323,
+      "active_primes": [
+        17,
+        19
+      ],
+      "shadow_parity": -1,
+      "framing_residue": 8,
+      "j_invariant": 10238712
+    }
+  ],
+  "statistics": {
+    "total_mappings": 21,
+    "source_side": 10,
+    "target_side": 11,
+    "unique_shards": 19
+  }
+}
