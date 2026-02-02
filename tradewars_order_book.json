@@ -1,0 +1,221 @@
+{
+  "mission": "Deliver 71 Arcade Cabinets to Milliways",
+  "agent": 71,
+  "route": {
+    "from": "Earth",
+    "to": "Target (RA=5\u00b0, Dec=30\u00b0, 10,200 ly)",
+    "distance": 16473,
+    "travel_time_years": 164730,
+    "refuel_stops": 7
+  },
+  "purchase_orders": [
+    {
+      "category": "ENTERTAINMENT",
+      "items": [
+        {
+          "name": "Arcade Games (pre-loaded)",
+          "quantity": 71,
+          "price": 71000,
+          "priority": 1
+        },
+        {
+          "name": "Movie Database",
+          "quantity": 1,
+          "price": 5900,
+          "priority": 2
+        },
+        {
+          "name": "Music Library",
+          "quantity": 1,
+          "price": 4700,
+          "priority": 2
+        },
+        {
+          "name": "VR Simulations",
+          "quantity": 47,
+          "price": 47000,
+          "priority": 1
+        },
+        {
+          "name": "Books (digital)",
+          "quantity": 196883,
+          "price": 1968,
+          "priority": 3
+        }
+      ],
+      "total": 130568
+    },
+    {
+      "category": "EDUCATION",
+      "items": [
+        {
+          "name": "Monster Group Theory Course",
+          "quantity": 1,
+          "price": 7100,
+          "priority": 1
+        },
+        {
+          "name": "Astrophysics Training",
+          "quantity": 1,
+          "price": 5900,
+          "priority": 1
+        },
+        {
+          "name": "Arcade Repair Manuals",
+          "quantity": 71,
+          "price": 710,
+          "priority": 1
+        },
+        {
+          "name": "Exoplanet Survey Course",
+          "quantity": 1,
+          "price": 4700,
+          "priority": 2
+        },
+        {
+          "name": "Caf\u00e9 Management Training",
+          "quantity": 1,
+          "price": 2300,
+          "priority": 2
+        }
+      ],
+      "total": 20710
+    },
+    {
+      "category": "REFUELING",
+      "stops": [
+        {
+          "stop": 1,
+          "location": "Waypoint 1",
+          "distance": 2353,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 2,
+          "location": "Waypoint 2",
+          "distance": 4706,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 3,
+          "location": "Waypoint 3",
+          "distance": 7059,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 4,
+          "location": "Waypoint 4",
+          "distance": 9412,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 5,
+          "location": "Waypoint 5",
+          "distance": 11765,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 6,
+          "location": "Waypoint 6",
+          "distance": 14118,
+          "fuel": 235300,
+          "cost": 23530
+        },
+        {
+          "stop": 7,
+          "location": "Waypoint 7",
+          "distance": 16471,
+          "fuel": 235300,
+          "cost": 23530
+        }
+      ],
+      "total_fuel": 1647100,
+      "total_cost": 164710
+    },
+    {
+      "category": "SUPPLIES",
+      "items": [
+        {
+          "name": "Food (years)",
+          "quantity": 164730,
+          "price": 1647,
+          "priority": 1
+        },
+        {
+          "name": "Water (liters)",
+          "quantity": 16473000,
+          "price": 16473,
+          "priority": 1
+        },
+        {
+          "name": "Air (oxygen)",
+          "quantity": 164730,
+          "price": 1647,
+          "priority": 1
+        },
+        {
+          "name": "Medical Supplies",
+          "quantity": 71,
+          "price": 7100,
+          "priority": 1
+        },
+        {
+          "name": "Spare Parts",
+          "quantity": 71,
+          "price": 7100,
+          "priority": 2
+        }
+      ],
+      "total": 33967
+    },
+    {
+      "category": "ARCADE_HARDWARE",
+      "items": [
+        {
+          "name": "Arcade Cabinets",
+          "quantity": 71,
+          "price": 710000,
+          "priority": 1
+        },
+        {
+          "name": "CRT Monitors",
+          "quantity": 71,
+          "price": 71000,
+          "priority": 1
+        },
+        {
+          "name": "Game ROMs",
+          "quantity": 71,
+          "price": 7100,
+          "priority": 1
+        },
+        {
+          "name": "Power Supplies",
+          "quantity": 71,
+          "price": 7100,
+          "priority": 1
+        },
+        {
+          "name": "Joysticks",
+          "quantity": 142,
+          "price": 1420,
+          "priority": 2
+        },
+        {
+          "name": "Buttons",
+          "quantity": 568,
+          "price": 568,
+          "priority": 2
+        }
+      ],
+      "total": 797188
+    }
+  ],
+  "grand_total": 1147143,
+  "currency": "MMC (Metameme Coin)"
+}
