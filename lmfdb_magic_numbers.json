@@ -1,0 +1,4278 @@
+{
+  "magic_numbers": {
+    "monster_order": 808017424794512875886459904961710757005754368000000000,
+    "monster_dim": 196884,
+    "j_invariant_196884": 196884,
+    "j_constant_744": 744,
+    "tau_691": 691,
+    "tau_24": 24,
+    "moonshine_196883": 196883,
+    "moonshine_21493760": 21493760,
+    "rooster": 71,
+    "bdi_primes": [
+      3,
+      13,
+      17,
+      23,
+      43,
+      53,
+      63
+    ],
+    "dedekind_24": 24,
+    "eisenstein_240": 240,
+    "eisenstein_504": 504,
+    "eisenstein_480": 480,
+    "eisenstein_264": 264,
+    "discriminant_1728": 1728
+  },
+  "found": {
+    "tau_24": [
+      {
+        "file": "vectors_layer_67.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_53.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_06.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 99,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 80,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 92,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "repo_name",
+        "count": 4,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 131,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 168,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "star_events_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_61.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_23.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_12.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_19.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "shard_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "witness_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "level",
+        "count": 5,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "proof_hash",
+        "count": 6,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_01.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "number",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "j_invariant",
+        "count": 64,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "class_name",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_symbol",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_formula",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "function_signature",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "module_name",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 197,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 32,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "shard",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "complexity",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_64.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_46.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_54.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_50.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_41.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_36.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 158,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 130,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "repo_name",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 108,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_70.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_45.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_11.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "row",
+        "count": 213,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "cell_value",
+        "count": 213,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "layer",
+        "count": 300,
+        "value": 24
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 1081,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_14.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_69.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_27.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "all_parquet_vectors.parquet",
+        "column": "layer",
+        "count": 408,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_02.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_17.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_00.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_34.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_25.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_65.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_49.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_26.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_30.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_28.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_13.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_48.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_18.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_10.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_08.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_60.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_20.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_63.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 116749,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_09.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_56.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_32.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_06.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_59.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_05.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_40.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_57.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_04.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_44.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_68.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "layer",
+        "count": 1024,
+        "value": 24
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 9,
+        "value": 24
+      },
+      {
+        "file": "stack_v2_lean_sample.parquet",
+        "column": "repo_name",
+        "count": 14,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_29.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 133,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "path",
+        "count": 8,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "repo_name",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 146,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 110,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "fork_events_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "layer",
+        "count": 3553,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 4,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_14.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_16.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_37.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_15.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_58.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_07.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_04.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_13.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_39.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_51.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_31.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_09.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "layer_id",
+        "count": 15,
+        "value": 24
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "weight_to_input",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_38.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "blob_id",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 9,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 17,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 29,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "lines",
+        "count": 2,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_33.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_66.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_02.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_42.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_43.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "blob_id",
+        "count": 15,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "directory_id",
+        "count": 19,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "path",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 16,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 10,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 14,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_47.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_00.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_55.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_07.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_21.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_35.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_01.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_03.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_24.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_08.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "file_path",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "row_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "layer",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_12.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_11.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_52.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_62.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_03.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_05.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_10.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_22.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      }
+    ],
+    "rooster": [
+      {
+        "file": "vectors_layer_67.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_67.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_53.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_53.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_06.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_06.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 81,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 98,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "path",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 87,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 117,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 153,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_61.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_61.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_23.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_23.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_19.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_19.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "object_id",
+        "count": 2,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "code",
+        "count": 24,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "proof_hash",
+        "count": 10,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_01.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_01.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "number",
+        "count": 4,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "class_name",
+        "count": 4,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_symbol",
+        "count": 4,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_formula",
+        "count": 7115,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "function_name",
+        "count": 4,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "function_signature",
+        "count": 7115,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "module_name",
+        "count": 4,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 191,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 19,
+        "value": 71
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "complexity",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_64.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_64.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_46.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_46.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_54.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_54.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_50.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_50.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_41.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_41.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_36.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_36.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 153,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 142,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 150,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 110,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 163,
+        "value": 71
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "star_events_count",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_70.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_70.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_45.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_45.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "row",
+        "count": 213,
+        "value": 71
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "cell_value",
+        "count": 71,
+        "value": 71
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 779,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_14.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_14.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_69.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_69.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_27.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_27.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_17.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_17.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_34.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_34.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_25.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_25.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_65.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_65.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_49.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_49.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_26.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_26.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_30.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_30.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_28.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_28.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_48.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_48.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_18.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_18.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_08.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_08.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_60.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_60.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_20.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_20.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_63.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_63.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 884,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_56.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_56.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "column_models.parquet",
+        "column": "prime_label",
+        "count": 10,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_32.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_32.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_59.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_59.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_40.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_40.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_57.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_57.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_04.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_04.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_44.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_44.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_68.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_68.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "stack_v2_lean_sample.parquet",
+        "column": "repo_name",
+        "count": 2,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_29.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_29.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 117,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 133,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "path",
+        "count": 5,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 138,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "repo_name",
+        "count": 3,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 167,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 146,
+        "value": 71
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "star_events_count",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 2,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_16.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_16.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_37.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_37.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_15.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_15.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_58.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_58.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_13.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_13.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_39.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_39.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_51.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_51.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_31.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_31.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_09.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_09.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "prime_label",
+        "count": 71,
+        "value": 71
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "weight_to_input",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_38.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_38.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "blob_id",
+        "count": 15,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 9,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 15,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 9,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 32,
+        "value": 71
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "lines",
+        "count": 2,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_33.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_33.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_66.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_66.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_02.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_02.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_42.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_42.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_43.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_43.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "blob_id",
+        "count": 10,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "directory_id",
+        "count": 12,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 20,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 8,
+        "value": 71
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 23,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_47.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_47.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_00.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_00.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_55.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_55.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_07.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_07.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_21.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_21.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_35.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_35.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_03.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_03.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_24.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_24.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "file_path",
+        "count": 74,
+        "value": 71
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "row_count",
+        "count": 2,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_12.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_12.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_11.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_11.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_52.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_52.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_62.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_62.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_05.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_05.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_10.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_10.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_22.parquet",
+        "column": "file",
+        "count": 1238,
+        "value": 71
+      },
+      {
+        "file": "vectors_layer_22.parquet",
+        "column": "column",
+        "count": 2516,
+        "value": 71
+      }
+    ],
+    "dedekind_24": [
+      {
+        "file": "vectors_layer_67.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_53.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_06.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 99,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 80,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 92,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "repo_name",
+        "count": 4,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 131,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 168,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "star_events_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_61.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_23.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_12.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_19.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "shard_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "witness_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "level",
+        "count": 5,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "proof_hash",
+        "count": 6,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_01.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "number",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "j_invariant",
+        "count": 64,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "class_name",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_symbol",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "operator_formula",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "function_signature",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "module_name",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 197,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 32,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "shard",
+        "count": 37,
+        "value": 24
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "complexity",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_64.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_46.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_54.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_50.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_41.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_36.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 158,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 130,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "repo_name",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 108,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_70.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_45.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_11.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "row",
+        "count": 213,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "cell_value",
+        "count": 213,
+        "value": 24
+      },
+      {
+        "file": "cell_to_all_layers.parquet",
+        "column": "layer",
+        "count": 300,
+        "value": 24
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 1081,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_14.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_69.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_27.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "all_parquet_vectors.parquet",
+        "column": "layer",
+        "count": 408,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_02.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_17.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_00.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_34.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_25.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_65.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_49.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_26.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_30.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_28.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_13.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_48.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_18.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_10.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_08.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_60.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_20.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_63.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 116749,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_09.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_56.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_32.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_06.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_59.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_05.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_40.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_57.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_04.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_44.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_68.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "layer",
+        "count": 1024,
+        "value": 24
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 9,
+        "value": 24
+      },
+      {
+        "file": "stack_v2_lean_sample.parquet",
+        "column": "repo_name",
+        "count": 14,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_29.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 133,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "path",
+        "count": 8,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 139,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "repo_name",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 146,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 110,
+        "value": 24
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "fork_events_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "layer",
+        "count": 3553,
+        "value": 24
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 4,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_14.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_16.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_37.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_15.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_58.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_07.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_04.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_13.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_39.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_51.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_31.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_09.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "layer_id",
+        "count": 15,
+        "value": 24
+      },
+      {
+        "file": "all_layers_weight_mapping.parquet",
+        "column": "weight_to_input",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_38.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "blob_id",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 9,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 13,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 17,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 29,
+        "value": 24
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "lines",
+        "count": 2,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_33.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_66.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_02.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_42.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_43.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "blob_id",
+        "count": 15,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "directory_id",
+        "count": 19,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "path",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 16,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 10,
+        "value": 24
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 14,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_47.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_00.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_55.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_07.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_21.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_35.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_01.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_03.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_24.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_08.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "file_path",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "row_count",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "parquet_index.parquet",
+        "column": "layer",
+        "count": 3,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_12.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_11.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_52.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_62.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "markov_shard_03.parquet",
+        "column": "bit_index",
+        "count": 1,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_05.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_10.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      },
+      {
+        "file": "vectors_layer_22.parquet",
+        "column": "file",
+        "count": 689,
+        "value": 24
+      }
+    ],
+    "j_constant_744": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 4,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 5,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 6,
+        "value": 744
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 2,
+        "value": 744
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 8,
+        "value": 744
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 7,
+        "value": 744
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 7,
+        "value": 744
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 17,
+        "value": 744
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 8,
+        "value": 744
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 16,
+        "value": 744
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 42,
+        "value": 744
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 10,
+        "value": 744
+      },
+      {
+        "file": "stack_v2_lean_sample.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 10,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 6,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 12,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 7,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 10,
+        "value": 744
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 3,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "blob_id",
+        "count": 2,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 2,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 2,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "size",
+        "count": 1,
+        "value": 744
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 744
+      }
+    ],
+    "tau_691": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 5,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 3,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 4,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 691
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "function_name",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 18,
+        "value": 691
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 2,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 15,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 14,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 10,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 12,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 10,
+        "value": 691
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 42,
+        "value": 691
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 40,
+        "value": 691
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 2,
+        "value": 691
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 9,
+        "value": 691
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 8,
+        "value": 691
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 8,
+        "value": 691
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 8,
+        "value": 691
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 4,
+        "value": 691
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 691
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "blob_id",
+        "count": 2,
+        "value": 691
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "directory_id",
+        "count": 4,
+        "value": 691
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 691
+      }
+    ],
+    "eisenstein_240": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 4,
+        "value": 240
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 11,
+        "value": 240
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 4,
+        "value": 240
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 5,
+        "value": 240
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "proof_hash",
+        "count": 2,
+        "value": 240
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 20,
+        "value": 240
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 2,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 5,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 5,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 8,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "repo_name",
+        "count": 2,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 6,
+        "value": 240
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 7,
+        "value": 240
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 93,
+        "value": 240
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 56,
+        "value": 240
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 18,
+        "value": 240
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 6,
+        "value": 240
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 6,
+        "value": 240
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 12,
+        "value": 240
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 11,
+        "value": 240
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 6,
+        "value": 240
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 240
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 1,
+        "value": 240
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 240
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 4,
+        "value": 240
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "blob_id",
+        "count": 1,
+        "value": 240
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 240
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 2,
+        "value": 240
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 240
+      }
+    ],
+    "eisenstein_504": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 3,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 504
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "object_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "line",
+        "count": 2,
+        "value": 504
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 15,
+        "value": 504
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 14,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 24,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 14,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 7,
+        "value": 504
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 2,
+        "value": 504
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 18,
+        "value": 504
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 51,
+        "value": 504
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 19,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 5,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 7,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 8,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 11,
+        "value": 504
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 7,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 2,
+        "value": 504
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 504
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 504
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 504
+      }
+    ],
+    "eisenstein_480": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 7,
+        "value": 480
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "directory_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 6,
+        "value": 480
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 2,
+        "value": 480
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "code",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 9,
+        "value": 480
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 4,
+        "value": 480
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 12,
+        "value": 480
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 9,
+        "value": 480
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 6,
+        "value": 480
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 14,
+        "value": 480
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 17,
+        "value": 480
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 11,
+        "value": 480
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 59,
+        "value": 480
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 18,
+        "value": 480
+      },
+      {
+        "file": "stack_v2_lean_sample.parquet",
+        "column": "repo_name",
+        "count": 2,
+        "value": 480
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 3,
+        "value": 480
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 7,
+        "value": 480
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 11,
+        "value": 480
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 3,
+        "value": 480
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 18,
+        "value": 480
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 6,
+        "value": 480
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "repo_name",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 1,
+        "value": 480
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 480
+      }
+    ],
+    "eisenstein_264": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "blob_id",
+        "count": 2,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 4,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "snapshot_id",
+        "count": 8,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "revision_id",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 264
+      },
+      {
+        "file": "lmfdb_reconstructed.parquet",
+        "column": "proof_hash",
+        "count": 1,
+        "value": 264
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 13,
+        "value": 264
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "line",
+        "count": 5,
+        "value": 264
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 11,
+        "value": 264
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "directory_id",
+        "count": 3,
+        "value": 264
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 5,
+        "value": 264
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 9,
+        "value": 264
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 42,
+        "value": 264
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 57,
+        "value": 264
+      },
+      {
+        "file": "zkml_witness.parquet",
+        "column": "commit_hash",
+        "count": 1,
+        "value": 264
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 14,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "directory_id",
+        "count": 10,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "content_id",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "snapshot_id",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "revision_id",
+        "count": 3,
+        "value": 264
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 1,
+        "value": 264
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 264
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 7,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "blob_id",
+        "count": 3,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "directory_id",
+        "count": 12,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "content_id",
+        "count": 3,
+        "value": 264
+      },
+      {
+        "file": "stack_gap_sample.parquet",
+        "column": "revision_id",
+        "count": 3,
+        "value": 264
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "content_id",
+        "count": 4,
+        "value": 264
+      },
+      {
+        "file": "stack_sage_sample.parquet",
+        "column": "snapshot_id",
+        "count": 3,
+        "value": 264
+      }
+    ],
+    "discriminant_1728": [
+      {
+        "file": "stack_gap_group_theory.parquet",
+        "column": "content_id",
+        "count": 1,
+        "value": 1728
+      },
+      {
+        "file": "lmfdb_jinvariant_objects.parquet",
+        "column": "id",
+        "count": 2,
+        "value": 1728
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "blob_id",
+        "count": 2,
+        "value": 1728
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "content_id",
+        "count": 2,
+        "value": 1728
+      },
+      {
+        "file": "stack_julia_harmonics.parquet",
+        "column": "revision_id",
+        "count": 1,
+        "value": 1728
+      },
+      {
+        "file": "files_to_layer1_shards.parquet",
+        "column": "file_path",
+        "count": 2,
+        "value": 1728
+      },
+      {
+        "file": "lean_files_on_disk.parquet",
+        "column": "path",
+        "count": 1,
+        "value": 1728
+      },
+      {
+        "file": "multilayer_lattice.parquet",
+        "column": "token",
+        "count": 18,
+        "value": 1728
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "blob_id",
+        "count": 1,
+        "value": 1728
+      },
+      {
+        "file": "stack_matlab_harmonics.parquet",
+        "column": "length_bytes",
+        "count": 2,
+        "value": 1728
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 1728
+      },
+      {
+        "file": "harmonic_index.parquet",
+        "column": "token",
+        "count": 3,
+        "value": 1728
+      }
+    ],
+    "monster_dim": [
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 196884
+      }
+    ],
+    "j_invariant_196884": [
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 196884
+      }
+    ],
+    "moonshine_196883": [
+      {
+        "file": "harmonic_index.parquet",
+        "column": "row_id",
+        "count": 1,
+        "value": 196883
+      }
+    ]
+  },
+  "j_invariants": {
+    "count": 0,
+    "sample": []
+  }
+}
