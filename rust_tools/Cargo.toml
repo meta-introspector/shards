@@ -1,0 +1,15 @@
+[package]
+name = "monster-cli"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+walkdir = "2.4"
+
+[[bin]]
+name = "monster"
+path = "src/main.rs"

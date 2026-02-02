@@ -1,0 +1,17 @@
+[package]
+name = "hecke-bott-sharding"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+authors = ["Meta-Introspector <shards@solfunmeme.com>"]
+description = "Sharding system using 15 Hecke operators × 10 Bott classes → 71 shards"
+
+[dependencies]
+
+[[bin]]
+name = "hecke-bott-sharding"
+path = "src/lib.rs"
+
+[lib]
+name = "hecke_bott_sharding"
+path = "src/lib.rs"

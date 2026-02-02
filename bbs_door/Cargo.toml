@@ -1,0 +1,15 @@
+[package]
+name = "monster-arcade-door"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+authors = ["Meta-Introspector <shards@solfunmeme.com>"]
+description = "Monster Group Arcade - BBS door game with 71 games ordered by Hecke operators"
+repository = "https://github.com/meta-introspector/introspector"
+
+[dependencies]
+crossterm = "0.27"
+
+[[bin]]
+name = "monster-arcade"
+path = "src/main.rs"
