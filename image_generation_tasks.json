@@ -1,0 +1,1422 @@
+[
+  {
+    "shard": 0,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 0,
+    "prompt": "Monster shard #00: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 0 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10579,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 0,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 1,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 432,
+    "prompt": "Monster shard #01: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 432 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10580,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 1,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 2,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 864,
+    "prompt": "Monster shard #02: AI class, Orthogonal, grid, crystalline, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 864 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10581,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 2,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 3,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 1296,
+    "prompt": "Monster shard #03: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 1296 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10511,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 3,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 4,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 1728,
+    "prompt": "Monster shard #04: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 1728 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10512,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 4,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 5,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 2160,
+    "prompt": "Monster shard #05: DIII class, Mycelium, network, web, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 2160 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10513,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 5,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 6,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 2592,
+    "prompt": "Monster shard #06: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 2592 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10514,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 6,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 7,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 3024,
+    "prompt": "Monster shard #07: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 3024 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10515,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 7,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 8,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 3456,
+    "prompt": "Monster shard #08: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 3456 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10516,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 8,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 9,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 3888,
+    "prompt": "Monster shard #09: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 3888 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10517,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 9,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 10,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 4320,
+    "prompt": "Monster shard #10: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 4320 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10518,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 10,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 11,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 4752,
+    "prompt": "Monster shard #11: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 4752 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10519,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 11,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 12,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 5184,
+    "prompt": "Monster shard #12: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 5184 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10520,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 12,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 13,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 5616,
+    "prompt": "Monster shard #13: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 5616 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10521,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 13,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 14,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 6048,
+    "prompt": "Monster shard #14: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 6048 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10522,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 14,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 15,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 6480,
+    "prompt": "Monster shard #15: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 6480 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10523,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 15,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 16,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 6912,
+    "prompt": "Monster shard #16: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 6912 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10524,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 16,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 17,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 7344,
+    "prompt": "Monster shard #17: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 7344 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10525,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 17,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 18,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 7776,
+    "prompt": "Monster shard #18: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 7776 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10526,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 18,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 19,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 8208,
+    "prompt": "Monster shard #19: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 8208 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10527,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 19,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 20,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 8640,
+    "prompt": "Monster shard #20: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 8640 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10528,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 20,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 21,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 9072,
+    "prompt": "Monster shard #21: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 9072 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10529,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 21,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 22,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 9504,
+    "prompt": "Monster shard #22: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 9504 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10530,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 22,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 23,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 9936,
+    "prompt": "Monster shard #23: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 9936 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10531,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 23,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 24,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 10368,
+    "prompt": "Monster shard #24: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 10368 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10532,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 24,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 25,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 10800,
+    "prompt": "Monster shard #25: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 10800 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10533,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 25,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 26,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 11232,
+    "prompt": "Monster shard #26: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 11232 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10534,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 26,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 27,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 11664,
+    "prompt": "Monster shard #27: CII class, Demonic, chaotic, fire, composite harmony, smooth curves, flowing forms, resonating at 11664 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10535,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 27,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 28,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 12096,
+    "prompt": "Monster shard #28: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 12096 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10536,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 28,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 29,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 12528,
+    "prompt": "Monster shard #29: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 12528 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10537,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 29,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 30,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 12960,
+    "prompt": "Monster shard #30: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 12960 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10538,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 30,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 31,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 13392,
+    "prompt": "Monster shard #31: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 13392 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10539,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 31,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 32,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 13824,
+    "prompt": "Monster shard #32: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 13824 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10540,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 32,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 33,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 14256,
+    "prompt": "Monster shard #33: BDI class, Life-bearing, organic, fractal, composite harmony, smooth curves, flowing forms, resonating at 14256 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10541,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 33,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 34,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 14688,
+    "prompt": "Monster shard #34: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 14688 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10542,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 34,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 35,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 15120,
+    "prompt": "Monster shard #35: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 15120 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10543,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 35,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 36,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 15552,
+    "prompt": "Monster shard #36: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 15552 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10544,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 36,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 37,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "frequency": 15984,
+    "prompt": "Monster shard #37: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, resonating at 15984 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10545,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 37,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 38,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 16416,
+    "prompt": "Monster shard #38: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 16416 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10546,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 38,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 39,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 16848,
+    "prompt": "Monster shard #39: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 16848 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10547,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 39,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 40,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 17280,
+    "prompt": "Monster shard #40: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 17280 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10548,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 40,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 41,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 17712,
+    "prompt": "Monster shard #41: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 17712 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10549,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 41,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 42,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 18144,
+    "prompt": "Monster shard #42: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 18144 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10550,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 42,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 43,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "frequency": 18576,
+    "prompt": "Monster shard #43: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, resonating at 18576 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10551,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 43,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 44,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 19008,
+    "prompt": "Monster shard #44: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 19008 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10552,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 44,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 45,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 19440,
+    "prompt": "Monster shard #45: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 19440 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10553,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 45,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 46,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 19872,
+    "prompt": "Monster shard #46: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 19872 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10554,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 46,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 47,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 20304,
+    "prompt": "Monster shard #47: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 20304 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10555,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 47,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 48,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 20736,
+    "prompt": "Monster shard #48: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 20736 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10556,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 48,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 49,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 21168,
+    "prompt": "Monster shard #49: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 21168 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10557,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 49,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 50,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 21600,
+    "prompt": "Monster shard #50: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 21600 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10558,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 50,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 51,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 22032,
+    "prompt": "Monster shard #51: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 22032 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10559,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 51,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 52,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 22464,
+    "prompt": "Monster shard #52: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 22464 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10560,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 52,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 53,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "frequency": 22896,
+    "prompt": "Monster shard #53: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, resonating at 22896 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10561,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 53,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 54,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 23328,
+    "prompt": "Monster shard #54: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 23328 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10562,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 54,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 55,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 23760,
+    "prompt": "Monster shard #55: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 23760 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10563,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 55,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 56,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 24192,
+    "prompt": "Monster shard #56: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 24192 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10564,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 56,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 57,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 24624,
+    "prompt": "Monster shard #57: CII class, Demonic, chaotic, fire, composite harmony, smooth curves, flowing forms, resonating at 24624 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10565,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 57,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 58,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 25056,
+    "prompt": "Monster shard #58: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 25056 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10566,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 58,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 59,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "frequency": 25488,
+    "prompt": "Monster shard #59: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 25488 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-xl",
+    "seed": 10567,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 59,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 60,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 25920,
+    "prompt": "Monster shard #60: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 25920 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10568,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 60,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 61,
+    "class": 1,
+    "name": "AIII",
+    "emoji": "\ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "frequency": 26352,
+    "prompt": "Monster shard #61: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, resonating at 26352 Hz, embodying \ud83d\ude0a",
+    "style": "Chiral, spiral, helical",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10569,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 61,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 62,
+    "class": 2,
+    "name": "AI",
+    "emoji": "\ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 26784,
+    "prompt": "Monster shard #62: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 26784 Hz, embodying \ud83d\ude0e",
+    "style": "Orthogonal, grid, crystalline",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10570,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 62,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 63,
+    "class": 3,
+    "name": "BDI",
+    "emoji": "\ud83c\udf33",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 27216,
+    "prompt": "Monster shard #63: BDI class, Life-bearing, organic, fractal, composite harmony, smooth curves, flowing forms, resonating at 27216 Hz, embodying \ud83c\udf33",
+    "style": "Life-bearing, organic, fractal",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10571,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 63,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 64,
+    "class": 4,
+    "name": "D",
+    "emoji": "\ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 27648,
+    "prompt": "Monster shard #64: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 27648 Hz, embodying \ud83d\ude08",
+    "style": "Symplectic, flowing, liquid",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10572,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 64,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 65,
+    "class": 5,
+    "name": "DIII",
+    "emoji": "\ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 28080,
+    "prompt": "Monster shard #65: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 28080 Hz, embodying \ud83c\udf44",
+    "style": "Mycelium, network, web",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10573,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 65,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 66,
+    "class": 6,
+    "name": "AII",
+    "emoji": "\ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 28512,
+    "prompt": "Monster shard #66: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 28512 Hz, embodying \ud83e\udd85",
+    "style": "Unitary, soaring, aerial",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10574,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 66,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 67,
+    "class": 7,
+    "name": "CII",
+    "emoji": "\ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "frequency": 28944,
+    "prompt": "Monster shard #67: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, resonating at 28944 Hz, embodying \ud83d\udc79",
+    "style": "Demonic, chaotic, fire",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10575,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 67,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 68,
+    "class": 8,
+    "name": "C",
+    "emoji": "\ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 29376,
+    "prompt": "Monster shard #68: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 29376 Hz, embodying \ud83d\udc13",
+    "style": "Rooster, dawn, awakening",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10576,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 68,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 69,
+    "class": 9,
+    "name": "CI",
+    "emoji": "\ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 29808,
+    "prompt": "Monster shard #69: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 29808 Hz, embodying \ud83c\udf00",
+    "style": "Vortex, spiral, cyclone",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10577,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 69,
+      "optimal": true
+    }
+  },
+  {
+    "shard": 70,
+    "class": 0,
+    "name": "A",
+    "emoji": "\ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "frequency": 30240,
+    "prompt": "Monster shard #70: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 30240 Hz, embodying \ud83d\ude10",
+    "style": "Trivial symmetry, minimalist, void",
+    "negative_prompt": "blurry, low quality, text, watermark",
+    "dimensions": "1024x1024",
+    "model": "stable-diffusion-v2",
+    "seed": 10578,
+    "seed_properties": {
+      "variance": 70,
+      "hecke_resonance": 70,
+      "optimal": true
+    }
+  }
+]

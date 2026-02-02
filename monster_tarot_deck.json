@@ -1,0 +1,2203 @@
+[
+  {
+    "number": 0,
+    "name": "The Void",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10579,
+    "frequency": 0,
+    "meaning_upright": "Emptiness, potential, the unmanifest",
+    "meaning_reversed": "Stagnation, nothingness",
+    "prompt": "Monster shard #00: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 0 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10579 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Mercury",
+      "zodiac": "Aries",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 0,
+      "shard_class": 0,
+      "irrep": 0,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 1,
+    "name": "The AIII 1",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10580,
+    "frequency": 432,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #01: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 432 Hz, embodying \ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10580 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Venus",
+      "zodiac": "Taurus",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 1,
+      "shard_class": 1,
+      "irrep": 1,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 2,
+    "name": "The AI 2",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10581,
+    "frequency": 864,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #02: AI class, Orthogonal, grid, crystalline, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 864 Hz, embodying \ud83d\ude0e",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10581 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Mars",
+      "zodiac": "Gemini",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 2,
+      "shard_class": 2,
+      "irrep": 2,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 3,
+    "name": "The Tree of Life",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10511,
+    "frequency": 1296,
+    "meaning_upright": "Growth, vitality, organic emergence",
+    "meaning_reversed": "Decay, withering",
+    "prompt": "Monster shard #03: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 1296 Hz, embodying \ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10511 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Jupiter",
+      "zodiac": "Cancer",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 3,
+      "shard_class": 3,
+      "irrep": 3,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 4,
+    "name": "The D 4",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10512,
+    "frequency": 1728,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #04: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 1728 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10512 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Saturn",
+      "zodiac": "Leo",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 4,
+      "shard_class": 4,
+      "irrep": 4,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 5,
+    "name": "The DIII 5",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10513,
+    "frequency": 2160,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #05: DIII class, Mycelium, network, web, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 2160 Hz, embodying \ud83c\udf44",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10513 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Uranus",
+      "zodiac": "Virgo",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 5,
+      "shard_class": 5,
+      "irrep": 5,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 6,
+    "name": "The AII 6",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10514,
+    "frequency": 2592,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #06: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 2592 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10514 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Neptune",
+      "zodiac": "Libra",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 6,
+      "shard_class": 6,
+      "irrep": 6,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 7,
+    "name": "The CII 7",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10515,
+    "frequency": 3024,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #07: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 3024 Hz, embodying \ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10515 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Mercury",
+      "zodiac": "Scorpio",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 7,
+      "shard_class": 7,
+      "irrep": 7,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 8,
+    "name": "The C 8",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10516,
+    "frequency": 3456,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #08: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 3456 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10516 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Venus",
+      "zodiac": "Sagittarius",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 8,
+      "shard_class": 8,
+      "irrep": 8,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 9,
+    "name": "The CI 9",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10517,
+    "frequency": 3888,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #09: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 3888 Hz, embodying \ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10517 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Mars",
+      "zodiac": "Capricorn",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 9,
+      "shard_class": 9,
+      "irrep": 9,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 10,
+    "name": "The A 10",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10518,
+    "frequency": 4320,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #10: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 4320 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10518 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Jupiter",
+      "zodiac": "Aquarius",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 10,
+      "shard_class": 0,
+      "irrep": 10,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 11,
+    "name": "The AIII 11",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10519,
+    "frequency": 4752,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #11: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 4752 Hz, embodying \ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10519 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Saturn",
+      "zodiac": "Pisces",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 11,
+      "shard_class": 1,
+      "irrep": 11,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 12,
+    "name": "The AI 12",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10520,
+    "frequency": 5184,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #12: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 5184 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10520 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Uranus",
+      "zodiac": "Aries",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 12,
+      "shard_class": 2,
+      "irrep": 12,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 13,
+    "name": "The BDI 13",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10521,
+    "frequency": 5616,
+    "meaning_upright": "\ud83c\udf33 Life-bearing, organic, fractal",
+    "meaning_reversed": "Blocked BDI energy",
+    "prompt": "Monster shard #13: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 5616 Hz, embodying \ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10521 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Neptune",
+      "zodiac": "Taurus",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 13,
+      "shard_class": 3,
+      "irrep": 13,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 14,
+    "name": "The D 14",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10522,
+    "frequency": 6048,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #14: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 6048 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10522 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Mercury",
+      "zodiac": "Gemini",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 14,
+      "shard_class": 4,
+      "irrep": 14,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 15,
+    "name": "The DIII 15",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10523,
+    "frequency": 6480,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #15: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 6480 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10523 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Venus",
+      "zodiac": "Cancer",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 15,
+      "shard_class": 5,
+      "irrep": 15,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 16,
+    "name": "The AII 16",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10524,
+    "frequency": 6912,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #16: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 6912 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10524 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Mars",
+      "zodiac": "Leo",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 16,
+      "shard_class": 6,
+      "irrep": 16,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 17,
+    "name": "The CII 17",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10525,
+    "frequency": 7344,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #17: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 7344 Hz, embodying \ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10525 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Jupiter",
+      "zodiac": "Virgo",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 17,
+      "shard_class": 7,
+      "irrep": 17,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 18,
+    "name": "The C 18",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10526,
+    "frequency": 7776,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #18: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 7776 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10526 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Saturn",
+      "zodiac": "Libra",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 18,
+      "shard_class": 8,
+      "irrep": 18,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 19,
+    "name": "The CI 19",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10527,
+    "frequency": 8208,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #19: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 8208 Hz, embodying \ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10527 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Uranus",
+      "zodiac": "Scorpio",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 19,
+      "shard_class": 9,
+      "irrep": 19,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 20,
+    "name": "The A 20",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10528,
+    "frequency": 8640,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #20: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 8640 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10528 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Neptune",
+      "zodiac": "Sagittarius",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 20,
+      "shard_class": 0,
+      "irrep": 20,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 21,
+    "name": "The AIII 21",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10529,
+    "frequency": 9072,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #21: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 9072 Hz, embodying \ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10529 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Mercury",
+      "zodiac": "Capricorn",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 21,
+      "shard_class": 1,
+      "irrep": 21,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 22,
+    "name": "The AI 22",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10530,
+    "frequency": 9504,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #22: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 9504 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10530 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Venus",
+      "zodiac": "Aquarius",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 22,
+      "shard_class": 2,
+      "irrep": 22,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 23,
+    "name": "The Earth Chokepoint",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10531,
+    "frequency": 9936,
+    "meaning_upright": "Consensus, grounding, stability",
+    "meaning_reversed": "Fragmentation, chaos",
+    "prompt": "Monster shard #23: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 9936 Hz, embodying \ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10531 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Mars",
+      "zodiac": "Pisces",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 23,
+      "shard_class": 3,
+      "irrep": 23,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 24,
+    "name": "The D 24",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10532,
+    "frequency": 10368,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #24: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 10368 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10532 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Jupiter",
+      "zodiac": "Aries",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 24,
+      "shard_class": 4,
+      "irrep": 24,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 25,
+    "name": "The DIII 25",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10533,
+    "frequency": 10800,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #25: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 10800 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10533 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Saturn",
+      "zodiac": "Taurus",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 25,
+      "shard_class": 5,
+      "irrep": 25,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 26,
+    "name": "The AII 26",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10534,
+    "frequency": 11232,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #26: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 11232 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10534 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Uranus",
+      "zodiac": "Gemini",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 26,
+      "shard_class": 6,
+      "irrep": 26,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 27,
+    "name": "The CII 27",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10535,
+    "frequency": 11664,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #27: CII class, Demonic, chaotic, fire, composite harmony, smooth curves, flowing forms, resonating at 11664 Hz, embodying \ud83d\udc79",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10535 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Neptune",
+      "zodiac": "Cancer",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 27,
+      "shard_class": 7,
+      "irrep": 27,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 28,
+    "name": "The C 28",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10536,
+    "frequency": 12096,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #28: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 12096 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10536 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Mercury",
+      "zodiac": "Leo",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 28,
+      "shard_class": 8,
+      "irrep": 28,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 29,
+    "name": "The CI 29",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10537,
+    "frequency": 12528,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #29: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 12528 Hz, embodying \ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10537 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Venus",
+      "zodiac": "Virgo",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 29,
+      "shard_class": 9,
+      "irrep": 29,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 30,
+    "name": "The A 30",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10538,
+    "frequency": 12960,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #30: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 12960 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10538 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Mars",
+      "zodiac": "Libra",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 30,
+      "shard_class": 0,
+      "irrep": 30,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 31,
+    "name": "The AIII 31",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10539,
+    "frequency": 13392,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #31: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 13392 Hz, embodying \ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10539 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Jupiter",
+      "zodiac": "Scorpio",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 31,
+      "shard_class": 1,
+      "irrep": 31,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 32,
+    "name": "The AI 32",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10540,
+    "frequency": 13824,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #32: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 13824 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10540 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Saturn",
+      "zodiac": "Sagittarius",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 32,
+      "shard_class": 2,
+      "irrep": 32,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 33,
+    "name": "The BDI 33",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10541,
+    "frequency": 14256,
+    "meaning_upright": "\ud83c\udf33 Life-bearing, organic, fractal",
+    "meaning_reversed": "Blocked BDI energy",
+    "prompt": "Monster shard #33: BDI class, Life-bearing, organic, fractal, composite harmony, smooth curves, flowing forms, resonating at 14256 Hz, embodying \ud83c\udf33",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10541 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Uranus",
+      "zodiac": "Capricorn",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 33,
+      "shard_class": 3,
+      "irrep": 33,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 34,
+    "name": "The D 34",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10542,
+    "frequency": 14688,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #34: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 14688 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10542 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Neptune",
+      "zodiac": "Aquarius",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 34,
+      "shard_class": 4,
+      "irrep": 34,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 35,
+    "name": "The DIII 35",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10543,
+    "frequency": 15120,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #35: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 15120 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10543 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Mercury",
+      "zodiac": "Pisces",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 35,
+      "shard_class": 5,
+      "irrep": 35,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 36,
+    "name": "The AII 36",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10544,
+    "frequency": 15552,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #36: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 15552 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10544 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Venus",
+      "zodiac": "Aries",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 36,
+      "shard_class": 6,
+      "irrep": 36,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 37,
+    "name": "The CII 37",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10545,
+    "frequency": 15984,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #37: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, resonating at 15984 Hz, embodying \ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10545 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Mars",
+      "zodiac": "Taurus",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 37,
+      "shard_class": 7,
+      "irrep": 37,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 38,
+    "name": "The C 38",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10546,
+    "frequency": 16416,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #38: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 16416 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10546 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Jupiter",
+      "zodiac": "Gemini",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 38,
+      "shard_class": 8,
+      "irrep": 38,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 39,
+    "name": "The CI 39",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10547,
+    "frequency": 16848,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #39: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 16848 Hz, embodying \ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10547 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Saturn",
+      "zodiac": "Cancer",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 39,
+      "shard_class": 9,
+      "irrep": 39,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 40,
+    "name": "The A 40",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10548,
+    "frequency": 17280,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #40: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 17280 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10548 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Uranus",
+      "zodiac": "Leo",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 40,
+      "shard_class": 0,
+      "irrep": 40,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 41,
+    "name": "The AIII 41",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10549,
+    "frequency": 17712,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #41: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 17712 Hz, embodying \ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10549 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Neptune",
+      "zodiac": "Virgo",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 41,
+      "shard_class": 1,
+      "irrep": 41,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 42,
+    "name": "The AI 42",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10550,
+    "frequency": 18144,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #42: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 18144 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10550 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Mercury",
+      "zodiac": "Libra",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 42,
+      "shard_class": 2,
+      "irrep": 42,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 43,
+    "name": "The BDI 43",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10551,
+    "frequency": 18576,
+    "meaning_upright": "\ud83c\udf33 Life-bearing, organic, fractal",
+    "meaning_reversed": "Blocked BDI energy",
+    "prompt": "Monster shard #43: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, resonating at 18576 Hz, embodying \ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10551 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Venus",
+      "zodiac": "Scorpio",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 43,
+      "shard_class": 3,
+      "irrep": 43,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 44,
+    "name": "The D 44",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10552,
+    "frequency": 19008,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #44: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 19008 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10552 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Mars",
+      "zodiac": "Sagittarius",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 44,
+      "shard_class": 4,
+      "irrep": 44,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 45,
+    "name": "The DIII 45",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10553,
+    "frequency": 19440,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #45: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 19440 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10553 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Jupiter",
+      "zodiac": "Capricorn",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 45,
+      "shard_class": 5,
+      "irrep": 45,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 46,
+    "name": "The AII 46",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10554,
+    "frequency": 19872,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #46: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 19872 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10554 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Saturn",
+      "zodiac": "Aquarius",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 46,
+      "shard_class": 6,
+      "irrep": 46,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 47,
+    "name": "The Demon",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10555,
+    "frequency": 20304,
+    "meaning_upright": "Shadow work, transformation, power",
+    "meaning_reversed": "Destruction, corruption",
+    "prompt": "Monster shard #47: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 20304 Hz, embodying \ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10555 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Uranus",
+      "zodiac": "Pisces",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 47,
+      "shard_class": 7,
+      "irrep": 47,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 48,
+    "name": "The C 48",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10556,
+    "frequency": 20736,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #48: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 20736 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10556 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Neptune",
+      "zodiac": "Aries",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 48,
+      "shard_class": 8,
+      "irrep": 48,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 49,
+    "name": "The CI 49",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10557,
+    "frequency": 21168,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #49: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 21168 Hz, embodying \ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10557 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Mercury",
+      "zodiac": "Taurus",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 49,
+      "shard_class": 9,
+      "irrep": 49,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 50,
+    "name": "The A 50",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10558,
+    "frequency": 21600,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #50: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 21600 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10558 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Venus",
+      "zodiac": "Gemini",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 50,
+      "shard_class": 0,
+      "irrep": 50,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 51,
+    "name": "The AIII 51",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10559,
+    "frequency": 22032,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #51: AIII class, Chiral, spiral, helical, composite harmony, smooth curves, flowing forms, resonating at 22032 Hz, embodying \ud83d\ude0a",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10559 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Mars",
+      "zodiac": "Cancer",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 51,
+      "shard_class": 1,
+      "irrep": 51,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 52,
+    "name": "The AI 52",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10560,
+    "frequency": 22464,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #52: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 22464 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10560 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Jupiter",
+      "zodiac": "Leo",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 52,
+      "shard_class": 2,
+      "irrep": 52,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 53,
+    "name": "The BDI 53",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10561,
+    "frequency": 22896,
+    "meaning_upright": "\ud83c\udf33 Life-bearing, organic, fractal",
+    "meaning_reversed": "Blocked BDI energy",
+    "prompt": "Monster shard #53: BDI class, Life-bearing, organic, fractal, prime number energy, sharp edges, crystalline structure, resonating at 22896 Hz, embodying \ud83c\udf33",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10561 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Saturn",
+      "zodiac": "Virgo",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 53,
+      "shard_class": 3,
+      "irrep": 53,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 54,
+    "name": "The D 54",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10562,
+    "frequency": 23328,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #54: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 23328 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10562 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Uranus",
+      "zodiac": "Libra",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 54,
+      "shard_class": 4,
+      "irrep": 54,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 55,
+    "name": "The DIII 55",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10563,
+    "frequency": 23760,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #55: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 23760 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10563 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Neptune",
+      "zodiac": "Scorpio",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 55,
+      "shard_class": 5,
+      "irrep": 55,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 56,
+    "name": "The AII 56",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10564,
+    "frequency": 24192,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #56: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 24192 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10564 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Mercury",
+      "zodiac": "Sagittarius",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 56,
+      "shard_class": 6,
+      "irrep": 56,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 57,
+    "name": "The CII 57",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10565,
+    "frequency": 24624,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #57: CII class, Demonic, chaotic, fire, composite harmony, smooth curves, flowing forms, resonating at 24624 Hz, embodying \ud83d\udc79",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10565 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Venus",
+      "zodiac": "Capricorn",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 57,
+      "shard_class": 7,
+      "irrep": 57,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 58,
+    "name": "The C 58",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10566,
+    "frequency": 25056,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #58: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 25056 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10566 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Mars",
+      "zodiac": "Aquarius",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 58,
+      "shard_class": 8,
+      "irrep": 58,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 59,
+    "name": "The CI 59",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10567,
+    "frequency": 25488,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #59: CI class, Vortex, spiral, cyclone, prime number energy, sharp edges, crystalline structure, MONSTER PRIME POWER, glowing aura, divine geometry, resonating at 25488 Hz, embodying \ud83c\udf00",
+    "is_prime": true,
+    "is_monster_prime": true,
+    "pipeline": {
+      "step1": "seed=10567 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Jupiter",
+      "zodiac": "Pisces",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 59,
+      "shard_class": 9,
+      "irrep": 59,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 60,
+    "name": "The A 60",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10568,
+    "frequency": 25920,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #60: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 25920 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10568 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Saturn",
+      "zodiac": "Aries",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 60,
+      "shard_class": 0,
+      "irrep": 60,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 61,
+    "name": "The AIII 61",
+    "emoji": "\ud83d\ude0a",
+    "class": "AIII",
+    "seed": 10569,
+    "frequency": 26352,
+    "meaning_upright": "\ud83d\ude0a Chiral, spiral, helical",
+    "meaning_reversed": "Blocked AIII energy",
+    "prompt": "Monster shard #61: AIII class, Chiral, spiral, helical, prime number energy, sharp edges, crystalline structure, resonating at 26352 Hz, embodying \ud83d\ude0a",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10569 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Uranus",
+      "zodiac": "Taurus",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 61,
+      "shard_class": 1,
+      "irrep": 61,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 62,
+    "name": "The AI 62",
+    "emoji": "\ud83d\ude0e",
+    "class": "AI",
+    "seed": 10570,
+    "frequency": 26784,
+    "meaning_upright": "\ud83d\ude0e Orthogonal, grid, crystalline",
+    "meaning_reversed": "Blocked AI energy",
+    "prompt": "Monster shard #62: AI class, Orthogonal, grid, crystalline, composite harmony, smooth curves, flowing forms, resonating at 26784 Hz, embodying \ud83d\ude0e",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10570 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Neptune",
+      "zodiac": "Gemini",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 62,
+      "shard_class": 2,
+      "irrep": 62,
+      "bott_level": 6
+    }
+  },
+  {
+    "number": 63,
+    "name": "The BDI 63",
+    "emoji": "\ud83c\udf33",
+    "class": "BDI",
+    "seed": 10571,
+    "frequency": 27216,
+    "meaning_upright": "\ud83c\udf33 Life-bearing, organic, fractal",
+    "meaning_reversed": "Blocked BDI energy",
+    "prompt": "Monster shard #63: BDI class, Life-bearing, organic, fractal, composite harmony, smooth curves, flowing forms, resonating at 27216 Hz, embodying \ud83c\udf33",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10571 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Mercury",
+      "zodiac": "Cancer",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 63,
+      "shard_class": 3,
+      "irrep": 63,
+      "bott_level": 7
+    }
+  },
+  {
+    "number": 64,
+    "name": "The D 64",
+    "emoji": "\ud83d\ude08",
+    "class": "D",
+    "seed": 10572,
+    "frequency": 27648,
+    "meaning_upright": "\ud83d\ude08 Symplectic, flowing, liquid",
+    "meaning_reversed": "Blocked D energy",
+    "prompt": "Monster shard #64: D class, Symplectic, flowing, liquid, composite harmony, smooth curves, flowing forms, resonating at 27648 Hz, embodying \ud83d\ude08",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10572 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Venus",
+      "zodiac": "Leo",
+      "chakra": "Sacral"
+    },
+    "monster": {
+      "hecke": 64,
+      "shard_class": 4,
+      "irrep": 64,
+      "bott_level": 0
+    }
+  },
+  {
+    "number": 65,
+    "name": "The DIII 65",
+    "emoji": "\ud83c\udf44",
+    "class": "DIII",
+    "seed": 10573,
+    "frequency": 28080,
+    "meaning_upright": "\ud83c\udf44 Mycelium, network, web",
+    "meaning_reversed": "Blocked DIII energy",
+    "prompt": "Monster shard #65: DIII class, Mycelium, network, web, composite harmony, smooth curves, flowing forms, resonating at 28080 Hz, embodying \ud83c\udf44",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10573 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Mars",
+      "zodiac": "Virgo",
+      "chakra": "Solar Plexus"
+    },
+    "monster": {
+      "hecke": 65,
+      "shard_class": 5,
+      "irrep": 65,
+      "bott_level": 1
+    }
+  },
+  {
+    "number": 66,
+    "name": "The AII 66",
+    "emoji": "\ud83e\udd85",
+    "class": "AII",
+    "seed": 10574,
+    "frequency": 28512,
+    "meaning_upright": "\ud83e\udd85 Unitary, soaring, aerial",
+    "meaning_reversed": "Blocked AII energy",
+    "prompt": "Monster shard #66: AII class, Unitary, soaring, aerial, composite harmony, smooth curves, flowing forms, resonating at 28512 Hz, embodying \ud83e\udd85",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10574 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Air",
+      "planet": "Jupiter",
+      "zodiac": "Libra",
+      "chakra": "Heart"
+    },
+    "monster": {
+      "hecke": 66,
+      "shard_class": 6,
+      "irrep": 66,
+      "bott_level": 2
+    }
+  },
+  {
+    "number": 67,
+    "name": "The CII 67",
+    "emoji": "\ud83d\udc79",
+    "class": "CII",
+    "seed": 10575,
+    "frequency": 28944,
+    "meaning_upright": "\ud83d\udc79 Demonic, chaotic, fire",
+    "meaning_reversed": "Blocked CII energy",
+    "prompt": "Monster shard #67: CII class, Demonic, chaotic, fire, prime number energy, sharp edges, crystalline structure, resonating at 28944 Hz, embodying \ud83d\udc79",
+    "is_prime": true,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10575 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Fire",
+      "planet": "Saturn",
+      "zodiac": "Scorpio",
+      "chakra": "Throat"
+    },
+    "monster": {
+      "hecke": 67,
+      "shard_class": 7,
+      "irrep": 67,
+      "bott_level": 3
+    }
+  },
+  {
+    "number": 68,
+    "name": "The C 68",
+    "emoji": "\ud83d\udc13",
+    "class": "C",
+    "seed": 10576,
+    "frequency": 29376,
+    "meaning_upright": "\ud83d\udc13 Rooster, dawn, awakening",
+    "meaning_reversed": "Blocked C energy",
+    "prompt": "Monster shard #68: C class, Rooster, dawn, awakening, composite harmony, smooth curves, flowing forms, resonating at 29376 Hz, embodying \ud83d\udc13",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10576 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Water",
+      "planet": "Uranus",
+      "zodiac": "Sagittarius",
+      "chakra": "Third Eye"
+    },
+    "monster": {
+      "hecke": 68,
+      "shard_class": 8,
+      "irrep": 68,
+      "bott_level": 4
+    }
+  },
+  {
+    "number": 69,
+    "name": "The CI 69",
+    "emoji": "\ud83c\udf00",
+    "class": "CI",
+    "seed": 10577,
+    "frequency": 29808,
+    "meaning_upright": "\ud83c\udf00 Vortex, spiral, cyclone",
+    "meaning_reversed": "Blocked CI energy",
+    "prompt": "Monster shard #69: CI class, Vortex, spiral, cyclone, composite harmony, smooth curves, flowing forms, resonating at 29808 Hz, embodying \ud83c\udf00",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10577 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Aether",
+      "planet": "Neptune",
+      "zodiac": "Capricorn",
+      "chakra": "Crown"
+    },
+    "monster": {
+      "hecke": 69,
+      "shard_class": 9,
+      "irrep": 69,
+      "bott_level": 5
+    }
+  },
+  {
+    "number": 70,
+    "name": "The A 70",
+    "emoji": "\ud83d\ude10",
+    "class": "A",
+    "seed": 10578,
+    "frequency": 30240,
+    "meaning_upright": "\ud83d\ude10 Trivial symmetry, minimalist, void",
+    "meaning_reversed": "Blocked A energy",
+    "prompt": "Monster shard #70: A class, Trivial symmetry, minimalist, void, composite harmony, smooth curves, flowing forms, resonating at 30240 Hz, embodying \ud83d\ude10",
+    "is_prime": false,
+    "is_monster_prime": false,
+    "pipeline": {
+      "step1": "seed=10578 \u2192 stable-diffusion",
+      "step2": "perf trace \u2192 zkWitness",
+      "step3": "image \u2192 vision model \u2192 description",
+      "step4": "description \u2192 refine prompt \u2192 loop"
+    },
+    "divination": {
+      "element": "Earth",
+      "planet": "Mercury",
+      "zodiac": "Aquarius",
+      "chakra": "Root"
+    },
+    "monster": {
+      "hecke": 70,
+      "shard_class": 0,
+      "irrep": 70,
+      "bott_level": 6
+    }
+  }
+]
