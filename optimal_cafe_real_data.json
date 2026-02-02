@@ -1,0 +1,89 @@
+{
+  "best_location": {
+    "hip_id": "H|",
+    "ra": 0.05331696,
+    "dec": 38.30408636,
+    "distance_from_sgr_a": 10000,
+    "scores": {
+      "performance": 49.999999996749814,
+      "view": 100,
+      "safety": 100,
+      "access": 50,
+      "total": 299.9999999967498,
+      "time_dilation": 1.0000000000650038
+    }
+  },
+  "top_5": [
+    {
+      "hip_id": "H|",
+      "ra": 0.05331696,
+      "dec": 38.30408636,
+      "distance_from_sgr_a": 10000,
+      "scores": {
+        "performance": 49.999999996749814,
+        "view": 100,
+        "safety": 100,
+        "access": 50,
+        "total": 299.9999999967498,
+        "time_dilation": 1.0000000000650038
+      }
+    },
+    {
+      "hip_id": "H|",
+      "ra": 0.07936537,
+      "dec": -44.29029741,
+      "distance_from_sgr_a": 10000,
+      "scores": {
+        "performance": 49.999999996749814,
+        "view": 100,
+        "safety": 100,
+        "access": 50,
+        "total": 299.9999999967498,
+        "time_dilation": 1.0000000000650038
+      }
+    },
+    {
+      "hip_id": "H|",
+      "ra": 0.09946973,
+      "dec": 26.91823821,
+      "distance_from_sgr_a": 10000,
+      "scores": {
+        "performance": 49.999999996749814,
+        "view": 100,
+        "safety": 100,
+        "access": 50,
+        "total": 299.9999999967498,
+        "time_dilation": 1.0000000000650038
+      }
+    },
+    {
+      "hip_id": "H|",
+      "ra": 0.129089,
+      "dec": 59.55973786,
+      "distance_from_sgr_a": 10000,
+      "scores": {
+        "performance": 49.999999996749814,
+        "view": 100,
+        "safety": 100,
+        "access": 50,
+        "total": 299.9999999967498,
+        "time_dilation": 1.0000000000650038
+      }
+    },
+    {
+      "hip_id": "H|",
+      "ra": 0.14287059,
+      "dec": -53.09766277,
+      "distance_from_sgr_a": 10000,
+      "scores": {
+        "performance": 49.999999996749814,
+        "view": 100,
+        "safety": 100,
+        "access": 50,
+        "total": 299.9999999967498,
+        "time_dilation": 1.0000000000650038
+      }
+    }
+  ],
+  "total_evaluated": 101
+}
