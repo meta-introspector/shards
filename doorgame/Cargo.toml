@@ -9,3 +9,12 @@ path = "scoreboard.rs"
 
 [dependencies]
 chrono = "0.4"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
