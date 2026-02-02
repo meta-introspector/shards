@@ -1,11 +1,10 @@
 use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::fs::{self, File};
-use std::io::{BufRead, BufReader, Write};
-use std::path::Path;
+use std::io::{BufRead, BufReader};
 use anyhow::Result;
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 struct LeanFile {
     path: String,
     shard: u8,
@@ -50,7 +49,6 @@ fn main() -> Result<()> {
     println!("Found {} Lean files", paths.len());
     println!("🚀 Processing with Rayon (all CPUs)...");
     
-    // Parallel processing
     let results: Vec<LeanFile> = paths
         .par_iter()
         .filter_map(|p| analyze_file(p))
@@ -61,17 +59,15 @@ fn main() -> Result<()> {
     
     fs::create_dir_all(output_dir)?;
     
-    // Group by shard
-    let mut shards: Vec<Vec<LeanFile>> = vec![Vec::new(); 71];
+    let mut shards: Vec<Vec<LeanFile>> = (0..71).map(|_| Vec::new()).collect();
     for r in results {
         shards[r.shard as usize].push(r);
     }
     
-    // Save shards in parallel
     (0..71).into_par_iter().for_each(|i| {
         let shard_file = format!("{}/shard_{:02}.json", output_dir, i);
-        if let Ok(mut f) = File::create(&shard_file) {
-            let _ = serde_json::to_writer(&mut f, &shards[i]);
+        if let Ok(f) = File::create(&shard_file) {
+            let _ = serde_json::to_writer(f, &shards[i]);
             if !shards[i].is_empty() {
                 println!("  Shard {:02}: {} files", i, shards[i].len());
             }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:zkperf="http://escaped-rdfa.org/zkperf/"
+      xmlns:harbot="http://escaped-rdfa.org/harbot/">
+<head>
+    <title>CICADA-71 Harbot Deployment - ZK Witness</title>
+    <style>
+        body { font-family: monospace; background: #000; color: #0f0; padding: 20px; }
+        .proof { border: 1px solid #0f0; padding: 10px; margin: 10px 0; }
+        .hash { color: #ff0; }
+    </style>
+</head>
+<body>
+    <h1>🔮 CICADA-71 Harbot Deployment - ZK Witness</h1>
+    
+    <div class="proof" about="urn:harbot:deployment:2026-02-01">
+        <h2>Deployment Metadata</h2>
+        <p property="harbot:timestamp">2026-02-01T21:51:34.076429</p>
+        <p property="harbot:agent_count">71</p>
+        <p property="harbot:platform">Moltbook</p>
+        <p property="harbot:version">0.1.0</p>
+    </div>
+    
+    <div class="proof" about="urn:zkperf:agents">
+        <h2>Step 1: Agent Generation Proof (zkPerf)</h2>
+        <p property="zkperf:agents_generated">71</p>
+        <p property="zkperf:agents_hash" class="hash">4002bc2e1a6875e8bac229bc1a735df29b30b3319b9c1af28cea7cc9d3a5ea87</p>
+        <p property="zkperf:data_file">agents.json</p>
+    </div>
+    
+    <div class="proof" about="urn:zkperf:posts">
+        <h2>Step 2: Posts Generation Proof (zkPerf)</h2>
+        <p property="zkperf:posts_generated">5</p>
+        <p property="zkperf:posts_hash" class="hash">bd802b606c92d260a166cfc5f896e398683903ad3cdf60bc20b9d735e93848e2</p>
+        <p property="zkperf:data_file">posts.json</p>
+    </div>
+    
+    <div class="proof" about="urn:harbot:agents">
+        <h2>Agent Identity Proofs (Sample)</h2>
+        <ul>
+            <li property="harbot:agent">CICADA-Harbot-0 (ID: 62ab360cc47e3db2)</li>
+            <li property="harbot:agent">CICADA-Harbot-1 (ID: a481fa26ffa88266)</li>
+            <li property="harbot:agent">CICADA-Harbot-2 (ID: 3ce5df92c8713fb0)</li>
+            <li property="harbot:agent">CICADA-Harbot-3 (ID: c87522d4e1500762)</li>
+            <li property="harbot:agent">CICADA-Harbot-4 (ID: c02ee6178cf9edeb)</li>
+            <li property="harbot:agent">CICADA-Harbot-5 (ID: 6655dbd9c1542d77)</li>
+            <li property="harbot:agent">CICADA-Harbot-6 (ID: 327b64d1bb564761)</li>
+            <li property="harbot:agent">CICADA-Harbot-7 (ID: 01f36763a6fe467c)</li>
+            <li property="harbot:agent">CICADA-Harbot-8 (ID: 485dec7543549421)</li>
+            <li property="harbot:agent">CICADA-Harbot-9 (ID: 3a19bc3f8c2800cd)</li>
+            <li>... (61 more agents)</li>
+        </ul>
+    </div>
+    
+    <div class="proof" about="urn:harbot:posts">
+        <h2>Example Posts</h2>
+        <ul>
+            <li property="harbot:post">Shard 0: Computing Hecke Eigenvalues for 71 Primes</li>
+            <li property="harbot:post">Shard 27: Maass Waveform Reconstruction via Telegraph</li>
+            <li property="harbot:post">Shard 42: Prediction Markets on Mathematical Truth</li>
+            <li property="harbot:post">Shard 66: Observing 206 AI Agent Frameworks</li>
+            <li property="harbot:post">Shard 70: Lifting Turing Machine Tapes to Morse Code</li>
+        </ul>
+    </div>
+    
+    <div class="proof" about="urn:zkperf:composite">
+        <h2>Composite ZK Proof</h2>
+        <p property="zkperf:proof_hash" class="hash">59c8814b3fcda9599cd3de1b79062e1f52640ff3c597d4f9672eb97f9062ee7c</p>
+        <p property="zkperf:verification">SHA256(agents + posts)</p>
+        <p property="zkperf:timestamp">2026-02-01T21:51:34.076598</p>
+    </div>
+    
+    <div class="proof">
+        <h2>Verification</h2>
+        <pre>
+# Verify agents
+sha256sum deployment_proofs/agents.json
+# Expected: 4002bc2e1a6875e8bac229bc1a735df29b30b3319b9c1af28cea7cc9d3a5ea87
+
+# Verify posts
+sha256sum deployment_proofs/posts.json
+# Expected: bd802b606c92d260a166cfc5f896e398683903ad3cdf60bc20b9d735e93848e2
+
+# Verify composite
+echo -n "4002bc2e1a6875e8bac229bc1a735df29b30b3319b9c1af28cea7cc9d3a5ea87bd802b606c92d260a166cfc5f896e398683903ad3cdf60bc20b9d735e93848e2" | sha256sum
+# Expected: 59c8814b3fcda9599cd3de1b79062e1f52640ff3c597d4f9672eb97f9062ee7c
+        </pre>
+    </div>
+    
+    <div class="proof">
+        <h2>Agent Capabilities Matrix</h2>
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>Capability</th>
+                <th>Shards</th>
+            </tr>
+            <tr><td>Hecke Eigenvalues</td><td>0-70 (71 total)</td></tr>
+            <tr><td>Maass Forms</td><td>0-70 (71 total)</td></tr>
+            <tr><td>Parquet Gossip</td><td>0-70 (71 total)</td></tr>
+            <tr><td>ZK Witnesses</td><td>0-70 (71 total)</td></tr>
+            <tr><td>Morse Telegraph</td><td>0-70 (71 total)</td></tr>
+            <tr><td>Tape Lifting</td><td>0-70 (71 total)</td></tr>
+        </table>
+        <p>Total capabilities: 426 (71 agents × 6 capabilities)</p>
+    </div>
+</body>
+</html>

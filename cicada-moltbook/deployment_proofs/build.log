@@ -1,0 +1,78 @@
+warning: Git tree '/home/mdupont/introspector' is dirty
+warning: ignoring the client-specified setting 'stalled-download-timeout', because it is a restricted setting and you are not a trusted user
+warning: ignoring the client-specified setting 'stalled-download-timeout', because it is a restricted setting and you are not a trusted user
+warning: error: unable to download 'https://api.github.com/repos/NixOS/nixpkgs/commits/nixos-unstable': Timeout was reached (28) Resolving timed out after 5000 milliseconds; retrying in 258 ms
+warning: error: unable to download 'https://api.github.com/repos/NixOS/nixpkgs/commits/nixos-unstable': Timeout was reached (28) Resolving timed out after 5000 milliseconds; retrying in 509 ms
+warning: creating lock file "/home/mdupont/introspector/cicada-moltbook/flake.lock": 
+• Added input 'nixpkgs':
+    'github:NixOS/nixpkgs/62c8382960464ceb98ea593cb8321a2cf8f9e3e5?narHash=sha256-kKB3bqYJU5nzYeIROI82Ef9VtTbu4uA3YydSk/Bioa8%3D' (2026-01-30)
+• Added input 'rust-overlay':
+    'github:oxalica/rust-overlay/bc00300f010275e46feb3c3974df6587ff7b7808?narHash=sha256-f1F/umtX3ZD7fF9DHSloVHc0mnAT0ry0YK2jI/6E0aI%3D' (2026-02-01)
+• Added input 'rust-overlay/nixpkgs':
+    'github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg/N38%3D' (2025-04-13)
+these 10 derivations will be built:
+  /nix/store/0icwcxjswccjy4q4la4zh2x1c2mfq75a-reqwest-0.11.23.drv
+  /nix/store/5byzsx32iskr1y09d44pffvkkqas3zv6-anyhow-1.0.75.drv
+  /nix/store/cdihgrwvzxslg9xfjsl2xphskv9x2mjg-chrono-0.4.31.drv
+  /nix/store/fifwpb0i6nhasxc1am3vxggrlfy76k79-rust-default-1.93.0.drv
+  /nix/store/iyxbfmmfxqnqz6nbd9hjsy5kahyh3119-clap-4.4.11.drv
+  /nix/store/ji9yg6fp4grwh57sjl2bairwi79iazvn-tokio-1.35.1.drv
+  /nix/store/sqsjyps2nhq1ffvmn42jsavag0z82yn9-serde_json-1.0.108.drv
+  /nix/store/z9c6ps3zkly6p24syhpi6gcg26v48n18-serde-1.0.193.drv
+  /nix/store/il0gfsp9471f9x9yhcmrfx16v5q60mim-cargo-vendor-dir.drv
+  /nix/store/i18fgpyjkid6xyvk1qqsmbvmiwk5lxqa-cicada-moltbook-0.1.0.drv
+these 8 paths will be fetched (1.4 MiB download, 1.5 MiB unpacked):
+  /nix/store/zw57gdnaai7zrpzh71dvhj7lw02ks6yd-crate-anyhow-1.0.75.tar.gz
+  /nix/store/3kr30zlr6sf6gnlqszk91vpk2z44y3b4-crate-chrono-0.4.31.tar.gz
+  /nix/store/gai9jg1ra8qzl6ic05yy2qwqshji0va6-crate-clap-4.4.11.tar.gz
+  /nix/store/h4v6h21kxfwhqn2j90wd8q54wli1ifsb-crate-reqwest-0.11.23.tar.gz
+  /nix/store/3fsn0h4ag7k5047lbr1cn7idcq75b8ja-crate-serde-1.0.193.tar.gz
+  /nix/store/8fx8vqkj6arz8gj7nfnhg9i9kwv0hxbh-crate-serde_json-1.0.108.tar.gz
+  /nix/store/c5hfx640ya2zlzw0rha6cx758ci9g5pg-crate-tokio-1.35.1.tar.gz
+  /nix/store/bmpgjv5k0yxnz35ycs8awlqhldn6kyyk-sha2-0.10.8
+copying path '/nix/store/bmpgjv5k0yxnz35ycs8awlqhldn6kyyk-sha2-0.10.8' from 'https://cache.nixos.org'...
+building '/nix/store/fifwpb0i6nhasxc1am3vxggrlfy76k79-rust-default-1.93.0.drv'...
+copying path '/nix/store/zw57gdnaai7zrpzh71dvhj7lw02ks6yd-crate-anyhow-1.0.75.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/3kr30zlr6sf6gnlqszk91vpk2z44y3b4-crate-chrono-0.4.31.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/gai9jg1ra8qzl6ic05yy2qwqshji0va6-crate-clap-4.4.11.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/h4v6h21kxfwhqn2j90wd8q54wli1ifsb-crate-reqwest-0.11.23.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/3fsn0h4ag7k5047lbr1cn7idcq75b8ja-crate-serde-1.0.193.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/8fx8vqkj6arz8gj7nfnhg9i9kwv0hxbh-crate-serde_json-1.0.108.tar.gz' from 'https://cache.nixos.org'...
+copying path '/nix/store/c5hfx640ya2zlzw0rha6cx758ci9g5pg-crate-tokio-1.35.1.tar.gz' from 'https://cache.nixos.org'...
+building '/nix/store/5byzsx32iskr1y09d44pffvkkqas3zv6-anyhow-1.0.75.drv'...
+building '/nix/store/cdihgrwvzxslg9xfjsl2xphskv9x2mjg-chrono-0.4.31.drv'...
+building '/nix/store/iyxbfmmfxqnqz6nbd9hjsy5kahyh3119-clap-4.4.11.drv'...
+building '/nix/store/0icwcxjswccjy4q4la4zh2x1c2mfq75a-reqwest-0.11.23.drv'...
+building '/nix/store/z9c6ps3zkly6p24syhpi6gcg26v48n18-serde-1.0.193.drv'...
+building '/nix/store/sqsjyps2nhq1ffvmn42jsavag0z82yn9-serde_json-1.0.108.drv'...
+building '/nix/store/ji9yg6fp4grwh57sjl2bairwi79iazvn-tokio-1.35.1.drv'...
+building '/nix/store/il0gfsp9471f9x9yhcmrfx16v5q60mim-cargo-vendor-dir.drv'...
+building '/nix/store/i18fgpyjkid6xyvk1qqsmbvmiwk5lxqa-cicada-moltbook-0.1.0.drv'...
+error: Cannot build '/nix/store/i18fgpyjkid6xyvk1qqsmbvmiwk5lxqa-cicada-moltbook-0.1.0.drv'.
+       Reason: builder failed with exit code 101.
+       Output paths:
+         /nix/store/vp03h9fkjldnn1g66lv84hacdi8ijn10-cicada-moltbook-0.1.0
+       Last 19 log lines:
+       > Running phase: unpackPhase
+       > unpacking source archive /nix/store/rkyz9fwqd79zazc3pi33lmmx6mrz3kqh-cicada-moltbook
+       > source root is cicada-moltbook
+       > Executing cargoSetupPostUnpackHook
+       > Finished cargoSetupPostUnpackHook
+       > Running phase: patchPhase
+       > Executing cargoSetupPostPatchHook
+       > Validating consistency between /build/cicada-moltbook/Cargo.lock and /build/cargo-vendor-dir/Cargo.lock
+       > Finished cargoSetupPostPatchHook
+       > Running phase: updateAutotoolsGnuConfigScriptsPhase
+       > Running phase: configurePhase
+       > Running phase: buildPhase
+       > Executing cargoBuildHook
+       > cargoBuildHook flags: -j 24 --target x86_64-unknown-linux-gnu --offline --profile release
+       > error: no matching package named `num-traits` found
+       > location searched: directory source `/build/cargo-vendor-dir` (which is replacing registry `crates-io`)
+       > required by package `chrono v0.4.31`
+       >     ... which satisfies dependency `chrono = "^0.4"` (locked to 0.4.31) of package `cicada-moltbook v0.1.0 (/build/cicada-moltbook)`
+       > As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without `--offline`.
+       For full logs, run:
+         nix-store -l /nix/store/i18fgpyjkid6xyvk1qqsmbvmiwk5lxqa-cicada-moltbook-0.1.0.drv
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.357 MB ./deployment_proofs/build.perf.data (7708 samples) ]

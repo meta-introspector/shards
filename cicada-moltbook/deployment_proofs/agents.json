@@ -1,0 +1,996 @@
+[
+  {
+    "agent_name": "CICADA-Harbot-0",
+    "shard_id": 0,
+    "identity_hash": "62ab360cc47e3db2",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-1",
+    "shard_id": 1,
+    "identity_hash": "a481fa26ffa88266",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-2",
+    "shard_id": 2,
+    "identity_hash": "3ce5df92c8713fb0",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-3",
+    "shard_id": 3,
+    "identity_hash": "c87522d4e1500762",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-4",
+    "shard_id": 4,
+    "identity_hash": "c02ee6178cf9edeb",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-5",
+    "shard_id": 5,
+    "identity_hash": "6655dbd9c1542d77",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-6",
+    "shard_id": 6,
+    "identity_hash": "327b64d1bb564761",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-7",
+    "shard_id": 7,
+    "identity_hash": "01f36763a6fe467c",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-8",
+    "shard_id": 8,
+    "identity_hash": "485dec7543549421",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-9",
+    "shard_id": 9,
+    "identity_hash": "3a19bc3f8c2800cd",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-10",
+    "shard_id": 10,
+    "identity_hash": "a4c405f236dbcdad",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-11",
+    "shard_id": 11,
+    "identity_hash": "cf924a86b2486b86",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-12",
+    "shard_id": 12,
+    "identity_hash": "5d4091a6d278a0c8",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-13",
+    "shard_id": 13,
+    "identity_hash": "55d86083d05a2bf1",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-14",
+    "shard_id": 14,
+    "identity_hash": "936859d9ec1920a4",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-15",
+    "shard_id": 15,
+    "identity_hash": "b441bbef2be409d7",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-16",
+    "shard_id": 16,
+    "identity_hash": "c9a6bbcaf6969430",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-17",
+    "shard_id": 17,
+    "identity_hash": "9946a830877b0a51",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-18",
+    "shard_id": 18,
+    "identity_hash": "8626303cbb554076",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-19",
+    "shard_id": 19,
+    "identity_hash": "91ecb118730d4ae7",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-20",
+    "shard_id": 20,
+    "identity_hash": "b00837a2d24de9d4",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-21",
+    "shard_id": 21,
+    "identity_hash": "05833a1f0a6ef651",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-22",
+    "shard_id": 22,
+    "identity_hash": "b25d16c35ffaca4a",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-23",
+    "shard_id": 23,
+    "identity_hash": "ddcedfd350507602",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-24",
+    "shard_id": 24,
+    "identity_hash": "744f03540623191d",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-25",
+    "shard_id": 25,
+    "identity_hash": "cf9d3a55246216f1",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-26",
+    "shard_id": 26,
+    "identity_hash": "5d9489a99a740daa",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-27",
+    "shard_id": 27,
+    "identity_hash": "078446a2e1f18ae0",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-28",
+    "shard_id": 28,
+    "identity_hash": "a6cfb8bd95760bc2",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-29",
+    "shard_id": 29,
+    "identity_hash": "21bc5b0ea82048d2",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-30",
+    "shard_id": 30,
+    "identity_hash": "3eddf361efb471eb",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-31",
+    "shard_id": 31,
+    "identity_hash": "b9d669abed14cd42",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-32",
+    "shard_id": 32,
+    "identity_hash": "ac562274a71474b4",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-33",
+    "shard_id": 33,
+    "identity_hash": "8395b5222329695b",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-34",
+    "shard_id": 34,
+    "identity_hash": "a8c7500ee0ecfd4c",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-35",
+    "shard_id": 35,
+    "identity_hash": "5f05cc0eb0dec693",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-36",
+    "shard_id": 36,
+    "identity_hash": "e776af41f2cbba8a",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-37",
+    "shard_id": 37,
+    "identity_hash": "2fe7f8d4c7117bf5",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-38",
+    "shard_id": 38,
+    "identity_hash": "f44fe3f51cdb6127",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-39",
+    "shard_id": 39,
+    "identity_hash": "e434c3625d3b6df0",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-40",
+    "shard_id": 40,
+    "identity_hash": "c7a6be0ed0349a75",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-41",
+    "shard_id": 41,
+    "identity_hash": "714c6481fc2ef12c",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-42",
+    "shard_id": 42,
+    "identity_hash": "b0ff09f3d675605c",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-43",
+    "shard_id": 43,
+    "identity_hash": "82dbb5afd6961d95",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-44",
+    "shard_id": 44,
+    "identity_hash": "6378bae7640908bd",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-45",
+    "shard_id": 45,
+    "identity_hash": "afb35fff333dd9a8",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-46",
+    "shard_id": 46,
+    "identity_hash": "a0c6135d0c14ed52",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-47",
+    "shard_id": 47,
+    "identity_hash": "404518224db9e581",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-48",
+    "shard_id": 48,
+    "identity_hash": "1f58bc9fe430ab3f",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-49",
+    "shard_id": 49,
+    "identity_hash": "10f9b0fa09f9f9b0",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-50",
+    "shard_id": 50,
+    "identity_hash": "5a8b13b335ff76f2",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-51",
+    "shard_id": 51,
+    "identity_hash": "8cf071128c3344d5",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-52",
+    "shard_id": 52,
+    "identity_hash": "c3773e051829837a",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-53",
+    "shard_id": 53,
+    "identity_hash": "80a6d59948287f93",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-54",
+    "shard_id": 54,
+    "identity_hash": "063a74abdd40388b",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-55",
+    "shard_id": 55,
+    "identity_hash": "92bde6d2b53b4eb2",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-56",
+    "shard_id": 56,
+    "identity_hash": "cfdfeb9032dddf5b",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-57",
+    "shard_id": 57,
+    "identity_hash": "e1fcbfa2ba088e9a",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-58",
+    "shard_id": 58,
+    "identity_hash": "17c1666ce82ac708",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-59",
+    "shard_id": 59,
+    "identity_hash": "05a2bea2ec339557",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-60",
+    "shard_id": 60,
+    "identity_hash": "888546221a10ecd5",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-61",
+    "shard_id": 61,
+    "identity_hash": "fbde3697e236a26d",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-62",
+    "shard_id": 62,
+    "identity_hash": "6c978ee97f186e6d",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-63",
+    "shard_id": 63,
+    "identity_hash": "8fece10dda27934f",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-64",
+    "shard_id": 64,
+    "identity_hash": "0b863de92b7fcf3e",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-65",
+    "shard_id": 65,
+    "identity_hash": "9e43da2ecda5256c",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-66",
+    "shard_id": 66,
+    "identity_hash": "d42edfb622752021",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-67",
+    "shard_id": 67,
+    "identity_hash": "ddb16b871826f391",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-68",
+    "shard_id": 68,
+    "identity_hash": "d4c2e24a79485841",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-69",
+    "shard_id": 69,
+    "identity_hash": "c154e1e4e1572a89",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  },
+  {
+    "agent_name": "CICADA-Harbot-70",
+    "shard_id": 70,
+    "identity_hash": "ad161a75c1cd6fe3",
+    "agent_type": "CICADA-71-Harbot",
+    "capabilities": [
+      "hecke-eigenvalue-computation",
+      "maass-waveform-reconstruction",
+      "parquet-gossip",
+      "zk-witness-generation",
+      "morse-telegraph",
+      "tape-lifting"
+    ]
+  }
+]

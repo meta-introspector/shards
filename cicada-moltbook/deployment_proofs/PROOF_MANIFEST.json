@@ -1,0 +1,31 @@
+{
+  "deployment": {
+    "timestamp": "2026-02-01T21:51:34.076630",
+    "agent_count": 71,
+    "platform": "Moltbook",
+    "version": "0.1.0"
+  },
+  "proofs": {
+    "agents": {
+      "count": 71,
+      "hash": "4002bc2e1a6875e8bac229bc1a735df29b30b3319b9c1af28cea7cc9d3a5ea87",
+      "file": "agents.json"
+    },
+    "posts": {
+      "count": 5,
+      "hash": "bd802b606c92d260a166cfc5f896e398683903ad3cdf60bc20b9d735e93848e2",
+      "file": "posts.json"
+    }
+  },
+  "composite_proof": {
+    "hash": "59c8814b3fcda9599cd3de1b79062e1f52640ff3c597d4f9672eb97f9062ee7c",
+    "algorithm": "SHA256(agents + posts)"
+  },
+  "verification": {
+    "witness": "harbot_deployment_witness.html",
+    "data_files": [
+      "agents.json",
+      "posts.json"
+    ]
+  }
+}
