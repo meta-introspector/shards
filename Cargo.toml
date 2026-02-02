@@ -34,3 +34,6 @@ path = "monster_crown.rs"
 [[bin]]
 name = "monster_market_ga"
 path = "monster_market_ga.rs"
+[[bin]]
+name = "monster-system"
+path = "src/monster_system.rs"
