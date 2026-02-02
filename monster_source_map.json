@@ -1,0 +1,923 @@
+{
+  "analysis": {
+    "total_files": 272,
+    "total_size": 4371371,
+    "shard_distribution": {
+      "A": 22,
+      "AIII": 29,
+      "AI": 22,
+      "BDI": 25,
+      "D": 31,
+      "DIII": 32,
+      "AII": 30,
+      "CII": 33,
+      "C": 28,
+      "CI": 20
+    },
+    "unique_irreps": 142,
+    "unique_hecke": 68,
+    "avg_size": 16071
+  },
+  "files": [
+    {
+      "path": "/home/mdupont/introspector/consume_mathlib.py",
+      "size": 5513,
+      "godel": 130917,
+      "shard": "MonsterType.CII",
+      "dimension": 130917,
+      "irrep": 161,
+      "hecke": 64
+    },
+    {
+      "path": "/home/mdupont/introspector/post_to_moltbook.py",
+      "size": 3472,
+      "godel": 41761,
+      "shard": "MonsterType.AIII",
+      "dimension": 41761,
+      "irrep": 51,
+      "hecke": 13
+    },
+    {
+      "path": "/home/mdupont/introspector/map_source_to_monster.py",
+      "size": 4803,
+      "godel": 152346,
+      "shard": "MonsterType.AII",
+      "dimension": 152346,
+      "irrep": 56,
+      "hecke": 51
+    },
+    {
+      "path": "/home/mdupont/introspector/display_magic_numbers.py",
+      "size": 2837,
+      "godel": 182421,
+      "shard": "MonsterType.AIII",
+      "dimension": 182421,
+      "irrep": 61,
+      "hecke": 22
+    },
+    {
+      "path": "/home/mdupont/introspector/generate_moltbook_post.py",
+      "size": 3585,
+      "godel": 19694,
+      "shard": "MonsterType.D",
+      "dimension": 19694,
+      "irrep": 100,
+      "hecke": 27
+    },
+    {
+      "path": "/home/mdupont/introspector/extract_lmfdb_magic.py",
+      "size": 5563,
+      "godel": 74045,
+      "shard": "MonsterType.DIII",
+      "dimension": 74045,
+      "irrep": 131,
+      "hecke": 63
+    },
+    {
+      "path": "/home/mdupont/introspector/maximal_self_describing.py",
+      "size": 9005,
+      "godel": 141554,
+      "shard": "MonsterType.D",
+      "dimension": 141554,
+      "irrep": 128,
+      "hecke": 51
+    },
+    {
+      "path": "/home/mdupont/introspector/theorem_71_onion.py",
+      "size": 5693,
+      "godel": 131547,
+      "shard": "MonsterType.CII",
+      "dimension": 131547,
+      "irrep": 15,
+      "hecke": 55
+    },
+    {
+      "path": "/home/mdupont/introspector/session_summary.py",
+      "size": 7490,
+      "godel": 165335,
+      "shard": "MonsterType.DIII",
+      "dimension": 165335,
+      "irrep": 47,
+      "hecke": 47
+    },
+    {
+      "path": "/home/mdupont/introspector/analyze_mathlib_perf.py",
+      "size": 5813,
+      "godel": 162827,
+      "shard": "MonsterType.CII",
+      "dimension": 162827,
+      "irrep": 61,
+      "hecke": 24
+    },
+    {
+      "path": "/home/mdupont/introspector/create_lean_resonance_witness.py",
+      "size": 3915,
+      "godel": 142867,
+      "shard": "MonsterType.CII",
+      "dimension": 142867,
+      "irrep": 83,
+      "hecke": 15
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_type_theory.py",
+      "size": 6183,
+      "godel": 2316,
+      "shard": "MonsterType.AII",
+      "dimension": 2316,
+      "irrep": 182,
+      "hecke": 44
+    },
+    {
+      "path": "/home/mdupont/introspector/generate_monster_witness.py",
+      "size": 2363,
+      "godel": 6835,
+      "shard": "MonsterType.DIII",
+      "dimension": 6835,
+      "irrep": 45,
+      "hecke": 19
+    },
+    {
+      "path": "/home/mdupont/introspector/register_with_perf.py",
+      "size": 4328,
+      "godel": 124518,
+      "shard": "MonsterType.C",
+      "dimension": 124518,
+      "irrep": 164,
+      "hecke": 55
+    },
+    {
+      "path": "/home/mdupont/introspector/extract_new_lmfdb_model.py",
+      "size": 13415,
+      "godel": 121338,
+      "shard": "MonsterType.C",
+      "dimension": 121338,
+      "irrep": 88,
+      "hecke": 70
+    },
+    {
+      "path": "/home/mdupont/introspector/follow_monster_walk.py",
+      "size": 3698,
+      "godel": 109180,
+      "shard": "MonsterType.A",
+      "dimension": 109180,
+      "irrep": 152,
+      "hecke": 53
+    },
+    {
+      "path": "/home/mdupont/introspector/lean4_monster_body.py",
+      "size": 8380,
+      "godel": 107243,
+      "shard": "MonsterType.BDI",
+      "dimension": 107243,
+      "irrep": 155,
+      "hecke": 33
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_shards.py",
+      "size": 3695,
+      "godel": 34924,
+      "shard": "MonsterType.D",
+      "dimension": 34924,
+      "irrep": 4,
+      "hecke": 63
+    },
+    {
+      "path": "/home/mdupont/introspector/complete_prime_table.py",
+      "size": 2952,
+      "godel": 54253,
+      "shard": "MonsterType.BDI",
+      "dimension": 54253,
+      "irrep": 127,
+      "hecke": 9
+    },
+    {
+      "path": "/home/mdupont/introspector/examine_flakes.py",
+      "size": 3649,
+      "godel": 169402,
+      "shard": "MonsterType.AI",
+      "dimension": 169402,
+      "irrep": 40,
+      "hecke": 67
+    },
+    {
+      "path": "/home/mdupont/introspector/create_boottape1.py",
+      "size": 6776,
+      "godel": 187472,
+      "shard": "MonsterType.AI",
+      "dimension": 187472,
+      "irrep": 68,
+      "hecke": 32
+    },
+    {
+      "path": "/home/mdupont/introspector/check_moltbook_status.py",
+      "size": 3254,
+      "godel": 40277,
+      "shard": "MonsterType.CII",
+      "dimension": 40277,
+      "irrep": 119,
+      "hecke": 20
+    },
+    {
+      "path": "/home/mdupont/introspector/planetary_song.py",
+      "size": 2640,
+      "godel": 58891,
+      "shard": "MonsterType.AIII",
+      "dimension": 58891,
+      "irrep": 109,
+      "hecke": 32
+    },
+    {
+      "path": "/home/mdupont/introspector/ai_consensus.py",
+      "size": 4351,
+      "godel": 91868,
+      "shard": "MonsterType.C",
+      "dimension": 91868,
+      "irrep": 106,
+      "hecke": 65
+    },
+    {
+      "path": "/home/mdupont/introspector/search_primes_in_monster.py",
+      "size": 3889,
+      "godel": 134561,
+      "shard": "MonsterType.AIII",
+      "dimension": 134561,
+      "irrep": 119,
+      "hecke": 16
+    },
+    {
+      "path": "/home/mdupont/introspector/shards_323_232.py",
+      "size": 7531,
+      "godel": 98621,
+      "shard": "MonsterType.AIII",
+      "dimension": 98621,
+      "irrep": 69,
+      "hecke": 2
+    },
+    {
+      "path": "/home/mdupont/introspector/save_kiro_all_formats.py",
+      "size": 7411,
+      "godel": 166526,
+      "shard": "MonsterType.AII",
+      "dimension": 166526,
+      "irrep": 74,
+      "hecke": 31
+    },
+    {
+      "path": "/home/mdupont/introspector/join_moltbook.py",
+      "size": 8021,
+      "godel": 171688,
+      "shard": "MonsterType.C",
+      "dimension": 171688,
+      "irrep": 192,
+      "hecke": 10
+    },
+    {
+      "path": "/home/mdupont/introspector/ingest_lean_files.py",
+      "size": 2882,
+      "godel": 162213,
+      "shard": "MonsterType.BDI",
+      "dimension": 162213,
+      "irrep": 29,
+      "hecke": 49
+    },
+    {
+      "path": "/home/mdupont/introspector/save_kiro_71_shards.py",
+      "size": 4458,
+      "godel": 55337,
+      "shard": "MonsterType.CII",
+      "dimension": 55337,
+      "irrep": 47,
+      "hecke": 28
+    },
+    {
+      "path": "/home/mdupont/introspector/ingest_lean_parallel.py",
+      "size": 2364,
+      "godel": 145041,
+      "shard": "MonsterType.AIII",
+      "dimension": 145041,
+      "irrep": 123,
+      "hecke": 59
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_space_196k.py",
+      "size": 4671,
+      "godel": 35595,
+      "shard": "MonsterType.DIII",
+      "dimension": 35595,
+      "irrep": 93,
+      "hecke": 24
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_walk_8080.py",
+      "size": 5366,
+      "godel": 105993,
+      "shard": "MonsterType.BDI",
+      "dimension": 105993,
+      "irrep": 69,
+      "hecke": 61
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_walk.py",
+      "size": 5880,
+      "godel": 109727,
+      "shard": "MonsterType.CII",
+      "dimension": 109727,
+      "irrep": 117,
+      "hecke": 32
+    },
+    {
+      "path": "/home/mdupont/introspector/moonshine_walk.py",
+      "size": 5523,
+      "godel": 83260,
+      "shard": "MonsterType.A",
+      "dimension": 83260,
+      "irrep": 34,
+      "hecke": 48
+    },
+    {
+      "path": "/home/mdupont/introspector/find_starts.py",
+      "size": 7222,
+      "godel": 32160,
+      "shard": "MonsterType.A",
+      "dimension": 32160,
+      "irrep": 150,
+      "hecke": 68
+    },
+    {
+      "path": "/home/mdupont/introspector/shard_lmfdb_data.py",
+      "size": 8051,
+      "godel": 20414,
+      "shard": "MonsterType.D",
+      "dimension": 20414,
+      "irrep": 44,
+      "hecke": 37
+    },
+    {
+      "path": "/home/mdupont/introspector/unleash_mycelium.py",
+      "size": 5860,
+      "godel": 16544,
+      "shard": "MonsterType.D",
+      "dimension": 16544,
+      "irrep": 54,
+      "hecke": 1
+    },
+    {
+      "path": "/home/mdupont/introspector/tenfold_bridges.py",
+      "size": 7038,
+      "godel": 85075,
+      "shard": "MonsterType.DIII",
+      "dimension": 85075,
+      "irrep": 103,
+      "hecke": 17
+    },
+    {
+      "path": "/home/mdupont/introspector/cicada_n00b_solver.py",
+      "size": 2438,
+      "godel": 67015,
+      "shard": "MonsterType.DIII",
+      "dimension": 67015,
+      "irrep": 85,
+      "hecke": 62
+    },
+    {
+      "path": "/home/mdupont/introspector/consume_shards.py",
+      "size": 6262,
+      "godel": 104928,
+      "shard": "MonsterType.C",
+      "dimension": 104928,
+      "irrep": 168,
+      "hecke": 61
+    },
+    {
+      "path": "/home/mdupont/introspector/tape_lift.py",
+      "size": 4531,
+      "godel": 23246,
+      "shard": "MonsterType.AII",
+      "dimension": 23246,
+      "irrep": 160,
+      "hecke": 29
+    },
+    {
+      "path": "/home/mdupont/introspector/lobster_prediction_market.py",
+      "size": 7527,
+      "godel": 196512,
+      "shard": "MonsterType.AI",
+      "dimension": 196512,
+      "irrep": 184,
+      "hecke": 55
+    },
+    {
+      "path": "/home/mdupont/introspector/create_mf1_zkwitness.py",
+      "size": 4832,
+      "godel": 84362,
+      "shard": "MonsterType.AI",
+      "dimension": 84362,
+      "irrep": 166,
+      "hecke": 14
+    },
+    {
+      "path": "/home/mdupont/introspector/count_primes_on_emojis.py",
+      "size": 2906,
+      "godel": 55804,
+      "shard": "MonsterType.D",
+      "dimension": 55804,
+      "irrep": 126,
+      "hecke": 69
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_walk_lmfdb.py",
+      "size": 5228,
+      "godel": 49967,
+      "shard": "MonsterType.CII",
+      "dimension": 49967,
+      "irrep": 109,
+      "hecke": 54
+    },
+    {
+      "path": "/home/mdupont/introspector/mycelium_paths.py",
+      "size": 7846,
+      "godel": 187059,
+      "shard": "MonsterType.CI",
+      "dimension": 187059,
+      "irrep": 43,
+      "hecke": 45
+    },
+    {
+      "path": "/home/mdupont/introspector/prime_frequency_table.py",
+      "size": 3697,
+      "godel": 104962,
+      "shard": "MonsterType.AI",
+      "dimension": 104962,
+      "irrep": 8,
+      "hecke": 24
+    },
+    {
+      "path": "/home/mdupont/introspector/moonshine_coefficients.py",
+      "size": 7247,
+      "godel": 82054,
+      "shard": "MonsterType.D",
+      "dimension": 82054,
+      "irrep": 186,
+      "hecke": 49
+    },
+    {
+      "path": "/home/mdupont/introspector/9muses.py",
+      "size": 7907,
+      "godel": 108012,
+      "shard": "MonsterType.AI",
+      "dimension": 108012,
+      "irrep": 148,
+      "hecke": 21
+    },
+    {
+      "path": "/home/mdupont/introspector/save_kiro_monster_subgroups.py",
+      "size": 7373,
+      "godel": 33654,
+      "shard": "MonsterType.D",
+      "dimension": 33654,
+      "irrep": 92,
+      "hecke": 0
+    },
+    {
+      "path": "/home/mdupont/introspector/node_323_hypothesis.py",
+      "size": 7193,
+      "godel": 112735,
+      "shard": "MonsterType.DIII",
+      "dimension": 112735,
+      "irrep": 21,
+      "hecke": 58
+    },
+    {
+      "path": "/home/mdupont/introspector/containment_status.py",
+      "size": 5837,
+      "godel": 35561,
+      "shard": "MonsterType.AIII",
+      "dimension": 35561,
+      "irrep": 59,
+      "hecke": 61
+    },
+    {
+      "path": "/home/mdupont/introspector/LobsterMarket.lean",
+      "size": 4629,
+      "godel": 29591,
+      "shard": "MonsterType.AIII",
+      "dimension": 29591,
+      "irrep": 103,
+      "hecke": 55
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterHarmonicProof.lean",
+      "size": 5840,
+      "godel": 75957,
+      "shard": "MonsterType.CII",
+      "dimension": 75957,
+      "irrep": 103,
+      "hecke": 58
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterLoadoutTrading.lean",
+      "size": 3556,
+      "godel": 148512,
+      "shard": "MonsterType.AI",
+      "dimension": 148512,
+      "irrep": 102,
+      "hecke": 51
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDB_EMOJI_SEMANTICS.lean",
+      "size": 5339,
+      "godel": 191633,
+      "shard": "MonsterType.BDI",
+      "dimension": 191633,
+      "irrep": 155,
+      "hecke": 4
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterTypeTheory.lean",
+      "size": 2394,
+      "godel": 103802,
+      "shard": "MonsterType.AI",
+      "dimension": 103802,
+      "irrep": 12,
+      "hecke": 0
+    },
+    {
+      "path": "/home/mdupont/introspector/TenfoldBridges.lean",
+      "size": 2813,
+      "godel": 1859,
+      "shard": "MonsterType.CI",
+      "dimension": 1859,
+      "irrep": 113,
+      "hecke": 13
+    },
+    {
+      "path": "/home/mdupont/introspector/CICADA71.lean",
+      "size": 4579,
+      "godel": 82095,
+      "shard": "MonsterType.DIII",
+      "dimension": 82095,
+      "irrep": 33,
+      "hecke": 19
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDBMathlibProof.lean",
+      "size": 6692,
+      "godel": 138151,
+      "shard": "MonsterType.AIII",
+      "dimension": 138151,
+      "irrep": 23,
+      "hecke": 56
+    },
+    {
+      "path": "/home/mdupont/introspector/BREAKING_BIT.lean",
+      "size": 5205,
+      "godel": 27698,
+      "shard": "MonsterType.C",
+      "dimension": 27698,
+      "irrep": 150,
+      "hecke": 8
+    },
+    {
+      "path": "/home/mdupont/introspector/POWER_BY_POWER.lean",
+      "size": 4867,
+      "godel": 196387,
+      "shard": "MonsterType.CII",
+      "dimension": 196387,
+      "irrep": 59,
+      "hecke": 1
+    },
+    {
+      "path": "/home/mdupont/introspector/KiroState.lean",
+      "size": 244,
+      "godel": 66314,
+      "shard": "MonsterType.D",
+      "dimension": 66314,
+      "irrep": 160,
+      "hecke": 0
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterSpace196k.lean",
+      "size": 2215,
+      "godel": 149845,
+      "shard": "MonsterType.DIII",
+      "dimension": 149845,
+      "irrep": 77,
+      "hecke": 35
+    },
+    {
+      "path": "/home/mdupont/introspector/IngestLean.lean",
+      "size": 2633,
+      "godel": 89537,
+      "shard": "MonsterType.CII",
+      "dimension": 89537,
+      "irrep": 103,
+      "hecke": 6
+    },
+    {
+      "path": "/home/mdupont/introspector/Theorem71OnionPeeling.lean",
+      "size": 4854,
+      "godel": 85174,
+      "shard": "MonsterType.D",
+      "dimension": 85174,
+      "irrep": 8,
+      "hecke": 45
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDBMathlibEquivalence.lean",
+      "size": 3460,
+      "godel": 190951,
+      "shard": "MonsterType.AIII",
+      "dimension": 190951,
+      "irrep": 55,
+      "hecke": 32
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterShards.lean",
+      "size": 2700,
+      "godel": 75766,
+      "shard": "MonsterType.AII",
+      "dimension": 75766,
+      "irrep": 106,
+      "hecke": 9
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterCategoryTheory.lean",
+      "size": 4169,
+      "godel": 195555,
+      "shard": "MonsterType.DIII",
+      "dimension": 195555,
+      "irrep": 3,
+      "hecke": 21
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDBMathlibProofStandalone.lean",
+      "size": 6014,
+      "godel": 83277,
+      "shard": "MonsterType.CII",
+      "dimension": 83277,
+      "irrep": 51,
+      "hecke": 65
+    },
+    {
+      "path": "/home/mdupont/introspector/GRIESS_EYE.lean",
+      "size": 4214,
+      "godel": 183914,
+      "shard": "MonsterType.D",
+      "dimension": 183914,
+      "irrep": 2,
+      "hecke": 24
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDB_EMOJI.lean",
+      "size": 6880,
+      "godel": 165424,
+      "shard": "MonsterType.D",
+      "dimension": 165424,
+      "irrep": 136,
+      "hecke": 65
+    },
+    {
+      "path": "/home/mdupont/introspector/BIT_STRIPPING.lean",
+      "size": 4740,
+      "godel": 105199,
+      "shard": "MonsterType.CI",
+      "dimension": 105199,
+      "irrep": 51,
+      "hecke": 48
+    },
+    {
+      "path": "/home/mdupont/introspector/MONSTER_CONSUMPTION.lean",
+      "size": 5455,
+      "godel": 84757,
+      "shard": "MonsterType.CII",
+      "dimension": 84757,
+      "irrep": 173,
+      "hecke": 54
+    },
+    {
+      "path": "/home/mdupont/introspector/NewLMFDBModel.lean",
+      "size": 831,
+      "godel": 139264,
+      "shard": "MonsterType.D",
+      "dimension": 139264,
+      "irrep": 166,
+      "hecke": 33
+    },
+    {
+      "path": "/home/mdupont/introspector/LMFDB_SEMANTICS.lean",
+      "size": 7748,
+      "godel": 184241,
+      "shard": "MonsterType.AIII",
+      "dimension": 184241,
+      "irrep": 135,
+      "hecke": 67
+    },
+    {
+      "path": "/home/mdupont/introspector/NewLMFDBModel.v",
+      "size": 1300,
+      "godel": 47189,
+      "shard": "MonsterType.CI",
+      "dimension": 47189,
+      "irrep": 47,
+      "hecke": 45
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterShards.v",
+      "size": 1770,
+      "godel": 12143,
+      "shard": "MonsterType.BDI",
+      "dimension": 12143,
+      "irrep": 115,
+      "hecke": 2
+    },
+    {
+      "path": "/home/mdupont/introspector/TenfoldBridges.v",
+      "size": 1350,
+      "godel": 111688,
+      "shard": "MonsterType.C",
+      "dimension": 111688,
+      "irrep": 138,
+      "hecke": 5
+    },
+    {
+      "path": "/home/mdupont/introspector/ExtractRoosterStandalone.v",
+      "size": 1189,
+      "godel": 70559,
+      "shard": "MonsterType.CI",
+      "dimension": 70559,
+      "irrep": 137,
+      "hecke": 56
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterTypeTheoryMetaCoq.v",
+      "size": 2778,
+      "godel": 148610,
+      "shard": "MonsterType.A",
+      "dimension": 148610,
+      "irrep": 6,
+      "hecke": 7
+    },
+    {
+      "path": "/home/mdupont/introspector/MetaCoqIsMonster.v",
+      "size": 3394,
+      "godel": 166006,
+      "shard": "MonsterType.AII",
+      "dimension": 166006,
+      "irrep": 136,
+      "hecke": 8
+    },
+    {
+      "path": "/home/mdupont/introspector/AllIRsAreMonster.v",
+      "size": 9842,
+      "godel": 146097,
+      "shard": "MonsterType.CII",
+      "dimension": 146097,
+      "irrep": 15,
+      "hecke": 50
+    },
+    {
+      "path": "/home/mdupont/introspector/RoosterMetaCoq.v",
+      "size": 5396,
+      "godel": 174754,
+      "shard": "MonsterType.D",
+      "dimension": 174754,
+      "irrep": 154,
+      "hecke": 23
+    },
+    {
+      "path": "/home/mdupont/introspector/ExtractRooster.v",
+      "size": 1246,
+      "godel": 127441,
+      "shard": "MonsterType.AIII",
+      "dimension": 127441,
+      "irrep": 177,
+      "hecke": 67
+    },
+    {
+      "path": "/home/mdupont/introspector/TenfoldBridgesMetaCoq.v",
+      "size": 1416,
+      "godel": 124576,
+      "shard": "MonsterType.AII",
+      "dimension": 124576,
+      "irrep": 28,
+      "hecke": 42
+    },
+    {
+      "path": "/home/mdupont/introspector/ExtractRoosterMetaCoq.v",
+      "size": 1081,
+      "godel": 65727,
+      "shard": "MonsterType.CII",
+      "dimension": 65727,
+      "irrep": 155,
+      "hecke": 52
+    },
+    {
+      "path": "/home/mdupont/introspector/RoosterCrow.v",
+      "size": 1567,
+      "godel": 26466,
+      "shard": "MonsterType.AII",
+      "dimension": 26466,
+      "irrep": 82,
+      "hecke": 54
+    },
+    {
+      "path": "/home/mdupont/introspector/MF1IsMetaMycelium.v",
+      "size": 5009,
+      "godel": 100307,
+      "shard": "MonsterType.CII",
+      "dimension": 100307,
+      "irrep": 9,
+      "hecke": 55
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterCategory.v",
+      "size": 240,
+      "godel": 125347,
+      "shard": "MonsterType.CII",
+      "dimension": 125347,
+      "irrep": 23,
+      "hecke": 32
+    },
+    {
+      "path": "/home/mdupont/introspector/MonsterSpace196k.v",
+      "size": 1756,
+      "godel": 77387,
+      "shard": "MonsterType.CII",
+      "dimension": 77387,
+      "irrep": 175,
+      "hecke": 68
+    },
+    {
+      "path": "/home/mdupont/introspector/kiro_state.pl",
+      "size": 188,
+      "godel": 163526,
+      "shard": "MonsterType.AII",
+      "dimension": 163526,
+      "irrep": 178,
+      "hecke": 13
+    },
+    {
+      "path": "/home/mdupont/introspector/lobster_market.pl",
+      "size": 5148,
+      "godel": 79171,
+      "shard": "MonsterType.AIII",
+      "dimension": 79171,
+      "irrep": 19,
+      "hecke": 6
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_mycelium.pl",
+      "size": 15801,
+      "godel": 11493,
+      "shard": "MonsterType.BDI",
+      "dimension": 11493,
+      "irrep": 47,
+      "hecke": 62
+    },
+    {
+      "path": "/home/mdupont/introspector/new_lmfdb_model.pl",
+      "size": 891,
+      "godel": 66627,
+      "shard": "MonsterType.CII",
+      "dimension": 66627,
+      "irrep": 85,
+      "hecke": 29
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_irs.pl",
+      "size": 3485,
+      "godel": 169979,
+      "shard": "MonsterType.CI",
+      "dimension": 169979,
+      "irrep": 35,
+      "hecke": 5
+    },
+    {
+      "path": "/home/mdupont/introspector/monster_emoji_backend.rs",
+      "size": 6069,
+      "godel": 31503,
+      "shard": "MonsterType.BDI",
+      "dimension": 31503,
+      "irrep": 75,
+      "hecke": 50
+    },
+    {
+      "path": "/home/mdupont/introspector/shard_knowledge.rs",
+      "size": 1414,
+      "godel": 195600,
+      "shard": "MonsterType.A",
+      "dimension": 195600,
+      "irrep": 48,
+      "hecke": 66
+    },
+    {
+      "path": "/home/mdupont/introspector/new_lmfdb_model.rs",
+      "size": 1265,
+      "godel": 6459,
+      "shard": "MonsterType.CI",
+      "dimension": 6459,
+      "irrep": 57,
+      "hecke": 69
+    }
+  ]
+}
