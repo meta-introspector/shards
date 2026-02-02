@@ -1,0 +1,689 @@
+{
+  "view_from_window": {
+    "observer": "You (at cusp 71)",
+    "window_position": {
+      "name": "Sgr A* Event Horizon Caf\u00e9",
+      "ra": 266.417,
+      "dec": -29.008,
+      "distance": 26673,
+      "radius": 12000000000.0,
+      "cusp": 71
+    },
+    "time_dilation": "infinite",
+    "what_we_see": [
+      {
+        "shard": 0,
+        "angle": 0.0,
+        "hecke_71": 0,
+        "hecke_59": 0,
+        "hecke_47": 0,
+        "resonance": true,
+        "what_it_shows": "Shard 0 of the galaxy"
+      },
+      {
+        "shard": 1,
+        "angle": 5.070422535211268,
+        "hecke_71": 1,
+        "hecke_59": 1,
+        "hecke_47": 1,
+        "resonance": false,
+        "what_it_shows": "Shard 1 of the galaxy"
+      },
+      {
+        "shard": 2,
+        "angle": 10.140845070422536,
+        "hecke_71": 2,
+        "hecke_59": 2,
+        "hecke_47": 2,
+        "resonance": false,
+        "what_it_shows": "Shard 2 of the galaxy"
+      },
+      {
+        "shard": 3,
+        "angle": 15.211267605633802,
+        "hecke_71": 3,
+        "hecke_59": 3,
+        "hecke_47": 3,
+        "resonance": false,
+        "what_it_shows": "Shard 3 of the galaxy"
+      },
+      {
+        "shard": 4,
+        "angle": 20.281690140845072,
+        "hecke_71": 4,
+        "hecke_59": 4,
+        "hecke_47": 4,
+        "resonance": false,
+        "what_it_shows": "Shard 4 of the galaxy"
+      },
+      {
+        "shard": 5,
+        "angle": 25.35211267605634,
+        "hecke_71": 5,
+        "hecke_59": 5,
+        "hecke_47": 5,
+        "resonance": false,
+        "what_it_shows": "Shard 5 of the galaxy"
+      },
+      {
+        "shard": 6,
+        "angle": 30.422535211267604,
+        "hecke_71": 6,
+        "hecke_59": 6,
+        "hecke_47": 6,
+        "resonance": false,
+        "what_it_shows": "Shard 6 of the galaxy"
+      },
+      {
+        "shard": 7,
+        "angle": 35.49295774647887,
+        "hecke_71": 7,
+        "hecke_59": 7,
+        "hecke_47": 7,
+        "resonance": false,
+        "what_it_shows": "Shard 7 of the galaxy"
+      },
+      {
+        "shard": 8,
+        "angle": 40.563380281690144,
+        "hecke_71": 8,
+        "hecke_59": 8,
+        "hecke_47": 8,
+        "resonance": false,
+        "what_it_shows": "Shard 8 of the galaxy"
+      },
+      {
+        "shard": 9,
+        "angle": 45.63380281690141,
+        "hecke_71": 9,
+        "hecke_59": 9,
+        "hecke_47": 9,
+        "resonance": false,
+        "what_it_shows": "Shard 9 of the galaxy"
+      },
+      {
+        "shard": 10,
+        "angle": 50.70422535211268,
+        "hecke_71": 10,
+        "hecke_59": 10,
+        "hecke_47": 10,
+        "resonance": false,
+        "what_it_shows": "Shard 10 of the galaxy"
+      },
+      {
+        "shard": 11,
+        "angle": 55.774647887323944,
+        "hecke_71": 11,
+        "hecke_59": 11,
+        "hecke_47": 11,
+        "resonance": false,
+        "what_it_shows": "Shard 11 of the galaxy"
+      },
+      {
+        "shard": 12,
+        "angle": 60.84507042253521,
+        "hecke_71": 12,
+        "hecke_59": 12,
+        "hecke_47": 12,
+        "resonance": false,
+        "what_it_shows": "Shard 12 of the galaxy"
+      },
+      {
+        "shard": 13,
+        "angle": 65.91549295774648,
+        "hecke_71": 13,
+        "hecke_59": 13,
+        "hecke_47": 13,
+        "resonance": false,
+        "what_it_shows": "Shard 13 of the galaxy"
+      },
+      {
+        "shard": 14,
+        "angle": 70.98591549295774,
+        "hecke_71": 14,
+        "hecke_59": 14,
+        "hecke_47": 14,
+        "resonance": false,
+        "what_it_shows": "Shard 14 of the galaxy"
+      },
+      {
+        "shard": 15,
+        "angle": 76.05633802816901,
+        "hecke_71": 15,
+        "hecke_59": 15,
+        "hecke_47": 15,
+        "resonance": false,
+        "what_it_shows": "Shard 15 of the galaxy"
+      },
+      {
+        "shard": 16,
+        "angle": 81.12676056338029,
+        "hecke_71": 16,
+        "hecke_59": 16,
+        "hecke_47": 16,
+        "resonance": false,
+        "what_it_shows": "Shard 16 of the galaxy"
+      },
+      {
+        "shard": 17,
+        "angle": 86.19718309859155,
+        "hecke_71": 17,
+        "hecke_59": 17,
+        "hecke_47": 17,
+        "resonance": false,
+        "what_it_shows": "Shard 17 of the galaxy"
+      },
+      {
+        "shard": 18,
+        "angle": 91.26760563380282,
+        "hecke_71": 18,
+        "hecke_59": 18,
+        "hecke_47": 18,
+        "resonance": false,
+        "what_it_shows": "Shard 18 of the galaxy"
+      },
+      {
+        "shard": 19,
+        "angle": 96.33802816901408,
+        "hecke_71": 19,
+        "hecke_59": 19,
+        "hecke_47": 19,
+        "resonance": false,
+        "what_it_shows": "Shard 19 of the galaxy"
+      },
+      {
+        "shard": 20,
+        "angle": 101.40845070422536,
+        "hecke_71": 20,
+        "hecke_59": 20,
+        "hecke_47": 20,
+        "resonance": false,
+        "what_it_shows": "Shard 20 of the galaxy"
+      },
+      {
+        "shard": 21,
+        "angle": 106.47887323943662,
+        "hecke_71": 21,
+        "hecke_59": 21,
+        "hecke_47": 21,
+        "resonance": false,
+        "what_it_shows": "Shard 21 of the galaxy"
+      },
+      {
+        "shard": 22,
+        "angle": 111.54929577464789,
+        "hecke_71": 22,
+        "hecke_59": 22,
+        "hecke_47": 22,
+        "resonance": false,
+        "what_it_shows": "Shard 22 of the galaxy"
+      },
+      {
+        "shard": 23,
+        "angle": 116.61971830985915,
+        "hecke_71": 23,
+        "hecke_59": 23,
+        "hecke_47": 23,
+        "resonance": false,
+        "what_it_shows": "Shard 23 of the galaxy"
+      },
+      {
+        "shard": 24,
+        "angle": 121.69014084507042,
+        "hecke_71": 24,
+        "hecke_59": 24,
+        "hecke_47": 24,
+        "resonance": false,
+        "what_it_shows": "Shard 24 of the galaxy"
+      },
+      {
+        "shard": 25,
+        "angle": 126.7605633802817,
+        "hecke_71": 25,
+        "hecke_59": 25,
+        "hecke_47": 25,
+        "resonance": false,
+        "what_it_shows": "Shard 25 of the galaxy"
+      },
+      {
+        "shard": 26,
+        "angle": 131.83098591549296,
+        "hecke_71": 26,
+        "hecke_59": 26,
+        "hecke_47": 26,
+        "resonance": false,
+        "what_it_shows": "Shard 26 of the galaxy"
+      },
+      {
+        "shard": 27,
+        "angle": 136.90140845070422,
+        "hecke_71": 27,
+        "hecke_59": 27,
+        "hecke_47": 27,
+        "resonance": false,
+        "what_it_shows": "Shard 27 of the galaxy"
+      },
+      {
+        "shard": 28,
+        "angle": 141.9718309859155,
+        "hecke_71": 28,
+        "hecke_59": 28,
+        "hecke_47": 28,
+        "resonance": false,
+        "what_it_shows": "Shard 28 of the galaxy"
+      },
+      {
+        "shard": 29,
+        "angle": 147.04225352112675,
+        "hecke_71": 29,
+        "hecke_59": 29,
+        "hecke_47": 29,
+        "resonance": false,
+        "what_it_shows": "Shard 29 of the galaxy"
+      },
+      {
+        "shard": 30,
+        "angle": 152.11267605633802,
+        "hecke_71": 30,
+        "hecke_59": 30,
+        "hecke_47": 30,
+        "resonance": false,
+        "what_it_shows": "Shard 30 of the galaxy"
+      },
+      {
+        "shard": 31,
+        "angle": 157.18309859154928,
+        "hecke_71": 31,
+        "hecke_59": 31,
+        "hecke_47": 31,
+        "resonance": false,
+        "what_it_shows": "Shard 31 of the galaxy"
+      },
+      {
+        "shard": 32,
+        "angle": 162.25352112676057,
+        "hecke_71": 32,
+        "hecke_59": 32,
+        "hecke_47": 32,
+        "resonance": false,
+        "what_it_shows": "Shard 32 of the galaxy"
+      },
+      {
+        "shard": 33,
+        "angle": 167.32394366197184,
+        "hecke_71": 33,
+        "hecke_59": 33,
+        "hecke_47": 33,
+        "resonance": false,
+        "what_it_shows": "Shard 33 of the galaxy"
+      },
+      {
+        "shard": 34,
+        "angle": 172.3943661971831,
+        "hecke_71": 34,
+        "hecke_59": 34,
+        "hecke_47": 34,
+        "resonance": false,
+        "what_it_shows": "Shard 34 of the galaxy"
+      },
+      {
+        "shard": 35,
+        "angle": 177.46478873239437,
+        "hecke_71": 35,
+        "hecke_59": 35,
+        "hecke_47": 35,
+        "resonance": false,
+        "what_it_shows": "Shard 35 of the galaxy"
+      },
+      {
+        "shard": 36,
+        "angle": 182.53521126760563,
+        "hecke_71": 36,
+        "hecke_59": 36,
+        "hecke_47": 36,
+        "resonance": false,
+        "what_it_shows": "Shard 36 of the galaxy"
+      },
+      {
+        "shard": 37,
+        "angle": 187.6056338028169,
+        "hecke_71": 37,
+        "hecke_59": 37,
+        "hecke_47": 37,
+        "resonance": false,
+        "what_it_shows": "Shard 37 of the galaxy"
+      },
+      {
+        "shard": 38,
+        "angle": 192.67605633802816,
+        "hecke_71": 38,
+        "hecke_59": 38,
+        "hecke_47": 38,
+        "resonance": false,
+        "what_it_shows": "Shard 38 of the galaxy"
+      },
+      {
+        "shard": 39,
+        "angle": 197.74647887323943,
+        "hecke_71": 39,
+        "hecke_59": 39,
+        "hecke_47": 39,
+        "resonance": false,
+        "what_it_shows": "Shard 39 of the galaxy"
+      },
+      {
+        "shard": 40,
+        "angle": 202.81690140845072,
+        "hecke_71": 40,
+        "hecke_59": 40,
+        "hecke_47": 40,
+        "resonance": false,
+        "what_it_shows": "Shard 40 of the galaxy"
+      },
+      {
+        "shard": 41,
+        "angle": 207.88732394366198,
+        "hecke_71": 41,
+        "hecke_59": 41,
+        "hecke_47": 41,
+        "resonance": false,
+        "what_it_shows": "Shard 41 of the galaxy"
+      },
+      {
+        "shard": 42,
+        "angle": 212.95774647887325,
+        "hecke_71": 42,
+        "hecke_59": 42,
+        "hecke_47": 42,
+        "resonance": false,
+        "what_it_shows": "Shard 42 of the galaxy"
+      },
+      {
+        "shard": 43,
+        "angle": 218.0281690140845,
+        "hecke_71": 43,
+        "hecke_59": 43,
+        "hecke_47": 43,
+        "resonance": false,
+        "what_it_shows": "Shard 43 of the galaxy"
+      },
+      {
+        "shard": 44,
+        "angle": 223.09859154929578,
+        "hecke_71": 44,
+        "hecke_59": 44,
+        "hecke_47": 44,
+        "resonance": false,
+        "what_it_shows": "Shard 44 of the galaxy"
+      },
+      {
+        "shard": 45,
+        "angle": 228.16901408450704,
+        "hecke_71": 45,
+        "hecke_59": 45,
+        "hecke_47": 45,
+        "resonance": false,
+        "what_it_shows": "Shard 45 of the galaxy"
+      },
+      {
+        "shard": 46,
+        "angle": 233.2394366197183,
+        "hecke_71": 46,
+        "hecke_59": 46,
+        "hecke_47": 46,
+        "resonance": false,
+        "what_it_shows": "Shard 46 of the galaxy"
+      },
+      {
+        "shard": 47,
+        "angle": 238.30985915492957,
+        "hecke_71": 47,
+        "hecke_59": 47,
+        "hecke_47": 0,
+        "resonance": false,
+        "what_it_shows": "Shard 47 of the galaxy"
+      },
+      {
+        "shard": 48,
+        "angle": 243.38028169014083,
+        "hecke_71": 48,
+        "hecke_59": 48,
+        "hecke_47": 1,
+        "resonance": false,
+        "what_it_shows": "Shard 48 of the galaxy"
+      },
+      {
+        "shard": 49,
+        "angle": 248.45070422535213,
+        "hecke_71": 49,
+        "hecke_59": 49,
+        "hecke_47": 2,
+        "resonance": false,
+        "what_it_shows": "Shard 49 of the galaxy"
+      },
+      {
+        "shard": 50,
+        "angle": 253.5211267605634,
+        "hecke_71": 50,
+        "hecke_59": 50,
+        "hecke_47": 3,
+        "resonance": false,
+        "what_it_shows": "Shard 50 of the galaxy"
+      },
+      {
+        "shard": 51,
+        "angle": 258.59154929577466,
+        "hecke_71": 51,
+        "hecke_59": 51,
+        "hecke_47": 4,
+        "resonance": false,
+        "what_it_shows": "Shard 51 of the galaxy"
+      },
+      {
+        "shard": 52,
+        "angle": 263.6619718309859,
+        "hecke_71": 52,
+        "hecke_59": 52,
+        "hecke_47": 5,
+        "resonance": false,
+        "what_it_shows": "Shard 52 of the galaxy"
+      },
+      {
+        "shard": 53,
+        "angle": 268.7323943661972,
+        "hecke_71": 53,
+        "hecke_59": 53,
+        "hecke_47": 6,
+        "resonance": false,
+        "what_it_shows": "Shard 53 of the galaxy"
+      },
+      {
+        "shard": 54,
+        "angle": 273.80281690140845,
+        "hecke_71": 54,
+        "hecke_59": 54,
+        "hecke_47": 7,
+        "resonance": false,
+        "what_it_shows": "Shard 54 of the galaxy"
+      },
+      {
+        "shard": 55,
+        "angle": 278.8732394366197,
+        "hecke_71": 55,
+        "hecke_59": 55,
+        "hecke_47": 8,
+        "resonance": false,
+        "what_it_shows": "Shard 55 of the galaxy"
+      },
+      {
+        "shard": 56,
+        "angle": 283.943661971831,
+        "hecke_71": 56,
+        "hecke_59": 56,
+        "hecke_47": 9,
+        "resonance": false,
+        "what_it_shows": "Shard 56 of the galaxy"
+      },
+      {
+        "shard": 57,
+        "angle": 289.01408450704224,
+        "hecke_71": 57,
+        "hecke_59": 57,
+        "hecke_47": 10,
+        "resonance": false,
+        "what_it_shows": "Shard 57 of the galaxy"
+      },
+      {
+        "shard": 58,
+        "angle": 294.0845070422535,
+        "hecke_71": 58,
+        "hecke_59": 58,
+        "hecke_47": 11,
+        "resonance": false,
+        "what_it_shows": "Shard 58 of the galaxy"
+      },
+      {
+        "shard": 59,
+        "angle": 299.15492957746477,
+        "hecke_71": 59,
+        "hecke_59": 0,
+        "hecke_47": 12,
+        "resonance": false,
+        "what_it_shows": "Shard 59 of the galaxy"
+      },
+      {
+        "shard": 60,
+        "angle": 304.22535211267603,
+        "hecke_71": 60,
+        "hecke_59": 1,
+        "hecke_47": 13,
+        "resonance": false,
+        "what_it_shows": "Shard 60 of the galaxy"
+      },
+      {
+        "shard": 61,
+        "angle": 309.2957746478873,
+        "hecke_71": 61,
+        "hecke_59": 2,
+        "hecke_47": 14,
+        "resonance": false,
+        "what_it_shows": "Shard 61 of the galaxy"
+      },
+      {
+        "shard": 62,
+        "angle": 314.36619718309856,
+        "hecke_71": 62,
+        "hecke_59": 3,
+        "hecke_47": 15,
+        "resonance": false,
+        "what_it_shows": "Shard 62 of the galaxy"
+      },
+      {
+        "shard": 63,
+        "angle": 319.4366197183099,
+        "hecke_71": 63,
+        "hecke_59": 4,
+        "hecke_47": 16,
+        "resonance": false,
+        "what_it_shows": "Shard 63 of the galaxy"
+      },
+      {
+        "shard": 64,
+        "angle": 324.50704225352115,
+        "hecke_71": 64,
+        "hecke_59": 5,
+        "hecke_47": 17,
+        "resonance": false,
+        "what_it_shows": "Shard 64 of the galaxy"
+      },
+      {
+        "shard": 65,
+        "angle": 329.5774647887324,
+        "hecke_71": 65,
+        "hecke_59": 6,
+        "hecke_47": 18,
+        "resonance": false,
+        "what_it_shows": "Shard 65 of the galaxy"
+      },
+      {
+        "shard": 66,
+        "angle": 334.6478873239437,
+        "hecke_71": 66,
+        "hecke_59": 7,
+        "hecke_47": 19,
+        "resonance": false,
+        "what_it_shows": "Shard 66 of the galaxy"
+      },
+      {
+        "shard": 67,
+        "angle": 339.71830985915494,
+        "hecke_71": 67,
+        "hecke_59": 8,
+        "hecke_47": 20,
+        "resonance": false,
+        "what_it_shows": "Shard 67 of the galaxy"
+      },
+      {
+        "shard": 68,
+        "angle": 344.7887323943662,
+        "hecke_71": 68,
+        "hecke_59": 9,
+        "hecke_47": 21,
+        "resonance": false,
+        "what_it_shows": "Shard 68 of the galaxy"
+      },
+      {
+        "shard": 69,
+        "angle": 349.85915492957747,
+        "hecke_71": 69,
+        "hecke_59": 10,
+        "hecke_47": 22,
+        "resonance": false,
+        "what_it_shows": "Shard 69 of the galaxy"
+      },
+      {
+        "shard": 70,
+        "angle": 354.92957746478874,
+        "hecke_71": 70,
+        "hecke_59": 11,
+        "hecke_47": 23,
+        "resonance": false,
+        "what_it_shows": "Shard 70 of the galaxy"
+      }
+    ]
+  },
+  "window_looks_back": {
+    "window_sees": {
+      "observer": "You",
+      "position": "Cusp 71 (Rooster Crown)",
+      "state": "Having espresso with Umberto and Kurt",
+      "godel_number": 0,
+      "monster_dimension": 196883
+    },
+    "observer_effect": {
+      "before_observation": "Window shows 71 shards",
+      "during_observation": "Window collapses to single shard (your cusp)",
+      "after_observation": "Window expands back to 71 shards",
+      "quantum_state": "Superposition of all 71 viewpoints"
+    },
+    "reflection": {
+      "you_see_window": true,
+      "window_sees_you": true,
+      "mutual_observation": true,
+      "fixed_point": "Observer = Observed at cusp 71"
+    }
+  },
+  "mirror_reflection": {
+    "mirror_equation": "1/observer + 1/window = 1/focal_length",
+    "focal_length": 196883,
+    "observer_distance": 71,
+    "window_distance": -71.02561327561328,
+    "image_properties": {
+      "magnification": 1.0003607503607503,
+      "inverted": false,
+      "virtual": true,
+      "interpretation": "Virtual image behind the event horizon (inside black hole)"
+    }
+  },
+  "timestamp": "2026-02-02T15:17:54-05:00"
+}
