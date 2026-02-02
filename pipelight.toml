@@ -86,3 +86,12 @@ commands = [
   "python3 map_universal_coords.py",
   "echo '✓ Quick test passed'"
 ]
+
+
+[[pipelines]]
+name = "simpleexpr"
+steps = [
+  { name = "minizinc", commands = ["nix-shell -p minizinc --run 'minizinc simpleexpr_monster.mzn'"] },
+  { name = "lean4-proof", commands = ["nix-shell -p lean4 --run 'lean SimpleExprMonster.lean'"] },
+  { name = "rust-build", commands = ["nix build -f flake_simpleexpr.nix"] }
+]

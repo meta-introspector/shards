@@ -1,0 +1,12 @@
+[package]
+name = "simpleexpr-monster"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "simpleexpr_monster"
+path = "src/simpleexpr_monster.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
