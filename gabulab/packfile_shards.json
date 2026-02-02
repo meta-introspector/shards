@@ -1,0 +1,1070 @@
+{
+  "total_packfiles": 19797,
+  "shards": {
+    "0": {
+      "count": 269,
+      "files": [
+        "/home/mdupont/.cache/pre-commit/repo__1araww/.git/objects/pack/pack-3d5de364e8ca02759ae4d7e655f3913155c7ed4f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/csv-mode/.git/objects/pack/pack-973787878180f30f74cedc6d0b3014674b25dfd7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/goto-chg/.git/objects/pack/pack-b0bc470216e6ada4d47cbee60aad43b220fd4a59.pack",
+        "/home/mdupont/.emacs.d/straight/repos/let-alist/.git/objects/pack/pack-d86fb0d12802d9980dded9f4d390ddbc43f7b72b.pack",
+        "/home/mdupont/.emacs.d.old/site-lisp/magit/.git/objects/pack/pack-1addd095aa3eab4f4702f83e460f35df7c94c531.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-pycheckers/.git/objects/pack/pack-76458d563f64d652c7a3fb77922f56e7b1b8275e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ghub-plus/.git/objects/pack/pack-a89d33d0b723205fcdbc5f1102d0def6edb2e18e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/helm-org/.git/objects/pack/pack-fed8dd6b46d2aacaf3d5528a42de95899c16f71f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/melpa/.git/objects/pack/pack-9d36baae4ea69467ff0d6d35a759a8143894eb64.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-roam-server/.git/objects/pack/pack-197c8388c56cb90a8d4c56dba49a1cadd107652a.pack"
+      ]
+    },
+    "1": {
+      "count": 282,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/rust-sdk-773cd6d57c4837f3/ac40e00/.git/objects/pack/pack-13b8fa5cb28ed5454dc88ce8b434f760433b028f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-request/.git/modules/doc/eldomain/objects/pack/pack-ba6b47d9697fb9a5d1d871906d87d63304304d4d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eslint-fix/.git/objects/pack/pack-1be5724fe1a8833b3cca0f5fdd9370cff0237f04.pack",
+        "/home/mdupont/.emacs.d/straight/repos/markdown-mode/.git/objects/pack/pack-6938d481f8e02a417d1eb3a155bb147fbb6f2ca2.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rustic/.git/objects/pack/pack-60ebbc29cd99eb3aea5517bd3c5acb14e3b741aa.pack",
+        "/home/mdupont/.emacs.d/straight/repos/xref/.git/objects/pack/pack-b7685b281c121a4affdc1081b8f6e23cfacbfb04.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/magithub/.git/objects/pack/pack-f07d13c8e95a9326dd6ec886aecab9c3514d2eb4.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/batteries/.git/objects/pack/pack-a8be22aae329864cf885716661a114958799e97c.pack",
+        "/home/mdupont/projects/agentartificial/hub-prod/.git/objects/pack/pack-b875a79c248e4a6e6d2eeb11d2d67c79614cf9ac.pack",
+        "/mnt/data1/.git/modules/2024/01/27/coq-of-rust/modules/CoqOfRust/rust/modules/src/doc/edition-guide/objects/pack/pack-dd291bfa054520a16ad574a1b1ab402524e98db5.pack"
+      ]
+    },
+    "2": {
+      "count": 264,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/boogie-friends/.git/objects/pack/pack-fa7961b7109d6335a3456c02cdf05bc4407c06ba.pack",
+        "/home/mdupont/.emacs.d/straight/repos/llama/.git/objects/pack/pack-0678187c84a5e7d898d76e433e93832b7cb2b7ac.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rustfmt/.git/objects/pack/pack-0b89cfc9b93412619f2ad7f19a4c8affc8462677.pack",
+        "/home/mdupont/.emacs.d/straight/repos/typescript.el/.git/objects/pack/pack-0ba2bff1919d33ac06a85775414a171a66b255dd.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/Emacs-langtool/.git/objects/pack/pack-e33f28f67276ec80cd76ae267bcfae0be67c4973.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ansi.el/.git/objects/pack/pack-6d6841124a1fe3b13dbc2fe4a1494f41986898f1.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-link-beautify/.git/objects/pack/pack-f6f18fc7ee701685d659f53b7c8bf37daa3a6774.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/Terraform-Ansible/objects/pack/pack-289553d0e2d6739efb1468efbd1191183f4819c1.pack",
+        "/mnt/data1/.git/modules/2023/12/31/ppx_bench/objects/pack/pack-5e3fdcda5353c197988f6e9c411c1e72354c4237.pack",
+        "/mnt/data1/.git/modules/2024/01/15/ezcurl/objects/pack/pack-80717d04c5b397200c1af548f1e7b02e7c83c5b4.pack"
+      ]
+    },
+    "3": {
+      "count": 283,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/x86_64-380b825b01a45fff/fd55fa6/.git/objects/pack/pack-750875a3e81e2e7a40ef00ed67e1431bd61e4208.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ellama/.git/objects/pack/pack-23a5865fa24d5d2aea6eea87e626cb029773ebf2.pack",
+        "/home/mdupont/.emacs.d/straight/repos/paredit/.git/objects/pack/pack-96210650cae2a8560f354d2daf2b29d9466b7409.pack",
+        "/home/mdupont/.emacs.d/straight/repos/polymode/.git/objects/pack/pack-6b5a02304b4f1a0184be9ee3f69e1deaa66815af.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ace-window/.git/objects/pack/pack-c889376c700c5df33273ac1704bd29bb1a751b2a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/apiwrap.el/.git/objects/pack/pack-cc019ba02f76e605f3e9c296317da37a3e67e29b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/docker-tramp.el/.git/objects/pack/pack-d9e40e1b3383c733a65b1411c053e9c197f6110a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org/.git/objects/pack/pack-f7371e44ee6a6899ff6d2f7903a1d0d3b1188b13.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/seq/.git/objects/pack/pack-8c68508572e6ed3e8764f9cf4352eaab35effc16.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-cloudwatch-logs/objects/pack/pack-86a161b2160ca10b090da21df152d1edd714ef32.pack"
+      ]
+    },
+    "4": {
+      "count": 254,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/trapframe-rs-9610af1c3f6e289a/45d62be/.git/objects/pack/pack-7973590c6f7215a8be70e29ce2cc58d5fb21dcf7.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/autotext/mytexts.pack",
+        "/home/mdupont/.emacs.d/straight/repos/plz/.git/objects/pack/pack-bb37486481893fd1b3f618ae1082eeb85dd487a7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/shell-maker/.git/objects/pack/pack-475696e50cb40be4ac8688b9f65d334ce507075d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/bitlbee-el/.git/objects/pack/pack-3c9147c9f38d55411be746f080b3260ef800f6f5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/elpastebin/.git/objects/pack/pack-4fa4a1cf2bb7f6209fd55fd58dae4de0acda081f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ghc-mod/.git/objects/pack/pack-109411f834b54af139a8ccc2e986e70893113925.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/magit-lfs/.git/objects/pack/pack-474ecb551349810220e6440c767803ac8472b499.pack",
+        "/home/mdupont/projects/agentartificial/.git/modules/other/angular-frontend/objects/pack/pack-b0ae11d146f32082650f59dd2325e2acd95a159a.pack",
+        "/home/mdupont/projects/agentartificial/devops4/.git/modules/vendor/ansible-role-nvidia-container-runtime/objects/pack/pack-12a84a2946a6b57a5fe602d6756fc262fbbda6cf.pack"
+      ]
+    },
+    "5": {
+      "count": 251,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cross-f0189a1dc141e2d9/849b606/docker/cross-toolchains/.git/objects/pack/pack-ad1851519eb61415ab440d25483768b8af1a75f5.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/91630e9/.git/objects/pack/pack-fb7ecb073df45c3c3afd1fb813da84af8ed5c0fd.pack",
+        "/home/mdupont/.emacs.d/straight/repos/consult/.git/objects/pack/pack-d490c90a29fbc3ba0d310a5a86043bbaedc0e4dc.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-tss/.git/objects/pack/pack-d4a050c6d5fdfd13c51009ecdb9004bc7ab69985.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lsp-treemacs/.git/objects/pack/pack-9f2ae26b2b520460a55f3dcda5a4b7b147663bdd.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/aws/.git/objects/pack/pack-f5b15831873b7cc12f8652945ff173402cbca931.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/company-ghc/.git/objects/pack/pack-4a688f3c36e9d688752e3c8224177bae8fde575c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ov/.git/objects/pack/pack-fb761e029044576e2013015c48b5149ff071dbc6.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/tblui.el/.git/objects/pack/pack-336f16d0732610624cbd0a3d4ab9f496f1d30d75.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/yaml-mode/.git/objects/pack/pack-9214e60bc8ff043b53a599b3a20095279ab5cff7.pack"
+      ]
+    },
+    "6": {
+      "count": 277,
+      "files": [
+        "/home/mdupont/.cargo/git/db/rust-zmq-81bb731ff3059622/objects/pack/pack-f05d4578c40e2875533f9722831de4e9e83316ac.pack",
+        "/home/mdupont/.emacs.d/straight/repos/Indium/.git/objects/pack/pack-15d1406a585e31a5b347b25a9e3acb930e036360.pack",
+        "/home/mdupont/.emacs.d/straight/repos/docker.el/.git/objects/pack/pack-933b968c992a16f8a5b9fa2f79f10ac818a3d38c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-libvterm/.git/objects/pack/pack-144612f2938d8b87acd24e8b264d2579c0e0bb28.pack",
+        "/home/mdupont/.emacs.d/straight/repos/external-completion/.git/objects/pack/pack-3ba07e107b73b3a4fde8fa2aefe055512a0c7d17.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flymake/.git/objects/pack/pack-4ec9bf1b87fa2f6b6ad1c5faaa4d8a67ea5daa1a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gptel/.git/objects/pack/pack-45aae6c653a462c671d73f3a2b9c50f07b085470.pack",
+        "/home/mdupont/.emacs.d/straight/repos/logito/.git/objects/pack/pack-46d316589aa81146cbc6e98e7165e4b17ac6da23.pack",
+        "/home/mdupont/.emacs.d/straight/repos/melpa/.git/objects/pack/pack-4a7b4e8e5d91902050013404e357d0e733f691d0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/node-console/.git/objects/pack/pack-867ffe1014fa2946c619feb8036fa6e16697aa7d.pack"
+      ]
+    },
+    "7": {
+      "count": 289,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-ebfb8dc18e07a3ce559954ab14ade940fc1830db.pack",
+        "/home/mdupont/.cookiecutters/cookiecutter-click/.git/objects/pack/pack-110c56f36e20ba4f7a1b0fa477c03a77b21f4df0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/a.el/.git/objects/pack/pack-00e59c47a41ede24f9db710aa52883022108c2f5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/closql/.git/objects/pack/pack-e182beb2887432097f5bc4ac35166b8e31bbfa49.pack",
+        "/home/mdupont/.emacs.d/straight/repos/quickrun/.git/objects/pack/pack-bac14a1528c5347639e8e092177bdaff77575829.pack",
+        "/home/mdupont/.emacs.d/straight/repos/xterm-color/.git/objects/pack/pack-be78023af0ee491eda7ddc2d70e8c0618b508a9a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/cargo-mode/.git/objects/pack/pack-4d806fc88b3b4abbaa69b0ce7725d0d1b4e8f238.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-reformatter/.git/objects/pack/pack-5cb57999d4f3bb4508b702bba618937437248834.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-websocket/.git/objects/pack/pack-28c4b9a50c6ff5ac5b7bb0ced365f457c72c38fc.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/peg/.git/objects/pack/pack-28b156501726c8fc3d611d8bd4c6cba3a662476a.pack"
+      ]
+    },
+    "8": {
+      "count": 272,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/serde_test-7db5678c1dc994d8/df513c5/.git/objects/pack/pack-81e8b86831075abe76a5ceb917494e0cbf367fd0.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/basic/Standard/script.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-k8s-mode/.git/objects/pack/pack-0022ea8e42c5c945f180f79d624aaf12640e9ed6.pack",
+        "/home/mdupont/.emacs.d/straight/repos/seq/.git/objects/pack/pack-f8e2dc5b00cdea873ef1492690a812a1c0edc44f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/async-eval/.git/objects/pack/pack-be87cc360b1526b1851840a51bbcb8d4488925d7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/chatgpt-shell/.git/objects/pack/pack-9df75afb7569b03f6a676c72c1486bc3dbddc351.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/objects/pack/pack-2e1dbb7ca4691eb45eb0e3bc41339b4506306309.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/owl-functional-mode/.git/objects/pack/pack-9a771b10a8e547241a00b81e69662260aef43b25.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/parsebib/.git/objects/pack/pack-e002914bed66de40bda953895d4812face320859.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/rust-mode/.git/objects/pack/pack-7baf820bd23cd9cb369d131053230fbafc9eb2c9.pack"
+      ]
+    },
+    "9": {
+      "count": 291,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-36c2c1fbdc58f0b96ed6cc1a2ca577f77325499e.pack",
+        "/home/mdupont/.cargo/git/db/async-executor-b0002e1524f76207/objects/pack/pack-c6d9b59aef7a3aa0fd4181b2f3ff3510cc432628.pack",
+        "/home/mdupont/.emacs.d/straight/repos/chicken/.git/objects/pack/pack-70e87204debbbd6c96ab17ef5f768891508d007f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-fancy-compilation/.git/objects/pack/pack-466064f1544710fe493f46b7e5ee0db9995007a7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flymake-easy/.git/objects/pack/pack-66975ae6b435bb45739d15c88380423e1c069cc3.pack",
+        "/home/mdupont/.emacs.d/straight/repos/javascript-mode/.git/objects/pack/pack-2795ef7058d028b6268c60a83c33f3f6558ba6e8.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-async/.git/objects/pack/pack-ba9738544cb2fe2d65cfdcf6399de5a6ed0f92e4.pack",
+        "/home/mdupont/nix-controller/.git/modules/he-lattice/ckks-rust/objects/pack/pack-b1c257e81364f4faa0c7b785fa8a46d341caf23a.pack",
+        "/mnt/data1/.git/modules/2023/12/28/ppx_deriving/objects/pack/pack-74970dc1c985f6dfaf06a94e5c67a86bb8832174.pack",
+        "/mnt/data1/.git/modules/2024/01/27/coq-of-rust/objects/pack/pack-192dfb0d077ebe3f2a7782cd70717c4ef773447d.pack"
+      ]
+    },
+    "10": {
+      "count": 262,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/a3987c6/.git/objects/pack/pack-fb7ecb073df45c3c3afd1fb813da84af8ed5c0fd.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/registrymodifications.pack",
+        "/home/mdupont/.emacs.d/straight/repos/csv.el/.git/objects/pack/pack-bccf1dce9725bb6dc132f4a612e9cc094373bb72.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-websocket/.git/objects/pack/pack-8b9ade32c4e74e32c9667f0929174bbdb98da877.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gh.el/.git/modules/docs/build/html/objects/pack/pack-16c6733993ecacfe3205b3d0d89e6e3b39d902db.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/command-log-mode/.git/objects/pack/pack-3f7ef8aaadd2b29eb3cebd8567512c7b053defbf.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/kotlin-mode/.git/objects/pack/pack-f2b31c0426c9d599387c943d0f0e1c7d5e4d9447.pack",
+        "/home/mdupont/experiments/monster/.git/objects/pack/pack-809a0bfc171655f6fc5b0eb80a427f9115e3f512.pack",
+        "/home/mdupont/projects/agentartificial/devops/vendor/litellm/ui/litellm-dashboard/.next/cache/webpack/server-production/5.pack",
+        "/mnt/data1/.git/modules/2023/12/28/caramel/objects/pack/pack-6aab453784dff9f9bb010e87c579a0dfc7baa444.pack"
+      ]
+    },
+    "11": {
+      "count": 304,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-514149b9d098daacdb0e0903bba3d691aed03b37.pack",
+        "/home/mdupont/.emacs.d/straight/repos/anaphora/.git/objects/pack/pack-1d45d52221d3f2dbbc703ab59262065530a3c8d8.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gist.el/.git/objects/pack/pack-da0ac0dfb0d31133fc6ffc8ea3e96d561f3de88b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-ocaml/.git/objects/pack/pack-e713d341ab11abe468ed3cb67fb4ca27bb3b1c6b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/jsonrpc/.git/objects/pack/pack-81e7077134c8af418ef2ea3a733d071978148f22.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/magit-diff-flycheck/.git/objects/pack/pack-055456827b8d882d5ed58a6aae720d1b8537492d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/pos-tip/.git/objects/pack/pack-a998ebef32734dc40823ceee6369ac9fcc40df8e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/yaml.el/.git/objects/pack/pack-b8c075977f12fcf500097b49b4b4708a12d4b2c0.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-iam-chamber-user/objects/pack/pack-6e6ae44562f6a4f73de9f9a2e42a9920422c3add.pack",
+        "/mnt/data1/.git/modules/2023/12/28/ppx_graphql/objects/pack/pack-e5bde2e613c409febe3c816b7269027ac3a78a0e.pack"
+      ]
+    },
+    "12": {
+      "count": 262,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/libfuzzer-sys-2a22126b2abe19d7/35ce7d7/.git/objects/pack/pack-47d3c4d2010834446034257f70234e020a4981c1.pack",
+        "/home/mdupont/.cargo/git/db/cubecl-058c47895211d464/objects/pack/pack-1ae8b0f9c42858b8bf6ff03e1ea2d0df0434da91.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-test-simple/.git/objects/pack/pack-74a45f4b0fd2c694c63d9531d32371331cc1d6f6.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-company-terraform/.git/objects/pack/pack-9387c55f843a093092283066f119dc475815b570.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/lsp-jedi/.git/objects/pack/pack-fd3b7db5ac592d0fd1e48834a4ccb5786d9627a6.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/nix-mode/.git/objects/pack/pack-21556857da5cd6120704862ca9803b8ea904a010.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ocamlformat/.git/objects/pack/pack-c1a47f89691f8b59fddde87806e7daa3e866b27a.pack",
+        "/home/mdupont/projects/agentartificial/devops4/.git/modules/vendor/ansible-ssm-code-repo/objects/pack/pack-7966c0188ae4d9b96bcee2ef1c4bc16f7d351ec5.pack",
+        "/mnt/data1/.git/modules/2023/12/28/FStar/objects/pack/pack-b8b39590873d067c327d14ec4751991b937c4d9a.pack",
+        "/mnt/data1/.git/modules/2023/12/30/nanocaml/objects/pack/pack-aed4f7df04152058bd1c12507b5c8896bfda7062.pack"
+      ]
+    },
+    "13": {
+      "count": 303,
+      "files": [
+        "/home/mdupont/.cookiecutters/python-best-practices-cookiecutter/.git/objects/pack/pack-43c1491641ce7af26ed407816c3570416c2f0858.pack",
+        "/home/mdupont/.emacs.d/straight/repos/consult-gh/.git/objects/pack/pack-1b6e2459c2b7544b8b381dd56e6a80dd731d0c2a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/phantomjs/.git/objects/pack/pack-64da5e73b5424c0c65e1d3ab70ff2c10e68dff8b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/elpa-clone/.git/objects/pack/pack-9bd3de2fe926e12dce87f82517bc245703d232b5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-shellcheck/.git/objects/pack/pack-5f5f114563eb14323609753a9649d665443ab4b7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/mermaid-ts-mode/.git/objects/pack/pack-27336072c640b798bf20ebae0a7e5437e86a9d75.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-babel-eval-in-repl/.git/objects/pack/pack-df299b3ec44813378b2046d668cab79b01914281.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/s.el/.git/objects/pack/pack-565d901c8675239dad9c2fd02236c9da5a731e2b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/smart-shift/.git/objects/pack/pack-487e92453c4511b593a40cc7ae863d0e5df9cdf4.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/terraform-mode/.git/objects/pack/pack-9f7b1583eac0e224a059b65c05b68c145ef1a1ed.pack"
+      ]
+    },
+    "14": {
+      "count": 279,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/83910bd/.git/objects/pack/pack-72164d6b37e0816ba7cb83edb1ea6175b21b8aff.pack",
+        "/home/mdupont/.emacs.d/straight/repos/bui.el/.git/objects/pack/pack-3c8430a7c6c05ddd34eb829a7a81ed8e4035fc1c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/search-engines/.git/objects/pack/pack-09dbd8bd844ef9bef16c2f34774f8d358c94c067.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/company-math/.git/objects/pack/pack-dc619aa7ff5e39c5f46465e55859e0e88458f15a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-deferred/.git/objects/pack/pack-eb40913f65aa4fbe0e839f99800726ce5be33fca.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/google-define/.git/objects/pack/pack-78d2866d138084b6a6d23f83dbbf7bd87aa4fc40.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/nerd-icons.el/.git/objects/pack/pack-c4a851fc5fc51c89eebc9820878233ae1567d25c.pack",
+        "/home/mdupont/experiments/monster/multramate-repos/pairing/.git/objects/pack/pack-0af0a4e98a1e2c0fdea1fae143756187799abb20.pack",
+        "/home/mdupont/projects/agentartificial/.git/modules/other/subnet-system-control/objects/pack/pack-9bd6c58a7ca56e0a89af0668b7e8a8de688a1eb7.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-ssm-parameter-store/objects/pack/pack-66883ca7674cd50c20a3f46ef76d3f50aae6ac21.pack"
+      ]
+    },
+    "15": {
+      "count": 271,
+      "files": [
+        "/home/mdupont/.cargo/git/db/libfuzzer-sys-2a22126b2abe19d7/objects/pack/pack-47d3c4d2010834446034257f70234e020a4981c1.pack",
+        "/home/mdupont/.emacs.d/straight/repos/cargo-mode/.git/objects/pack/pack-3bcf35174672d27033a3b75496e50d7baeb831d9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-ipython-notebook/.git/objects/pack/pack-ec87a4c92b720e0cf979c80002d6697289fd0253.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eterm-fn/.git/objects/pack/pack-81d2b86270527f7baf47a16cf6d8549099817a55.pack",
+        "/home/mdupont/.emacs.d/straight/repos/github-api-v3/.git/objects/pack/pack-a963efbdee705b711816d406882e79ff462bcc39.pack",
+        "/home/mdupont/.emacs.d/straight/repos/json-process-client/.git/objects/pack/pack-b82b1b5e13fab79d1dbf894758caff5e017918f5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rust-playground/.git/objects/pack/pack-f95bc91ccba8a2b1d13d0af4c65d03532091a374.pack",
+        "/home/mdupont/.emacs.d/straight/repos/urlenc-el/.git/objects/pack/pack-0237f367f1526761d67f99474822e69a5a2fe93a.pack",
+        "/home/mdupont/.emacs.d.old/site-lisp/compat/.git/objects/pack/pack-922afad44cb5ebad3d14ce95fbb510f0682bb846.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/google-el/.git/objects/pack/pack-5b0badb94c35e5bfafc5fcb03a3d880ee39cf1a0.pack"
+      ]
+    },
+    "16": {
+      "count": 280,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/wirefilter-8ac103f10f7f5011/f3116d9/.git/objects/pack/pack-c8aee7706a2bc3ab70f949ec154c114e271f6a63.pack",
+        "/home/mdupont/.cargo/git/db/trapframe-rs-9610af1c3f6e289a/objects/pack/pack-7973590c6f7215a8be70e29ce2cc58d5fb21dcf7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/Highlight-Indentation-for-Emacs/.git/objects/pack/pack-3eeb64c7ce12bcafbe2c786571bda6e507b8897b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ht.el/.git/objects/pack/pack-97dcea5c4319b205a5cd3f78638394a11af15c95.pack",
+        "/home/mdupont/.emacs.d/straight/repos/plz-event-source/.git/objects/pack/pack-738d5f43f8062bdb05f195a98335aba86c6a6f7d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/sqlite-dump/.git/objects/pack/pack-3f2b154a4d95f78faf4ff075598d98b05f6cac73.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/choice-program/.git/modules/zenbuild/objects/pack/pack-7b5f42552254fc779ab81ee230fc72c78d752194.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/haddoc/.git/objects/pack/pack-ee7134cc238bb6b0d99c12b81f3856f391bb2236.pack",
+        "/home/mdupont/experiments/monster/multramate-repos/galois-field/.git/objects/pack/pack-0b1295e6e4dc56e18781e9063378e745cc879fe4.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/reports/objects/pack/pack-0bd6d55b5e324f49d541277199b172639a4cfce3.pack"
+      ]
+    },
+    "17": {
+      "count": 295,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-0d385653f826bd86298f1ac38cb584fb82ecaa92.pack",
+        "/home/mdupont/.cache/pre-commit/reponip1kgkk/.git/objects/pack/pack-7b919b359a298ed95590afaf7c50c4b2dbe9e4e9.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/wordbook/standard.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ansi.el/.git/objects/pack/pack-6d6841124a1fe3b13dbc2fe4a1494f41986898f1.pack",
+        "/home/mdupont/.emacs.d/straight/repos/code-review/.git/objects/pack/pack-1dad0fccb8b1d92127c4913434c71af8acd95bf8.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gh-notify/.git/objects/pack/pack-cd71fc238de212bf4fb3f3cfcf5b32b5d83e805d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/melpa/.git/objects/pack/pack-5adbf55c8ab94e599503477a95d05ef3b4a7fd70.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ocaml-ts-mode/.git/objects/pack/pack-22078712de8f6fce62feffd5deb49d481e6c07da.pack",
+        "/home/mdupont/.emacs.d/straight/repos/plz-media-type/.git/objects/pack/pack-eeb63d87dba47a0044316c62ade439149377a819.pack",
+        "/home/mdupont/.emacs.d/straight/repos/realgud-node-debug/.git/objects/pack/pack-97f16a1caeb121abbb276702ff745a60b33e3108.pack"
+      ]
+    },
+    "18": {
+      "count": 280,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/5843c6e/.git/objects/pack/pack-4ccf4405e3a36da19723c319d2aa82a7c64ecfd0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/cfrs/.git/objects/pack/pack-dd198bc33df98ab3194d5e5376d8433a73de2a99.pack",
+        "/home/mdupont/.emacs.d/straight/repos/clojure-mode/.git/objects/pack/pack-3159eca47e1878231b1c4d3041ec508046aaeceb.pack",
+        "/home/mdupont/.emacs.d/straight/repos/consult-ghq/.git/objects/pack/pack-1ab8acc8ab735dd68d8b138f1184969bccbac410.pack",
+        "/home/mdupont/.emacs.d/straight/repos/posframe/.git/objects/pack/pack-4ece472d18a7f6635ad159a76d8be3ea375d9998.pack",
+        "/home/mdupont/.emacs.d/straight/repos/s.el/.git/objects/pack/pack-0cd32593a21294df575540be72800d7871a0615b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-pyflakes/.git/objects/pack/pack-534a6fd94ceb90d5fedf29fc875e316e2bf8582c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/git-backup/.git/objects/pack/pack-f366577fbc041535850d0da0ec5e35687a068ae5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/matlab-mode/.git/objects/pack/pack-eec3c6ab88de394d3ec72295b8961cfecb0c0394.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/plz/.git/objects/pack/pack-afbbdceee6a590cec10c09b079d8f500c13e77dc.pack"
+      ]
+    },
+    "19": {
+      "count": 296,
+      "files": [
+        "/home/mdupont/.cache/pre-commit/repopgdaj98z/.git/objects/pack/pack-8bf2ea425f131aebece725b59c966b6b50886bc8.pack",
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/3cd0671/.git/objects/pack/pack-72164d6b37e0816ba7cb83edb1ea6175b21b8aff.pack",
+        "/home/mdupont/.cargo/git/db/cubecl-058c47895211d464/objects/pack/pack-1db3e486403df5ba5f08bc379438fdb2dd9b5331.pack",
+        "/home/mdupont/.emacs.d/straight/repos/babel/.git/objects/pack/pack-7379f8b6f8c63bcfef300e1e68166c6911b86157.pack",
+        "/home/mdupont/.emacs.d/straight/repos/dired-details/.git/objects/pack/pack-94b41abd40e01e69afbf9d10645c0dd86d234252.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-color-mode-line/.git/objects/pack/pack-11ff38abb1788a758c2337cef60b0223cc7a613a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gptel/.git/modules/gptel-test/objects/pack/pack-ddb9baf5983f0967fc3399a1d4b69b46216e8606.pack",
+        "/home/mdupont/.emacs.d/straight/repos/hydra/.git/objects/pack/pack-ed7e9f0f0b0755df42d78a8a3b4591d6e7c74a9e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/make-color.el/.git/objects/pack/pack-9948c1dafd4c9d3592a597aa51903091291b43b2.pack",
+        "/home/mdupont/.emacs.d/straight/repos/transient/.git/objects/pack/pack-dc26c94cf6de5b05ad0f3ef4153d8ecc01342138.pack"
+      ]
+    },
+    "20": {
+      "count": 252,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/91630e9/.git/objects/pack/pack-1ae8b0f9c42858b8bf6ff03e1ea2d0df0434da91.pack",
+        "/home/mdupont/.cargo/git/db/cubek-21eb4731b65c1fbd/objects/pack/pack-135c45bfe25d172eff08bc867698ad355902613a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/dape/.git/objects/pack/pack-502dd8e0c12dc2b8f19f177b4d1cce8d9a5abc00.pack",
+        "/home/mdupont/.emacs.d/straight/repos/npm.el/.git/objects/pack/pack-99e765fb9d477b408d245610f0f24470b2a7fbdf.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ocamlformat/.git/objects/pack/pack-6d999b4b5cb6320f4c4ea236ff4a1b71e7b48941.pack",
+        "/home/mdupont/.emacs.d/straight/repos/pyvenv/.git/objects/pack/pack-8f4ff6ae798ecf6732066cfac36ac947e49dd37d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/biblio.el/.git/objects/pack/pack-d1af43f04de96d86f80624e9e21d0bfc5a8cb446.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/blacken/.git/objects/pack/pack-1e7de2baab75728eac0df03a67a88b38dc34dce2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-conventional-changelog/.git/objects/pack/pack-1d45ef4101768611341d5e171e8bbca794500d29.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-yamllint/.git/objects/pack/pack-2f6249a20d818252ed728399cf4e5b0425316bef.pack"
+      ]
+    },
+    "21": {
+      "count": 281,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/67cb9eb/.git/objects/pack/pack-135c45bfe25d172eff08bc867698ad355902613a.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/ExtensionInfo.pack",
+        "/home/mdupont/.emacs.d/straight/repos/projectile/.git/objects/pack/pack-74de63f655942dd6c2bb3902564142cb9015cbaa.pack",
+        "/home/mdupont/.emacs.d/straight/repos/straight.el/.git/objects/pack/pack-152d516370d95e40b65d1381bafc87737f78dab2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/coq-commenter/.git/objects/pack/pack-87cb18d4b27957f0aa53880af2e3afdb1470fb15.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-lgr/.git/objects/pack/pack-5c198375b3c6004984b089cf0052601306457da9.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/hydra/.git/objects/pack/pack-ed7e9f0f0b0755df42d78a8a3b4591d6e7c74a9e.pack",
+        "/mnt/data1/.git/modules/2024/02/11/literate-rtl/objects/pack/pack-6180c3c16343727bca0b0aef315c354fc937f241.pack",
+        "/mnt/data1/2023/04/27/introspector/.git/objects/pack/pack-9ec8439ec73705265c8b31e7224dca438e860802.pack",
+        "/mnt/data1/2023/07/06/debug-via-ssh/.git/objects/pack/pack-2fdcbb1aa8a691b155940031585a9f52b2c98bc1.pack"
+      ]
+    },
+    "22": {
+      "count": 256,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/83910bd/.git/objects/pack/pack-49853b0d31e08bf7b9af50ed5deca7f86ab2744d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/fbthrift/.git/objects/pack/pack-3b700dad124a5020262948a5581a08e53958ab7d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-typescript-tslint/.git/objects/pack/pack-358861f6cf5892ae53e87d95ea2402e7d1c82b42.pack",
+        "/home/mdupont/.emacs.d/straight/repos/js2-refactor.el/.git/objects/pack/pack-27a3ef7b89871b6f0ac8aad41501e722c60302fa.pack",
+        "/home/mdupont/.emacs.d/straight/repos/scheme-complete/.git/objects/pack/pack-64e1a00915246401263bdb7281890673dfb1d47a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/math-symbol-lists/.git/objects/pack/pack-428682d794ea8f658861680ee0c53de8a7c7f93d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/merlin/.git/objects/pack/pack-3fe6e03bd54d547c0949e9f66abf70576835fcbd.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/yasnippet/.git/objects/pack/pack-6212329f7764ea362c771032ef0b7ef656b82586.pack",
+        "/mnt/data1/.git/modules/2023/12/23/ogma/objects/pack/pack-def89c4c60f26a69db4687d84736d6017fa38adf.pack",
+        "/mnt/data1/.git/modules/2023/12/30/ocaml-git/objects/pack/pack-1a9e00f2f388a160c07a9e33a84fcc7c3063b2a9.pack"
+      ]
+    },
+    "23": {
+      "count": 273,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/83910bd/.git/objects/pack/pack-6665efcb328b2e435337e7bfad550e179b84a1ef.pack",
+        "/home/mdupont/.emacs.d/straight/repos/colorful-mode/.git/objects/pack/pack-7654ec4cb56edba1328e791a71ab22609385e7f9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/evil/.git/objects/pack/pack-a965c73f77c9dc3a12cd4c94b798d47089495a33.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gh.el/.git/objects/pack/pack-16c6733993ecacfe3205b3d0d89e6e3b39d902db.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lsp-javascript-typescript/.git/objects/pack/pack-809056268848e369bdd2b9d9538bf3366b64bd5a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/dune/.git/objects/pack/pack-290539f237c9cf60a0edb9b9966ffadbb30f1906.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/eldev/.git/objects/pack/pack-c79d7164a4763ed5b6e90658f9dc6ec537d937c3.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck/.git/objects/pack/pack-e9e9b02bf095704cdda2d370db51295debba3689.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/isortify/.git/objects/pack/pack-f79f9140c2f5f5d5385331181cf3021de2e03482.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/project/.git/objects/pack/pack-d55116d158b77ad54410ec17c4bf27c6e0c2aaea.pack"
+      ]
+    },
+    "24": {
+      "count": 276,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/skewer-mode/.git/objects/pack/pack-a6da3ebc0ae0b257f5fb595f4623126ebf1afbec.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/caml-mode/.git/objects/pack/pack-d2cfa7b161e4525301fc433354575faa72eca8bb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/csv-mode/.git/objects/pack/pack-dc2318a9503f32d42ac537fbf8c1e4eba1504a4f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ghq/.git/objects/pack/pack-f09d792789eb4b546ccff9f6002c32a0fd6b8d85.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/hierarchy/.git/objects/pack/pack-8160a447539c84cd2ad7f8e547091d2a9eea4ad9.pack",
+        "/home/mdupont/experiments/monster/external/UniMath/.git/objects/pack/pack-61517683545d5c1092b00b4daa927174730494ae.pack",
+        "/home/mdupont/nix-controller/.git/modules/he-lattice/pipelight/objects/pack/pack-be869ac1a360cafacec5b8e485adb9f08901ca53.pack",
+        "/mnt/data1/.git/modules/2023/12/28/bincat/objects/pack/pack-ca0b9191e728c6000103e9132de37a1d3ad2d187.pack",
+        "/mnt/data1/.git/modules/2023/12/30/algaett/objects/pack/pack-ac00d912d7f275d0776e33e70bab8000eb828616.pack",
+        "/mnt/data1/.git/modules/2023/12/30/tpf/objects/pack/pack-53af2cfa250bcd25c1270db40aaf0dcbd16666a7.pack"
+      ]
+    },
+    "25": {
+      "count": 284,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/a3987c6/.git/objects/pack/pack-1db3e486403df5ba5f08bc379438fdb2dd9b5331.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/9a42b69/.git/objects/pack/pack-135c45bfe25d172eff08bc867698ad355902613a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/compile-/.git/objects/pack/pack-5c5fa462d7e3fca90aed2e9f096515a9314f97ba.pack",
+        "/home/mdupont/.emacs.d/straight/repos/search-web.el/.git/objects/pack/pack-236f9b7f0ccd801d3981bf2df0f23becffd06abb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/anaphora/.git/objects/pack/pack-f6264eb0e78d43394cf9a7b36979c5d89a1e273b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/buffer-manage/.git/objects/pack/pack-edb94153fc6c0697075c9f190227b05f14432c4b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/edebug-inline-result/.git/objects/pack/pack-c1830d415de4fce93fc4c4058bbc276fc32f86e2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/lsp-pyre/.git/objects/pack/pack-92c847bee32b5e4a4e3c08f6ea885650e19831a4.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/magit/.git/objects/pack/pack-1bc03a25f999b949e46372e6f6726bbcbeede717.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/ansible-ssm/objects/pack/pack-a8f69a249f49d2cea124a3a51b75e34c5edba26d.pack"
+      ]
+    },
+    "26": {
+      "count": 296,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/quickcheck-9be5b49a690ab88a/83b1d59/.git/objects/pack/pack-95edf800f8c8ba403830ff3824541e8c46d6f789.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-load-relative/.git/objects/pack/pack-acc248c1a5388ac1ab329ba2bb8d42a11308efe9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/geiser/.git/objects/pack/pack-4a403072149c8ef787477c61ba31dd06dfb1350f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/multiple-cursors.el/.git/objects/pack/pack-115aa6a133781c560b6c63c693c5131acc832129.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/button-lock/.git/objects/pack/pack-2a13b28f1f0ee23268e38d25e931725f3ee93cdb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/compat/.git/objects/pack/pack-8b0157b2b88ae5a8227ef65f12efde208e691019.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/modules/lib/ansible/modules/lib/ansible/modules/core/objects/pack/pack-15dbb45c9f80c0af2a62fe8c5b4acfcd10fc87b7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-promise/.git/objects/pack/pack-784fcbb6a2231d75d1beaa58955788d85e610cc5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/external-completion/.git/objects/pack/pack-734bdafa943f9b607f369582bb2547ca6041ef2e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gh.el/.git/modules/docs/build/html/objects/pack/pack-16c6733993ecacfe3205b3d0d89e6e3b39d902db.pack"
+      ]
+    },
+    "27": {
+      "count": 302,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-1a0b8bc214f90719ed900f4d5d0219a3a2953d51.pack",
+        "/home/mdupont/.emacs.d/straight/repos/n3-mode-for-emacs/.git/objects/pack/pack-1abbe08a68f80d5e2fdba1771cf4066345a6fdce.pack",
+        "/home/mdupont/.emacs.d/straight/repos/page-break-lines/.git/objects/pack/pack-c09cde087a17f29fdd6dd976403a857b6ec145ce.pack",
+        "/home/mdupont/.emacs.d/straight/repos/realgud-node-inspect/.git/objects/pack/pack-a07ad5a47e114cc529ad81f9b8377c9ca5e25b6a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/company-mode/.git/objects/pack/pack-6c83c8819fae243bf6811661b24b78a488fe94b9.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-lsp-scheme/.git/objects/pack/pack-0066024989f9b07babdfeb0a6bc59dd753ceb655.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-python-isort/.git/objects/pack/pack-da3d02fe68b528cf105167a4d41d7ac597f64fc7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/eww-lnum/.git/objects/pack/pack-d7c1d9cb7971903fe70ddaf99fef1ccba6e7e1a5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/notebook/.git/objects/pack/pack-781379a841ae1e8606f55ace33cdd025f906d521.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-index/.git/objects/pack/pack-a9773879085ad23bf79016f961d85b7ccbdf2632.pack"
+      ]
+    },
+    "28": {
+      "count": 251,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-98244c6104d2e686290dc3cf22d33358820c6503.pack",
+        "/home/mdupont/.cargo/git/checkouts/rand-c73a030ff08a9620/f77e22f/.git/objects/pack/pack-26f47f607a15d51f0c26e1dd48459583eb3c97de.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/config/autotbl.pack",
+        "/home/mdupont/.emacs.d/straight/repos/elisp-tree-sitter/.git/modules/langs/objects/pack/pack-206266d1b4abcf8bf04b874255ab8b9017a132c3.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-w3m/.git/objects/pack/pack-b2dc401a3293177cac4638b26d80b77c511fa615.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacsql/.git/objects/pack/pack-3f44521a5a08621c86c7948dea4a29fd63d52205.pack",
+        "/home/mdupont/.emacs.d/straight/repos/helm/.git/objects/pack/pack-a8b1c4a1a021a6fab1c537d1eb1a1ded73d53007.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/f.el/.git/objects/pack/pack-ae957231c19ab7b787d30624b1177fa51a446290.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/liquid-types.el/.git/objects/pack/pack-ed967fe58f3f35e18505dae3f349fabd534c7818.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/marshal.el/.git/objects/pack/pack-3a6f45072205c33b2052929771dd0b53a5d316d3.pack"
+      ]
+    },
+    "29": {
+      "count": 289,
+      "files": [
+        "/home/mdupont/.cargo/git/db/burn-6c277d792b0d5d7a/objects/pack/pack-49853b0d31e08bf7b9af50ed5deca7f86ab2744d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eaf/.git/objects/pack/pack-e81596f8c0da1863665f1455ef3f4275dfa4bfc7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-promise/.git/objects/pack/pack-784fcbb6a2231d75d1beaa58955788d85e610cc5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-request/.git/objects/pack/pack-551b672ab93eaae75b8b3c43e440b4037a81ef06.pack",
+        "/home/mdupont/.emacs.d/straight/repos/forge/.git/objects/pack/pack-3321ca4814505fed3e2beff60535a02a369fa6c4.pack",
+        "/home/mdupont/.emacs.d/straight/repos/opam-switch-mode/.git/objects/pack/pack-707ce9bdc84bd023f809c51b75c48bff76e032f6.pack",
+        "/home/mdupont/.emacs.d/straight/repos/toml-mode.el/.git/objects/pack/pack-df618aa327837197e214dc78eb8490d71970b77d.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-kms-key/objects/pack/pack-5751cbebcbeee2ea3b969305560a1c2decfc00ad.pack",
+        "/mnt/data1/.git/modules/2024/01/30/ClosestPoints/objects/pack/pack-a721450a3756f222104bf20e8b42af4b05b9757f.pack",
+        "/mnt/data1/2023/04/28/gpt4all/.git/objects/pack/pack-8dc3a0f7762f39cf977de1128c0c8cadc25f3892.pack"
+      ]
+    },
+    "30": {
+      "count": 264,
+      "files": [
+        "/home/mdupont/.cargo/git/db/cubek-21eb4731b65c1fbd/objects/pack/pack-cd04b07179470efd6ce9f5a1bb4347b16d42dc8c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/mermaid-mode/.git/objects/pack/pack-79af8cb0014ffa24c7a4ae9b3e97c2ef9e6274d7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/semantic-thrift/.git/objects/pack/pack-ef2b260477f2305a535bb09c73df75c0770e913c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-async-job-queue/.git/objects/pack/pack-ceb0609fb8574d09b6e2c234d4deb4f9a7f923bb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-w3m/.git/objects/pack/pack-706ec8435af4f1edd99c72073b15193b97c3cbaf.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-agenda-property/.git/objects/pack/pack-67f1d2ff06ee7541f86963774447ed7e1ef0705b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-mode/.git/modules/testing/jump/objects/pack/pack-31a2d432cde79ad5a642c7807d294104db1729f9.pack",
+        "/home/mdupont/projects/agentartificial/cillium/cellium-miner/.git/objects/pack/pack-cc8f1a311e0e8d0b451e63cd9f6cb617f642a118.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-null-label/objects/pack/pack-36a62a682d335ded93b8545b8d37886b0d5e7223.pack",
+        "/home/mdupont/projects/agentartificial/devops2/.git/objects/pack/pack-706b160eb320fb49fc9f0dd3d6c0328b72b86b64.pack"
+      ]
+    },
+    "31": {
+      "count": 286,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/3cd0671/.git/objects/pack/pack-6665efcb328b2e435337e7bfad550e179b84a1ef.pack",
+        "/home/mdupont/.emacs.d/straight/repos/copyright-both-ends/.git/objects/pack/pack-a260fa764305c805dc4729eca91653ac33e5fc71.pack",
+        "/home/mdupont/.emacs.d/straight/repos/header2/.git/objects/pack/pack-69f72f651dcf73a0440178c3465190d4db61b122.pack",
+        "/home/mdupont/.emacs.d/straight/repos/pcache/.git/objects/pack/pack-15989adaa0c235335c6a8855e305f565650176bc.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/beacon/.git/objects/pack/pack-2f1c39a2835175931e91f4898d916892a594de04.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/searcher/.git/objects/pack/pack-77471dbfde83b12b9e3af0a4c29179a92d405a26.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/treesit-auto/.git/objects/pack/pack-e3675d4903e122a978bb697c78e4df07aaebd7a6.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/utop/.git/objects/pack/pack-5046ee3646522f40d42e82866734448febaa702e.pack",
+        "/home/mdupont/experiments/monster/diffusion-rs/.git/modules/sys/stable-diffusion.cpp/objects/pack/pack-b8d4ba09c64d9591c64f14a6216d1f3a2e587abf.pack",
+        "/mnt/data1/.git/modules/2024/01/07/proof-tree/objects/pack/pack-d2c5086f35f27a4deb49cf5f4ed5a2e5e650ff2e.pack"
+      ]
+    },
+    "32": {
+      "count": 302,
+      "files": [
+        "/home/mdupont/.cargo/git/db/semihosting-e958da0309bf7545/objects/pack/pack-2d45fa049e58aeb19f673d9047930324179a9def.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-lsp-scheme/.git/objects/pack/pack-0066024989f9b07babdfeb0a6bc59dd753ceb655.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lsp-mode/.git/objects/pack/pack-60be49cea3bd30a00fdb5475e1e7a4b2471d2924.pack",
+        "/home/mdupont/.emacs.d/straight/repos/wfnames/.git/objects/pack/pack-ec13730f3e7e1996860df9873097e4f8eeca6e8a.pack",
+        "/home/mdupont/.emacs.d.old/site-lisp/with-editor/.git/objects/pack/pack-238eae1d573b0ab16570307890c06240ad24d23f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/bbdb/.git/objects/pack/pack-ef96f76545065cd16ca8fdfe15d48e5309365531.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-stack/.git/objects/pack/pack-ad7cec9ebfc747c25d025085a77e19fab03fac48.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/github-search/.git/objects/pack/pack-935c42f6b8fc85e37085e72c1276d4440f486332.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/helm/.git/objects/pack/pack-19c26eeb025b2c60af1cc0404d05f850d5a94d70.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/paredit/.git/objects/pack/pack-efab84c3915490139c40a3fa39a8ea6d84d2c6a3.pack"
+      ]
+    },
+    "33": {
+      "count": 258,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/async-executor-b0002e1524f76207/d703026/.git/objects/pack/pack-c6d9b59aef7a3aa0fd4181b2f3ff3510cc432628.pack",
+        "/home/mdupont/.cargo/git/db/burn-6c277d792b0d5d7a/objects/pack/pack-6665efcb328b2e435337e7bfad550e179b84a1ef.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/basic/Standard/Module1.pack",
+        "/home/mdupont/.emacs.d/straight/repos/chatgpt-shell/.git/objects/pack/pack-cec612f995d1bc53a40b7d94be48bb7a35e6b03c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/compile-plus/.git/objects/pack/pack-3bfb0be4ceab53a7782f85876330b2e0f3534866.pack",
+        "/home/mdupont/.emacs.d/straight/repos/deno-ts-mode/.git/objects/pack/pack-be54e6e4e803d000cdea640a2686c289ca41aa2b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eldoc/.git/objects/pack/pack-6718d98702b7597757c7133aced9f2e32729a02f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-company-terraform/.git/objects/pack/pack-9387c55f843a093092283066f119dc475815b570.pack",
+        "/home/mdupont/.emacs.d/straight/repos/f.el/.git/objects/pack/pack-a362ecb67259c2b676e6d8808b1140cb56bfe5a3.pack",
+        "/home/mdupont/.emacs.d/straight/repos/magit-popup/.git/objects/pack/pack-a1da9dcf7ccfadf8c0a8e6507aacaa587f7a7a14.pack"
+      ]
+    },
+    "34": {
+      "count": 283,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/dash.el/.git/objects/pack/pack-83fbf93d7ade6d4a55446466db5570fd2d434cfc.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-kubectx-mode/.git/objects/pack/pack-3733d8dc38cfc17fbafbd4471a624a2e2176849f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacsmirror-mirror/.git/objects/pack/pack-07c743235c881545353cedaca978c72b0fcf8dc0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-yamllint/.git/objects/pack/pack-2f6249a20d818252ed728399cf4e5b0425316bef.pack",
+        "/home/mdupont/.emacs.d/straight/repos/js2-mode/.git/objects/pack/pack-81db47e52c47828b8b0316e7668d813075e1e2e5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/magit/.git/objects/pack/pack-bc9ccaf22241406f929e92885a63927f32dac23a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/yasnippet/.git/objects/pack/pack-5aaa7fcf91ac239d04cd5418decfeb97e198c44a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-request/.git/objects/pack/pack-551b672ab93eaae75b8b3c43e440b4037a81ef06.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-easy/.git/objects/pack/pack-f7b88c8f2614715f4b47bf4e859e8a12ff8ad00b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/llama/.git/objects/pack/pack-0f295e0422c6f10607e93787a0977a41f8c8048c.pack"
+      ]
+    },
+    "35": {
+      "count": 274,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-7c44aa4c03d23c7ab6bd678c3efaeb62cbffa143.pack",
+        "/home/mdupont/.cargo/git/checkouts/cudarc-bb725c562477d40e/003498c/.git/objects/pack/pack-ce1cebe436d9c0323910d4ca43666f1e1ee28e41.pack",
+        "/home/mdupont/.cargo/git/db/utest-8072f7d24bb7f05c/objects/pack/pack-093fdd4af548ebf446cb6170db3b47c38bf69fbc.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/database/biblio.pack",
+        "/home/mdupont/.emacs.d/straight/repos/spinner/.git/objects/pack/pack-33efdecf9837f6fa93e9325efd42e49ef5f0f9b9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/with-editor/.git/objects/pack/pack-a375990be7e3fe505c9b2f10a78c9849a6f99b3b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/modules/lib/ansible/modules/lib/ansible/modules/extras/objects/pack/pack-c6696bc0f03b4cb7d4ac8709915dd8f50cf99ef2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/go-mode.el/.git/objects/pack/pack-cc410a1ab7f890a5c2a92a1340e6ff288a944133.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/w3/.git/objects/pack/pack-f94447fa7314d5c37b656d17e28e741d5f39cc4c.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-ssm-iam-role/objects/pack/pack-336d42dbb887ed792fc94bfd9dac9d709d90e3e9.pack"
+      ]
+    },
+    "36": {
+      "count": 278,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/dd274b6/.git/objects/pack/pack-1ae8b0f9c42858b8bf6ff03e1ea2d0df0434da91.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ob-browser/.git/objects/pack/pack-22fbe0a4f73af7fbfed9c7a14f9621f797dcf0df.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/helm-bibtex/.git/objects/pack/pack-7e5de984a6af017a813d2bea520fdc71a964f748.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/log4e/.git/objects/pack/pack-45265b258b038c38ee493e0021baafd21c04857f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/melpa/.git/objects/pack/pack-d07890b2e4f5328a78c451387d13c9ae6b3be685.pack",
+        "/mnt/data1/.git/modules/2023/12/22/otto/objects/pack/pack-4332787275a2f6a9c5e3d9d2a1d5bc4f3b37c77a.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/cli/src/semgrep/semgrep-interfaces/objects/pack/pack-145f04ad40802c2f95dbf0fdc93518ba0f63e211.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/src/tree-sitter-lang/semgrep-dockerfile/objects/pack/pack-23937c1fd97d866c9397f81c747f6db332b2fee5.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/src/tree-sitter-lang/semgrep-ocaml/objects/pack/pack-be9a621575f7bddffb315bb14d4e5ec98ca68059.pack",
+        "/mnt/data1/.git/modules/2023/12/30/awesome-ppx-deriving/objects/pack/pack-62096d2ca05f1956e7077c6388a8df92efb248c0.pack"
+      ]
+    },
+    "37": {
+      "count": 256,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-32f3ae2755f69b6c154003e92d05d244df6828b4.pack",
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-83f6e76c7edeeade944689822fe6a4e218ee91ca.pack",
+        "/home/mdupont/.cargo/git/checkouts/cross-f0189a1dc141e2d9/849b606/.git/objects/pack/pack-3dafcad3dfe74ac7ad64bae65b1b45d7e1326f8b.pack",
+        "/home/mdupont/.cargo/git/db/rand-c73a030ff08a9620/objects/pack/pack-26f47f607a15d51f0c26e1dd48459583eb3c97de.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/eask-mode/.git/objects/pack/pack-19066e97f978dde9e42975f162946604e9be973d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ob-async/.git/objects/pack/pack-b46c9cefd0e32bb30a9e9079904e7bf5a50026d9.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-brain/.git/objects/pack/pack-d7b186b806dc1b30380f426945e2f2ea56031dff.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-search-goto/.git/objects/pack/pack-f819a9f3a759b2345155d9e636be3eb270142048.pack",
+        "/home/mdupont/experiments/monster/.git/modules/references/PrincipiaMetaphysica/objects/pack/pack-91250fa9b4c47cd09c823053be86f538063f1f41.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/hivemind/objects/pack/pack-d8d33d0e5e195b849bbe018e63f28130d9016452.pack"
+      ]
+    },
+    "38": {
+      "count": 289,
+      "files": [
+        "/home/mdupont/.cookiecutters/cookiecutter-pypackage/.git/objects/pack/pack-6a02472bfdeaf61ccff6cdc5f8c5a9c858b098eb.pack",
+        "/home/mdupont/.emacs.d/straight/repos/docker-compose-mode/.git/objects/pack/pack-4cbf080b3b6f3a1854e19ee630ecb273f44f3702.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-aio/.git/objects/pack/pack-1f5ad28c7f6926071f6559097752f947bb269fea.pack",
+        "/home/mdupont/.emacs.d/straight/repos/jsonrpc/.git/objects/pack/pack-c040dc7878def5472cbbf9c8ee61edcd6716463d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/dash.el/.git/objects/pack/pack-672c5c5caaa086a823c18141c9a761a870c9d942.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/eldoc/.git/objects/pack/pack-39cdcf61386bdad12a4225e6c7fff645d437ddfa.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-haskell/.git/objects/pack/pack-a17f3f93169e6296e7d2e6ff01ca655f64605296.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-yaml/.git/objects/pack/pack-8ca7aab932b658d35b793866bddd7b63ed060cd3.pack",
+        "/home/mdupont/experiments/monster/multramate-repos/FldFunFin/.git/objects/pack/pack-3fbf61443b23b65fa1e9c6905c0a8cbda6bff93f.pack",
+        "/home/mdupont/projects/agentartificial/devops4/.git/modules/vendor/ansible-tailscale-inventory/objects/pack/pack-7131ff517fbe67b72fa0e7ab1d645b0641bb14f2.pack"
+      ]
+    },
+    "39": {
+      "count": 272,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-8124cb2899025cdca019632728b6e5f3ee499504.pack",
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-e22b6497ef81aff465dcc43374b6267e0332c2bc.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/bed07d3/.git/objects/pack/pack-326be6ef86cac0438bea2eb9a6bd66f7151ec808.pack",
+        "/home/mdupont/.cargo/git/db/rust-sdk-773cd6d57c4837f3/objects/pack/pack-13b8fa5cb28ed5454dc88ce8b434f760433b028f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs/.git/objects/pack/pack-3afcc8c5aef0a377ea982776cbc9bec59cc5357c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/hcl-mode/.git/objects/pack/pack-974ed2c527ca55ab524a4cbc732cfd5d20de7351.pack",
+        "/home/mdupont/.emacs.d/straight/repos/isortify/.git/objects/pack/pack-a26e2a7122eb856e58697ae32592c7c4eaccb2be.pack",
+        "/home/mdupont/.emacs.d/straight/repos/tide/.git/objects/pack/pack-bd15e6a474cde3c4737b29992642a997f3ca6d08.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/edit-indirect/.git/objects/pack/pack-f48554583f369aba4f263a7a9c1d2914eb8fac70.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-pycheckers/.git/objects/pack/pack-a010409a95e6b3a6f65e25e47c9c5a4fc7fd955b.pack"
+      ]
+    },
+    "40": {
+      "count": 298,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/bf53bf6/.git/objects/pack/pack-1db3e486403df5ba5f08bc379438fdb2dd9b5331.pack",
+        "/home/mdupont/.cargo/git/db/cubek-21eb4731b65c1fbd/objects/pack/pack-326be6ef86cac0438bea2eb9a6bd66f7151ec808.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eval-in-repl/.git/objects/pack/pack-332c70aebbdca47432a3fa387833dd5913501bb4.pack",
+        "/home/mdupont/.emacs.d/straight/repos/merlin/.git/objects/pack/pack-d65d3dc79603e320e6ef1cbc20821eb485b26dd2.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ocamlformat/.git/objects/pack/pack-b594924fdf01aa4227d0bd09ed0fffb29f9a6622.pack",
+        "/home/mdupont/.emacs.d/straight/repos/python-pylint/.git/objects/pack/pack-fc3a0069850302db438f90e2ac7ded036ce6a976.pack",
+        "/home/mdupont/.emacs.d/straight/repos/realgud/.git/objects/pack/pack-184eb4e193fe87c2b4b805ba79007063132507a9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/transient/.git/objects/pack/pack-b0c689c5e5b00c0428d7ff0b83d6d005ecb4671f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ipython-notebook/.git/objects/pack/pack-0c2fe2da71d88d8cf60986c9175e28fa082bcb55.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/guile/.git/objects/pack/pack-26b36d2d775db8cb63f7c9129f9c47213e4a4bb8.pack"
+      ]
+    },
+    "41": {
+      "count": 281,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/emacs-reformatter/.git/objects/pack/pack-25cc99e1b908dc21ddf8a1be609a408c331166a5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/marshal.el/.git/objects/pack/pack-3a6f45072205c33b2052929771dd0b53a5d316d3.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/company-coq/.git/objects/pack/pack-a8f672a81927f00519380b5633fba779d584615f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/modules/lib/ansible/objects/pack/pack-1b89d7c5eb3232d50bb7c62a2bdf0f52d4bf2fbf.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-python-pyflakes/.git/objects/pack/pack-6b35089ff8734445ff2f103d626ee91f1a7d4e90.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/helm-git-grep/.git/objects/pack/pack-79d9e55e219fb19315349c3acf0f296d7bbc385c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/nix-env-install/.git/objects/pack/pack-d3f38771f8cec8b7582c6254b05093f962f51103.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-elb-cognito-auth/objects/pack/pack-39658025bd8911e8beee6a17a08293a25380fdec.pack",
+        "/mnt/data1/.git/modules/2024/01/01/ocaml-merlin/objects/pack/pack-32c93614598f5278d62d8ce7ad55cd4998fdb67d.pack",
+        "/mnt/data1/.git/modules/2024/01/30/parsing-parses/objects/pack/pack-cd300407141c9220b78eaf94f32880b52d2edc6d.pack"
+      ]
+    },
+    "42": {
+      "count": 258,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/a3987c6/.git/objects/pack/pack-0c2ab76315e788984a937a29a760b9adcc3bfd38.pack",
+        "/home/mdupont/.cookiecutters/cookiecutter-fastapi-sqlite/.git/objects/pack/pack-baa3845296d2ba38827b8e285efcade3e2483e43.pack",
+        "/home/mdupont/.emacs.d/straight/repos/el-get/.git/objects/pack/pack-cf50e58199669f4715e0a9394ed8b2cbd648af66.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eslint-rc-emacs/.git/objects/pack/pack-a9c6186540fdc69048ccf42c9afff6158fbbbf35.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gptai/.git/objects/pack/pack-cc6a7b88951a5a33e0f40288d25bba0ac692f93d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/kubernetes-helm/.git/objects/pack/pack-d718b27605dc92cee988d8c44934b7ae711d1bdd.pack",
+        "/home/mdupont/.emacs.d/straight/repos/llama-cpp.el/.git/objects/pack/pack-7dc4aa2841564442613ad8ccd054b7dd1f5a7108.pack",
+        "/home/mdupont/.emacs.d/straight/repos/org-table-color/.git/objects/pack/pack-c8a47756bb0d05d8bae4c89e1c664ca479809e6f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ppp.el/.git/objects/pack/pack-014eef8104fe5db49c7738920159ba8cd2dacb21.pack",
+        "/home/mdupont/.emacs.d/straight/repos/scheme48/.git/objects/pack/pack-7e189d708a373c66724bd37a5493a84208c99197.pack"
+      ]
+    },
+    "43": {
+      "count": 281,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/nix-mode/.git/objects/pack/pack-99e24a5f9eac9decb85084e6af0460b472f6bf1c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/tree-mode/.git/objects/pack/pack-9dcf09c984b4aaeb7e022e51f4a3029e2df0117a.pack",
+        "/home/mdupont/projects/agentartificial/.git/modules/other/ComxWatchdog/objects/pack/pack-f9a6fd40eac768ad51913d34fbd832a772cda7ed.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/litellm/objects/pack/pack-3c8ad6e2f4205e0f35e8f0d6f6a6f3f549979629.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-s3-kms-key/objects/pack/pack-ba42df6453b03474fb41525e728b03fff516bd56.pack",
+        "/home/mdupont/projects/agentartificial/devops/vendor/litellm/ui/litellm-dashboard/.next/cache/webpack/server-production/6.pack",
+        "/home/mdupont/projects/huggingface/lang-agent-streamlit/.git/objects/pack/pack-600a908c4fc24794a4db06e53bfdd7a8c890281d.pack",
+        "/mnt/data1/.git/modules/2023/12/28/austral/objects/pack/pack-31f00b3867f57e7e2d80399b2b49127d7dcaee70.pack",
+        "/mnt/data1/.git/modules/2023/12/28/coq-of-ocaml/modules/vendor/merlin/objects/pack/pack-08f75d62a3085facf029033709c0003d8896edaf.pack",
+        "/mnt/data1/.git/modules/2024/01/01/opam/objects/pack/pack-4872e982afd45246242d816bcfe07895bdc41b15.pack"
+      ]
+    },
+    "44": {
+      "count": 262,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/PG/.git/objects/pack/pack-06a0b36ef57c5b4d38f787f0935b3d5ea9cf1dbe.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flymake-rust/.git/objects/pack/pack-8133b5019d5c41612c6b11dd82d3e402100163be.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gnu-elpa-mirror/.git/objects/pack/pack-84611a4b560c82fad04e91014c348ab55362e3f7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/guile/.git/objects/pack/pack-20289e7485f8144027f4f60fee58653957f23754.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rusti.el/.git/objects/pack/pack-733dbb2c99db1c39384a85b3bed6139e264ece0e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/docker-compose-mode/.git/objects/pack/pack-4cbf080b3b6f3a1854e19ee630ecb273f44f3702.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/modules/lib/ansible/modules/v2/ansible/modules/extras/objects/pack/pack-c6696bc0f03b4cb7d4ac8709915dd8f50cf99ef2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/lsp-ui/.git/objects/pack/pack-b8d13b05fab901e806219da4a71d6f7a5436123b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/map/.git/objects/pack/pack-582c89895fba9303a205b6b3fa85e5956945c99e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/python-pylint/.git/objects/pack/pack-fc3a0069850302db438f90e2ac7ded036ce6a976.pack"
+      ]
+    },
+    "45": {
+      "count": 274,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-4dd4e5ff3522342d2a13b11d215baff2f96a193e.pack",
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-b0a466b19d7f4708265181272c6c94f7b71d5eac.pack",
+        "/home/mdupont/.cargo/git/checkouts/utest-8072f7d24bb7f05c/e32073e/.git/objects/pack/pack-093fdd4af548ebf446cb6170db3b47c38bf69fbc.pack",
+        "/home/mdupont/.emacs.d/straight/repos/chicken-scheme/.git/objects/pack/pack-4fa7969975c5d45d1e4e1089ea209fd1f98e5c32.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-async/.git/objects/pack/pack-9c4b3ae86c3b599bb151917d71eaa33adf3db2fd.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-web-server/.git/objects/pack/pack-f120f3da8f4c2e9adc31d8826925837af6d1d787.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lsp-mode/.git/objects/pack/pack-d032e984a7db4951e37c9e8f902a2d1ac2c738eb.pack",
+        "/home/mdupont/.emacs.d/straight/repos/tuareg/.git/objects/pack/pack-308be923d5a8e28fe5de2e6195f4e341ed2d41cb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/eglot/.git/objects/pack/pack-499f14c1f6a758d9df32acf8030992f94abf27dc.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-bash-completion/.git/objects/pack/pack-2d85441bd9a2dcf1632fed23b5ad4c4ef1a15398.pack"
+      ]
+    },
+    "46": {
+      "count": 274,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/9a42b69/.git/objects/pack/pack-326be6ef86cac0438bea2eb9a6bd66f7151ec808.pack",
+        "/home/mdupont/.cargo/git/db/burn-6c277d792b0d5d7a/objects/pack/pack-72164d6b37e0816ba7cb83edb1ea6175b21b8aff.pack",
+        "/home/mdupont/.cargo/git/db/x86_64-380b825b01a45fff/objects/pack/pack-750875a3e81e2e7a40ef00ed67e1431bd61e4208.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flymake-shellcheck/.git/objects/pack/pack-a67a6e04a44814a52c79be8031b1ad08680cae91.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lean-mode/.git/objects/pack/pack-aa47cc989b86a5407167498b644022a51270302a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/pythonic/.git/objects/pack/pack-9847a5b3e2aef311533070ae3607f3e9af41dbaf.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gitignore-snippets/.git/objects/pack/pack-2842259a23861490361658e640e2251f0f1cca42.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/nix-haskell-mode/.git/objects/pack/pack-28dc0f6862e1ebe3123cd77a5fe504276a5dd02f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/poetry.el/.git/objects/pack/pack-b03764182ebb0d8f51ddbec599e0606020b7f4b8.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-kops-metadata/objects/pack/pack-e210d271213840b3bc9284bb38030c5f7c3b4cc2.pack"
+      ]
+    },
+    "47": {
+      "count": 281,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/semihosting-e958da0309bf7545/f22ca36/.git/objects/pack/pack-2d45fa049e58aeb19f673d9047930324179a9def.pack",
+        "/home/mdupont/.cargo/git/db/cross-f0189a1dc141e2d9/objects/pack/pack-3dafcad3dfe74ac7ad64bae65b1b45d7e1326f8b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/dap-mode/.git/objects/pack/pack-20f28738bc88f6f28f0e29e0fa814d0950f26fed.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-mint-mode/.git/objects/pack/pack-ec1f26377bbfde0be25c1cd9dd8bc7305451cb59.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flymake-jslint/.git/objects/pack/pack-6c5bb1c1ac8cabb598487c6be957fd26c38fc187.pack",
+        "/home/mdupont/.emacs.d/straight/repos/json-mode/.git/objects/pack/pack-64c9e07611abadeac7c10034240321b2d471ac21.pack",
+        "/home/mdupont/.emacs.d/straight/repos/tablist/.git/objects/pack/pack-5d724ccbb1cfdd887083b6f943c7d5726662c814.pack",
+        "/home/mdupont/.emacs.d/straight/repos/treemacs/.git/objects/pack/pack-d2940ad5d86afe9fc836b97e6a35676e12064961.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/aws.el/.git/objects/pack/pack-1f8a6f13f0eda9ef7648d6e6d85f086a43534df7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/cfrs/.git/objects/pack/pack-dd198bc33df98ab3194d5e5376d8433a73de2a99.pack"
+      ]
+    },
+    "48": {
+      "count": 291,
+      "files": [
+        "/home/mdupont/.cargo/git/db/cudarc-bb725c562477d40e/objects/pack/pack-ce1cebe436d9c0323910d4ca43666f1e1ee28e41.pack",
+        "/home/mdupont/.emacs.d/straight/repos/arxiv-mode/.git/objects/pack/pack-0c81966a130c7905df54f2ff49e336d1987ef54b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-ansible/.git/modules/lib/ansible/modules/v2/ansible/modules/core/objects/pack/pack-15dbb45c9f80c0af2a62fe8c5b4acfcd10fc87b7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-racer/.git/objects/pack/pack-eb78d13814a7beaf3813c447690e49bb377bc1d0.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/erc/.git/objects/pack/pack-59e3fa5e268e00f6580e602093a31c404bc491da.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/merlin-eldoc/.git/objects/pack/pack-c38812d34f5dc1c496df2f666ba976c7bcf32949.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/rdf-prefix/.git/objects/pack/pack-01d3446eac1f82655532d34e9bdc5ed421102514.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-alb/objects/pack/pack-9dd78c6639ec83cd55f9ea1a3565a6b938adb8a9.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-terraform-label/objects/pack/pack-cdaa85f224ffbbf853331a503ba99c1a888c7deb.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/objects/pack/pack-d160ea57755c836d81350160d6cf17992ad07501.pack"
+      ]
+    },
+    "49": {
+      "count": 272,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-dbf40f93da7920c736b7ecd5deac8b11fb5d55eb.pack",
+        "/home/mdupont/.emacs.d/straight/repos/auto-complete/.git/objects/pack/pack-70c519cda38418dab9c9064c1d1b50d3ab758e39.pack",
+        "/home/mdupont/.emacs.d/straight/repos/avy/.git/objects/pack/pack-9820fa0c3e770053eabcf7eff60fe97bd71bd49e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/log4e/.git/objects/pack/pack-b400e2e8f936b91e1aeac83c49403206b3310a5d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/pfuture/.git/objects/pack/pack-e7e15ee29fc7e47f70c8cf8f24db18f725f94a60.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rdf-prefix/.git/objects/pack/pack-74ffec757cc7e076f954a3127555a3caec5cbf0f.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacsql/.git/objects/pack/pack-1430bbeaee44099f742d256c6e91e49165c1434d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gh.el/.git/objects/pack/pack-16c6733993ecacfe3205b3d0d89e6e3b39d902db.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gnu-elpa-mirror/.git/objects/pack/pack-60efea48da32718463d737477b03345d247df0fa.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/magit-popup/.git/objects/pack/pack-a1da9dcf7ccfadf8c0a8e6507aacaa587f7a7a14.pack"
+      ]
+    },
+    "50": {
+      "count": 292,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/eshell-vterm/.git/objects/pack/pack-582dbcdca1e829070276591a3793f07c3f63f981.pack",
+        "/home/mdupont/.emacs.d/straight/repos/feather/.git/objects/pack/pack-c25ca708b9dac3e9a8fda9449d931cbb29d5c36c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/corfu/.git/objects/pack/pack-2d873a2f6e8a3da9904cbd44cbc78170b2e6134c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-yamllint/.git/objects/pack/pack-5f5254003e51fdeb4d4b716d371b6c88150b536e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gitignore-templates.el/.git/objects/pack/pack-8242e5fadd3c17d2cc676e545cf96201e0751e6c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/stacktest/.git/objects/pack/pack-c747d17e46e60ade40157b81c840d6e8da07bc9e.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/FLT/.git/objects/pack/pack-71c98b34876f40c11dfd85da47215fc81d96431c.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/checkdecls/.git/objects/pack/pack-197a5927dac792c0bde28cbf87736401a77e32c2.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/tree-sitter-lang/semgrep-lua/objects/pack/pack-cefd1edb6dbd478ae5f9ce35e73b5b181adb6dda.pack",
+        "/mnt/data1/.git/modules/2023/12/30/awesome-ppx/objects/pack/pack-ea3dac4e5f1c7cd6244f8fe759c12a3a40332ec8.pack"
+      ]
+    },
+    "51": {
+      "count": 290,
+      "files": [
+        "/home/mdupont/.cargo/git/db/test-helper-8c83a5fe98c14c7c/objects/pack/pack-2c918909285c30a0d468e0eef2bb633a13c5912b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/cargo.el/.git/objects/pack/pack-8ed60a0dfc7f41c964990b6831846fec6a8bf944.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-ruff-format/.git/objects/pack/pack-17029b7bea34b2b1c30da70d21ae7d8a6cd772ee.pack",
+        "/home/mdupont/.emacs.d/straight/repos/json-snatcher/.git/objects/pack/pack-f81115b3e1d6076574068d1c2ac4559da696b36d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/Elsa/.git/objects/pack/pack-efe699a0ff0316604e29152684603e791237f792.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-projectile/.git/objects/pack/pack-17df41c09d22fda4cf8ba65c72e09fbe10bc6c88.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ghci-completion/.git/objects/pack/pack-ea2c2ec2cfda2e94d4eecd968ca68b43b2d5f13d.pack",
+        "/home/mdupont/projects/agentartificial/devops/vendor/litellm/ui/litellm-dashboard/.next/cache/webpack/server-production/4.pack",
+        "/mnt/data1/.git/modules/2023/12/28/ppx/objects/pack/pack-3d75432996cfa35f677ae5cbf9767c470e962af4.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/tree-sitter-lang/semgrep-ruby/objects/pack/pack-2c43e8c7ca38365b91dc1cb00fa95bf2cf0a5c5d.pack"
+      ]
+    },
+    "52": {
+      "count": 275,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/3cd0671/.git/objects/pack/pack-4ccf4405e3a36da19723c319d2aa82a7c64ecfd0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/elisp-tree-sitter/.git/objects/pack/pack-6c843ff44480c439dab5795af4dfdd516d7e467e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/elpy/.git/objects/pack/pack-f9e88cb65bc06591543ec6328fe152fa09c77f30.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-async-await/.git/objects/pack/pack-249e4d73c4521348ba6cf3cd9748b582710cdd5a.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-loc-changes/.git/objects/pack/pack-746855d18592421398227094998c80836e19eb3d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-request/.git/modules/doc/eldomain/objects/pack/pack-ba6b47d9697fb9a5d1d871906d87d63304304d4d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/fb2-reader/.git/objects/pack/pack-56d5eb58eb79e3cd22acfdb0a6c93361669f49c0.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-roam-bibtex/.git/objects/pack/pack-90b5e7d21d6495ac957d9cf19f8b5a6f7f1cabbb.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-search-goto-ml/.git/objects/pack/pack-34613b8e862424aae2386e81e252d6850410f1a0.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/posframe/.git/objects/pack/pack-d8543d139f800ad93d9213c4687af499df1145fc.pack"
+      ]
+    },
+    "53": {
+      "count": 262,
+      "files": [
+        "/home/mdupont/.config/libreoffice/4/user/pack/database/biblio/biblio.pack",
+        "/home/mdupont/.emacs.d/straight/repos/arxiv-reader/.git/objects/pack/pack-1233877955391d495546b5bfd07e013b1d838946.pack",
+        "/home/mdupont/.emacs.d/straight/repos/rust-mode/.git/objects/pack/pack-1243e53d8c9ceb3419c55c3399822fbf7f141d99.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ghc/.git/objects/pack/pack-d97c0bdd230cc482ad9725c477a8795a7e6846fe.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/xref/.git/objects/pack/pack-919d28accedddb00bc594721a1492d1410432304.pack",
+        "/mnt/data1/.git/modules/2023/12/23/esther/objects/pack/pack-209ca8f870e18513461eeb9f868dab210d955fc2.pack",
+        "/mnt/data1/.git/modules/2023/12/28/js_of_ocaml/objects/pack/pack-7d565c2a7a4d9af0cdbede3e2e9ffdc6cab47428.pack",
+        "/mnt/data1/.git/modules/2023/12/28/ppx_deriving_cmdliner/objects/pack/pack-4eadbbfce5ddfaf81a6ad1289bac7522d4a03f8f.pack",
+        "/mnt/data1/.git/modules/2023/12/30/ppx_factory/objects/pack/pack-ff801ada069fbc22ca0a92675c1c241d77c5eb03.pack",
+        "/mnt/data1/.git/modules/2024/01/01/ocaml-lsp/objects/pack/pack-8fa1499d4c7581c83d7f66aa9fb884dad6505e70.pack"
+      ]
+    },
+    "54": {
+      "count": 277,
+      "files": [
+        "/home/mdupont/.cargo/git/db/serde_test-7db5678c1dc994d8/objects/pack/pack-81e8b86831075abe76a5ceb917494e0cbf367fd0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/magit/.git/objects/pack/pack-b25719ff73e6b286524c8b2f76995869e1574400.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-liquidhs.el/.git/objects/pack/pack-91b3589e5d856b15c0e62048f5ae60cebbd21e04.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/melpa-upstream-visit/.git/objects/pack/pack-e5dec4de8b335613207296849a1de21a3782d3c0.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/top-mode/.git/objects/pack/pack-42c09271ed54bfbd2ac0e7c392dfe37df522adf8.pack",
+        "/home/mdupont/experiments/monster/.git/modules/tex_lean_retriever/objects/pack/pack-12be79ba910da2b9f91f2b5a6c58155b31c9e2c9.pack",
+        "/home/mdupont/experiments/monster/.git/objects/pack/pack-2e2d9968885a1bbf8244b865460f754f4f1bfc63.pack",
+        "/home/mdupont/projects/agentartificial/devops4/.git/objects/pack/pack-5102045f10b533a68ab77cf3725453e50b996de0.pack",
+        "/home/mdupont/test2/lang_agent/.git/objects/pack/pack-21e0059acdd04f10224b09254bee88d5b271e1bd.pack",
+        "/mnt/data1/.git/modules/2024/01/05/Foundations/objects/pack/pack-1f1c082e9f54f57d934cf6b02b12c6212a9a9061.pack"
+      ]
+    },
+    "55": {
+      "count": 278,
+      "files": [
+        "/home/mdupont/.cargo/git/db/cubecl-058c47895211d464/objects/pack/pack-0c2ab76315e788984a937a29a760b9adcc3bfd38.pack",
+        "/home/mdupont/.emacs.d/straight/repos/llm/.git/objects/pack/pack-4b9f5c6c68045459355850717d873dd3c443e783.pack",
+        "/home/mdupont/.emacs.d/straight/repos/sqlite-mode-extras/.git/objects/pack/pack-ecccfc2799f08188c857660f1d9285e03ca58afc.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/cmake/.git/objects/pack/pack-9775c93eaacfe72648f20b1559f05bbbd466b5d3.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/gptai/.git/objects/pack/pack-97131987b39bedac0b35028963f2195e0573d277.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-ai/.git/objects/pack/pack-cd4cc3e335012f347490ff0717b19e35b10d576e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-mode/.git/objects/pack/pack-c7fcf11396da9461044e41ed6fb3edfe8dd288c1.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/osm/.git/objects/pack/pack-f82933fa16910c39b0b72f193a952b545b428cc4.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/projectile/.git/objects/pack/pack-55a93ca31a6ce08b5894e7d633cb39c43b962893.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/pythonic/.git/objects/pack/pack-af5647d379c08525c3630fc15a889f95ba62abc3.pack"
+      ]
+    },
+    "56": {
+      "count": 249,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-48001f6d899e3fe94b03aca6302654722b92e551.pack",
+        "/home/mdupont/.cache/pre-commit/repovbc2wkvj/.git/objects/pack/pack-8bf2ea425f131aebece725b59c966b6b50886bc8.pack",
+        "/home/mdupont/.cargo/git/checkouts/test-helper-8c83a5fe98c14c7c/9b4be43/.git/objects/pack/pack-2c918909285c30a0d468e0eef2bb633a13c5912b.pack",
+        "/home/mdupont/.cargo/git/db/cubecl-058c47895211d464/objects/pack/pack-fb7ecb073df45c3c3afd1fb813da84af8ed5c0fd.pack",
+        "/home/mdupont/.emacs.d/straight/repos/dockerfile-mode/.git/objects/pack/pack-1d244970e88ce40a9cd6fd187d029c2d29939396.pack",
+        "/home/mdupont/.emacs.d/straight/repos/google-el/.git/objects/pack/pack-5b0badb94c35e5bfafc5fcb03a3d880ee39cf1a0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/spread/.git/objects/pack/pack-f17f4e9d92e59c735c46af93b444d03e58ef45b4.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/buffer-manage/.git/modules/zenbuild/objects/pack/pack-7b5f42552254fc779ab81ee230fc72c78d752194.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/mathlib/.git/objects/pack/pack-1716cb675f84258ce01a6844d93008cb431cf91d.pack",
+        "/mnt/data1/.git/modules/2023/12/20/gitignore/objects/pack/pack-9f16b887da4456626aec21e086c235976843d0d2.pack"
+      ]
+    },
+    "57": {
+      "count": 287,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/safe-mmio-d79dc67f215423a9/9ba84bf/.git/objects/pack/pack-dd3c9fab14c279578f98c84dbebe69394f044133.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eaf-browser/.git/objects/pack/pack-ab54ed4bcc34c4bf0a09ac6e5aea7ed0462c92c7.pack",
+        "/home/mdupont/.emacs.d/straight/repos/sese/.git/objects/pack/pack-6daf615c7003b518f7f212bfd53c80499ee0218a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/elpa-mirror/.git/objects/pack/pack-9c6d8266ffed2fffb3e6bd7d283ecefd096ca569.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-linkany/.git/objects/pack/pack-b0936642a2bb65bcdb5a7826255e932e0298c9d8.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/org-roam-ql/.git/objects/pack/pack-80174047cb9091c7b92761aa4a3d28eb4698d0dc.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/objects/pack/pack-fd6282125aeea5cb38f8fc3591b11cfda1038284.pack",
+        "/mnt/data1/.git/modules/2023/12/23/hyperpie/objects/pack/pack-7b974fd0d2d6797c6b4f94bed1fa576c42c613f6.pack",
+        "/mnt/data1/.git/modules/2023/12/28/graphql_ppx/objects/pack/pack-f05eaee5ea640f62ac46a29fb392d53a21b75d2e.pack",
+        "/mnt/data1/.git/modules/2024/01/03/ocaml-compiler-libs/objects/pack/pack-3481d073b4ceaff7261abbc64adcb327c0f6ddbf.pack"
+      ]
+    },
+    "58": {
+      "count": 250,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/f7639bd/.git/objects/pack/pack-4ccf4405e3a36da19723c319d2aa82a7c64ecfd0.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/bf53bf6/.git/objects/pack/pack-1ae8b0f9c42858b8bf6ff03e1ea2d0df0434da91.pack",
+        "/home/mdupont/.cargo/git/db/burn-6c277d792b0d5d7a/objects/pack/pack-4ccf4405e3a36da19723c319d2aa82a7c64ecfd0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ace-window/.git/objects/pack/pack-c889376c700c5df33273ac1704bd29bb1a751b2a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/choice-program/.git/objects/pack/pack-15188fde204383a140549404b370ef0fde663d8b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/spinner/.git/objects/pack/pack-c3f3e79cb4da8bfe17ae22f5e9db644e6720f0fc.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/treemacs/.git/objects/pack/pack-6edadd4b76098cb20c5cc672e7408fc1708ad31a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/wfnames/.git/objects/pack/pack-297b4b60bb17f6df7110afd7e70dcaecafb41b49.pack",
+        "/home/mdupont/nix-controller/.git/modules/he-lattice/cupcake/objects/pack/pack-29dbdf0bc71a71f212f300f2183a57877aa06609.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/languages/promql/tree-sitter/semgrep-promql/objects/pack/pack-b47e3515424d95aa4a573c7dfc345b84ed81aef0.pack"
+      ]
+    },
+    "59": {
+      "count": 292,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-c7ddf833372cef159e937ac8211e3431e4d6f8d3.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck/.git/objects/pack/pack-58d7454f381314ac3ec15cf3847d483ddb0fbf69.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-ocaml/.git/objects/pack/pack-e713d341ab11abe468ed3cb67fb4ca27bb3b1c6b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/popwin/.git/objects/pack/pack-a5066acd0963e3c50ad116614ce94908881da7f5.pack",
+        "/home/mdupont/.emacs.d/straight/repos/systemd-mode/.git/objects/pack/pack-be4ded2ee416151742b26baf03716499c34e6edd.pack",
+        "/home/mdupont/.emacs.d/straight/repos/terraform-mode/.git/objects/pack/pack-9f7b1583eac0e224a059b65c05b68c145ef1a1ed.pack",
+        "/home/mdupont/.emacs.d/straight/repos/track-changes/.git/objects/pack/pack-001187bb10d8d782767ae305c3986cd1918b1be5.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/plantuml-mode/.git/objects/pack/pack-a39960521b87bcf981fc62d77288925942c5ac59.pack",
+        "/home/mdupont/projects/agentartificial/devops/.git/modules/vendor/terraform-aws-ssm-parameter-store-policy-documents/objects/pack/pack-a3477cefd880c37916ad637ae0cad16085eff572.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/tests/semgrep-rules/objects/pack/pack-8473a5bb4c87e80ab289ee831533663542cf5911.pack"
+      ]
+    },
+    "60": {
+      "count": 293,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-2920aa968d3673827ad9059f14c975e75e8b4f79.pack",
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-7e817b09984b5b3729bd0af9d868d124f696b849.pack",
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/83910bd/.git/objects/pack/pack-4ccf4405e3a36da19723c319d2aa82a7c64ecfd0.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ghub/.git/objects/pack/pack-66dfcec85d7fcd01d7dcd393d1032a19e226350d.pack",
+        "/home/mdupont/.emacs.d/straight/repos/popup-el/.git/objects/pack/pack-17261ffa8ae676c741d7e1c615ff0bb5b23a7f1e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/yaml-mode/.git/objects/pack/pack-f440414c2f62903522d2a214312ba9ce123f5d57.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-buttercup/.git/objects/pack/pack-4c15f1d590420d3f4e1e5baa9b1d486a295d6b0d.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/jira-markup-mode/.git/objects/pack/pack-8a305bcade44547fc07c01365934a424639b1603.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/pyvenv/.git/objects/pack/pack-324d549e2160c56c0a52145c2fb6775c14b417ed.pack",
+        "/home/mdupont/experiments/monster/.git/modules/spectral/objects/pack/pack-7eb5a1cba68379f9f79a3cd586eb01cbd6fddcaf.pack"
+      ]
+    },
+    "61": {
+      "count": 281,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/rust-zmq-81bb731ff3059622/505cff1/.git/objects/pack/pack-f05d4578c40e2875533f9722831de4e9e83316ac.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-guile/.git/objects/pack/pack-133afdb5595676b1931619bf31224f3ffc33e44b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/yaxception/.git/objects/pack/pack-7c68032ae46a51bd94796a3f6199e2293d51477b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/PG/.git/objects/pack/pack-97906e9cb307ea5500f19d06872407888f12f33c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/llama-cpp.el/.git/objects/pack/pack-df579f47f7b3461daad8217d7a6bd3c894b12948.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/regex-tool/.git/objects/pack/pack-1043383b1b93102241412ea2c71aeb8ce9d6b841.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/typescript.el/.git/objects/pack/pack-086f8c6bce6ffbf7a34a438347e993b8c092f17a.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/proofwidgets/.git/objects/pack/pack-ecdd8bd4d1cc3e93e3b96212bfb3a03f678f019a.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/src/tree-sitter-lang/semgrep-hcl/objects/pack/pack-edec09765621d34d69e45cfda0e37103859c94c8.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/src/tree-sitter-lang/semgrep-php/objects/pack/pack-19441c2e374d2709d706cc32717aa938c68b02ca.pack"
+      ]
+    },
+    "62": {
+      "count": 276,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/emacs-sqlite3-api/.git/objects/pack/pack-b044d1ab5d0b2638b6555c46d3e2e14111a29337.pack",
+        "/home/mdupont/.emacs.d/straight/repos/go-mode.el/.git/objects/pack/pack-578025625aaf2e4812ba940de96d5275a41145f1.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ob-rust/.git/objects/pack/pack-5f0c75c0c454f9b2981761e0f4aa37057a6ee330.pack",
+        "/home/mdupont/.emacs.d/straight/repos/uuidgen-el/.git/objects/pack/pack-b0b4de4e877fd1745fa1598d2b9bccad0d9b48be.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/bui.el/.git/objects/pack/pack-3c8430a7c6c05ddd34eb829a7a81ed8e4035fc1c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake/.git/objects/pack/pack-ab9ca90ef30422f349801cc54af0cd32b8ec1365.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/nongnu-elpa/.git/objects/pack/pack-472f17e1aa3c69626284a2d55e97e3d4a86f32c7.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/tuareg/.git/objects/pack/pack-308be923d5a8e28fe5de2e6195f4e341ed2d41cb.pack",
+        "/home/mdupont/projects/agentartificial/devops4/.git/modules/vendor/ansible-aws-cli/objects/pack/pack-10496ba35149d27316ab646f5163041a05c40851.pack",
+        "/mnt/data1/.git/modules/2023/12/28/semgrep/modules/semgrep-core/tree-sitter-lang/semgrep-r/objects/pack/pack-28581eef4d4aac6ce20f62ca2008f60f53d1906e.pack"
+      ]
+    },
+    "63": {
+      "count": 299,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/a3987c6/.git/objects/pack/pack-1ae8b0f9c42858b8bf6ff03e1ea2d0df0434da91.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubecl-058c47895211d464/bf53bf6/.git/objects/pack/pack-fb7ecb073df45c3c3afd1fb813da84af8ed5c0fd.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/basic/dialog.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-deferred/.git/objects/pack/pack-eb40913f65aa4fbe0e839f99800726ce5be33fca.pack",
+        "/home/mdupont/.emacs.d/straight/repos/embark/.git/objects/pack/pack-45ef4a314fc19a6a046d74060fa204ada6add2a8.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-rust/.git/objects/pack/pack-b3e7c919f146bbf8a689a7fa1b82aa490a46055e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/iter2/.git/objects/pack/pack-a42972af732f5d09934a39d4ab383a27e88ab370.pack",
+        "/home/mdupont/.emacs.d/straight/repos/nongnu-elpa/.git/objects/pack/pack-b8acf0ef959471fc2a4fc5ef2ec707152dd9bc55.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ghub/.git/objects/pack/pack-7ab9c6992fb41bc4d937423f6b229df23362df6c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/queue/.git/objects/pack/pack-012208a3ffe34c25ffd6c8a908fa59f6fa79b38e.pack"
+      ]
+    },
+    "64": {
+      "count": 297,
+      "files": [
+        "/home/mdupont/.cargo/git/db/wirefilter-8ac103f10f7f5011/objects/pack/pack-c8aee7706a2bc3ab70f949ec154c114e271f6a63.pack",
+        "/home/mdupont/.emacs.d/straight/repos/arxiv-citation/.git/objects/pack/pack-0d9b8949502abca78185b1a06a616a720c55cb75.pack",
+        "/home/mdupont/.emacs.d/straight/repos/caml-mode/.git/objects/pack/pack-e456bc964489147772543618ced4ff878dbda00b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/eask/.git/objects/pack/pack-89d9879de968a58f0a6d82d920d68d485868962e.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-emojify/.git/objects/pack/pack-52b0d79fee96a16d055249b7618fb7c6c82cfa9b.pack",
+        "/home/mdupont/.emacs.d/straight/repos/markdown-mode-plus/.git/objects/pack/pack-962047f58953cc59f69490c67a8763d1ba72da9a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-web-server/.git/objects/pack/pack-d50b0f176947a558132fe1ca0266a7942356b676.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacsmirror-mirror/.git/objects/pack/pack-c45c44c9f009d61b248eec3ae6b0d22c54e6235e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flymake-flycheck/.git/objects/pack/pack-13ad8458861021e81c5947eeef2de0c6eada0791.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/hcl-mode/.git/objects/pack/pack-974ed2c527ca55ab524a4cbc732cfd5d20de7351.pack"
+      ]
+    },
+    "65": {
+      "count": 278,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-847996e4619967e772e367752a6700c94bbfa654.pack",
+        "/home/mdupont/.emacs.d/straight/repos/flycheck-deno/.git/objects/pack/pack-cce9f7f2284d453690d214dc731556955a900274.pack",
+        "/home/mdupont/.emacs.d/straight/repos/github/.git/objects/pack/pack-f8c83b8e109becb4beb356c6525b15f51fcb99e1.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/mathlib/.git/objects/pack/pack-e13e3e3d712b8eb58ef7b13c23671c903f4f8a0d.pack",
+        "/home/mdupont/experiments/monster/gap_sage_repos/BacktrackKit/.git/objects/pack/pack-5c875e245a46418d55322ed251ce27a0cbdd503e.pack",
+        "/home/mdupont/experiments/monster/harmonics_repos/DFTK.jl/.git/objects/pack/pack-c376f9ea1ab6d394bd67f61dd8cc179c292c4324.pack",
+        "/home/mdupont/nix-controller/.git/objects/pack/pack-8315a91a7be929f5deb3a1f1f44a413731ee976a.pack",
+        "/home/mdupont/projects/agentartificial/devops/vendor/litellm/ui/litellm-dashboard/.next/cache/webpack/edge-server-production/0.pack",
+        "/mnt/data1/.git/modules/2023/12/23/valai/objects/pack/pack-c870e0e8a9d50b82f288320bbecdad1936ec0e14.pack",
+        "/mnt/data1/.git/modules/2023/12/27/llama2.c/objects/pack/pack-466e7452efad40ef266ea00c87ee606abc82ed0b.pack"
+      ]
+    },
+    "66": {
+      "count": 291,
+      "files": [
+        "/home/mdupont/.emacs.d/straight/repos/company-mode/.git/objects/pack/pack-8845e1f824bd1d52d0898dca8a1138dc06d36d9c.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ell/.git/objects/pack/pack-315a324a18e1d9c27ce3bcfd69f9a167f7ba241f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacs-jest/.git/objects/pack/pack-7b33b8a40bee5d7191186d32855c8ed62af03b9f.pack",
+        "/home/mdupont/.emacs.d/straight/repos/lsp-docker/.git/objects/pack/pack-021b9c24a44e7f61bec48e6cb687cb5bad9b3a01.pack",
+        "/home/mdupont/.emacs.d/straight/repos/smart-shift/.git/objects/pack/pack-487e92453c4511b593a40cc7ae863d0e5df9cdf4.pack",
+        "/home/mdupont/.emacs.d/straight/repos/treepy.el/.git/objects/pack/pack-654a9365e0f1ff33e2c4b42c54427e79824b6acc.pack",
+        "/home/mdupont/.emacs.d/straight/repos/ts-mode/.git/objects/pack/pack-202487f231f5f39d5d4e771a630e8835284e64aa.pack",
+        "/home/mdupont/.emacs.d/straight/repos/xml-plus/.git/objects/pack/pack-772b8c1833c28772abae301f6dbddd5982fb0321.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/call-graph/.git/objects/pack/pack-07387fc5a254e0eb3ecc6292242acf23af5db671.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/emacs-elixir/.git/objects/pack/pack-017867028ee0e48d3c792b7335eb04d483b18c54.pack"
+      ]
+    },
+    "67": {
+      "count": 287,
+      "files": [
+        "/home/mdupont/.cargo/git/db/quickcheck-9be5b49a690ab88a/objects/pack/pack-95edf800f8c8ba403830ff3824541e8c46d6f789.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/basic/Standard/dialog.pack",
+        "/home/mdupont/.emacs.d/straight/repos/elisp-tree-sitter/.git/modules/doc/ox-hugo/objects/pack/pack-a3326727baf82742d4a99097bbc485ffa12f53b9.pack",
+        "/home/mdupont/.emacs.d/straight/repos/emacsql-sqlite3/.git/objects/pack/pack-1bb7478139539c577ae4063e070754572afd7107.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/haskell-mode/.git/objects/pack/pack-bd2014c262098711be58eb8fbc66db38fdb1e316.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ht.el/.git/objects/pack/pack-f9e6deeee737fba86d00dbdf8c86005f525a4f14.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/mermaid-mode/.git/objects/pack/pack-721536e2d9c7f77ed22622ae48a7201694f5b5d1.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ob-ipython/.git/objects/pack/pack-d0a80b2ff8e3e669c3f0958c7139564e5b879de6.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/pkg-info/.git/objects/pack/pack-4d1a7245321ce82d9a3dd38f74c3a3d8f12b13c8.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/polymode/.git/objects/pack/pack-9865077ccf55a0e3c7a679696ec5a590408208eb.pack"
+      ]
+    },
+    "68": {
+      "count": 289,
+      "files": [
+        "/home/mdupont/.cargo/git/checkouts/burn-6c277d792b0d5d7a/5843c6e/.git/objects/pack/pack-72164d6b37e0816ba7cb83edb1ea6175b21b8aff.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/bed07d3/.git/objects/pack/pack-135c45bfe25d172eff08bc867698ad355902613a.pack",
+        "/home/mdupont/.cargo/git/checkouts/cubek-21eb4731b65c1fbd/bed07d3/.git/objects/pack/pack-cd04b07179470efd6ce9f5a1bb4347b16d42dc8c.pack",
+        "/home/mdupont/.config/libreoffice/4/user/pack/basic/script.pack",
+        "/home/mdupont/.emacs.d/straight/repos/elisp-tree-sitter/.git/modules/doc/themes/docdock/objects/pack/pack-3a99d71598bddc1627a1b10576da473b6fafa6c2.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gpt-commit/.git/objects/pack/pack-9de862a954f0a68affe9291a7ffba7893f613ca4.pack",
+        "/home/mdupont/.emacs.d/straight/repos/yaml.el/.git/objects/pack/pack-6efa8c52b66ac933361be4efc1f87a6943ba7ced.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/avy/.git/objects/pack/pack-9820fa0c3e770053eabcf7eff60fe97bd71bd49e.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/consult-eglot/.git/objects/pack/pack-404a8f024e41b7599067f97b23ddd0b1bfcca051.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/github-explorer/.git/objects/pack/pack-d4653e2af8b3ab19e965edb3050f20fe14dd3006.pack"
+      ]
+    },
+    "69": {
+      "count": 317,
+      "files": [
+        "/home/mdupont/.cargo/git/db/safe-mmio-d79dc67f215423a9/objects/pack/pack-dd3c9fab14c279578f98c84dbebe69394f044133.pack",
+        "/home/mdupont/.emacs.d/straight/repos/compat/.git/objects/pack/pack-f152a9a666e41ea781abec3b5ad5bf4730cda099.pack",
+        "/home/mdupont/.emacs.d/straight/repos/gpt.el/.git/objects/pack/pack-84ccd6de440390772504a1ae1740ea9172e404d3.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/graphql.el/.git/objects/pack/pack-c00da3e434bea3b53f36445462d81b38330eba0b.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/jiralib2/.git/objects/pack/pack-233633c921c1332f02b41deec1d65b3963c505b0.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/lsp-treemacs/.git/objects/pack/pack-06630c7569668b6351974991f6cf2a3850c4c12a.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/web-mode/.git/objects/pack/pack-98f3fdb16f847de252c7f39e1cd80a976c91d6aa.pack",
+        "/home/mdupont/experiments/monster/harmonics_repos/ApproxFun.jl/.git/objects/pack/pack-8b5ff6e2106f816376113904f059a98cec4f6e45.pack",
+        "/home/mdupont/nix-controller/data/hf-dataset-objects/proof_chain/super-git/.git/objects/pack/pack-6566256e72a3cc558b5182c16c0e3a750494bbfa.pack",
+        "/mnt/data1/.git/modules/2024/01/02/ecaml/objects/pack/pack-0066c021c7bea1fda8b90e0496a823191986c14f.pack"
+      ]
+    },
+    "70": {
+      "count": 279,
+      "files": [
+        "/home/mdupont/.cache/guix/checkouts/pjmkglp4t7znuugeurpurzikxq3tnlaywmisyr27shj7apsnalwq/.git/objects/pack/pack-5adc6e4ac94c67c340b243bd39a48fe32ef6a670.pack",
+        "/home/mdupont/.emacs.d/straight/repos/org-babel-eval-in-repl/.git/objects/pack/pack-df299b3ec44813378b2046d668cab79b01914281.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ESS/.git/objects/pack/pack-a62156181c916567c4cf7c82b7e099e76e83e9b2.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/flycheck-ghcmod/.git/objects/pack/pack-3b8869712d90fcf52473d129792ebdb0786bda9c.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/ob-mermaid/.git/objects/pack/pack-f24e9461eafdc188417881184b1e75916b9bf0ff.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/pfuture/.git/objects/pack/pack-e7e15ee29fc7e47f70c8cf8f24db18f725f94a60.pack",
+        "/home/mdupont/.emacs.d.old/straight/repos/use-package/.git/objects/pack/pack-ad27f836f3fa354ffeb70537a857ad8441f9c5db.pack",
+        "/home/mdupont/experiments/monster/.lake/packages/Qq/.git/objects/pack/pack-ae6909fd35c75c4c4a8762413d23f26e07a8ffa0.pack",
+        "/home/mdupont/experiments/monster/gap_sage_repos/braids-and-cryptography/.git/objects/pack/pack-4af38a70c77b72f7a56cf2f38d77ddf6092a7257.pack",
+        "/mnt/data1/.git/modules/2023/12/28/eff/objects/pack/pack-fccb18b086d44f7f5f6a38d8be1bf635f7d89b25.pack"
+      ]
+    }
+  }
+}

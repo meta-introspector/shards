@@ -1,0 +1,581 @@
+{
+  "total_shards": 71,
+  "monster_exponent": 3486784401,
+  "triples_per_shard": 49109639,
+  "verified_by": "Lean4",
+  "theorems": [
+    "monster_walk_perfect_placement",
+    "no_overlap",
+    "walk_order_preserved"
+  ],
+  "shards": {
+    "0": {
+      "range": [
+        0,
+        49109639
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_0"
+    },
+    "1": {
+      "range": [
+        49109639,
+        98219278
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_1"
+    },
+    "2": {
+      "range": [
+        98219278,
+        147328917
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_2"
+    },
+    "3": {
+      "range": [
+        147328917,
+        196438556
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_3"
+    },
+    "4": {
+      "range": [
+        196438556,
+        245548195
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_4"
+    },
+    "5": {
+      "range": [
+        245548195,
+        294657834
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_5"
+    },
+    "6": {
+      "range": [
+        294657834,
+        343767473
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_6"
+    },
+    "7": {
+      "range": [
+        343767473,
+        392877112
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_7"
+    },
+    "8": {
+      "range": [
+        392877112,
+        441986751
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_8"
+    },
+    "9": {
+      "range": [
+        441986751,
+        491096390
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_9"
+    },
+    "10": {
+      "range": [
+        491096390,
+        540206029
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_10"
+    },
+    "11": {
+      "range": [
+        540206029,
+        589315668
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_11"
+    },
+    "12": {
+      "range": [
+        589315668,
+        638425307
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_12"
+    },
+    "13": {
+      "range": [
+        638425307,
+        687534946
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_13"
+    },
+    "14": {
+      "range": [
+        687534946,
+        736644585
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_14"
+    },
+    "15": {
+      "range": [
+        736644585,
+        785754224
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_15"
+    },
+    "16": {
+      "range": [
+        785754224,
+        834863863
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_16"
+    },
+    "17": {
+      "range": [
+        834863863,
+        883973502
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_17"
+    },
+    "18": {
+      "range": [
+        883973502,
+        933083141
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_18"
+    },
+    "19": {
+      "range": [
+        933083141,
+        982192780
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_19"
+    },
+    "20": {
+      "range": [
+        982192780,
+        1031302419
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_20"
+    },
+    "21": {
+      "range": [
+        1031302419,
+        1080412058
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_21"
+    },
+    "22": {
+      "range": [
+        1080412058,
+        1129521697
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_22"
+    },
+    "23": {
+      "range": [
+        1129521697,
+        1178631336
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_23"
+    },
+    "24": {
+      "range": [
+        1178631336,
+        1227740975
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_24"
+    },
+    "25": {
+      "range": [
+        1227740975,
+        1276850614
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_25"
+    },
+    "26": {
+      "range": [
+        1276850614,
+        1325960253
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_26"
+    },
+    "27": {
+      "range": [
+        1325960253,
+        1375069892
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_27"
+    },
+    "28": {
+      "range": [
+        1375069892,
+        1424179531
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_28"
+    },
+    "29": {
+      "range": [
+        1424179531,
+        1473289170
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_29"
+    },
+    "30": {
+      "range": [
+        1473289170,
+        1522398809
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_30"
+    },
+    "31": {
+      "range": [
+        1522398809,
+        1571508448
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_31"
+    },
+    "32": {
+      "range": [
+        1571508448,
+        1620618087
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_32"
+    },
+    "33": {
+      "range": [
+        1620618087,
+        1669727726
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_33"
+    },
+    "34": {
+      "range": [
+        1669727726,
+        1718837365
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_34"
+    },
+    "35": {
+      "range": [
+        1718837365,
+        1767947004
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_35"
+    },
+    "36": {
+      "range": [
+        1767947004,
+        1817056643
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_36"
+    },
+    "37": {
+      "range": [
+        1817056643,
+        1866166282
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_37"
+    },
+    "38": {
+      "range": [
+        1866166282,
+        1915275921
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_38"
+    },
+    "39": {
+      "range": [
+        1915275921,
+        1964385560
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_39"
+    },
+    "40": {
+      "range": [
+        1964385560,
+        2013495199
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_40"
+    },
+    "41": {
+      "range": [
+        2013495199,
+        2062604838
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_41"
+    },
+    "42": {
+      "range": [
+        2062604838,
+        2111714477
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_42"
+    },
+    "43": {
+      "range": [
+        2111714477,
+        2160824116
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_43"
+    },
+    "44": {
+      "range": [
+        2160824116,
+        2209933755
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_44"
+    },
+    "45": {
+      "range": [
+        2209933755,
+        2259043394
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_45"
+    },
+    "46": {
+      "range": [
+        2259043394,
+        2308153033
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_46"
+    },
+    "47": {
+      "range": [
+        2308153033,
+        2357262672
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_47"
+    },
+    "48": {
+      "range": [
+        2357262672,
+        2406372311
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_48"
+    },
+    "49": {
+      "range": [
+        2406372311,
+        2455481950
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_49"
+    },
+    "50": {
+      "range": [
+        2455481950,
+        2504591589
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_50"
+    },
+    "51": {
+      "range": [
+        2504591589,
+        2553701228
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_51"
+    },
+    "52": {
+      "range": [
+        2553701228,
+        2602810867
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_52"
+    },
+    "53": {
+      "range": [
+        2602810867,
+        2651920506
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_53"
+    },
+    "54": {
+      "range": [
+        2651920506,
+        2701030145
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_54"
+    },
+    "55": {
+      "range": [
+        2701030145,
+        2750139784
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_55"
+    },
+    "56": {
+      "range": [
+        2750139784,
+        2799249423
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_56"
+    },
+    "57": {
+      "range": [
+        2799249423,
+        2848359062
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_57"
+    },
+    "58": {
+      "range": [
+        2848359062,
+        2897468701
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_58"
+    },
+    "59": {
+      "range": [
+        2897468701,
+        2946578340
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_59"
+    },
+    "60": {
+      "range": [
+        2946578340,
+        2995687979
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_60"
+    },
+    "61": {
+      "range": [
+        2995687979,
+        3044797618
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_61"
+    },
+    "62": {
+      "range": [
+        3044797618,
+        3093907257
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_62"
+    },
+    "63": {
+      "range": [
+        3093907257,
+        3143016896
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_63"
+    },
+    "64": {
+      "range": [
+        3143016896,
+        3192126535
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_64"
+    },
+    "65": {
+      "range": [
+        3192126535,
+        3241236174
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_65"
+    },
+    "66": {
+      "range": [
+        3241236174,
+        3290345813
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_66"
+    },
+    "67": {
+      "range": [
+        3290345813,
+        3339455452
+      ],
+      "walk_step": 4,
+      "zkproof": "groth16:shard_67"
+    },
+    "68": {
+      "range": [
+        3339455452,
+        3388565091
+      ],
+      "walk_step": 1,
+      "zkproof": "groth16:shard_68"
+    },
+    "69": {
+      "range": [
+        3388565091,
+        3437674730
+      ],
+      "walk_step": 2,
+      "zkproof": "groth16:shard_69"
+    },
+    "70": {
+      "range": [
+        3437674730,
+        3486784369
+      ],
+      "walk_step": 3,
+      "zkproof": "groth16:shard_70"
+    }
+  }
+}
