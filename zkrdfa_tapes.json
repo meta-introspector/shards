@@ -1,0 +1,53 @@
+{
+  "board_computer": "zkrdfa://board/609c72a6a10f0b66/eyJ0eXBlIjoiYm9hcmRfY29tcHV0ZXIiLCJ2ZXJzaW9uIjoiMS4wIiwiYWdlbnQiOjcxLCJsb2NhdGlvbiI6eyJyYSI6NSwiZGVjIjozMCwiZGlzdGFuY2UiOjEwMjAwfSwidGFza3MiOlsiU1VSVkVZIiwiTUVBU1VSRV9QRVJGIiwiQlVJTERfQ0FGRSIsIlNFVFVQX0FSQ0FERSIsIkZJTkRfRVhPUExBTkVUIl0sInJlc291cmNlcyI6eyJmdWVsIjoxNjQ3MzAsInN1cnZleV9lcXVpcG1lbnQiOjEwMCwiY29uc3RydWN0aW9uX21hdGVyaWFscyI6NTAwLCJhcmNhZGVfaGFyZHdhcmUiOjEwMDAsImV4b3BsYW5ldF9zZW5zb3JzIjoyMDB9fQ==",
+  "nav_computer": "zkrdfa://nav/ad727b6c0039bb4b/eyJ0eXBlIjoibmF2X2NvbXB1dGVyIiwidmVyc2lvbiI6IjEuMCIsImZyb20iOnsicmEiOjI2NiwiZGVjIjotMjksImRpc3RhbmNlIjoyNjY3M30sInRvIjp7InJhIjo1LCJkZWMiOjMwLCJkaXN0YW5jZSI6MTAyMDB9LCJyb3V0ZSI6eyJ3YXlwb2ludHMiOjMsInRvdGFsX2Rpc3RhbmNlIjoxNjQ3MywidHJhdmVsX3RpbWVfeWVhcnMiOjE2NDczMCwic3BlZWQiOiIwLjFjIn0sImhlY2tlX2Nvb3JkcyI6eyJoNzEiOjUsImg1OSI6MzAsImg0NyI6MX19",
+  "board_data": {
+    "type": "board_computer",
+    "version": "1.0",
+    "agent": 71,
+    "location": {
+      "ra": 5,
+      "dec": 30,
+      "distance": 10200
+    },
+    "tasks": [
+      "SURVEY",
+      "MEASURE_PERF",
+      "BUILD_CAFE",
+      "SETUP_ARCADE",
+      "FIND_EXOPLANET"
+    ],
+    "resources": {
+      "fuel": 164730,
+      "survey_equipment": 100,
+      "construction_materials": 500,
+      "arcade_hardware": 1000,
+      "exoplanet_sensors": 200
+    }
+  },
+  "nav_data": {
+    "type": "nav_computer",
+    "version": "1.0",
+    "from": {
+      "ra": 266,
+      "dec": -29,
+      "distance": 26673
+    },
+    "to": {
+      "ra": 5,
+      "dec": 30,
+      "distance": 10200
+    },
+    "route": {
+      "waypoints": 3,
+      "total_distance": 16473,
+      "travel_time_years": 164730,
+      "speed": "0.1c"
+    },
+    "hecke_coords": {
+      "h71": 5,
+      "h59": 30,
+      "h47": 1
+    }
+  }
+}
