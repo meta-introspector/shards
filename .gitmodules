@@ -7,3 +7,6 @@
 [submodule "monster"]
 	path = monster
 	url = /home/mdupont/experiments/monster
+[submodule "zkmame"]
+	path = zkmame
+	url = https://github.com/meta-introspector/zkmame

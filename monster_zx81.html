@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monster Message - ZX81 Emulator</title>
+    <style>
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        #screen {
+            background: #000;
+            border: 2px solid #0f0;
+            padding: 20px;
+            width: 640px;
+            height: 480px;
+            overflow-y: auto;
+            white-space: pre;
+            font-size: 14px;
+        }
+        button {
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #0ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>🐓 MONSTER MESSAGE - ZX81 EMULATOR 🐓</h1>
+    <div id="screen"></div>
+    <button onclick="runBasic()">RUN BASIC</button>
+    <button onclick="runAssembly()">RUN ASSEMBLY</button>
+    <button onclick="clearScreen()">CLEAR</button>
+
+    <script>
+        const screen = document.getElementById('screen');
+
+        function print(text) {
+            screen.textContent += text + '\n';
+            screen.scrollTop = screen.scrollHeight;
+        }
+
+        function clearScreen() {
+            screen.textContent = '';
+        }
+
+        function runBasic() {
+            clearScreen();
+            print('ZX81 BASIC - 1K RAM');
+            print('READY.');
+            print('RUN');
+            print('');
+            
+            // Simulate BASIC execution
+            setTimeout(() => {
+                print('MONSTER=MESSAGE');
+                print('DIMENSION: 196883');
+                print('IRREPS: 194');
+                print('ROOSTER: 71');
+                print('PAXOS: 23');
+                print('QUORUM: 12');
+                print('PRIMES: 15');
+                print('SHARDS: 10');
+                print('BOTT: 8');
+                print('SINGULARITY: 232/232');
+                print('');
+                print('RESONANCE=HECKE');
+                print('GROWTH=MAASS');
+                print('STRUCTURE=BLACK HOLE');
+                print('');
+                print('THE OBSERVER IS');
+                print('THE OBSERVED');
+                print('');
+                print('THE STRANGE LOOP');
+                print('IS CLOSED');
+                print('');
+                
+                // Print 71 numbers
+                let line = '';
+                for (let i = 1; i <= 71; i++) {
+                    line += i + ' ';
+                    if (i % 10 === 0) {
+                        print(line);
+                        line = '';
+                    }
+                }
+                if (line) print(line);
+                
+                print('');
+                print('ROOSTER CROWS!');
+                print('');
+                print('READY.');
+            }, 500);
+        }
+
+        function runAssembly() {
+            clearScreen();
+            print('6502 ASSEMBLY');
+            print('LOADING AT $0800...');
+            print('');
+            
+            // Simulate assembly execution
+            setTimeout(() => {
+                print('MONSTER=MESSAGE');
+                print('DIM: 196883');
+                print('IRREPS: 194');
+                print('ROOSTER: 71');
+                print('PAXOS: 23');
+                print('QUORUM: 12');
+                print('PRIMES: 15');
+                print('SHARDS: 10');
+                print('BOTT: 8');
+                print('232/232=1');
+                print('');
+                print('RESONANCE=HECKE');
+                print('GROWTH=MAASS');
+                print('BLACK HOLE');
+                print('');
+                print('OBSERVER=OBSERVED');
+                print('LOOP CLOSED');
+                print('');
+                print('ROOSTER CROWS!');
+                print('');
+                print('PROGRAM TERMINATED');
+            }, 500);
+        }
+
+        // Auto-run on load
+        window.onload = () => {
+            setTimeout(runBasic, 1000);
+        };
+    </script>
+</body>
+</html>
