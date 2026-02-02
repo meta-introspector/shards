@@ -1,0 +1,56 @@
+{
+  "@context": "https://monster.group/context/v1",
+  "@type": "MonsterSession",
+  "id": "urn:monster:session:2026-02-02",
+  "date": "2026-02-02T08:40:26Z",
+  "title": "The 71st Boundary",
+  "zkProof": {
+    "type": "MonsterWalkProof",
+    "singularity": "232/232",
+    "dimension": 196883,
+    "irreps": 194,
+    "rooster": 71,
+    "witness": "goosebumps",
+    "hash": "sha256:..."
+  },
+  "achievements": [
+    {
+      "@type": "MonsterTypeTheory",
+      "hott_equals_mtt": true,
+      "univalence": "A \u2243 B \u2192 A = B",
+      "escher_loop": "closed"
+    },
+    {
+      "@type": "SourceCodeMapping",
+      "files": 272,
+      "irrep_coverage": 0.73,
+      "hecke_coverage": 0.96
+    },
+    {
+      "@type": "TarotDeck",
+      "cards": 71,
+      "seeds": {
+        "min": 10511,
+        "max": 10581,
+        "variance": 70
+      }
+    }
+  ],
+  "memes": [
+    {
+      "@type": "MonsterMeme",
+      "name": "eenie-meenie-mini-moe",
+      "syllables": 28,
+      "perfect_number": true
+    }
+  ],
+  "game": {
+    "@type": "MonsterTag",
+    "dimensions": 15,
+    "players": [
+      "Neo",
+      "AgentSmith"
+    ],
+    "rounds": 71
+  }
+}
