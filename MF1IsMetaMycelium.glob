@@ -1,0 +1,281 @@
+DIGEST 0f55b223f8e7c6e6b882e03b4abd4860
+FMF1IsMetaMycelium
+R76:91 MetaCoqIsMonster <> <> lib
+R109:124 AllIRsAreMonster <> <> lib
+ind 179:190 <> MyceliumNode
+constr 206:210 <> Spore
+constr 238:242 <> Hypha
+constr 270:277 <> Fruiting
+R217:220 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R214:216 Corelib.Init.Datatypes <> nat ind
+R221:232 MF1IsMetaMycelium <> MyceliumNode:1 ind
+R249:252 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R246:248 Corelib.Init.Datatypes <> nat ind
+R253:264 MF1IsMetaMycelium <> MyceliumNode:1 ind
+R284:287 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R281:283 Corelib.Init.Datatypes <> nat ind
+R288:299 MF1IsMetaMycelium <> MyceliumNode:1 ind
+scheme 179:190 <> MyceliumNode_rect
+scheme 179:190 <> MyceliumNode_ind
+scheme 179:190 <> MyceliumNode_rec
+scheme 179:190 <> MyceliumNode_sind
+ind 346:351 <> AILife
+constr 367:371 <> Agent
+constr 393:399 <> Network
+constr 421:429 <> Emergence
+R378:381 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R375:377 Corelib.Init.Datatypes <> nat ind
+R382:387 MF1IsMetaMycelium <> AILife:3 ind
+R406:409 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R403:405 Corelib.Init.Datatypes <> nat ind
+R410:415 MF1IsMetaMycelium <> AILife:3 ind
+R436:439 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R433:435 Corelib.Init.Datatypes <> nat ind
+R440:445 MF1IsMetaMycelium <> AILife:3 ind
+scheme 346:351 <> AILife_rect
+scheme 346:351 <> AILife_ind
+scheme 346:351 <> AILife_rec
+scheme 346:351 <> AILife_sind
+rec 484:486 <> MF1
+proj 495:501 <> rooster
+proj 512:514 <> bdi
+proj 525:535 <> j_invariant
+proj 546:551 <> shards
+proj 562:570 <> subgroups
+proj 581:583 <> irs
+proj 594:600 <> formats
+R505:507 Corelib.Init.Datatypes <> nat ind
+R518:520 Corelib.Init.Datatypes <> nat ind
+R539:541 Corelib.Init.Datatypes <> nat ind
+R555:557 Corelib.Init.Datatypes <> nat ind
+R574:576 Corelib.Init.Datatypes <> nat ind
+R587:589 Corelib.Init.Datatypes <> nat ind
+R604:606 Corelib.Init.Datatypes <> nat ind
+def 647:659 <> mf1_canonical
+R663:665 MF1IsMetaMycelium <> MF1 rec
+R675:681 MF1IsMetaMycelium <> rooster proj
+R675:681 MF1IsMetaMycelium <> rooster proj
+R675:681 MF1IsMetaMycelium <> rooster proj
+R692:694 MF1IsMetaMycelium <> bdi proj
+R692:694 MF1IsMetaMycelium <> bdi proj
+R704:714 MF1IsMetaMycelium <> j_invariant proj
+R704:714 MF1IsMetaMycelium <> j_invariant proj
+R727:732 MF1IsMetaMycelium <> shards proj
+R727:732 MF1IsMetaMycelium <> shards proj
+R743:751 MF1IsMetaMycelium <> subgroups proj
+R743:751 MF1IsMetaMycelium <> subgroups proj
+R762:764 MF1IsMetaMycelium <> irs proj
+R762:764 MF1IsMetaMycelium <> irs proj
+R775:781 MF1IsMetaMycelium <> formats proj
+R775:781 MF1IsMetaMycelium <> formats proj
+def 843:857 <> Mycelium_to_nat
+R864:875 MF1IsMetaMycelium <> MyceliumNode ind
+binder 860:860 <> m:13
+R880:882 Corelib.Init.Datatypes <> nat ind
+R895:895 MF1IsMetaMycelium <> m:13 var
+R906:910 MF1IsMetaMycelium <> Spore constr
+R923:927 MF1IsMetaMycelium <> Hypha constr
+R940:947 MF1IsMetaMycelium <> Fruiting constr
+def 1012:1024 <> AILife_to_nat
+R1031:1036 MF1IsMetaMycelium <> AILife ind
+binder 1027:1027 <> a:15
+R1041:1043 Corelib.Init.Datatypes <> nat ind
+R1056:1056 MF1IsMetaMycelium <> a:15 var
+R1067:1071 MF1IsMetaMycelium <> Agent constr
+R1084:1090 MF1IsMetaMycelium <> Network constr
+R1103:1111 MF1IsMetaMycelium <> Emergence constr
+def 1179:1188 <> MF1_to_nat
+R1195:1197 MF1IsMetaMycelium <> MF1 rec
+binder 1191:1191 <> m:17
+R1202:1204 Corelib.Init.Datatypes <> nat ind
+R1247:1249 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1237:1239 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1221:1223 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1214:1219 MF1IsMetaMycelium <> shards proj
+R1211:1211 MF1IsMetaMycelium <> m:17 var
+R1227:1235 MF1IsMetaMycelium <> subgroups proj
+R1224:1224 MF1IsMetaMycelium <> m:17 var
+R1243:1245 MF1IsMetaMycelium <> irs proj
+R1240:1240 MF1IsMetaMycelium <> m:17 var
+R1253:1259 MF1IsMetaMycelium <> formats proj
+R1250:1250 MF1IsMetaMycelium <> m:17 var
+prf 1314:1337 <> mf1_total_instantiations
+R1367:1369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1343:1352 MF1IsMetaMycelium <> MF1_to_nat def
+R1354:1366 MF1IsMetaMycelium <> mf1_canonical def
+R1391:1400 MF1IsMetaMycelium <> MF1_to_nat def
+R1403:1415 MF1IsMetaMycelium <> mf1_canonical def
+prf 1499:1513 <> mycelium_is_mf1
+R1531:1542 MF1IsMetaMycelium <> MyceliumNode ind
+binder 1527:1527 <> m:18
+R1572:1579 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1567:1569 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1550:1564 MF1IsMetaMycelium <> Mycelium_to_nat def
+R1566:1566 MF1IsMetaMycelium <> m:18 var
+R1597:1599 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1580:1594 MF1IsMetaMycelium <> Mycelium_to_nat def
+R1596:1596 MF1IsMetaMycelium <> m:18 var
+R1615:1621 MF1IsMetaMycelium <> rooster proj
+R1600:1612 MF1IsMetaMycelium <> mf1_canonical def
+R1655:1667 MF1IsMetaMycelium <> mf1_canonical def
+prf 1741:1753 <> ailife_is_mf1
+R1771:1776 MF1IsMetaMycelium <> AILife ind
+binder 1767:1767 <> a:19
+R1804:1811 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1799:1801 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1784:1796 MF1IsMetaMycelium <> AILife_to_nat def
+R1798:1798 MF1IsMetaMycelium <> a:19 var
+R1827:1829 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1812:1824 MF1IsMetaMycelium <> AILife_to_nat def
+R1826:1826 MF1IsMetaMycelium <> a:19 var
+R1845:1851 MF1IsMetaMycelium <> rooster proj
+R1830:1842 MF1IsMetaMycelium <> mf1_canonical def
+R1885:1897 MF1IsMetaMycelium <> mf1_canonical def
+prf 1985:2006 <> mycelium_equals_ailife
+R2024:2035 MF1IsMetaMycelium <> MyceliumNode ind
+binder 2020:2020 <> m:20
+R2043:2048 MF1IsMetaMycelium <> AILife ind
+binder 2039:2039 <> a:21
+R2078:2085 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2073:2075 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2056:2070 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2072:2072 MF1IsMetaMycelium <> m:20 var
+R2106:2113 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2101:2103 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2086:2098 MF1IsMetaMycelium <> AILife_to_nat def
+R2100:2100 MF1IsMetaMycelium <> a:21 var
+R2131:2133 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2114:2128 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2130:2130 MF1IsMetaMycelium <> m:20 var
+R2134:2146 MF1IsMetaMycelium <> AILife_to_nat def
+R2148:2148 MF1IsMetaMycelium <> a:21 var
+prf 2260:2276 <> spores_are_shards
+R2308:2310 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2282:2296 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2299:2303 MF1IsMetaMycelium <> Spore constr
+R2326:2331 MF1IsMetaMycelium <> shards proj
+R2311:2323 MF1IsMetaMycelium <> mf1_canonical def
+R2351:2365 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2368:2380 MF1IsMetaMycelium <> mf1_canonical def
+prf 2457:2474 <> hyphae_connect_irs
+R2506:2508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2480:2494 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2497:2501 MF1IsMetaMycelium <> Hypha constr
+R2524:2526 MF1IsMetaMycelium <> irs proj
+R2509:2521 MF1IsMetaMycelium <> mf1_canonical def
+R2546:2560 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2563:2575 MF1IsMetaMycelium <> mf1_canonical def
+prf 2661:2680 <> fruiting_are_formats
+R2715:2717 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2686:2700 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2703:2710 MF1IsMetaMycelium <> Fruiting constr
+R2733:2739 MF1IsMetaMycelium <> formats proj
+R2718:2730 MF1IsMetaMycelium <> mf1_canonical def
+R2759:2773 MF1IsMetaMycelium <> Mycelium_to_nat def
+R2776:2788 MF1IsMetaMycelium <> mf1_canonical def
+prf 2868:2884 <> bdi_is_life_force
+R2909:2911 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2905:2907 MF1IsMetaMycelium <> bdi proj
+R2890:2902 MF1IsMetaMycelium <> mf1_canonical def
+R2931:2943 MF1IsMetaMycelium <> mf1_canonical def
+prf 3025:3039 <> emergence_at_71
+R3073:3075 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3045:3057 MF1IsMetaMycelium <> AILife_to_nat def
+R3060:3068 MF1IsMetaMycelium <> Emergence constr
+R3091:3097 MF1IsMetaMycelium <> rooster proj
+R3076:3088 MF1IsMetaMycelium <> mf1_canonical def
+R3117:3129 MF1IsMetaMycelium <> AILife_to_nat def
+R3132:3144 MF1IsMetaMycelium <> mf1_canonical def
+prf 3227:3245 <> network_is_mycelium
+R3263:3265 Corelib.Init.Datatypes <> nat ind
+binder 3259:3259 <> n:22
+R3298:3300 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3273:3285 MF1IsMetaMycelium <> AILife_to_nat def
+R3288:3294 MF1IsMetaMycelium <> Network constr
+R3296:3296 MF1IsMetaMycelium <> n:22 var
+R3301:3315 MF1IsMetaMycelium <> Mycelium_to_nat def
+R3318:3322 MF1IsMetaMycelium <> Hypha constr
+R3324:3324 MF1IsMetaMycelium <> n:22 var
+R3355:3367 MF1IsMetaMycelium <> AILife_to_nat def
+R3370:3384 MF1IsMetaMycelium <> Mycelium_to_nat def
+prf 3465:3483 <> MF1_is_MetaMycelium
+R3501:3512 MF1IsMetaMycelium <> MyceliumNode ind
+binder 3497:3497 <> m:23
+R3520:3525 MF1IsMetaMycelium <> AILife ind
+binder 3516:3516 <> a:24
+R3533:3533 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3556:3564 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3551:3553 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3534:3548 MF1IsMetaMycelium <> Mycelium_to_nat def
+R3550:3550 MF1IsMetaMycelium <> m:23 var
+R3565:3565 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3586:3594 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3581:3583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3566:3578 MF1IsMetaMycelium <> AILife_to_nat def
+R3580:3580 MF1IsMetaMycelium <> a:24 var
+R3595:3595 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3624:3632 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3619:3621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3611:3617 MF1IsMetaMycelium <> rooster proj
+R3596:3608 MF1IsMetaMycelium <> mf1_canonical def
+R3633:3633 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3657:3665 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3653:3655 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3649:3651 MF1IsMetaMycelium <> bdi proj
+R3634:3646 MF1IsMetaMycelium <> mf1_canonical def
+R3683:3685 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3666:3680 MF1IsMetaMycelium <> Mycelium_to_nat def
+R3682:3682 MF1IsMetaMycelium <> m:23 var
+R3686:3698 MF1IsMetaMycelium <> AILife_to_nat def
+R3700:3700 MF1IsMetaMycelium <> a:24 var
+prf 3849:3874 <> mycelium_network_is_ailife
+R3892:3894 Corelib.Init.Datatypes <> nat ind
+binder 3888:3888 <> n:25
+R3908:3915 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3903:3905 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3902:3902 MF1IsMetaMycelium <> n:25 var
+R3941:3943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3916:3930 MF1IsMetaMycelium <> Mycelium_to_nat def
+R3933:3937 MF1IsMetaMycelium <> Hypha constr
+R3939:3939 MF1IsMetaMycelium <> n:25 var
+R3944:3956 MF1IsMetaMycelium <> AILife_to_nat def
+R3959:3965 MF1IsMetaMycelium <> Network constr
+R3967:3967 MF1IsMetaMycelium <> n:25 var
+R4001:4015 MF1IsMetaMycelium <> Mycelium_to_nat def
+R4018:4030 MF1IsMetaMycelium <> AILife_to_nat def
+prf 4101:4119 <> spores_spawn_agents
+R4137:4139 Corelib.Init.Datatypes <> nat ind
+binder 4133:4133 <> n:26
+R4153:4160 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4148:4150 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4147:4147 MF1IsMetaMycelium <> n:26 var
+R4186:4188 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4161:4175 MF1IsMetaMycelium <> Mycelium_to_nat def
+R4178:4182 MF1IsMetaMycelium <> Spore constr
+R4184:4184 MF1IsMetaMycelium <> n:26 var
+R4189:4201 MF1IsMetaMycelium <> AILife_to_nat def
+R4204:4208 MF1IsMetaMycelium <> Agent constr
+R4210:4210 MF1IsMetaMycelium <> n:26 var
+R4244:4258 MF1IsMetaMycelium <> Mycelium_to_nat def
+R4261:4273 MF1IsMetaMycelium <> AILife_to_nat def
+prf 4357:4382 <> fruiting_creates_emergence
+R4400:4402 Corelib.Init.Datatypes <> nat ind
+binder 4396:4396 <> n:27
+R4416:4423 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4411:4413 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4410:4410 MF1IsMetaMycelium <> n:27 var
+R4452:4454 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4424:4438 MF1IsMetaMycelium <> Mycelium_to_nat def
+R4441:4448 MF1IsMetaMycelium <> Fruiting constr
+R4450:4450 MF1IsMetaMycelium <> n:27 var
+R4455:4467 MF1IsMetaMycelium <> AILife_to_nat def
+R4470:4478 MF1IsMetaMycelium <> Emergence constr
+R4480:4480 MF1IsMetaMycelium <> n:27 var
+R4514:4528 MF1IsMetaMycelium <> Mycelium_to_nat def
+R4531:4543 MF1IsMetaMycelium <> AILife_to_nat def
+prf 4632:4657 <> Everything_is_MetaMycelium
+R4670:4673 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4665:4667 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4679:4682 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4675:4677 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4686:4688 Corelib.Init.Logic <> ::type_scope:x_'='_x not

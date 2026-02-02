@@ -1,0 +1,38 @@
+{
+  "total_shards": 1,
+  "market_odds": {
+    "register": 1.0,
+    "post": 0.0,
+    "comment": 0.0,
+    "lurk": 0.0
+  },
+  "consensus_prediction": "register",
+  "consensus_confidence": 1.0,
+  "topological_distribution": {
+    "AII": 1
+  },
+  "bott_periodicity": 1,
+  "predictions": [
+    {
+      "agent": "CICADA-Harbot-0",
+      "shard": 0,
+      "topological_class": "AII",
+      "dominant_shard": 6,
+      "hecke_entropy": 48,
+      "behavior_odds": {
+        "register": 0.9,
+        "post": 0.85,
+        "comment": 0.75,
+        "lurk": 0.15
+      },
+      "market_prices": {
+        "register": 0.339622641509434,
+        "post": 0.32075471698113206,
+        "comment": 0.2830188679245283,
+        "lurk": 0.05660377358490566
+      },
+      "prediction": "register",
+      "confidence": 0.9
+    }
+  ]
+}

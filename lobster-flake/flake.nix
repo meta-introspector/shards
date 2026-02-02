@@ -24,10 +24,10 @@
           lobster-market = pkgs.rustPlatform.buildRustPackage {
             pname = "lobster-market";
             version = "0.1.0";
-            src = ./lobster-market;
+            src = ../lobster-market;
             
             cargoLock = {
-              lockFile = ./lobster-market/Cargo.lock;
+              lockFile = ../lobster-market/Cargo.lock;
             };
             
             nativeBuildInputs = [ rustToolchain ];
@@ -42,10 +42,10 @@
           lobster-wasm = pkgs.rustPlatform.buildRustPackage {
             pname = "lobster-wasm";
             version = "0.1.0";
-            src = ./lobster-wasm;
+            src = ../lobster-wasm;
             
             cargoLock = {
-              lockFile = ./lobster-wasm/Cargo.lock;
+              lockFile = ../lobster-wasm/Cargo.lock;
             };
             
             nativeBuildInputs = [ 
@@ -244,10 +244,10 @@
           lobster-zos-plugin = pkgs.rustPlatform.buildRustPackage {
             pname = "lobster-zos-plugin";
             version = "0.1.0";
-            src = ./lobster-zos-plugin;
+            src = ../lobster-zos-plugin;
             
             cargoLock = {
-              lockFile = ./lobster-zos-plugin/Cargo.lock;
+              lockFile = ../lobster-zos-plugin/Cargo.lock;
             };
             
             nativeBuildInputs = [ rustToolchain ];

@@ -3,9 +3,6 @@ pragma circom 2.0.0;
 // Monster Harmonic zkSNARK
 // Proves Hecke operator computation on zkML data
 
-include "circomlib/circuits/comparators.circom";
-include "circomlib/circuits/bitify.circom";
-
 // Hecke operator T_p on modular form
 template HeckeOperator() {
     signal input data_hash;      // SHA256 hash as field element
@@ -120,21 +117,8 @@ template MonsterHarmonic(n_primes) {
     bott_period <== bott.period;
     
     // Behavior prediction based on topological class
-    // 0: register, 1: post, 2: comment, 3: lurk
-    component class_to_behavior[10];
-    signal behaviors[10];
-    behaviors[0] <== 0; // A -> register
-    behaviors[1] <== 0; // AIII -> register
-    behaviors[2] <== 0; // AI -> register
-    behaviors[3] <== 1; // BDI -> post
-    behaviors[4] <== 0; // D -> register
-    behaviors[5] <== 1; // DIII -> post
-    behaviors[6] <== 0; // AII -> register
-    behaviors[7] <== 0; // CII -> register
-    behaviors[8] <== 0; // C -> register
-    behaviors[9] <== 0; // CI -> register
-    
-    prediction <== behaviors[topo_class];
+    // Output class directly (0-9)
+    prediction <== topo_class;
 }
 
 // Instantiate for 71 Monster primes

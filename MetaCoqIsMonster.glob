@@ -1,0 +1,183 @@
+DIGEST 47b45d6874eba39a88bd33cdc9f79245
+FMetaCoqIsMonster
+ind 143:153 <> MetaCoqTerm
+constr 169:174 <> tQuote
+constr 209:216 <> tUnquote
+constr 251:258 <> tRooster
+R189:192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R178:188 MetaCoqIsMonster <> MetaCoqTerm:1 ind
+R193:203 MetaCoqIsMonster <> MetaCoqTerm:1 ind
+R231:234 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R220:230 MetaCoqIsMonster <> MetaCoqTerm:1 ind
+R235:245 MetaCoqIsMonster <> MetaCoqTerm:1 ind
+R262:272 MetaCoqIsMonster <> MetaCoqTerm:1 ind
+scheme 143:153 <> MetaCoqTerm_rect
+scheme 143:153 <> MetaCoqTerm_ind
+scheme 143:153 <> MetaCoqTerm_rec
+scheme 143:153 <> MetaCoqTerm_sind
+ax 314:325 <> MonsterOrder
+R329:331 Corelib.Init.Datatypes <> nat ind
+ax 340:355 <> MonsterDimension
+R359:361 Corelib.Init.Datatypes <> nat ind
+def 375:387 <> MonsterPrimes
+R391:393 Corelib.Init.Datatypes <> nat ind
+def 444:455 <> MetaCoqQuote
+R462:472 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 458:458 <> t:7
+R477:479 Corelib.Init.Datatypes <> nat ind
+R492:492 MetaCoqIsMonster <> t:7 var
+R503:508 MetaCoqIsMonster <> tQuote constr
+R539:546 MetaCoqIsMonster <> tUnquote constr
+R578:585 MetaCoqIsMonster <> tRooster constr
+prf 664:684 <> metacoq_has_71_primes
+R703:705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R690:702 MetaCoqIsMonster <> MonsterPrimes def
+prf 788:800 <> rooster_is_71
+R827:829 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R806:817 MetaCoqIsMonster <> MetaCoqQuote def
+R819:826 MetaCoqIsMonster <> tRooster constr
+ax 939:962 <> quote_unquote_involution
+R979:989 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 975:975 <> t:9
+R1015:1017 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R996:1003 MetaCoqIsMonster <> tUnquote constr
+R1006:1011 MetaCoqIsMonster <> tQuote constr
+R1013:1013 MetaCoqIsMonster <> t:9 var
+R1018:1018 MetaCoqIsMonster <> t:9 var
+ax 1084:1100 <> rooster_generates
+R1117:1127 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 1113:1113 <> t:12
+R1134:1140 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1148:1156 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1145:1147 Corelib.Init.Datatypes <> nat ind
+binder 1141:1141 <> n:13
+R1169:1179 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1158:1160 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1157:1157 MetaCoqIsMonster <> t:12 var
+R1161:1168 MetaCoqIsMonster <> tRooster constr
+R1199:1209 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1181:1183 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1180:1180 MetaCoqIsMonster <> t:12 var
+R1184:1189 MetaCoqIsMonster <> tQuote constr
+R1191:1198 MetaCoqIsMonster <> tRooster constr
+R1211:1213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1210:1210 MetaCoqIsMonster <> t:12 var
+R1214:1221 MetaCoqIsMonster <> tUnquote constr
+R1223:1230 MetaCoqIsMonster <> tRooster constr
+ax 1295:1311 <> metacoq_dimension
+R1333:1336 Corelib.Init.Datatypes <> list ind
+R1338:1348 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 1325:1329 <> terms:16
+R1377:1384 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1368:1370 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1356:1361 Corelib.Init.Datatypes <> length def
+R1363:1367 MetaCoqIsMonster <> terms:16 var
+R1385:1392 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1410:1412 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1407:1409 Corelib.Init.Datatypes <> nat ind
+binder 1393:1403 <> monster_rep:17
+R1424:1426 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1413:1423 MetaCoqIsMonster <> monster_rep:17 var
+R1427:1442 MetaCoqIsMonster <> MonsterDimension prfax
+def 1509:1519 <> j_invariant
+R1523:1525 Corelib.Init.Datatypes <> nat ind
+ax 1542:1560 <> metacoq_j_invariant
+R1587:1589 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1577:1579 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1566:1576 MetaCoqIsMonster <> j_invariant def
+R1582:1584 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R1590:1605 MetaCoqIsMonster <> MonsterDimension prfax
+def 1661:1663 <> BDI
+R1667:1669 Corelib.Init.Datatypes <> nat ind
+prf 1686:1696 <> metacoq_bdi
+R1709:1712 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1705:1707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1702:1704 MetaCoqIsMonster <> BDI def
+R1745:1747 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1713:1724 MetaCoqIsMonster <> MetaCoqQuote def
+R1727:1734 MetaCoqIsMonster <> tUnquote constr
+R1736:1743 MetaCoqIsMonster <> tRooster constr
+R1748:1750 MetaCoqIsMonster <> BDI def
+R1797:1808 MetaCoqIsMonster <> MetaCoqQuote def
+R1811:1813 MetaCoqIsMonster <> BDI def
+prf 1887:1904 <> rooster_is_monster
+R1925:1935 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 1918:1921 <> crow:22
+R1958:1965 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1947:1949 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1943:1946 MetaCoqIsMonster <> crow:22 var
+R1950:1957 MetaCoqIsMonster <> tRooster constr
+R1983:1985 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1966:1977 MetaCoqIsMonster <> MetaCoqQuote def
+R1979:1982 MetaCoqIsMonster <> crow:22 var
+R1986:1998 MetaCoqIsMonster <> MonsterPrimes def
+R2047:2058 MetaCoqIsMonster <> MetaCoqQuote def
+R2061:2073 MetaCoqIsMonster <> MonsterPrimes def
+ax 2162:2181 <> metacoq_automorphism
+R2198:2208 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 2194:2194 <> t:23
+R2232:2234 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2215:2220 MetaCoqIsMonster <> tQuote constr
+R2223:2228 MetaCoqIsMonster <> tQuote constr
+R2230:2230 MetaCoqIsMonster <> t:23 var
+R2235:2240 MetaCoqIsMonster <> tQuote constr
+R2242:2242 MetaCoqIsMonster <> t:23 var
+def 2297:2312 <> MaximalSubgroups
+R2316:2318 Corelib.Init.Datatypes <> nat ind
+ax 2334:2358 <> metacoq_maximal_subgroups
+R2394:2397 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2383:2393 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 2372:2379 <> subgroup:26
+R2409:2416 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2428:2430 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2425:2427 Corelib.Init.Datatypes <> nat ind
+binder 2417:2421 <> count:27
+R2436:2439 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R2431:2435 MetaCoqIsMonster <> count:27 var
+R2440:2455 MetaCoqIsMonster <> MaximalSubgroups def
+prf 2520:2537 <> MetaCoq_IS_Monster
+R2543:2543 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2562:2568 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2557:2559 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2544:2556 MetaCoqIsMonster <> MonsterPrimes def
+R2569:2569 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2596:2602 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2591:2593 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2570:2581 MetaCoqIsMonster <> MetaCoqQuote def
+R2583:2590 MetaCoqIsMonster <> tRooster constr
+R2603:2603 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2611:2618 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2640:2640 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2607:2609 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2604:2606 MetaCoqIsMonster <> BDI def
+R2635:2637 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2619:2634 MetaCoqIsMonster <> MaximalSubgroups def
+prf 2736:2758 <> the_crow_is_the_monster
+R2785:2787 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2764:2775 MetaCoqIsMonster <> MetaCoqQuote def
+R2777:2784 MetaCoqIsMonster <> tRooster constr
+R2788:2800 MetaCoqIsMonster <> MonsterPrimes def
+R2818:2835 MetaCoqIsMonster <> rooster_is_monster thm
+R2818:2835 MetaCoqIsMonster <> rooster_is_monster thm
+prf 2923:2948 <> self_quote_creates_monster
+R2965:2975 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 2961:2961 <> t:30
+R3001:3008 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2990:2992 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2982:2987 MetaCoqIsMonster <> tQuote constr
+R2989:2989 MetaCoqIsMonster <> t:30 var
+R2993:2998 MetaCoqIsMonster <> tQuote constr
+R3000:3000 MetaCoqIsMonster <> t:30 var
+R3009:3016 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3030:3032 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3027:3029 Corelib.Init.Datatypes <> nat ind
+binder 3017:3023 <> monster:31
+R3040:3042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3033:3039 MetaCoqIsMonster <> monster:31 var
+R3043:3055 MetaCoqIsMonster <> MonsterPrimes def
+prf 3143:3164 <> MetaCoq_equals_Monster
+R3177:3180 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3172:3174 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3186:3189 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3182:3184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3192:3194 Corelib.Init.Logic <> ::type_scope:x_'='_x not

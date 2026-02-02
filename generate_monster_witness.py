@@ -49,8 +49,7 @@ def generate_witness(zkwitness_path: str) -> dict:
     circom_witness = {
         "perf_hash": str(perf_hash),
         "ollama_hash": str(ollama_hash),
-        "shard_id": str(shard_id),
-        "primes": [str(p) for p in MONSTER_PRIMES]
+        "shard_id": str(shard_id)
     }
     
     return circom_witness
@@ -72,7 +71,6 @@ def main():
     print(f"   Shard: {witness['shard_id']}")
     print(f"   Perf hash: {witness['perf_hash'][:20]}...")
     print(f"   Ollama hash: {witness['ollama_hash'][:20]}...")
-    print(f"   Primes: {len(witness['primes'])}")
 
 if __name__ == "__main__":
     main()

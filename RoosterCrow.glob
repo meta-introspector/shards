@@ -1,0 +1,77 @@
+DIGEST 020e10dbd88c7cd9dd294c102141ab9e
+FRoosterCrow
+ind 126:134 <> TopoClass
+constr 150:150 <> A
+constr 168:171 <> AIII
+constr 189:190 <> AI
+constr 208:210 <> BDI
+constr 250:250 <> D
+constr 268:271 <> DIII
+constr 289:291 <> AII
+constr 309:311 <> CII
+constr 329:329 <> C
+constr 347:348 <> CI
+R154:162 RoosterCrow <> TopoClass:1 ind
+R175:183 RoosterCrow <> TopoClass:1 ind
+R194:202 RoosterCrow <> TopoClass:1 ind
+R214:222 RoosterCrow <> TopoClass:1 ind
+R254:262 RoosterCrow <> TopoClass:1 ind
+R275:283 RoosterCrow <> TopoClass:1 ind
+R295:303 RoosterCrow <> TopoClass:1 ind
+R315:323 RoosterCrow <> TopoClass:1 ind
+R333:341 RoosterCrow <> TopoClass:1 ind
+R352:360 RoosterCrow <> TopoClass:1 ind
+scheme 126:134 <> TopoClass_rect
+scheme 126:134 <> TopoClass_ind
+scheme 126:134 <> TopoClass_rec
+scheme 126:134 <> TopoClass_sind
+def 412:422 <> encode_topo
+R429:437 RoosterCrow <> TopoClass ind
+binder 425:425 <> t:3
+R442:444 Corelib.Init.Datatypes <> nat ind
+R457:457 RoosterCrow <> t:3 var
+R468:468 RoosterCrow <> A constr
+R477:480 RoosterCrow <> AIII constr
+R489:490 RoosterCrow <> AI constr
+R499:501 RoosterCrow <> BDI constr
+R510:510 RoosterCrow <> D constr
+R521:524 RoosterCrow <> DIII constr
+R533:535 RoosterCrow <> AII constr
+R544:546 RoosterCrow <> CII constr
+R555:555 RoosterCrow <> C constr
+R564:565 RoosterCrow <> CI constr
+prf 633:643 <> bdi_is_life
+R662:664 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R647:657 RoosterCrow <> encode_topo def
+R659:661 RoosterCrow <> BDI constr
+prf 743:764 <> rooster_crows_71_times
+R783:785 Corelib.Init.Datatypes <> nat ind
+binder 779:779 <> n:5
+R795:798 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R790:792 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R789:789 RoosterCrow <> n:5 var
+R800:802 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R803:803 RoosterCrow <> n:5 var
+ax 983:1001 <> j_invariant_bounded
+R1019:1021 Corelib.Init.Datatypes <> nat ind
+binder 1015:1015 <> j:6
+R1033:1036 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1026:1028 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1025:1025 RoosterCrow <> j:6 var
+R1038:1040 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1037:1037 RoosterCrow <> j:6 var
+def 1114:1125 <> ROOSTER_CROW
+R1129:1131 Corelib.Init.Datatypes <> nat ind
+prf 1210:1232 <> system_complete_on_crow
+R1255:1258 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1250:1252 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1238:1249 RoosterCrow <> ROOSTER_CROW def
+R1259:1262 Corelib.Init.Logic <> True ind
+R1291:1291 Corelib.Init.Logic <> I constr
+R1291:1291 Corelib.Init.Logic <> I constr
+prf 1365:1386 <> THE_ROOSTER_HAS_CROWED
+R1399:1402 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1394:1396 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1418:1420 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1403:1413 RoosterCrow <> encode_topo def
+R1415:1417 RoosterCrow <> BDI constr

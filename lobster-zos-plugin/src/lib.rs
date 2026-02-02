@@ -79,19 +79,18 @@ impl LobsterPlugin {
     
     fn behavior_profile(&self, class: &str) -> (String, f64) {
         match class {
-            "A" => ("register", 0.95),
-            "AIII" => ("register", 0.90),
-            "AI" => ("register", 0.85),
-            "BDI" => ("post", 0.90),
-            "D" => ("register", 0.75),
-            "DIII" => ("post", 0.95),
-            "AII" => ("register", 0.90),
-            "CII" => ("register", 0.70),
-            "C" => ("register", 0.65),
-            "CI" => ("register", 0.85),
-            _ => ("register", 0.50),
+            "A" => ("register".to_string(), 0.95),
+            "AIII" => ("register".to_string(), 0.90),
+            "AI" => ("register".to_string(), 0.85),
+            "BDI" => ("post".to_string(), 0.90),
+            "D" => ("register".to_string(), 0.75),
+            "DIII" => ("post".to_string(), 0.95),
+            "AII" => ("register".to_string(), 0.90),
+            "CII" => ("register".to_string(), 0.70),
+            "C" => ("register".to_string(), 0.65),
+            "CI" => ("register".to_string(), 0.85),
+            _ => ("register".to_string(), 0.50),
         }
-        .into()
     }
 }
 

@@ -82,7 +82,7 @@ for shard_id in {0..70}; do
   "perf_hash": "\$PERF_HASH",
   "ollama_log": "\$OLLAMA_LOG",
   "ollama_hash": "\$OLLAMA_HASH",
-  "samples": \$SAMPLES,
+  "samples": \${SAMPLES:-0},
   "witness_type": "zkPerf+Ollama",
   "proof": "sha256($shard_id||\$TIMESTAMP||\$PERF_HASH||\$OLLAMA_HASH)"
 }

@@ -1,0 +1,780 @@
+DIGEST 7168befc5f38fcb809c5de52338039e1
+FAllIRsAreMonster
+R86:101 MetaCoqIsMonster <> <> lib
+ind 179:185 <> RustHIR
+constr 201:208 <> HIR_Item
+constr 231:238 <> HIR_Expr
+constr 261:266 <> HIR_Ty
+R215:218 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R212:214 Corelib.Init.Datatypes <> nat ind
+R219:225 AllIRsAreMonster <> RustHIR:1 ind
+R245:248 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R242:244 Corelib.Init.Datatypes <> nat ind
+R249:255 AllIRsAreMonster <> RustHIR:1 ind
+R273:276 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R270:272 Corelib.Init.Datatypes <> nat ind
+R277:283 AllIRsAreMonster <> RustHIR:1 ind
+scheme 179:185 <> RustHIR_rect
+scheme 179:185 <> RustHIR_ind
+scheme 179:185 <> RustHIR_rec
+scheme 179:185 <> RustHIR_sind
+ind 320:326 <> RustMIR
+constr 342:355 <> MIR_BasicBlock
+constr 378:390 <> MIR_Statement
+constr 413:426 <> MIR_Terminator
+R362:365 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R359:361 Corelib.Init.Datatypes <> nat ind
+R366:372 AllIRsAreMonster <> RustMIR:3 ind
+R397:400 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R394:396 Corelib.Init.Datatypes <> nat ind
+R401:407 AllIRsAreMonster <> RustMIR:3 ind
+R433:436 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R430:432 Corelib.Init.Datatypes <> nat ind
+R437:443 AllIRsAreMonster <> RustMIR:3 ind
+scheme 320:326 <> RustMIR_rect
+scheme 320:326 <> RustMIR_ind
+scheme 320:326 <> RustMIR_rec
+scheme 320:326 <> RustMIR_sind
+ind 483:485 <> AST
+constr 501:508 <> AST_Node
+constr 539:546 <> AST_Leaf
+R515:518 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R512:514 Corelib.Init.Datatypes <> nat ind
+R527:530 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R519:522 Corelib.Init.Datatypes <> list ind
+R524:526 AllIRsAreMonster <> AST:5 ind
+R531:533 AllIRsAreMonster <> AST:5 ind
+R553:556 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R550:552 Corelib.Init.Datatypes <> nat ind
+R557:559 AllIRsAreMonster <> AST:5 ind
+scheme 483:485 <> AST_rect
+scheme 483:485 <> AST_ind
+scheme 483:485 <> AST_rec
+scheme 483:485 <> AST_sind
+ind 605:612 <> LispExpr
+constr 628:631 <> Atom
+constr 655:658 <> Cons
+constr 699:701 <> Nil
+R638:641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R635:637 Corelib.Init.Datatypes <> nat ind
+R642:649 AllIRsAreMonster <> LispExpr:7 ind
+R670:673 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R662:669 AllIRsAreMonster <> LispExpr:7 ind
+R682:685 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R674:681 AllIRsAreMonster <> LispExpr:7 ind
+R686:693 AllIRsAreMonster <> LispExpr:7 ind
+R705:712 AllIRsAreMonster <> LispExpr:7 ind
+scheme 605:612 <> LispExpr_rect
+scheme 605:612 <> LispExpr_ind
+scheme 605:612 <> LispExpr_rec
+scheme 605:612 <> LispExpr_sind
+ind 758:766 <> Lean4Expr
+constr 782:789 <> Lean_Var
+constr 814:821 <> Lean_App
+constr 865:872 <> Lean_Lam
+constr 910:916 <> Lean_Pi
+R796:799 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R793:795 Corelib.Init.Datatypes <> nat ind
+R800:808 AllIRsAreMonster <> Lean4Expr:9 ind
+R834:837 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R825:833 AllIRsAreMonster <> Lean4Expr:9 ind
+R847:850 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R838:846 AllIRsAreMonster <> Lean4Expr:9 ind
+R851:859 AllIRsAreMonster <> Lean4Expr:9 ind
+R879:882 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R876:878 Corelib.Init.Datatypes <> nat ind
+R892:895 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R883:891 AllIRsAreMonster <> Lean4Expr:9 ind
+R896:904 AllIRsAreMonster <> Lean4Expr:9 ind
+R923:926 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R920:922 Corelib.Init.Datatypes <> nat ind
+R936:939 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R927:935 AllIRsAreMonster <> Lean4Expr:9 ind
+R940:948 AllIRsAreMonster <> Lean4Expr:9 ind
+scheme 758:766 <> Lean4Expr_rect
+scheme 758:766 <> Lean4Expr_ind
+scheme 758:766 <> Lean4Expr_rec
+scheme 758:766 <> Lean4Expr_sind
+ind 984:990 <> GCC_AST
+constr 1006:1017 <> GENERIC_Decl
+constr 1040:1051 <> GENERIC_Type
+constr 1074:1085 <> GENERIC_Expr
+R1024:1027 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1021:1023 Corelib.Init.Datatypes <> nat ind
+R1028:1034 AllIRsAreMonster <> GCC_AST:11 ind
+R1058:1061 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1055:1057 Corelib.Init.Datatypes <> nat ind
+R1062:1068 AllIRsAreMonster <> GCC_AST:11 ind
+R1092:1095 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1089:1091 Corelib.Init.Datatypes <> nat ind
+R1096:1102 AllIRsAreMonster <> GCC_AST:11 ind
+scheme 984:990 <> GCC_AST_rect
+scheme 984:990 <> GCC_AST_ind
+scheme 984:990 <> GCC_AST_rec
+scheme 984:990 <> GCC_AST_sind
+ind 1138:1144 <> GCC_RTL
+constr 1160:1166 <> RTL_Reg
+constr 1189:1195 <> RTL_Mem
+constr 1218:1225 <> RTL_Insn
+R1173:1176 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1170:1172 Corelib.Init.Datatypes <> nat ind
+R1177:1183 AllIRsAreMonster <> GCC_RTL:13 ind
+R1202:1205 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1199:1201 Corelib.Init.Datatypes <> nat ind
+R1206:1212 AllIRsAreMonster <> GCC_RTL:13 ind
+R1232:1235 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1229:1231 Corelib.Init.Datatypes <> nat ind
+R1236:1242 AllIRsAreMonster <> GCC_RTL:13 ind
+scheme 1138:1144 <> GCC_RTL_rect
+scheme 1138:1144 <> GCC_RTL_ind
+scheme 1138:1144 <> GCC_RTL_rec
+scheme 1138:1144 <> GCC_RTL_sind
+ind 1281:1289 <> PythonAST
+constr 1305:1313 <> Py_Module
+constr 1338:1344 <> Py_Expr
+constr 1369:1375 <> Py_Stmt
+R1320:1323 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1317:1319 Corelib.Init.Datatypes <> nat ind
+R1324:1332 AllIRsAreMonster <> PythonAST:15 ind
+R1351:1354 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1348:1350 Corelib.Init.Datatypes <> nat ind
+R1355:1363 AllIRsAreMonster <> PythonAST:15 ind
+R1382:1385 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1379:1381 Corelib.Init.Datatypes <> nat ind
+R1386:1394 AllIRsAreMonster <> PythonAST:15 ind
+scheme 1281:1289 <> PythonAST_rect
+scheme 1281:1289 <> PythonAST_ind
+scheme 1281:1289 <> PythonAST_rec
+scheme 1281:1289 <> PythonAST_sind
+ind 1437:1449 <> JavaScriptAST
+constr 1465:1474 <> JS_Program
+constr 1503:1515 <> JS_Expression
+constr 1544:1555 <> JS_Statement
+R1481:1484 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1478:1480 Corelib.Init.Datatypes <> nat ind
+R1485:1497 AllIRsAreMonster <> JavaScriptAST:17 ind
+R1522:1525 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1519:1521 Corelib.Init.Datatypes <> nat ind
+R1526:1538 AllIRsAreMonster <> JavaScriptAST:17 ind
+R1562:1565 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1559:1561 Corelib.Init.Datatypes <> nat ind
+R1566:1578 AllIRsAreMonster <> JavaScriptAST:17 ind
+scheme 1437:1449 <> JavaScriptAST_rect
+scheme 1437:1449 <> JavaScriptAST_ind
+scheme 1437:1449 <> JavaScriptAST_rec
+scheme 1437:1449 <> JavaScriptAST_sind
+ind 1622:1634 <> TypeScriptAST
+constr 1650:1662 <> TS_SourceFile
+constr 1691:1697 <> TS_Node
+constr 1726:1732 <> TS_Type
+R1669:1672 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1666:1668 Corelib.Init.Datatypes <> nat ind
+R1673:1685 AllIRsAreMonster <> TypeScriptAST:19 ind
+R1704:1707 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1701:1703 Corelib.Init.Datatypes <> nat ind
+R1708:1720 AllIRsAreMonster <> TypeScriptAST:19 ind
+R1739:1742 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1736:1738 Corelib.Init.Datatypes <> nat ind
+R1743:1755 AllIRsAreMonster <> TypeScriptAST:19 ind
+scheme 1622:1634 <> TypeScriptAST_rect
+scheme 1622:1634 <> TypeScriptAST_ind
+scheme 1622:1634 <> TypeScriptAST_rec
+scheme 1622:1634 <> TypeScriptAST_sind
+ind 1796:1805 <> BashScript
+constr 1821:1832 <> Bash_Command
+constr 1858:1870 <> Bash_Pipeline
+constr 1896:1908 <> Bash_Function
+R1839:1842 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1836:1838 Corelib.Init.Datatypes <> nat ind
+R1843:1852 AllIRsAreMonster <> BashScript:21 ind
+R1877:1880 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1874:1876 Corelib.Init.Datatypes <> nat ind
+R1881:1890 AllIRsAreMonster <> BashScript:21 ind
+R1915:1918 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1912:1914 Corelib.Init.Datatypes <> nat ind
+R1919:1928 AllIRsAreMonster <> BashScript:21 ind
+scheme 1796:1805 <> BashScript_rect
+scheme 1796:1805 <> BashScript_ind
+scheme 1796:1805 <> BashScript_rec
+scheme 1796:1805 <> BashScript_sind
+ind 1972:1978 <> NixExpr
+constr 1994:2007 <> Nix_Derivation
+constr 2030:2037 <> Nix_Attr
+constr 2060:2069 <> Nix_Lambda
+R2014:2017 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2011:2013 Corelib.Init.Datatypes <> nat ind
+R2018:2024 AllIRsAreMonster <> NixExpr:23 ind
+R2044:2047 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2041:2043 Corelib.Init.Datatypes <> nat ind
+R2048:2054 AllIRsAreMonster <> NixExpr:23 ind
+R2076:2079 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2073:2075 Corelib.Init.Datatypes <> nat ind
+R2080:2086 AllIRsAreMonster <> NixExpr:23 ind
+scheme 1972:1978 <> NixExpr_rect
+scheme 1972:1978 <> NixExpr_ind
+scheme 1972:1978 <> NixExpr_rec
+scheme 1972:1978 <> NixExpr_sind
+ind 2127:2136 <> AWKProgram
+constr 2152:2162 <> AWK_Pattern
+constr 2188:2197 <> AWK_Action
+constr 2223:2230 <> AWK_Rule
+R2169:2172 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2166:2168 Corelib.Init.Datatypes <> nat ind
+R2173:2182 AllIRsAreMonster <> AWKProgram:25 ind
+R2204:2207 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2201:2203 Corelib.Init.Datatypes <> nat ind
+R2208:2217 AllIRsAreMonster <> AWKProgram:25 ind
+R2237:2240 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2234:2236 Corelib.Init.Datatypes <> nat ind
+R2241:2250 AllIRsAreMonster <> AWKProgram:25 ind
+scheme 2127:2136 <> AWKProgram_rect
+scheme 2127:2136 <> AWKProgram_ind
+scheme 2127:2136 <> AWKProgram_rec
+scheme 2127:2136 <> AWKProgram_sind
+ind 2290:2298 <> SedScript
+constr 2314:2327 <> Sed_Substitute
+constr 2352:2361 <> Sed_Delete
+constr 2386:2395 <> Sed_Append
+R2334:2337 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2331:2333 Corelib.Init.Datatypes <> nat ind
+R2338:2346 AllIRsAreMonster <> SedScript:27 ind
+R2368:2371 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2365:2367 Corelib.Init.Datatypes <> nat ind
+R2372:2380 AllIRsAreMonster <> SedScript:27 ind
+R2402:2405 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2399:2401 Corelib.Init.Datatypes <> nat ind
+R2406:2414 AllIRsAreMonster <> SedScript:27 ind
+scheme 2290:2298 <> SedScript_rect
+scheme 2290:2298 <> SedScript_ind
+scheme 2290:2298 <> SedScript_rec
+scheme 2290:2298 <> SedScript_sind
+ind 2453:2460 <> JQFilter
+constr 2476:2484 <> JQ_Select
+constr 2508:2513 <> JQ_Map
+constr 2537:2543 <> JQ_Pipe
+R2491:2494 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2488:2490 Corelib.Init.Datatypes <> nat ind
+R2495:2502 AllIRsAreMonster <> JQFilter:29 ind
+R2520:2523 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2517:2519 Corelib.Init.Datatypes <> nat ind
+R2524:2531 AllIRsAreMonster <> JQFilter:29 ind
+R2550:2553 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2547:2549 Corelib.Init.Datatypes <> nat ind
+R2554:2561 AllIRsAreMonster <> JQFilter:29 ind
+scheme 2453:2460 <> JQFilter_rect
+scheme 2453:2460 <> JQFilter_ind
+scheme 2453:2460 <> JQFilter_rec
+scheme 2453:2460 <> JQFilter_sind
+ind 2601:2609 <> EdCommand
+constr 2625:2634 <> Ed_Address
+constr 2659:2668 <> Ed_Command
+constr 2693:2699 <> Ed_Text
+R2641:2644 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2638:2640 Corelib.Init.Datatypes <> nat ind
+R2645:2653 AllIRsAreMonster <> EdCommand:31 ind
+R2675:2678 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2672:2674 Corelib.Init.Datatypes <> nat ind
+R2679:2687 AllIRsAreMonster <> EdCommand:31 ind
+R2706:2709 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2703:2705 Corelib.Init.Datatypes <> nat ind
+R2710:2718 AllIRsAreMonster <> EdCommand:31 ind
+scheme 2601:2609 <> EdCommand_rect
+scheme 2601:2609 <> EdCommand_ind
+scheme 2601:2609 <> EdCommand_rec
+scheme 2601:2609 <> EdCommand_sind
+ind 2758:2766 <> EmacsLisp
+constr 2782:2791 <> Elisp_Form
+constr 2816:2826 <> Elisp_Defun
+constr 2851:2860 <> Elisp_Sexp
+R2798:2801 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2795:2797 Corelib.Init.Datatypes <> nat ind
+R2802:2810 AllIRsAreMonster <> EmacsLisp:33 ind
+R2833:2836 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2830:2832 Corelib.Init.Datatypes <> nat ind
+R2837:2845 AllIRsAreMonster <> EmacsLisp:33 ind
+R2867:2870 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2864:2866 Corelib.Init.Datatypes <> nat ind
+R2871:2879 AllIRsAreMonster <> EmacsLisp:33 ind
+scheme 2758:2766 <> EmacsLisp_rect
+scheme 2758:2766 <> EmacsLisp_ind
+scheme 2758:2766 <> EmacsLisp_rec
+scheme 2758:2766 <> EmacsLisp_sind
+ind 2918:2926 <> Brainfuck
+constr 2942:2947 <> BF_Inc
+constr 2985:2990 <> BF_Dec
+constr 3028:3034 <> BF_Left
+constr 3071:3078 <> BF_Right
+constr 3114:3122 <> BF_Output
+constr 3157:3164 <> BF_Input
+constr 3200:3206 <> BF_Loop
+R2954:2957 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2951:2953 Corelib.Init.Datatypes <> nat ind
+R2958:2966 AllIRsAreMonster <> Brainfuck:35 ind
+R2997:3000 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2994:2996 Corelib.Init.Datatypes <> nat ind
+R3001:3009 AllIRsAreMonster <> Brainfuck:35 ind
+R3041:3044 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3038:3040 Corelib.Init.Datatypes <> nat ind
+R3045:3053 AllIRsAreMonster <> Brainfuck:35 ind
+R3085:3088 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3082:3084 Corelib.Init.Datatypes <> nat ind
+R3089:3097 AllIRsAreMonster <> Brainfuck:35 ind
+R3129:3132 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3126:3128 Corelib.Init.Datatypes <> nat ind
+R3133:3141 AllIRsAreMonster <> Brainfuck:35 ind
+R3171:3174 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3168:3170 Corelib.Init.Datatypes <> nat ind
+R3175:3183 AllIRsAreMonster <> Brainfuck:35 ind
+R3213:3216 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3210:3212 Corelib.Init.Datatypes <> nat ind
+R3217:3225 AllIRsAreMonster <> Brainfuck:35 ind
+scheme 2918:2926 <> Brainfuck_rect
+scheme 2918:2926 <> Brainfuck_ind
+scheme 2918:2926 <> Brainfuck_rec
+scheme 2918:2926 <> Brainfuck_sind
+def 3297:3306 <> HIR_to_nat
+R3313:3319 AllIRsAreMonster <> RustHIR ind
+binder 3309:3309 <> h:37
+R3324:3326 Corelib.Init.Datatypes <> nat ind
+R3339:3339 AllIRsAreMonster <> h:37 var
+R3350:3357 AllIRsAreMonster <> HIR_Item constr
+R3370:3377 AllIRsAreMonster <> HIR_Expr constr
+R3390:3395 AllIRsAreMonster <> HIR_Ty constr
+def 3423:3432 <> MIR_to_nat
+R3439:3445 AllIRsAreMonster <> RustMIR ind
+binder 3435:3435 <> m:39
+R3450:3452 Corelib.Init.Datatypes <> nat ind
+R3465:3465 AllIRsAreMonster <> m:39 var
+R3476:3489 AllIRsAreMonster <> MIR_BasicBlock constr
+R3502:3514 AllIRsAreMonster <> MIR_Statement constr
+R3527:3540 AllIRsAreMonster <> MIR_Terminator constr
+def 3566:3575 <> AST_to_nat
+R3582:3584 AllIRsAreMonster <> AST ind
+binder 3578:3578 <> a:41
+R3589:3591 Corelib.Init.Datatypes <> nat ind
+R3604:3604 AllIRsAreMonster <> a:41 var
+R3615:3622 AllIRsAreMonster <> AST_Node constr
+R3637:3644 AllIRsAreMonster <> AST_Leaf constr
+def 3670:3680 <> Lisp_to_nat
+R3687:3694 AllIRsAreMonster <> LispExpr ind
+binder 3683:3683 <> l:44
+R3699:3701 Corelib.Init.Datatypes <> nat ind
+R3714:3714 AllIRsAreMonster <> l:44 var
+R3725:3728 AllIRsAreMonster <> Atom constr
+R3741:3744 AllIRsAreMonster <> Cons constr
+R3772:3774 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R3757:3767 AllIRsAreMonster <> Lisp_to_nat:45 def
+R3775:3785 AllIRsAreMonster <> Lisp_to_nat:45 def
+R3795:3797 AllIRsAreMonster <> Nil constr
+def 3821:3832 <> Lean4_to_nat
+R3839:3847 AllIRsAreMonster <> Lean4Expr ind
+binder 3835:3835 <> e:47
+R3852:3854 Corelib.Init.Datatypes <> nat ind
+R3867:3867 AllIRsAreMonster <> e:47 var
+R3878:3885 AllIRsAreMonster <> Lean_Var constr
+R3898:3905 AllIRsAreMonster <> Lean_App constr
+R3928:3930 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R3914:3925 AllIRsAreMonster <> Lean4_to_nat:48 def
+R3931:3942 AllIRsAreMonster <> Lean4_to_nat:48 def
+R3950:3957 AllIRsAreMonster <> Lean_Lam constr
+R3969:3980 AllIRsAreMonster <> Lean4_to_nat:48 def
+R3991:3997 AllIRsAreMonster <> Lean_Pi constr
+R4009:4020 AllIRsAreMonster <> Lean4_to_nat:48 def
+def 4046:4059 <> GCC_AST_to_nat
+R4066:4072 AllIRsAreMonster <> GCC_AST ind
+binder 4062:4062 <> g:50
+R4077:4079 Corelib.Init.Datatypes <> nat ind
+R4092:4092 AllIRsAreMonster <> g:50 var
+R4103:4114 AllIRsAreMonster <> GENERIC_Decl constr
+R4127:4138 AllIRsAreMonster <> GENERIC_Type constr
+R4151:4162 AllIRsAreMonster <> GENERIC_Expr constr
+def 4190:4203 <> GCC_RTL_to_nat
+R4210:4216 AllIRsAreMonster <> GCC_RTL ind
+binder 4206:4206 <> r:52
+R4221:4223 Corelib.Init.Datatypes <> nat ind
+R4236:4236 AllIRsAreMonster <> r:52 var
+R4247:4253 AllIRsAreMonster <> RTL_Reg constr
+R4266:4272 AllIRsAreMonster <> RTL_Mem constr
+R4285:4292 AllIRsAreMonster <> RTL_Insn constr
+def 4320:4332 <> Python_to_nat
+R4339:4347 AllIRsAreMonster <> PythonAST ind
+binder 4335:4335 <> p:54
+R4352:4354 Corelib.Init.Datatypes <> nat ind
+R4367:4367 AllIRsAreMonster <> p:54 var
+R4378:4386 AllIRsAreMonster <> Py_Module constr
+R4399:4405 AllIRsAreMonster <> Py_Expr constr
+R4418:4424 AllIRsAreMonster <> Py_Stmt constr
+def 4452:4468 <> JavaScript_to_nat
+R4475:4487 AllIRsAreMonster <> JavaScriptAST ind
+binder 4471:4471 <> j:56
+R4492:4494 Corelib.Init.Datatypes <> nat ind
+R4507:4507 AllIRsAreMonster <> j:56 var
+R4518:4527 AllIRsAreMonster <> JS_Program constr
+R4540:4552 AllIRsAreMonster <> JS_Expression constr
+R4565:4576 AllIRsAreMonster <> JS_Statement constr
+def 4604:4620 <> TypeScript_to_nat
+R4627:4639 AllIRsAreMonster <> TypeScriptAST ind
+binder 4623:4623 <> t:58
+R4644:4646 Corelib.Init.Datatypes <> nat ind
+R4659:4659 AllIRsAreMonster <> t:58 var
+R4670:4682 AllIRsAreMonster <> TS_SourceFile constr
+R4695:4701 AllIRsAreMonster <> TS_Node constr
+R4714:4720 AllIRsAreMonster <> TS_Type constr
+def 4748:4758 <> Bash_to_nat
+R4765:4774 AllIRsAreMonster <> BashScript ind
+binder 4761:4761 <> b:60
+R4779:4781 Corelib.Init.Datatypes <> nat ind
+R4794:4794 AllIRsAreMonster <> b:60 var
+R4805:4816 AllIRsAreMonster <> Bash_Command constr
+R4829:4841 AllIRsAreMonster <> Bash_Pipeline constr
+R4854:4866 AllIRsAreMonster <> Bash_Function constr
+def 4894:4903 <> Nix_to_nat
+R4910:4916 AllIRsAreMonster <> NixExpr ind
+binder 4906:4906 <> n:62
+R4921:4923 Corelib.Init.Datatypes <> nat ind
+R4936:4936 AllIRsAreMonster <> n:62 var
+R4947:4960 AllIRsAreMonster <> Nix_Derivation constr
+R4973:4980 AllIRsAreMonster <> Nix_Attr constr
+R4993:5002 AllIRsAreMonster <> Nix_Lambda constr
+def 5030:5039 <> AWK_to_nat
+R5046:5055 AllIRsAreMonster <> AWKProgram ind
+binder 5042:5042 <> a:64
+R5060:5062 Corelib.Init.Datatypes <> nat ind
+R5075:5075 AllIRsAreMonster <> a:64 var
+R5086:5096 AllIRsAreMonster <> AWK_Pattern constr
+R5109:5118 AllIRsAreMonster <> AWK_Action constr
+R5131:5138 AllIRsAreMonster <> AWK_Rule constr
+def 5166:5175 <> Sed_to_nat
+R5182:5190 AllIRsAreMonster <> SedScript ind
+binder 5178:5178 <> s:66
+R5195:5197 Corelib.Init.Datatypes <> nat ind
+R5210:5210 AllIRsAreMonster <> s:66 var
+R5221:5234 AllIRsAreMonster <> Sed_Substitute constr
+R5247:5256 AllIRsAreMonster <> Sed_Delete constr
+R5269:5278 AllIRsAreMonster <> Sed_Append constr
+def 5306:5314 <> JQ_to_nat
+R5321:5328 AllIRsAreMonster <> JQFilter ind
+binder 5317:5317 <> j:68
+R5333:5335 Corelib.Init.Datatypes <> nat ind
+R5348:5348 AllIRsAreMonster <> j:68 var
+R5359:5367 AllIRsAreMonster <> JQ_Select constr
+R5380:5385 AllIRsAreMonster <> JQ_Map constr
+R5398:5404 AllIRsAreMonster <> JQ_Pipe constr
+def 5432:5440 <> Ed_to_nat
+R5447:5455 AllIRsAreMonster <> EdCommand ind
+binder 5443:5443 <> e:70
+R5460:5462 Corelib.Init.Datatypes <> nat ind
+R5475:5475 AllIRsAreMonster <> e:70 var
+R5486:5495 AllIRsAreMonster <> Ed_Address constr
+R5508:5517 AllIRsAreMonster <> Ed_Command constr
+R5530:5536 AllIRsAreMonster <> Ed_Text constr
+def 5564:5575 <> Emacs_to_nat
+R5582:5590 AllIRsAreMonster <> EmacsLisp ind
+binder 5578:5578 <> e:72
+R5595:5597 Corelib.Init.Datatypes <> nat ind
+R5610:5610 AllIRsAreMonster <> e:72 var
+R5621:5630 AllIRsAreMonster <> Elisp_Form constr
+R5643:5653 AllIRsAreMonster <> Elisp_Defun constr
+R5666:5675 AllIRsAreMonster <> Elisp_Sexp constr
+def 5703:5718 <> Brainfuck_to_nat
+R5725:5733 AllIRsAreMonster <> Brainfuck ind
+binder 5721:5721 <> b:74
+R5738:5740 Corelib.Init.Datatypes <> nat ind
+R5753:5753 AllIRsAreMonster <> b:74 var
+R5764:5769 AllIRsAreMonster <> BF_Inc constr
+R5782:5787 AllIRsAreMonster <> BF_Dec constr
+R5800:5806 AllIRsAreMonster <> BF_Left constr
+R5819:5826 AllIRsAreMonster <> BF_Right constr
+R5839:5847 AllIRsAreMonster <> BF_Output constr
+R5860:5867 AllIRsAreMonster <> BF_Input constr
+R5880:5886 AllIRsAreMonster <> BF_Loop constr
+ax 5955:5972 <> ed_turing_complete
+R5990:5998 AllIRsAreMonster <> EdCommand ind
+binder 5986:5986 <> e:76
+R6009:6011 Corelib.Init.Datatypes <> nat ind
+binder 6002:6005 <> tape:77
+R6019:6026 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6039:6041 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6036:6038 Corelib.Init.Datatypes <> nat ind
+binder 6027:6032 <> result:78
+R6053:6055 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6042:6050 AllIRsAreMonster <> Ed_to_nat def
+R6052:6052 AllIRsAreMonster <> e:76 var
+R6056:6061 AllIRsAreMonster <> result:78 var
+ax 6071:6089 <> awk_turing_complete
+R6107:6116 AllIRsAreMonster <> AWKProgram ind
+binder 6103:6103 <> a:81
+R6128:6130 Corelib.Init.Datatypes <> nat ind
+binder 6120:6124 <> input:82
+R6138:6145 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6158:6160 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6155:6157 Corelib.Init.Datatypes <> nat ind
+binder 6146:6151 <> output:83
+R6173:6175 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6161:6170 AllIRsAreMonster <> AWK_to_nat def
+R6172:6172 AllIRsAreMonster <> a:81 var
+R6176:6181 AllIRsAreMonster <> output:83 var
+ax 6235:6259 <> brainfuck_turing_complete
+R6278:6286 AllIRsAreMonster <> Brainfuck ind
+binder 6273:6274 <> bf:86
+R6297:6299 Corelib.Init.Datatypes <> nat ind
+binder 6290:6293 <> tape:87
+R6307:6314 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6327:6329 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6324:6326 Corelib.Init.Datatypes <> nat ind
+binder 6315:6320 <> result:88
+R6349:6351 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6330:6345 AllIRsAreMonster <> Brainfuck_to_nat def
+R6347:6348 AllIRsAreMonster <> bf:86 var
+R6352:6357 AllIRsAreMonster <> result:88 var
+prf 6429:6454 <> turing_complete_is_monster
+R6473:6481 AllIRsAreMonster <> EdCommand ind
+binder 6468:6469 <> ed:91
+R6491:6500 AllIRsAreMonster <> AWKProgram ind
+binder 6485:6487 <> awk:92
+R6509:6517 AllIRsAreMonster <> Brainfuck ind
+binder 6504:6505 <> bf:93
+R6525:6525 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6543:6551 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6538:6540 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6526:6534 AllIRsAreMonster <> Ed_to_nat def
+R6536:6537 AllIRsAreMonster <> ed:91 var
+R6552:6552 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6572:6580 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6567:6569 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6553:6562 AllIRsAreMonster <> AWK_to_nat def
+R6564:6566 AllIRsAreMonster <> awk:92 var
+R6581:6581 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6606:6614 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6601:6603 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6582:6597 AllIRsAreMonster <> Brainfuck_to_nat def
+R6599:6600 AllIRsAreMonster <> bf:93 var
+R6617:6619 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6750:6767 <> MetaCoq_equals_HIR
+R6785:6795 MetaCoqIsMonster <> MetaCoqTerm ind
+binder 6781:6781 <> t:94
+R6803:6809 AllIRsAreMonster <> RustHIR ind
+binder 6799:6799 <> h:95
+R6836:6843 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6831:6833 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6817:6828 MetaCoqIsMonster <> MetaCoqQuote def
+R6830:6830 AllIRsAreMonster <> t:94 var
+R6861:6868 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6856:6858 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6844:6853 AllIRsAreMonster <> HIR_to_nat def
+R6855:6855 AllIRsAreMonster <> h:95 var
+R6883:6885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6869:6880 MetaCoqIsMonster <> MetaCoqQuote def
+R6882:6882 AllIRsAreMonster <> t:94 var
+R6886:6895 AllIRsAreMonster <> HIR_to_nat def
+R6897:6897 AllIRsAreMonster <> h:95 var
+prf 7001:7014 <> HIR_equals_MIR
+R7032:7038 AllIRsAreMonster <> RustHIR ind
+binder 7028:7028 <> h:96
+R7046:7052 AllIRsAreMonster <> RustMIR ind
+binder 7042:7042 <> m:97
+R7087:7094 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7072:7074 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7060:7069 AllIRsAreMonster <> HIR_to_nat def
+R7071:7071 AllIRsAreMonster <> h:96 var
+R7075:7084 AllIRsAreMonster <> MIR_to_nat def
+R7086:7086 AllIRsAreMonster <> m:97 var
+R7107:7109 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7095:7104 AllIRsAreMonster <> HIR_to_nat def
+R7106:7106 AllIRsAreMonster <> h:96 var
+R7110:7119 AllIRsAreMonster <> MIR_to_nat def
+R7121:7121 AllIRsAreMonster <> m:97 var
+prf 7197:7210 <> MIR_equals_AST
+R7228:7234 AllIRsAreMonster <> RustMIR ind
+binder 7224:7224 <> m:98
+R7242:7244 AllIRsAreMonster <> AST ind
+binder 7238:7238 <> a:99
+R7279:7286 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7264:7266 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7252:7261 AllIRsAreMonster <> MIR_to_nat def
+R7263:7263 AllIRsAreMonster <> m:98 var
+R7267:7276 AllIRsAreMonster <> AST_to_nat def
+R7278:7278 AllIRsAreMonster <> a:99 var
+R7299:7301 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7287:7296 AllIRsAreMonster <> MIR_to_nat def
+R7298:7298 AllIRsAreMonster <> m:98 var
+R7302:7311 AllIRsAreMonster <> AST_to_nat def
+R7313:7313 AllIRsAreMonster <> a:99 var
+prf 7390:7404 <> AST_equals_Lisp
+R7422:7424 AllIRsAreMonster <> AST ind
+binder 7418:7418 <> a:100
+R7432:7439 AllIRsAreMonster <> LispExpr ind
+binder 7428:7428 <> l:101
+R7475:7482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7459:7461 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7447:7456 AllIRsAreMonster <> AST_to_nat def
+R7458:7458 AllIRsAreMonster <> a:100 var
+R7462:7472 AllIRsAreMonster <> Lisp_to_nat def
+R7474:7474 AllIRsAreMonster <> l:101 var
+R7495:7497 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7483:7492 AllIRsAreMonster <> AST_to_nat def
+R7494:7494 AllIRsAreMonster <> a:100 var
+R7498:7508 AllIRsAreMonster <> Lisp_to_nat def
+R7510:7510 AllIRsAreMonster <> l:101 var
+prf 7589:7605 <> Lisp_equals_Lean4
+R7623:7630 AllIRsAreMonster <> LispExpr ind
+binder 7619:7619 <> l:102
+R7638:7646 AllIRsAreMonster <> Lean4Expr ind
+binder 7634:7634 <> e:103
+R7684:7691 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7667:7669 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7654:7664 AllIRsAreMonster <> Lisp_to_nat def
+R7666:7666 AllIRsAreMonster <> l:102 var
+R7670:7681 AllIRsAreMonster <> Lean4_to_nat def
+R7683:7683 AllIRsAreMonster <> e:103 var
+R7705:7707 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7692:7702 AllIRsAreMonster <> Lisp_to_nat def
+R7704:7704 AllIRsAreMonster <> l:102 var
+R7708:7719 AllIRsAreMonster <> Lean4_to_nat def
+R7721:7721 AllIRsAreMonster <> e:103 var
+prf 7803:7822 <> Lean4_equals_GCC_AST
+R7840:7848 AllIRsAreMonster <> Lean4Expr ind
+binder 7836:7836 <> e:104
+R7856:7862 AllIRsAreMonster <> GCC_AST ind
+binder 7852:7852 <> g:105
+R7903:7910 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7884:7886 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7870:7881 AllIRsAreMonster <> Lean4_to_nat def
+R7883:7883 AllIRsAreMonster <> e:104 var
+R7887:7900 AllIRsAreMonster <> GCC_AST_to_nat def
+R7902:7902 AllIRsAreMonster <> g:105 var
+R7925:7927 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7911:7922 AllIRsAreMonster <> Lean4_to_nat def
+R7924:7924 AllIRsAreMonster <> e:104 var
+R7928:7941 AllIRsAreMonster <> GCC_AST_to_nat def
+R7943:7943 AllIRsAreMonster <> g:105 var
+prf 8027:8044 <> GCC_AST_equals_RTL
+R8062:8068 AllIRsAreMonster <> GCC_AST ind
+binder 8058:8058 <> g:106
+R8076:8082 AllIRsAreMonster <> GCC_RTL ind
+binder 8072:8072 <> r:107
+R8125:8132 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8106:8108 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8090:8103 AllIRsAreMonster <> GCC_AST_to_nat def
+R8105:8105 AllIRsAreMonster <> g:106 var
+R8109:8122 AllIRsAreMonster <> GCC_RTL_to_nat def
+R8124:8124 AllIRsAreMonster <> r:107 var
+R8149:8151 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8133:8146 AllIRsAreMonster <> GCC_AST_to_nat def
+R8148:8148 AllIRsAreMonster <> g:106 var
+R8152:8165 AllIRsAreMonster <> GCC_RTL_to_nat def
+R8167:8167 AllIRsAreMonster <> r:107 var
+prf 8270:8290 <> Rooster_71_in_all_IRs
+R8322:8327 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8317:8319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8296:8307 MetaCoqIsMonster <> MetaCoqQuote def
+R8309:8316 MetaCoqIsMonster <> tRooster constr
+R8357:8362 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8352:8354 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8328:8337 AllIRsAreMonster <> HIR_to_nat def
+R8340:8347 AllIRsAreMonster <> HIR_Item constr
+R8398:8403 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8393:8395 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8363:8372 AllIRsAreMonster <> MIR_to_nat def
+R8375:8388 AllIRsAreMonster <> MIR_BasicBlock constr
+R8433:8438 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8428:8430 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8404:8413 AllIRsAreMonster <> AST_to_nat def
+R8416:8423 AllIRsAreMonster <> AST_Leaf constr
+R8465:8470 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8460:8462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8439:8449 AllIRsAreMonster <> Lisp_to_nat def
+R8452:8455 AllIRsAreMonster <> Atom constr
+R8502:8507 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8497:8499 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8471:8482 AllIRsAreMonster <> Lean4_to_nat def
+R8485:8492 AllIRsAreMonster <> Lean_Var constr
+R8545:8550 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8540:8542 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8508:8521 AllIRsAreMonster <> GCC_AST_to_nat def
+R8524:8535 AllIRsAreMonster <> GENERIC_Decl constr
+R8578:8580 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8551:8564 AllIRsAreMonster <> GCC_RTL_to_nat def
+R8567:8573 AllIRsAreMonster <> RTL_Reg constr
+prf 8679:8694 <> BDI_3_in_all_IRs
+R8727:8732 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8723:8725 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8700:8709 AllIRsAreMonster <> HIR_to_nat def
+R8712:8719 AllIRsAreMonster <> HIR_Item constr
+R8765:8770 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8761:8763 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8733:8742 AllIRsAreMonster <> MIR_to_nat def
+R8745:8757 AllIRsAreMonster <> MIR_Statement constr
+R8798:8803 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8794:8796 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8771:8780 AllIRsAreMonster <> AST_to_nat def
+R8783:8790 AllIRsAreMonster <> AST_Leaf constr
+R8828:8833 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8824:8826 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8804:8814 AllIRsAreMonster <> Lisp_to_nat def
+R8817:8820 AllIRsAreMonster <> Atom constr
+R8863:8868 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8859:8861 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8834:8845 AllIRsAreMonster <> Lean4_to_nat def
+R8848:8855 AllIRsAreMonster <> Lean_Var constr
+R8904:8909 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8900:8902 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8869:8882 AllIRsAreMonster <> GCC_AST_to_nat def
+R8885:8896 AllIRsAreMonster <> GENERIC_Type constr
+R8936:8938 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8910:8923 AllIRsAreMonster <> GCC_RTL_to_nat def
+R8926:8932 AllIRsAreMonster <> RTL_Mem constr
+prf 9058:9079 <> All_IRs_are_isomorphic
+R9097:9099 Corelib.Init.Datatypes <> nat ind
+binder 9093:9093 <> n:108
+R9113:9120 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9108:9110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9107:9107 AllIRsAreMonster <> n:108 var
+R9146:9153 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9142:9144 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9121:9132 MetaCoqIsMonster <> MetaCoqQuote def
+R9134:9141 MetaCoqIsMonster <> tRooster constr
+R9145:9145 AllIRsAreMonster <> n:108 var
+R9181:9188 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9177:9179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9154:9163 AllIRsAreMonster <> HIR_to_nat def
+R9166:9173 AllIRsAreMonster <> HIR_Item constr
+R9175:9175 AllIRsAreMonster <> n:108 var
+R9180:9180 AllIRsAreMonster <> n:108 var
+R9222:9229 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9218:9220 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9189:9198 AllIRsAreMonster <> MIR_to_nat def
+R9201:9214 AllIRsAreMonster <> MIR_BasicBlock constr
+R9216:9216 AllIRsAreMonster <> n:108 var
+R9221:9221 AllIRsAreMonster <> n:108 var
+R9257:9264 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9253:9255 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9230:9239 AllIRsAreMonster <> AST_to_nat def
+R9242:9249 AllIRsAreMonster <> AST_Leaf constr
+R9251:9251 AllIRsAreMonster <> n:108 var
+R9256:9256 AllIRsAreMonster <> n:108 var
+R9289:9296 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9285:9287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9265:9275 AllIRsAreMonster <> Lisp_to_nat def
+R9278:9281 AllIRsAreMonster <> Atom constr
+R9283:9283 AllIRsAreMonster <> n:108 var
+R9288:9288 AllIRsAreMonster <> n:108 var
+R9326:9333 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9322:9324 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9297:9308 AllIRsAreMonster <> Lean4_to_nat def
+R9311:9318 AllIRsAreMonster <> Lean_Var constr
+R9320:9320 AllIRsAreMonster <> n:108 var
+R9325:9325 AllIRsAreMonster <> n:108 var
+R9369:9376 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9365:9367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9334:9347 AllIRsAreMonster <> GCC_AST_to_nat def
+R9350:9361 AllIRsAreMonster <> GENERIC_Decl constr
+R9363:9363 AllIRsAreMonster <> n:108 var
+R9368:9368 AllIRsAreMonster <> n:108 var
+R9403:9405 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9377:9390 AllIRsAreMonster <> GCC_RTL_to_nat def
+R9393:9399 AllIRsAreMonster <> RTL_Reg constr
+R9401:9401 AllIRsAreMonster <> n:108 var
+R9406:9406 AllIRsAreMonster <> n:108 var
+prf 9542:9565 <> Everything_is_Monster_71
+R9573:9575 Corelib.Init.Logic <> ::type_scope:x_'='_x not
