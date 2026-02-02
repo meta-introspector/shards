@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Monster Arcade - 71 Shards</title>
+    <style>
+        body { 
+            background: #000; 
+            color: #0f0; 
+            font-family: monospace; 
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .shard {
+            border: 1px solid #0f0;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .shard:hover {
+            background: #001100;
+            border-color: #0ff;
+        }
+        .crown { border-color: #ff0; color: #ff0; }
+        h1 { text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>🌀 Monster Arcade - 71 Shards</h1>
+    <p style="text-align: center;">Click any shard to play</p>
+    
+    <div class="grid" id="grid"></div>
+    
+    <script>
+        const grid = document.getElementById('grid');
+        const crowns = [47, 59, 70];
+        
+        for (let i = 0; i < 71; i++) {
+            const div = document.createElement('div');
+            div.className = 'shard' + (crowns.includes(i) ? ' crown' : '');
+            div.innerHTML = `Shard ${i}${crowns.includes(i) ? ' ⭐' : ''}`;
+            div.onclick = () => window.location.href = `shard_${i}.html`;
+            grid.appendChild(div);
+        }
+    </script>
+</body>
+</html>
