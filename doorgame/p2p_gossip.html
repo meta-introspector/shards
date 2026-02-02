@@ -18,6 +18,10 @@
     <h2>Game State:</h2>
     <pre id="gameState"></pre>
     
+    <h2>Load State from Gist:</h2>
+    <input type="text" id="gistUrl" placeholder="https://gist.github.com/..." style="width: 500px">
+    <button onclick="loadGist()">Load Gist</button>
+    
     <h2>Gossip Messages:</h2>
     <div id="messages"></div>
     
@@ -131,6 +135,66 @@
             p2p.gameState.timestamp = Date.now();
             p2p.updateUI();
             p2p.gossipState();
+        };
+        
+        window.loadGist = async () => {
+            const url = document.getElementById('gistUrl').value;
+            if (!url) {
+                p2p.addMessage('❌ Please enter a gist URL');
+                return;
+            }
+            
+            try {
+                // Extract gist ID from URL
+                const gistId = url.match(/gist\.github\.com\/[^\/]+\/([a-f0-9]+)/)?.[1];
+                if (!gistId) {
+                    p2p.addMessage('❌ Invalid gist URL');
+                    return;
+                }
+                
+                // Fetch gist
+                const apiUrl = `https://api.github.com/gists/${gistId}`;
+                p2p.addMessage(`📥 Fetching gist ${gistId}...`);
+                
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                
+                // Find gamestate file
+                const files = Object.values(data.files);
+                const gameFile = files.find(f => f.filename.includes('gamestate') || f.filename.includes('state'));
+                
+                if (!gameFile) {
+                    p2p.addMessage('❌ No gamestate found in gist');
+                    return;
+                }
+                
+                // Parse state
+                const content = gameFile.content;
+                let state;
+                
+                // Try JSON first
+                try {
+                    state = JSON.parse(content);
+                } catch {
+                    // Try extracting from markdown
+                    const jsonMatch = content.match(/```json\n([\s\S]+?)\n```/);
+                    if (jsonMatch) {
+                        state = JSON.parse(jsonMatch[1]);
+                    } else {
+                        p2p.addMessage('❌ Could not parse gamestate');
+                        return;
+                    }
+                }
+                
+                // Load state
+                p2p.gameState = state;
+                p2p.updateUI();
+                p2p.addMessage(`✅ Loaded state from gist: Turn ${state.turn}, Lobsters ${state.lobsters_caught || state.lobsters || 0}`);
+                p2p.gossipState();
+                
+            } catch (error) {
+                p2p.addMessage(`❌ Error loading gist: ${error.message}`);
+            }
         };
         
         // Simulate receiving gossip
