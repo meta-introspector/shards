@@ -1,0 +1,14 @@
+# Kiro State - Monster Group Pipeline
+version: "1"
+pipelines:
+  kiro-monster:
+    steps:
+      - name: rooster
+        commands:
+          - echo "🐓 Rooster = 71"
+      - name: bdi
+        commands:
+          - echo "🌳 BDI = 3 (I ARE LIFE)"
+      - name: monster
+        commands:
+          - echo "👹 Monster dimension = 196884"

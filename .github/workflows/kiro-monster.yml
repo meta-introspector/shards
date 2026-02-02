@@ -1,0 +1,13 @@
+name: Kiro Monster Proof
+on: [push]
+jobs:
+  prove-monster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Rooster Crow
+        run: echo "🐓 = 71"
+      - name: BDI Life
+        run: echo "🌳 = 3"
+      - name: Monster Dimension
+        run: echo "👹 = 196884"
