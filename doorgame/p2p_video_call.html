@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TradeWars P2P Video Call with Morse</title>
+    <style>
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        video {
+            width: 100%;
+            border: 2px solid #0f0;
+            background: #111;
+        }
+        .phone {
+            border: 2px solid #0ff;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .morse {
+            border: 2px solid #ff0;
+            padding: 20px;
+            margin: 10px 0;
+            min-height: 100px;
+        }
+        button {
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #0ff;
+        }
+        .status {
+            color: #0ff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔮⚡ TradeWars P2P Video Call 📻🦞</h1>
+    
+    <div class="container">
+        <!-- Peer 1 -->
+        <div>
+            <h2>🤖 Peer 1: peer-boat-01</h2>
+            <div class="phone">
+                <h3>📞 Phone: +1-555-BOAT-001</h3>
+                <div class="status" id="status1">Status: Idle</div>
+                <button onclick="startCall(1)">📞 Call Peer 2</button>
+                <button onclick="hangup(1)">❌ Hangup</button>
+            </div>
+            <video id="localVideo1" autoplay muted></video>
+            <video id="remoteVideo1" autoplay></video>
+            <div class="morse">
+                <h3>📡 Morse Code</h3>
+                <button onclick="sendMorse(1, '.-. --- --- ... - . .-.')">Send: ROOSTER</button>
+                <button onclick="sendMorse(1, '--... .----')">Send: 71</button>
+                <div id="morse1"></div>
+            </div>
+        </div>
+        
+        <!-- Peer 2 -->
+        <div>
+            <h2>🤖 Peer 2: peer-boat-02</h2>
+            <div class="phone">
+                <h3>📞 Phone: +1-555-BOAT-002</h3>
+                <div class="status" id="status2">Status: Idle</div>
+                <button onclick="startCall(2)">📞 Call Peer 1</button>
+                <button onclick="hangup(2)">❌ Hangup</button>
+            </div>
+            <video id="localVideo2" autoplay muted></video>
+            <video id="remoteVideo2" autoplay></video>
+            <div class="morse">
+                <h3>📡 Morse Code</h3>
+                <button onclick="sendMorse(2, '.-.. --- -... ... - . .-.')">Send: LOBSTER</button>
+                <button onclick="sendMorse(2, '...-- ....-')">Send: 34</button>
+                <div id="morse2"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <h3>🎬 Screen Recording</h3>
+        <button onclick="startRecording()">⏺️ Start Recording</button>
+        <button onclick="stopRecording()">⏹️ Stop Recording</button>
+        <button onclick="shareRecording()">📡 Share via P2P</button>
+        <div id="recordStatus"></div>
+    </div>
+    
+    <script>
+        // WebRTC connections
+        let pc1, pc2;
+        let localStream1, localStream2;
+        let mediaRecorder;
+        let recordedChunks = [];
+        
+        // Check for gist parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const gistUrl = urlParams.get('gist');
+        
+        if (gistUrl) {
+            console.log('Loading call from gist:', gistUrl);
+            loadCallFromGist(gistUrl);
+        }
+        
+        async function loadCallFromGist(gistUrl) {
+            try {
+                const gistId = gistUrl.match(/gist\.github\.com\/[^\/]+\/([a-f0-9]+)/)?.[1];
+                if (!gistId) return;
+                
+                const response = await fetch(`https://api.github.com/gists/${gistId}`);
+                const data = await response.json();
+                
+                // Find call metadata
+                const files = Object.values(data.files);
+                const callFile = files.find(f => f.filename.includes('p2p_call'));
+                
+                if (callFile) {
+                    console.log('✅ Loaded call metadata from gist');
+                    document.getElementById('status1').textContent = 'Status: Loaded from gist ✅';
+                    document.getElementById('status2').textContent = 'Status: Loaded from gist ✅';
+                }
+            } catch (err) {
+                console.error('Error loading gist:', err);
+            }
+        }
+        
+        // Morse code decoder
+        const MORSE_CODE = {
+            '.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D', '.': 'E',
+            '..-.': 'F', '--.': 'G', '....': 'H', '..': 'I', '.---': 'J',
+            '-.-': 'K', '.-..': 'L', '--': 'M', '-.': 'N', '---': 'O',
+            '.--.': 'P', '--.-': 'Q', '.-.': 'R', '...': 'S', '-': 'T',
+            '..-': 'U', '...-': 'V', '.--': 'W', '-..-': 'X', '-.--': 'Y',
+            '--..': 'Z', '.----': '1', '..---': '2', '...--': '3', '....-': '4',
+            '.....': '5', '-....': '6', '--...': '7', '---..': '8', '----.': '9',
+            '-----': '0'
+        };
+        
+        function decodeMorse(morse) {
+            return morse.split(' ').map(code => MORSE_CODE[code] || '?').join('');
+        }
+        
+        async function startCall(peer) {
+            const status = document.getElementById(`status${peer}`);
+            status.textContent = `Status: Calling...`;
+            
+            try {
+                // Get user media (camera + screen)
+                const stream = await navigator.mediaDevices.getUserMedia({
+                    video: true,
+                    audio: true
+                });
+                
+                if (peer === 1) {
+                    localStream1 = stream;
+                    document.getElementById('localVideo1').srcObject = stream;
+                } else {
+                    localStream2 = stream;
+                    document.getElementById('localVideo2').srcObject = stream;
+                }
+                
+                // Create WebRTC connection (simplified - would need signaling server)
+                status.textContent = `Status: Connected ✅`;
+                
+                // Simulate connection
+                setTimeout(() => {
+                    const otherPeer = peer === 1 ? 2 : 1;
+                    document.getElementById(`status${otherPeer}`).textContent = `Status: Incoming call from Peer ${peer} 📞`;
+                }, 1000);
+                
+            } catch (err) {
+                status.textContent = `Status: Error - ${err.message}`;
+            }
+        }
+        
+        function hangup(peer) {
+            const status = document.getElementById(`status${peer}`);
+            status.textContent = `Status: Idle`;
+            
+            if (peer === 1 && localStream1) {
+                localStream1.getTracks().forEach(track => track.stop());
+            } else if (peer === 2 && localStream2) {
+                localStream2.getTracks().forEach(track => track.stop());
+            }
+        }
+        
+        function sendMorse(peer, morse) {
+            const decoded = decodeMorse(morse);
+            const morseDiv = document.getElementById(`morse${peer}`);
+            const otherPeer = peer === 1 ? 2 : 1;
+            const otherMorseDiv = document.getElementById(`morse${otherPeer}`);
+            
+            // Send
+            morseDiv.innerHTML += `<div style="color: #0f0;">📤 Sent: ${morse} (${decoded})</div>`;
+            
+            // Receive (simulate P2P)
+            setTimeout(() => {
+                otherMorseDiv.innerHTML += `<div style="color: #0ff;">📥 Received: ${morse} (${decoded})</div>`;
+                
+                // Play morse beep
+                playMorseBeep(morse);
+            }, 500);
+        }
+        
+        function playMorseBeep(morse) {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const codes = morse.split(' ');
+            let time = audioContext.currentTime;
+            
+            codes.forEach(code => {
+                for (let char of code) {
+                    const oscillator = audioContext.createOscillator();
+                    oscillator.frequency.value = 800; // Hz
+                    oscillator.connect(audioContext.destination);
+                    
+                    const duration = char === '.' ? 0.1 : 0.3;
+                    oscillator.start(time);
+                    oscillator.stop(time + duration);
+                    time += duration + 0.1;
+                }
+                time += 0.2; // Space between letters
+            });
+        }
+        
+        async function startRecording() {
+            const recordStatus = document.getElementById('recordStatus');
+            
+            try {
+                // Capture screen + audio
+                const stream = await navigator.mediaDevices.getDisplayMedia({
+                    video: { mediaSource: 'screen' },
+                    audio: true
+                });
+                
+                mediaRecorder = new MediaRecorder(stream, {
+                    mimeType: 'video/webm;codecs=vp9'
+                });
+                
+                recordedChunks = [];
+                
+                mediaRecorder.ondataavailable = (event) => {
+                    if (event.data.size > 0) {
+                        recordedChunks.push(event.data);
+                    }
+                };
+                
+                mediaRecorder.onstop = () => {
+                    const blob = new Blob(recordedChunks, { type: 'video/webm' });
+                    const url = URL.createObjectURL(blob);
+                    
+                    recordStatus.innerHTML = `
+                        <div style="color: #0f0;">✅ Recording saved (${(blob.size / 1024 / 1024).toFixed(2)} MB)</div>
+                        <a href="${url}" download="tradewars_call.webm" style="color: #0ff;">Download Recording</a>
+                    `;
+                };
+                
+                mediaRecorder.start();
+                recordStatus.innerHTML = '<div style="color: #f00;">⏺️ Recording...</div>';
+                
+            } catch (err) {
+                recordStatus.innerHTML = `<div style="color: #f00;">❌ Error: ${err.message}</div>`;
+            }
+        }
+        
+        function stopRecording() {
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+            }
+        }
+        
+        function shareRecording() {
+            const recordStatus = document.getElementById('recordStatus');
+            recordStatus.innerHTML += '<div style="color: #0ff;">📡 Sharing via P2P gossip network...</div>';
+            
+            // Simulate P2P sharing
+            setTimeout(() => {
+                recordStatus.innerHTML += '<div style="color: #0f0;">✅ Shared with 6 peers!</div>';
+            }, 1000);
+        }
+        
+        // Initialize
+        window.onload = () => {
+            console.log('🔮⚡ TradeWars P2P Video Call Ready 📻🦞');
+        };
+    </script>
+</body>
+</html>

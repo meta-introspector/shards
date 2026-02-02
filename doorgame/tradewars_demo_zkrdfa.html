@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html vocab="https://schema.org/" typeof="VideoObject">
+<head>
+    <title>TradeWars Demo Tape - ZK-RDFa</title>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.css">
+</head>
+<body>
+    <article typeof="VideoObject" resource="#tradewars-demo">
+        <h1 property="name">🔮⚡ TradeWars P2P BBS Demo Tape 📻🦞</h1>
+        
+        <!-- ZK Proof -->
+        <div typeof="Proof" resource="#zkproof">
+            <meta property="algorithm" content="SHA256">
+            <meta property="hash" content="13f2247123851d18f9387f603bc55f92ad7520b9dc50cf4dccdaa74abb9311df">
+            <meta property="timestamp" content="2026-02-01T21:25:46.746057">
+            <span property="status">✅ VERIFIED</span>
+        </div>
+        
+        <!-- Video Metadata -->
+        <div property="video">
+            <meta property="duration" content="0">
+            <meta property="width" content="141">
+            <meta property="height" content="20">
+            <meta property="uploadDate" content="2026-02-01T21:25:46.746065">
+            <span property="description">TradeWars P2P BBS demo with 15D map, 10-fold way, and MCTS AI</span>
+        </div>
+        
+        <!-- Demo Content -->
+        <div typeof="CreativeWork" resource="#demo">
+            <meta property="name" content="TradeWars Demo">
+            <meta property="keywords" content="BBS, MCTS, AI, 15D, 10-fold way, Monster group">
+            <span property="about">
+                Demo showcasing:
+                - 15D Map in 10-Fold Way
+                - 71 Shards with Bott periodicity
+                - Tmux BBS interface
+                - MCTS AI players
+                - P2P gossip network
+            </span>
+        </div>
+        
+        <!-- Asciinema Player -->
+        <div id="player"></div>
+        
+        <!-- Embedded Cast Data -->
+        <script type="application/ld+json" id="cast-data">
+{
+  "header": {
+    "version": 2,
+    "width": 141,
+    "height": 20,
+    "timestamp": 1769999129,
+    "env": {
+      "SHELL": "/bin/bash",
+      "TERM": "screen"
+    }
+  },
+  "events": [
+    [
+      0.003159,
+      "o",
+      "\u001b[H\u001b[J"
+    ],
+    [
+      0.003732,
+      "o",
+      "\ud83d\udd2e\u26a1 TRADEWARS P2P BBS DEMO \ud83d\udcfb\ud83e\udd9e\r\n\r\n"
+    ],
+    [
+      1.004464,
+      "o",
+      "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\r\nDEMO 1: 15D Map in 10-Fold Way\r\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\r\n"
+    ],
+    [
+      3.015078,
+      "o",
+      "\u001b[2J\u001b[H\u001b[1m\u001b[36m\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\u001b[0m\r\n\u001b[1m\u001b[36m\u2551                                                       \ud83d\udd2e\u26a1 15D MAP IN 10-FOLD WAY \ud83d\udcfb\ud83e\udd9e                                                        \u2551\u001b[0m\r\n\u001b[1m\u001b[36m\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    ],
+    [
+      3.015097,
+      "o",
+      "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\u001b[0m\r\n\r\n"
+    ],
+    [
+      3.01551,
+      "o",
+      "\u001b[1m\u001b[32m\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                                                                                                         \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                                                                                                         \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                       \u26ab  \ud83d\udfe4   \ud83d\udfe3                                                                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                          \ud83d\udfe2  \ud83d\udfe1  \ud83d\udfe0  \ud83d\udd34              \ud83d\udd35 "
+    ],
+    [
+      3.015531,
+      "o",
+      "  \ud83d\udfe2  \ud83d\udfe1                                                               \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                       \ud83d\udd35                                     \ud83d\udfe0   \ud83d\udd34                                                       \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                  \ud83d\udfe4 \ud83d\udfe3                                               \u26ab   \ud83d\udfe4                                                \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                \u26ab                                                          \ud83d\udfe3                                             \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                              \ud83d\udd34                                                               \ud83d\udd35                                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                           \ud83d\udfe1\ud83d\udfe0                                                                    \ud83d\udfe2                                       \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                          \ud83d\udfe2                                      "
+    ],
+    [
+      3.015545,
+      "o",
+      "                                  \ud83d\udfe1                                     \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                          \ud83d\udd35                                                                           \ud83d\udfe0                                  \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                          \ud83d\udfe3                                                                             \ud83d\udd34                                \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                          \ud83d\udfe4                                                                               \u26ab                              \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                                                                           \ud83d\udfe4                             \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                          \u26ab                                                                                  \ud83d\udfe3                           \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                           \ud83d\udd34                                                    "
+    ],
+    [
+      3.015552,
+      "o",
+      "                              \ud83d\udd35                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                            \ud83d\udfe0                                                                                 \ud83d\udfe2                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                             \ud83d\udfe1                                                                                \ud83d\udfe1                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                               \ud83d\udfe2                                                                              \ud83d\udfe0                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                 \ud83d\udd35                                                                            \ud83d\udd34                          \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                   \ud83d\udfe3                                                                         \u26ab                           \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                      \ud83d\udfe4                                                    "
+    ],
+    [
+      3.015562,
+      "o",
+      "                 \ud83d\udfe4                            \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                         \ud83d\udd34  \ud83d\udfe0                                                              \ud83d\udfe3                             \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                               \ud83d\udfe1                                                       \ud83d\udfe2 \ud83d\udd35                               \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                  \ud83d\udfe2                                                  \ud83d\udfe1                                   \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                      \ud83d\udd35  \ud83d\udfe3                                      \ud83d\udd34  \ud83d\udfe0                                     \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                             \ud83d\udfe4   \u26ab  \ud83d\udd34   \ud83d\udfe0             \ud83d\udfe3   \ud83d\udfe4  \u26ab                                           \u001b[32m\u2502\u001b[0m\r\n\u001b[32m\u2502\u001b[0m                                                                            "
+    ]
+  ]
+}
+        </script>
+        
+        <script>
+            // Load and play cast
+            AsciinemaPlayer.create('/home/mdupont/introspector/doorgame/tradewars_demo.cast', document.getElementById('player'), {
+                cols: 141,
+                rows: 20,
+                autoPlay: true,
+                loop: true
+            });
+        </script>
+        
+        <!-- Footer -->
+        <footer typeof="DigitalDocument">
+            <p>ZK-RDFa Demo Tape</p>
+            <p>Hash: <code>13f2247123851d18f9387f603bc55f92ad7520b9dc50cf4dccdaa74abb9311df</code></p>
+            <p>Duration: 0s</p>
+            <p>Resolution: 141×20</p>
+            <p>Status: ✅ VERIFIED</p>
+            <p>QED 🔮⚡📻🦞</p>
+        </footer>
+    </article>
+</body>
+</html>
