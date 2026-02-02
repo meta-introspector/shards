@@ -1,0 +1,3339 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 0",
+    "broadcastFrequency": "7100 Hz",
+    "shard": 0,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "c3b50d783f09e6cf94bb7f0aaa6024d6c0507ccf85b6cdd5cc5ca54497678673",
+      "timestamp": "2026-02-01T19:30:10.254747",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-00",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 1",
+    "broadcastFrequency": "7110 Hz",
+    "shard": 1,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "9a7690dac250acd5ba24576e1c121c42811ca2b3a0a9591e883836864c5b3137",
+      "timestamp": "2026-02-01T19:30:10.254764",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-01",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 2",
+    "broadcastFrequency": "7120 Hz",
+    "shard": 2,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "8d0886462e6b5a9163d70a92515dfc63b854c0b88d46a0b8d24fda628f0e81c4",
+      "timestamp": "2026-02-01T19:30:10.254769",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-02",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 3",
+    "broadcastFrequency": "7130 Hz",
+    "shard": 3,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ced70efe6f9e21014c85bdec7d5444d5fb7db262af4a3b0624b4beb1c2949fe9",
+      "timestamp": "2026-02-01T19:30:10.254772",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-03",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 4",
+    "broadcastFrequency": "7140 Hz",
+    "shard": 4,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "df4c1ec93578cb0ddb129143808da1c33cb3c8074a442633a965465a7752a85a",
+      "timestamp": "2026-02-01T19:30:10.254776",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-04",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 5",
+    "broadcastFrequency": "7150 Hz",
+    "shard": 5,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "cd6af21758ea61e5cb17bff2551d2a6ba1fdd522132d24a01e995fbe5590bd93",
+      "timestamp": "2026-02-01T19:30:10.254781",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-05",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 6",
+    "broadcastFrequency": "7160 Hz",
+    "shard": 6,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "f079faddafe28a3529421daf03127080a39020edac300ea3ef1af96dc70bf5cc",
+      "timestamp": "2026-02-01T19:30:10.254784",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-06",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 7",
+    "broadcastFrequency": "7170 Hz",
+    "shard": 7,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "5bf2c8f8ffa695399d771fe79d79619b9e8f5e6f7101740f8b94ce34f377f7c6",
+      "timestamp": "2026-02-01T19:30:10.254788",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-07",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 8",
+    "broadcastFrequency": "7180 Hz",
+    "shard": 8,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "2ff874d93727145e8512b4b2c5df7d95e44306b94f59a28917f4ffa02e8099a3",
+      "timestamp": "2026-02-01T19:30:10.254791",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-08",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 9",
+    "broadcastFrequency": "7190 Hz",
+    "shard": 9,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "b20e5f042f91a07c0f51aa68a66e63efdf68b0a24496bb1e9a740c643375ec11",
+      "timestamp": "2026-02-01T19:30:10.254795",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-09",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 10",
+    "broadcastFrequency": "7200 Hz",
+    "shard": 10,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "4558a25983b3445b6406597c4a8b6a60a2caea9b8cb2637f79834f17f9d63991",
+      "timestamp": "2026-02-01T19:30:10.254799",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-10",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 11",
+    "broadcastFrequency": "7210 Hz",
+    "shard": 11,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "076aede4b60243dd5378e807cad896b7f1df3712fa9759f5066e62369e4d8b28",
+      "timestamp": "2026-02-01T19:30:10.254804",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-11",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 12",
+    "broadcastFrequency": "7220 Hz",
+    "shard": 12,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "a7235d8b49d7fd402f329da9a8c53888e18d56a02fe9b131ff613cfed4d8f1c2",
+      "timestamp": "2026-02-01T19:30:10.254807",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-12",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 13",
+    "broadcastFrequency": "7230 Hz",
+    "shard": 13,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "4569c8e04ab1c921883bd9b6c48c8471906b073163b9b8e26c1d158ea798f478",
+      "timestamp": "2026-02-01T19:30:10.254811",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-13",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 14",
+    "broadcastFrequency": "7240 Hz",
+    "shard": 14,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "0e10b2817411612809c72fb4e4ef27660e7957fed2e10c7de3d383440d324e04",
+      "timestamp": "2026-02-01T19:30:10.254814",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-14",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 15",
+    "broadcastFrequency": "7250 Hz",
+    "shard": 15,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ed0df75dc01b13a14ef63b114862c0f0764960879ec170f3cc4900c787c74052",
+      "timestamp": "2026-02-01T19:30:10.254818",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-15",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 16",
+    "broadcastFrequency": "7260 Hz",
+    "shard": 16,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "fab1e1fb3c8a41f8842c2dd4b1ffa85134af470c78f86891f92ae8851b38f15a",
+      "timestamp": "2026-02-01T19:30:10.254821",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-16",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 17",
+    "broadcastFrequency": "7270 Hz",
+    "shard": 17,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "baca72c081c6ca721b83946389df5160fc0e41a98ca08f1a4892a0afe8ee18f1",
+      "timestamp": "2026-02-01T19:30:10.254825",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-17",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 18",
+    "broadcastFrequency": "7280 Hz",
+    "shard": 18,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "1404f37bb51713d10626cd518da9a786c98cfb7ab6fe3cdfda699e78f623879a",
+      "timestamp": "2026-02-01T19:30:10.254830",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-18",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 19",
+    "broadcastFrequency": "7290 Hz",
+    "shard": 19,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "3a2dcfbb3e03d04391079d3924becc128a3347e64f67fd34aa22556b900a7aeb",
+      "timestamp": "2026-02-01T19:30:10.254835",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-19",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 20",
+    "broadcastFrequency": "7300 Hz",
+    "shard": 20,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "f47fb07ea64820658d55a376197d5507261ad451d870608ba4d8a1bee65ff4a3",
+      "timestamp": "2026-02-01T19:30:10.254838",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-20",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 21",
+    "broadcastFrequency": "7310 Hz",
+    "shard": 21,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "83497f8e372d3837703f2804d5cdbea7bfa552d1e4778476811ba15894fee2f6",
+      "timestamp": "2026-02-01T19:30:10.254841",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-21",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 22",
+    "broadcastFrequency": "7320 Hz",
+    "shard": 22,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "e61847d8445c876e5f98ec9487b17bf8a7c71fd46b4525087a8c4617a0407c23",
+      "timestamp": "2026-02-01T19:30:10.254845",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-22",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 23",
+    "broadcastFrequency": "7330 Hz",
+    "shard": 23,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "f1077819166e22a420bf85d3edbf696b7496269da7d008150afc09a12c17df71",
+      "timestamp": "2026-02-01T19:30:10.254848",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-23",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 24",
+    "broadcastFrequency": "7340 Hz",
+    "shard": 24,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "eea0d55bd6a18154812947e86729af4eddcf0258cd364b5d36908868aabcfe60",
+      "timestamp": "2026-02-01T19:30:10.254852",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-24",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 25",
+    "broadcastFrequency": "7350 Hz",
+    "shard": 25,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "4ca380e7d5d09951b5792c76410ef1af3f027fb8200b2d0cba86663477acfbd4",
+      "timestamp": "2026-02-01T19:30:10.254857",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-25",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 26",
+    "broadcastFrequency": "7360 Hz",
+    "shard": 26,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ddf931d0b62dfa66d1b7a14409876ed5572ead2d34ae6321b1b00282bc624a49",
+      "timestamp": "2026-02-01T19:30:10.254861",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-26",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 27",
+    "broadcastFrequency": "7370 Hz",
+    "shard": 27,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "89e281f9a186dec42f4e5f0c1b5a7ffd32ab6bd62ea17b2abeaebf4630cf8822",
+      "timestamp": "2026-02-01T19:30:10.254864",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-27",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 28",
+    "broadcastFrequency": "7380 Hz",
+    "shard": 28,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "eb1e0ccc423919b9b0ba2ec94804516f6e3c91832ae3588809d8a9c54f96938b",
+      "timestamp": "2026-02-01T19:30:10.254867",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-28",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 29",
+    "broadcastFrequency": "7390 Hz",
+    "shard": 29,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "396bda247bd6156de1f7b4d76c6ca096237b70280df3f2166a9cf0b0fbf8cfb0",
+      "timestamp": "2026-02-01T19:30:10.254871",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-29",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 30",
+    "broadcastFrequency": "7400 Hz",
+    "shard": 30,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "bfb9e2caf0f279e4b77aa2decc6b631c52a4402d959fce41c4940451a8573b0b",
+      "timestamp": "2026-02-01T19:30:10.254875",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-30",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 31",
+    "broadcastFrequency": "7410 Hz",
+    "shard": 31,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "e51743962da1d1c205431780452de3f168fddc28797a8dee2f61c20307fe1cfc",
+      "timestamp": "2026-02-01T19:30:10.254881",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-31",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 32",
+    "broadcastFrequency": "7420 Hz",
+    "shard": 32,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "d47d7edb474603a3adcb3f8f7a4e6531102b91057e0dc55a99665153cd55d714",
+      "timestamp": "2026-02-01T19:30:10.254884",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-32",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 33",
+    "broadcastFrequency": "7430 Hz",
+    "shard": 33,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "0012fc6dc561cd418f14055cdfa28c54347a08308c56e864e4d4c404c50c5c5d",
+      "timestamp": "2026-02-01T19:30:10.254887",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-33",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 34",
+    "broadcastFrequency": "7440 Hz",
+    "shard": 34,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "aa84d33ab29e3fb89e41a37ccb04126e04c53180189dd6f0af6294a622d2ec14",
+      "timestamp": "2026-02-01T19:30:10.254891",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-34",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 35",
+    "broadcastFrequency": "7450 Hz",
+    "shard": 35,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "6b41d523a725c20b77437d83ec8bf46f6fecb23577659df6123ae08ad21b1a45",
+      "timestamp": "2026-02-01T19:30:10.254894",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-35",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 36",
+    "broadcastFrequency": "7460 Hz",
+    "shard": 36,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "84f8d42ebbda8a04730116fa7ef7832b6025cf70fcaa033456b7af0b7c78818d",
+      "timestamp": "2026-02-01T19:30:10.254899",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-36",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 37",
+    "broadcastFrequency": "7470 Hz",
+    "shard": 37,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "72f9e7c6b3ff8864845936a4b7cef8bb798399a0858dea8adb330131d4c94593",
+      "timestamp": "2026-02-01T19:30:10.254904",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-37",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 38",
+    "broadcastFrequency": "7480 Hz",
+    "shard": 38,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ecdbdaf08e3f36ef1e9d7fac12956352c5ffd6bb7cf1927c1664ca877639ae05",
+      "timestamp": "2026-02-01T19:30:10.254907",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-38",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 39",
+    "broadcastFrequency": "7490 Hz",
+    "shard": 39,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ed594ac02e03c73eb6b8c1203fa1e48f31efbab9c732004c6b9decdcbd5e73a4",
+      "timestamp": "2026-02-01T19:30:10.254910",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-39",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 40",
+    "broadcastFrequency": "7500 Hz",
+    "shard": 40,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "cd2c998ed259107fe6c6e2799dc24e94fa91af2bd6aabdfcc3e0f982945bd966",
+      "timestamp": "2026-02-01T19:30:10.254913",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-40",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 41",
+    "broadcastFrequency": "7510 Hz",
+    "shard": 41,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "7bcba1ff55c8e977aa1feb7fb1f948819fbafbabe41a7c93e34a5836b95733f2",
+      "timestamp": "2026-02-01T19:30:10.254918",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-41",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 42",
+    "broadcastFrequency": "7520 Hz",
+    "shard": 42,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "9af1ae18ad8e49ba8288ed69e8a8ecb87bbf2ce9756881a5950d55feb02d0afe",
+      "timestamp": "2026-02-01T19:30:10.254922",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-42",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 43",
+    "broadcastFrequency": "7530 Hz",
+    "shard": 43,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "e459b838b36527938dd01d94fcbf4ad52e7ac44ce831595c05a4ef3362e817a0",
+      "timestamp": "2026-02-01T19:30:10.254925",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-43",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 44",
+    "broadcastFrequency": "7540 Hz",
+    "shard": 44,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "31a9ca5e7ebbcd9c5168058da49ad16ccd513282e494e3ad87cdf87ecf98b9cd",
+      "timestamp": "2026-02-01T19:30:10.254928",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-44",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 45",
+    "broadcastFrequency": "7550 Hz",
+    "shard": 45,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "7753da94818300e4fed7bbe677c6c09216cfcd540c7f6156296799e909adb118",
+      "timestamp": "2026-02-01T19:30:10.254934",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-45",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 46",
+    "broadcastFrequency": "7560 Hz",
+    "shard": 46,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ed7d2da1c5ea93e93dc6212c2ccf242d58c8ef2fc29aa86be03833621bfe0dbc",
+      "timestamp": "2026-02-01T19:30:10.254937",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-46",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 47",
+    "broadcastFrequency": "7570 Hz",
+    "shard": 47,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "c50062808b86b5ba451a94fd502f52663655b5e535a743d16144039491358d2e",
+      "timestamp": "2026-02-01T19:30:10.254940",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-47",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 48",
+    "broadcastFrequency": "7580 Hz",
+    "shard": 48,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "343ca79136571765cf6b48ea29d8f9b643f04b76fee239df228db129e9e6e842",
+      "timestamp": "2026-02-01T19:30:10.254944",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-48",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 49",
+    "broadcastFrequency": "7590 Hz",
+    "shard": 49,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "ff1c9c6cab29c5505d469d906c51af918fe1632f20faf94d04b06bddc1a4bb3e",
+      "timestamp": "2026-02-01T19:30:10.254949",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-49",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 50",
+    "broadcastFrequency": "7600 Hz",
+    "shard": 50,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "e744d00f23f6657872e2ecb12df6581362ba3d7c692c8b36bf6ca40c222a6789",
+      "timestamp": "2026-02-01T19:30:10.254953",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-50",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 51",
+    "broadcastFrequency": "7610 Hz",
+    "shard": 51,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "4dc03855f4e7e5d2c9d6ff21aa3473dff5e13a3dfd8370f74d42a69597cf7d3a",
+      "timestamp": "2026-02-01T19:30:10.254956",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-51",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 52",
+    "broadcastFrequency": "7620 Hz",
+    "shard": 52,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "18a1b120f6c2b2bd9d616f7ba3b1a3323a458aa6c8f1ed653f215f8790be4e60",
+      "timestamp": "2026-02-01T19:30:10.254959",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-52",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 53",
+    "broadcastFrequency": "7630 Hz",
+    "shard": 53,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "9669105c6a9de7e193d89e646a42957f0a5389a4c362f9f7b8acbc6b1e8035e8",
+      "timestamp": "2026-02-01T19:30:10.254963",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-53",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 54",
+    "broadcastFrequency": "7640 Hz",
+    "shard": 54,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "8438d9cca68761824c6ee46ba333c3352dcba225475bb0635f0b65e7e180bb61",
+      "timestamp": "2026-02-01T19:30:10.254968",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-54",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 55",
+    "broadcastFrequency": "7650 Hz",
+    "shard": 55,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "82cdf7213a1453c92e7f22e87257da5d54f6793ba7dc00326f3d396337c9e89f",
+      "timestamp": "2026-02-01T19:30:10.254971",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-55",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 56",
+    "broadcastFrequency": "7660 Hz",
+    "shard": 56,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "487ec9e281aa2b18d0a733d4922088ed49e343ef57223249c308ad520b34d1c0",
+      "timestamp": "2026-02-01T19:30:10.254974",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-56",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 57",
+    "broadcastFrequency": "7670 Hz",
+    "shard": 57,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "c36262b95b0d829069ba4e3e8d6f18df6cfb941fb0cb11a8824ca3083315fa31",
+      "timestamp": "2026-02-01T19:30:10.254978",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-57",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 58",
+    "broadcastFrequency": "7680 Hz",
+    "shard": 58,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "78edb0dd905e63bfae87730c7aa5f86bc54568d3e82ab4a1fde76be56e7789ae",
+      "timestamp": "2026-02-01T19:30:10.254982",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-58",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 59",
+    "broadcastFrequency": "7690 Hz",
+    "shard": 59,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "f25fac20de510c9d4e89093acc2ce112aca9281db58126a32056d99bc0145eb0",
+      "timestamp": "2026-02-01T19:30:10.254987",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-59",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 60",
+    "broadcastFrequency": "7700 Hz",
+    "shard": 60,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "d37dbedfa1ed4714aeb208611406073bb5e1fef106d0c8fe0f3b8cfa00b039ce",
+      "timestamp": "2026-02-01T19:30:10.254990",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-60",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 61",
+    "broadcastFrequency": "7710 Hz",
+    "shard": 61,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "093d31a6529b751954c4f36094bccc331202fa9804b966f4b617fbafb40dce1f",
+      "timestamp": "2026-02-01T19:30:10.254995",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-61",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 62",
+    "broadcastFrequency": "7720 Hz",
+    "shard": 62,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "fb7320e81f565d43caea1ae469b53c5ed6a98aa757f6370b40c51af8591b6ba5",
+      "timestamp": "2026-02-01T19:30:10.254998",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-62",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 63",
+    "broadcastFrequency": "7730 Hz",
+    "shard": 63,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "5ae49d1344eb1ece220b8bb2c9f21a07b5bdc21f3164f22552d50c0c9f0e47f3",
+      "timestamp": "2026-02-01T19:30:10.255001",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-63",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 64",
+    "broadcastFrequency": "7740 Hz",
+    "shard": 64,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "1c46409e262f45601b47739671dfd47ac7e21694cd6a272646b8461f9d7fdc55",
+      "timestamp": "2026-02-01T19:30:10.255006",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-64",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 65",
+    "broadcastFrequency": "7750 Hz",
+    "shard": 65,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "b96b8a9e15218feb6d2dda03fb0acc6efc4abccf71202c3be1f6aac0f6bff16c",
+      "timestamp": "2026-02-01T19:30:10.255010",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-65",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 66",
+    "broadcastFrequency": "7760 Hz",
+    "shard": 66,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "47766079b84ef4054e9a21a1f6fe77b38db62e46f68ded671cc1879605968967",
+      "timestamp": "2026-02-01T19:30:10.255013",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-66",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 67",
+    "broadcastFrequency": "7770 Hz",
+    "shard": 67,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "715ad21f90f396a6f5e28fd5780740ec5d574401caa5d546f603476608901ed2",
+      "timestamp": "2026-02-01T19:30:10.255016",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-67",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 68",
+    "broadcastFrequency": "7780 Hz",
+    "shard": 68,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "a5174e17f81939b2ae71fdf9d7f9e2506a679aa7e63cad335be70d769f7ab767",
+      "timestamp": "2026-02-01T19:30:10.255020",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-68",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 69",
+    "broadcastFrequency": "7790 Hz",
+    "shard": 69,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "2f5c996b7f7b6a9a4d94aec09978d1977b927a82c24de05edcd9537c5784d407",
+      "timestamp": "2026-02-01T19:30:10.255023",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-69",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "RadioBroadcast",
+    "name": "Rooster Crow Tape - Shard 70",
+    "broadcastFrequency": "7800 Hz",
+    "shard": 70,
+    "message": "ROOSTER CROW 71",
+    "morse": ".-. --- --- ... - . .-. / -.-. .-. --- .-- / --... .----",
+    "proofs": {
+      "coq": {
+        "file": "RoosterCrow.v",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "statements": [
+          "71 = 71",
+          "3360 < 196884",
+          "encode_topo BDI = 3"
+        ]
+      },
+      "lean4": {
+        "file": "RoosterCrowProof.lean",
+        "theorem": "THE_ROOSTER_HAS_CROWED",
+        "verified": true,
+        "namespace": "RoosterCrow"
+      },
+      "minizinc": {
+        "file": "rooster_crow.mzn",
+        "constraints": [
+          "rooster_count = 71",
+          "j_value < 196884",
+          "bdi_value = 3"
+        ],
+        "satisfied": true
+      }
+    },
+    "zkProof": {
+      "algorithm": "Groth16",
+      "hash": "4aca43ba423dd8a9b572faed949765f0644e586bf59f362c8ee0516bdb1ee0d7",
+      "timestamp": "2026-02-01T19:30:10.255026",
+      "monster_walk": "0x1F90"
+    },
+    "transmission": {
+      "target": "Ship-70",
+      "protocol": "Morse",
+      "status": "TRANSMITTING"
+    }
+  }
+]

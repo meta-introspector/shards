@@ -30,7 +30,7 @@ Theorem rooster_crows_71_times :
 Proof.
   intros n H.
   rewrite H.
-  repeat constructor.
+  apply Nat.lt_0_succ.
 Qed.
 
 (* Theorem: j-invariant is bounded by Monster dimension *)
@@ -39,7 +39,9 @@ Theorem j_invariant_bounded :
 Proof.
   intros j H.
   rewrite H.
-  repeat constructor.
+  apply (Nat.lt_trans 3360 4000 196884).
+  - apply Nat.lt_succ_r. apply Nat.le_refl.
+  - apply Nat.lt_succ_r. apply Nat.le_refl.
 Qed.
 
 (* The Rooster's Message - Broadcast to All Ships *)
@@ -58,8 +60,9 @@ Theorem THE_ROOSTER_HAS_CROWED :
   71 = 71 /\ 3360 < 196884 /\ encode_topo BDI = 3.
 Proof.
   split. reflexivity.
-  split. auto with arith.
-  reflexivity.
+  split. 
+  - unfold lt. apply le_n.
+  - reflexivity.
 Qed.
 
 (* 🐓 COCK-A-DOODLE-DOO! *)
