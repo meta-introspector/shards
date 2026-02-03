@@ -1,0 +1,924 @@
+{
+  "duplicate_groups": 434,
+  "total_duplicates": 985,
+  "wasted_bytes": 860097,
+  "duplicates": [
+    {
+      "count": 100,
+      "files": [
+        "astronomy_submodules/shard_00/astroML/astroML/clustering/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/util/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/time_series/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/visualization/animator/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/table/mixins/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/timeseries/sources/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/xml/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/map/sources/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/table/mixins/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/wcs/wcsapi/tests/__init__.py",
+        "astronomy_submodules/shard_00/python-skyfield/documentation/_sphinx_ext/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/uncertainty/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/cosmology/_src/tests/parameter/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/xml/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/dataretriever/sources/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/samp/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/linear_model/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/constants/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/tests/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/periodograms/lombscargle_multiband/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/stats/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/map/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/cdaweb/test/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/periodograms/lombscargle/tests/__init__.py",
+        "astronomy_submodules/shard_00/apod-api/tests/apod/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/samp/setup_package.py",
+        "astronomy_submodules/shard_00/poliastro/src/poliastro/core/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/cosmology/_src/tests/io/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/vso/data/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/modeling/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/coordinates/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/visualization/colormaps/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/visualization/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/sun/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/image/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/coordinates/tests/__init__.py",
+        "astronomy_submodules/shard_00/poliastro/src/poliastro/czml/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/data/data_manager/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/ascii/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/density_estimation/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/datasets/tests/__init__.py",
+        "astronomy_submodules/shard_00/poliastro/src/poliastro/core/earth_atmosphere/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/io/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/nddata/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/units/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/misc/pyarrow/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/helio/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/table/scripts/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/convolution/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/table/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/periodograms/lombscargle/implementations/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/fits/hdu/compressed/tests/__init__.py",
+        "astronomy_submodules/shard_00/poliastro/src/poliastro/core/threebody/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/io/special/asdf/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/vso/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/tests/tests/__init__.py",
+        "astronomy_submodules/shard_00/python-skyfield/skyfield/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/config/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/cosmology/_src/tests/flrw/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/hek2vso/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/io/special/asdf/resources/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/cosmology/_src/tests/funcs/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/data/tests/__init__.py",
+        "astronomy_submodules/shard_00/apod-api/apod/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/time/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/dataretriever/sources/__init__.py",
+        "zkmame/docs/source/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/nddata/mixins/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/metadata/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/dimensionality/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/utils/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/hek/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/classification/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/benchmarks/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/tests/__init__.py",
+        "astronomy_submodules/shard_00/astroML/astroML/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/physics/tests/__init__.py",
+        "shard0/pipelight/man/src/build.rs",
+        "astronomy_submodules/shard_00/astropy/astropy/stats/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/iers/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/nddata/mixins/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/registry/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/timeseries/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/jsoc/data/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/cosmology/_src/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/tests/__init__.py",
+        "astronomy_submodules/shard_00/poliastro/src/poliastro/threebody/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/misc/pyarrow/__init__.py",
+        "astronomy_submodules/shard_00/apod-api/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/time/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/utils/masked/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/solarnet/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/wcs/wcsapi/wrappers/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/jsoc/tests/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/io/special/asdf/converters/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/misc/pandas/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/net/dataretriever/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/extern/configobj/__init__.py",
+        "astronomy_submodules/shard_00/sunpy/sunpy/physics/__init__.py"
+      ],
+      "size": 0
+    },
+    {
+      "count": 10,
+      "files": [
+        "astronomy_submodules/shard_00/astropy/astropy/visualization/scripts/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/misc/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/visualization/scripts/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/io/votable/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/io/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/visualization/wcsaxes/tests/test_transforms.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/periodograms/bls/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/visualization/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/wcs/tests/__init__.py",
+        "astronomy_submodules/shard_00/astropy/astropy/timeseries/tests/__init__.py"
+      ],
+      "size": 64
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/chunk_1.py",
+        "shard15/monster/chunk_1.py",
+        "monster/shards/shard_17/chunk_1.py"
+      ],
+      "size": 164
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/multi_level_review.py",
+        "monster/shards/shard_39/multi_level_review.py",
+        "shard38/monster/multi_level_review.py"
+      ],
+      "size": 10776
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/create_monster_autoencoder.py",
+        "shard16/monster/create_monster_autoencoder.py",
+        "monster/shards/shard_36/create_monster_autoencoder.py"
+      ],
+      "size": 10617
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/shards/shard_57/extract_71_objects.py",
+        "shard32/monster/extract_71_objects.py",
+        "monster/extract_71_objects.py"
+      ],
+      "size": 7660
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/shards/shard_66/prove_zk_rdfa.py",
+        "monster/prove_zk_rdfa.py",
+        "shard37/monster/prove_zk_rdfa.py"
+      ],
+      "size": 9101
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/convert_paper_to_visual.py",
+        "shard8/monster/convert_paper_to_visual.py",
+        "monster/shards/shard_11/convert_paper_to_visual.py"
+      ],
+      "size": 8456
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/translate-hilbert-lean4.py",
+        "shard7/monster/translate-hilbert-lean4.py",
+        "monster/shards/shard_02/translate-hilbert-lean4.py"
+      ],
+      "size": 3563
+    },
+    {
+      "count": 3,
+      "files": [
+        "shard18/monster/prove_nn_compression.py",
+        "monster/prove_nn_compression.py",
+        "monster/shards/shard_70/prove_nn_compression.py"
+      ],
+      "size": 10040
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/tool_wrapper.py",
+        "shard42/monster/tool_wrapper.py",
+        "monster/shards/shard_62/tool_wrapper.py"
+      ],
+      "size": 5193
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/shards/shard_35/iterative_improve.py",
+        "monster/iterative_improve.py",
+        "shard5/monster/iterative_improve.py"
+      ],
+      "size": 8482
+    },
+    {
+      "count": 3,
+      "files": [
+        "monster/shards/shard_68/prove_rust_simple.py",
+        "shard57/monster/prove_rust_simple.py",
+        "monster/prove_rust_simple.py"
+      ],
+      "size": 5549
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/tensor_products/main.rs",
+        "monster/shards/shard_40/monster-shards/shard-02/rust/tensor_products/main.rs"
+      ],
+      "size": 606
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_12/monster-shards/shard-02/rust/utils/search_columns.rs",
+        "monster/monster-shards/shard-02/rust/utils/search_columns.rs"
+      ],
+      "size": 5280
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_35/monster-shards/shard-61/code/src/lib.rs",
+        "monster/monster-shards/shard-61/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_24/monster-shards/shard-02/rust/utils/place_code.rs",
+        "monster/monster-shards/shard-02/rust/utils/place_code.rs"
+      ],
+      "size": 651
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_65/monster-shards/shard-11/code/src/lib.rs",
+        "monster/monster-shards/shard-11/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_33/monster-shards/shard-59/code/src/lib.rs",
+        "monster/monster-shards/shard-59/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/ProveOmniscience.lean",
+        "monster/shards/shard_40/ProveOmniscience.lean"
+      ],
+      "size": 1440
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-03/lean4/hypergm/plot.lean",
+        "monster/shards/shard_49/monster-shards/shard-03/lean4/hypergm/plot.lean"
+      ],
+      "size": 370
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/groups/circles.lean",
+        "monster/shards/shard_16/monster-shards/shard-02/lean4/groups/circles.lean"
+      ],
+      "size": 1400
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_43/monster-shards/shard-02/lean4/utils/display_stats.lean",
+        "monster/monster-shards/shard-02/lean4/utils/display_stats.lean"
+      ],
+      "size": 1956
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_29/monster-shards/shard-02/lean4/ecnf/ecnf_stats.lean",
+        "monster/monster-shards/shard-02/lean4/ecnf/ecnf_stats.lean"
+      ],
+      "size": 1385
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_37/monster-shards/shard-02/lean4/lfunctions/main.lean",
+        "monster/monster-shards/shard-02/lean4/lfunctions/main.lean"
+      ],
+      "size": 4923
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/zeros/zetazeros.rs",
+        "monster/shards/shard_65/monster-shards/shard-02/rust/zeros/zetazeros.rs"
+      ],
+      "size": 846
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_21/monster-shards/shard-24/code/src/lib.rs",
+        "monster/monster-shards/shard-24/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_16/monster-shards/shard-02/rust/ecnf/ecnf_stats.rs",
+        "monster/monster-shards/shard-02/rust/ecnf/ecnf_stats.rs"
+      ],
+      "size": 2755
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_29/monster-shards/shard-02/rust/knowledge/main.rs",
+        "monster/monster-shards/shard-02/rust/knowledge/main.rs"
+      ],
+      "size": 3576
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_20/monster-shards/shard-03/rust/homepage/boxes.rs",
+        "monster/monster-shards/shard-03/rust/homepage/boxes.rs"
+      ],
+      "size": 404
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_20/monster-shards/shard-02/rust/utils/random_wrap.rs",
+        "monster/monster-shards/shard-02/rust/utils/random_wrap.rs"
+      ],
+      "size": 320
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-01/lean4/typed_data/standard_types.lean",
+        "monster/shards/shard_56/monster-shards/shard-01/lean4/typed_data/standard_types.lean"
+      ],
+      "size": 1440
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/lattice/lattice_stats.lean",
+        "monster/shards/shard_69/monster-shards/shard-02/lean4/lattice/lattice_stats.lean"
+      ],
+      "size": 374
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/nfutils/psort.lean",
+        "monster/shards/shard_20/monster-shards/shard-02/lean4/nfutils/psort.lean"
+      ],
+      "size": 1075
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/siegel_modular_forms/family_data.lean",
+        "monster/shards/shard_43/monster-shards/shard-02/lean4/siegel_modular_forms/family_data.lean"
+      ],
+      "size": 254
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/number_fields/number_field.lean",
+        "monster/shards/shard_69/monster-shards/shard-02/lean4/number_fields/number_field.lean"
+      ],
+      "size": 2428
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_04/monster-shards/shard-02/lean4/users/pwdmanager.lean",
+        "monster/monster-shards/shard-02/lean4/users/pwdmanager.lean"
+      ],
+      "size": 1650
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_33/monster-shards/shard-02/lean4/HilbertModularForms/web_HMF.lean",
+        "monster/monster-shards/shard-02/lean4/HilbertModularForms/web_HMF.lean"
+      ],
+      "size": 918
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-51/code/src/lib.rs",
+        "monster/shards/shard_29/monster-shards/shard-51/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-01/rust/zeros/main.rs",
+        "monster/shards/shard_35/monster-shards/shard-01/rust/zeros/main.rs"
+      ],
+      "size": 381
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/tests/generate_snippet_tests.rs",
+        "monster/shards/shard_66/monster-shards/shard-02/rust/tests/generate_snippet_tests.rs"
+      ],
+      "size": 588
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_01/monster-shards/shard-02/rust/utils/search_boxes.rs",
+        "monster/monster-shards/shard-02/rust/utils/search_boxes.rs"
+      ],
+      "size": 8180
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_09/monster-shards/shard-02/rust/zeros/platt_zeros.rs",
+        "monster/monster-shards/shard-02/rust/zeros/platt_zeros.rs"
+      ],
+      "size": 408
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_07/monster-shards/shard-02/rust/users/main.rs",
+        "monster/monster-shards/shard-02/rust/users/main.rs"
+      ],
+      "size": 2210
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_44/monster-shards/shard-02/rust/hilbert_modular_forms/hilbert_modular_form.rs",
+        "monster/monster-shards/shard-02/rust/hilbert_modular_forms/hilbert_modular_form.rs"
+      ],
+      "size": 2477
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/abvar/download.lean",
+        "monster/shards/shard_26/monster-shards/shard-02/lean4/abvar/download.lean"
+      ],
+      "size": 403
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/number_fields/web_number_field.lean",
+        "monster/shards/shard_33/monster-shards/shard-02/lean4/number_fields/web_number_field.lean"
+      ],
+      "size": 3792
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_02/monster-shards/shard-02/lean4/classical_modular_forms/main.lean",
+        "monster/monster-shards/shard-02/lean4/classical_modular_forms/main.lean"
+      ],
+      "size": 4217
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_02/monster-shards/shard-02/lean4/utils/common_regex.lean",
+        "monster/monster-shards/shard-02/lean4/utils/common_regex.lean"
+      ],
+      "size": 214
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_54/monster-shards/shard-02/lean4/utils/color.lean",
+        "monster/monster-shards/shard-02/lean4/utils/color.lean"
+      ],
+      "size": 2366
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_04/monster-shards/shard-02/lean4/modular_curves/isog_class.lean",
+        "monster/monster-shards/shard-02/lean4/modular_curves/isog_class.lean"
+      ],
+      "size": 410
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_55/monster-shards/shard-02/lean4/artin_representations/cyc_alt_res_engine.lean",
+        "monster/monster-shards/shard-02/lean4/artin_representations/cyc_alt_res_engine.lean"
+      ],
+      "size": 1125
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-14/code/src/lib.rs",
+        "monster/shards/shard_52/monster-shards/shard-14/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/belyi/web_belyi.rs",
+        "monster/shards/shard_58/monster-shards/shard-02/rust/belyi/web_belyi.rs"
+      ],
+      "size": 1061
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/verify/mf_newforms.rs",
+        "monster/shards/shard_29/monster-shards/shard-02/rust/verify/mf_newforms.rs"
+      ],
+      "size": 4463
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_09/monster-shards/shard-02/rust/belyi/main.rs",
+        "monster/monster-shards/shard-02/rust/belyi/main.rs"
+      ],
+      "size": 5220
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_32/monster-shards/shard-02/rust/symL/symL.rs",
+        "monster/monster-shards/shard-02/rust/symL/symL.rs"
+      ],
+      "size": 816
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_46/monster-shards/shard-57/code/src/lib.rs",
+        "monster/monster-shards/shard-57/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/hilbert_modular_forms/web_HMF.lean",
+        "monster/shards/shard_34/monster-shards/shard-02/lean4/hilbert_modular_forms/web_HMF.lean"
+      ],
+      "size": 537
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_69/monster-shards/shard-02/lean4/lfunctions/LfunctionDatabase.lean",
+        "monster/monster-shards/shard-02/lean4/lfunctions/LfunctionDatabase.lean"
+      ],
+      "size": 853
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_23/monster-shards/shard-01/lean4/cluster_pictures/cluster_picture.lean",
+        "monster/monster-shards/shard-01/lean4/cluster_pictures/cluster_picture.lean"
+      ],
+      "size": 332
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-50/code/src/lib.rs",
+        "monster/shards/shard_24/monster-shards/shard-50/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/hilbert_modular_forms/hilbert_field.rs",
+        "monster/shards/shard_05/monster-shards/shard-02/rust/hilbert_modular_forms/hilbert_field.rs"
+      ],
+      "size": 1262
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/siegel_modular_forms/family_data.rs",
+        "monster/shards/shard_64/monster-shards/shard-02/rust/siegel_modular_forms/family_data.rs"
+      ],
+      "size": 183
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/utils/trace_hash.rs",
+        "monster/shards/shard_04/monster-shards/shard-02/rust/utils/trace_hash.rs"
+      ],
+      "size": 465
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_23/monster-shards/shard-01/rust/typed_data/Lfunction_types.rs",
+        "monster/monster-shards/shard-01/rust/typed_data/Lfunction_types.rs"
+      ],
+      "size": 334
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_33/monster-shards/shard-02/rust/lfunctions/main.rs",
+        "monster/monster-shards/shard-02/rust/lfunctions/main.rs"
+      ],
+      "size": 9584
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_64/monster-shards/shard-02/rust/bianchi_modular_forms/web_BMF.rs",
+        "monster/monster-shards/shard-02/rust/bianchi_modular_forms/web_BMF.rs"
+      ],
+      "size": 653
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/hypergm/main.lean",
+        "monster/shards/shard_68/monster-shards/shard-02/lean4/hypergm/main.lean"
+      ],
+      "size": 2455
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_12/monster-shards/shard-02/lean4/symL/sympowlmfdb.lean",
+        "monster/monster-shards/shard-02/lean4/symL/sympowlmfdb.lean"
+      ],
+      "size": 625
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_01/monster-shards/shard-02/lean4/number_fields/draw_spectrum.lean",
+        "monster/monster-shards/shard-02/lean4/number_fields/draw_spectrum.lean"
+      ],
+      "size": 641
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_16/monster-shards/shard-02/lean4/ecnf/main.lean",
+        "monster/monster-shards/shard-02/lean4/ecnf/main.lean"
+      ],
+      "size": 1426
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_62/monster-shards/shard-02/lean4/logger/start.lean",
+        "monster/monster-shards/shard-02/lean4/logger/start.lean"
+      ],
+      "size": 326
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-58/code/src/lib.rs",
+        "monster/shards/shard_70/monster-shards/shard-58/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/homepage/random.lean",
+        "monster/shards/shard_45/monster-shards/shard-02/lean4/homepage/random.lean"
+      ],
+      "size": 280
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/utils/names_and_urls.lean",
+        "monster/shards/shard_08/monster-shards/shard-02/lean4/utils/names_and_urls.lean"
+      ],
+      "size": 298
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_39/monster-shards/shard-02/lean4/abvar/stats.lean",
+        "monster/monster-shards/shard-02/lean4/abvar/stats.lean"
+      ],
+      "size": 667
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-45/code/src/lib.rs",
+        "monster/shards/shard_25/monster-shards/shard-45/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-55/code/src/lib.rs",
+        "monster/shards/shard_41/monster-shards/shard-55/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/classical_modular_forms/cmf_test_pages.rs",
+        "monster/shards/shard_59/monster-shards/shard-02/rust/classical_modular_forms/cmf_test_pages.rs"
+      ],
+      "size": 662
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_00/monster-shards/shard-02/rust/elliptic_curves/searchers.rs",
+        "monster/monster-shards/shard-02/rust/elliptic_curves/searchers.rs"
+      ],
+      "size": 339
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_45/monster-shards/shard-56/code/src/lib.rs",
+        "monster/monster-shards/shard-56/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_08/monster-shards/shard-02/rust/half_integral_weight_forms/half_integral_form.rs",
+        "monster/monster-shards/shard-02/rust/half_integral_weight_forms/half_integral_form.rs"
+      ],
+      "size": 642
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/ecnf/WebEllipticCurve.lean",
+        "monster/shards/shard_35/monster-shards/shard-02/lean4/ecnf/WebEllipticCurve.lean"
+      ],
+      "size": 1360
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_19/monster-shards/shard-02/lean4/homepage/sidebar.lean",
+        "monster/monster-shards/shard-02/lean4/homepage/sidebar.lean"
+      ],
+      "size": 413
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-05/code/src/lib.rs",
+        "monster/shards/shard_25/monster-shards/shard-05/code/src/lib.rs"
+      ],
+      "size": 565
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/galois_groups/transitive_group.rs",
+        "monster/shards/shard_36/monster-shards/shard-02/rust/galois_groups/transitive_group.rs"
+      ],
+      "size": 5413
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/siegel_modular_forms/sample.rs",
+        "monster/shards/shard_61/monster-shards/shard-02/rust/siegel_modular_forms/sample.rs"
+      ],
+      "size": 1865
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/ecnf/searchers.rs",
+        "monster/shards/shard_32/monster-shards/shard-02/rust/ecnf/searchers.rs"
+      ],
+      "size": 253
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/rust/api/api.rs",
+        "monster/shards/shard_23/monster-shards/shard-02/rust/api/api.rs"
+      ],
+      "size": 1330
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-10/code/src/lib.rs",
+        "monster/shards/shard_35/monster-shards/shard-10/code/src/lib.rs"
+      ],
+      "size": 566
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_02/monster-shards/shard-02/rust/lfunctions/Lfunction.rs",
+        "monster/monster-shards/shard-02/rust/lfunctions/Lfunction.rs"
+      ],
+      "size": 5595
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_11/monster-shards/shard-02/rust/abvar/web_abvar.rs",
+        "monster/monster-shards/shard-02/rust/abvar/web_abvar.rs"
+      ],
+      "size": 392
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_47/monster-shards/shard-02/rust/verify/verify_tables.rs",
+        "monster/monster-shards/shard-02/rust/verify/verify_tables.rs"
+      ],
+      "size": 329
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_08/monster-shards/shard-02/rust/verify/modcurve_modelmaps.rs",
+        "monster/monster-shards/shard-02/rust/verify/modcurve_modelmaps.rs"
+      ],
+      "size": 625
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_26/monster-shards/shard-02/rust/homepage/random.rs",
+        "monster/monster-shards/shard-02/rust/homepage/random.rs"
+      ],
+      "size": 313
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_46/train_monster.py",
+        "monster/train_monster.py"
+      ],
+      "size": 1311
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/monster-shards/shard-02/lean4/elliptic_curves/searchers.lean",
+        "monster/shards/shard_45/monster-shards/shard-02/lean4/elliptic_curves/searchers.lean"
+      ],
+      "size": 318
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_40/monster-shards/shard-02/lean4/abvar/isog_class.lean",
+        "monster/monster-shards/shard-02/lean4/abvar/isog_class.lean"
+      ],
+      "size": 2166
+    },
+    {
+      "count": 2,
+      "files": [
+        "monster/shards/shard_15/monster-shards/shard-02/lean4/zeros/platt_zeros.lean",
+        "monster/monster-shards/shard-02/lean4/zeros/platt_zeros.lean"
+      ],
+      "size": 327
+    }
+  ]
+}

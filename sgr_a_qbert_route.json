@@ -1,0 +1,72 @@
+{
+  "route": [
+    {
+      "sector_id": 0,
+      "name": "Sol (Earth)",
+      "distance_from_sgr_a": 26673,
+      "view_quality": 100.0,
+      "has_arcade": true
+    },
+    {
+      "sector_id": 7,
+      "name": "Sector-6",
+      "distance_from_sgr_a": 8000,
+      "view_quality": 100.0,
+      "has_arcade": false
+    },
+    {
+      "sector_id": 17,
+      "name": "Sector-16",
+      "distance_from_sgr_a": 13000,
+      "view_quality": 100.0,
+      "has_arcade": false
+    },
+    {
+      "sector_id": 21,
+      "name": "Sector-21",
+      "distance_from_sgr_a": 15500,
+      "view_quality": 100.0,
+      "has_arcade": true
+    },
+    {
+      "sector_id": 28,
+      "name": "Sector-28",
+      "distance_from_sgr_a": 19000,
+      "view_quality": 100.0,
+      "has_arcade": true
+    },
+    {
+      "sector_id": 35,
+      "name": "Sector-35",
+      "distance_from_sgr_a": 22500,
+      "view_quality": 100.0,
+      "has_arcade": true
+    },
+    {
+      "sector_id": 42,
+      "name": "Sector-42",
+      "distance_from_sgr_a": 26000,
+      "view_quality": 100.0,
+      "has_arcade": true
+    },
+    {
+      "sector_id": 49,
+      "name": "Sector-49",
+      "distance_from_sgr_a": 29500,
+      "view_quality": 100.0,
+      "has_arcade": true
+    }
+  ],
+  "best_observation": {
+    "sector_id": 0,
+    "name": "Sol (Earth)",
+    "ra": 266.4,
+    "dec": -29.0,
+    "distance_from_sgr_a": 26673,
+    "view_quality": 100.0,
+    "time_dilation": 1.0,
+    "has_arcade": true
+  },
+  "stops": 8,
+  "convergence_rounds": 7
+}
