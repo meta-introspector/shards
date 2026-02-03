@@ -1,0 +1,39 @@
+{
+  "search_methods": [
+    {
+      "method": "Linear Search",
+      "iterations": 100000,
+      "total_time_ms": 16.826039005536586,
+      "time_per_op_ns": 168.26039005536586,
+      "result": 6
+    },
+    {
+      "method": "Binary Search",
+      "iterations": 100000,
+      "total_time_ms": 15.651759022148326,
+      "time_per_op_ns": 156.51759022148326,
+      "result": 6
+    },
+    {
+      "method": "Direct Access (O(1))",
+      "iterations": 100000,
+      "total_time_ms": 1.8443769949954003,
+      "time_per_op_ns": 18.443769949954003,
+      "result": 6
+    }
+  ],
+  "agent_results": {
+    "total_agents": 71,
+    "total_time_ms": 0.016519101336598396,
+    "avg_time_ns": 232.66339910701967,
+    "all_correct": true,
+    "all_verified": true
+  },
+  "answer": 17,
+  "verification": {
+    "in_rhyme": true,
+    "position_7": true,
+    "cusp": true,
+    "monster_prime": true
+  }
+}

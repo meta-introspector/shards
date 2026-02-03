@@ -1,0 +1,179 @@
+[
+  {
+    "platform": "arcade",
+    "architecture": "z80",
+    "year": 1980,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_arcade.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true
+  },
+  {
+    "platform": "nes",
+    "architecture": "6502",
+    "year": 1983,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_nes.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true
+  },
+  {
+    "platform": "snes",
+    "architecture": "65816",
+    "year": 1990,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions",
+      "voice"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_snes.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true,
+    "voice_input": true
+  },
+  {
+    "platform": "genesis",
+    "architecture": "68000",
+    "year": 1988,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_genesis.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true
+  },
+  {
+    "platform": "psx",
+    "architecture": "mips",
+    "year": 1994,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions",
+      "voice",
+      "subtitles"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_psx.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true,
+    "voice_input": true,
+    "subtitle_track": true
+  },
+  {
+    "platform": "n64",
+    "architecture": "mips",
+    "year": 1996,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions",
+      "voice"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_n64.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true,
+    "voice_input": true
+  },
+  {
+    "platform": "dreamcast",
+    "architecture": "sh4",
+    "year": 1998,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "screen_reader",
+      "captions",
+      "voice",
+      "subtitles"
+    ],
+    "binary_size": 16384,
+    "rom_name": "mothwis_dreamcast.bin",
+    "wasm_bridge": false,
+    "audio_output": true,
+    "text_overlay": true,
+    "voice_input": true,
+    "subtitle_track": true
+  },
+  {
+    "platform": "wasm",
+    "architecture": "wasm32",
+    "year": 2026,
+    "vector": {
+      "year": 46,
+      "prime": 6,
+      "shard": 17,
+      "action": 3,
+      "compressed": 46061703
+    },
+    "accessibility": [
+      "all"
+    ],
+    "binary_size": 4096,
+    "rom_name": "mothwis_wasm.bin",
+    "wasm_bridge": true
+  }
+]

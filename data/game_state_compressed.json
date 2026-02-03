@@ -1,0 +1,42 @@
+{
+  "text": "\nYear: 2026\nSelected Prime: 17\nMonster Shard: 17\nAction: Win\nMessage: Mother was right\n",
+  "table": {
+    "Year": "2026",
+    "Selected Prime": "17",
+    "Monster Shard": "17",
+    "Action": "Win",
+    "Message": "Mother was right"
+  },
+  "tree": {
+    "type": "Year",
+    "value": 2026,
+    "children": [
+      {
+        "type": "Prime",
+        "value": 17,
+        "children": [
+          {
+            "type": "Shard",
+            "value": 17,
+            "children": [
+              {
+                "type": "Action",
+                "value": "Win",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coordinate": [
+    46,
+    6,
+    17,
+    3
+  ],
+  "compressed": 46061703,
+  "compression_ratio": 4.923076923076923,
+  "is_optimal": true
+}

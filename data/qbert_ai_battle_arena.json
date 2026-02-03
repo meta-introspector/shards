@@ -1,0 +1,282 @@
+{
+  "generation": 5,
+  "population_size": 71,
+  "arenas": 71,
+  "protocols": [
+    "http",
+    "https",
+    "websocket",
+    "webrtc",
+    "sse",
+    "http2",
+    "http3",
+    "grpc",
+    "graphql",
+    "rest",
+    "ipfs",
+    "bittorrent",
+    "libp2p",
+    "dat",
+    "hypercore",
+    "scuttlebutt",
+    "matrix",
+    "xmpp",
+    "irc",
+    "mqtt",
+    "ethereum",
+    "solana",
+    "bitcoin",
+    "polkadot",
+    "cosmos",
+    "avalanche",
+    "near",
+    "cardano",
+    "algorand",
+    "tezos",
+    "smtp",
+    "imap",
+    "pop3",
+    "amqp",
+    "stomp",
+    "zeromq",
+    "nanomsg",
+    "nats",
+    "kafka",
+    "rabbitmq",
+    "jsonrpc",
+    "xmlrpc",
+    "thrift",
+    "protobuf",
+    "msgpack",
+    "capnproto",
+    "flatbuffers",
+    "avro",
+    "bson",
+    "cbor",
+    "rtmp",
+    "hls",
+    "dash",
+    "webm",
+    "rtp",
+    "rtsp",
+    "srt",
+    "udp",
+    "quic",
+    "sctp",
+    "dns",
+    "dhcp",
+    "ntp",
+    "snmp",
+    "ldap",
+    "radius",
+    "diameter",
+    "sip",
+    "h323",
+    "bluetooth",
+    "zigbee"
+  ],
+  "top_ais": [
+    {
+      "shard": 39,
+      "fitness": 130,
+      "wins": 17,
+      "losses": 8,
+      "genome": [
+        3,
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "shard": 41,
+      "fitness": 130,
+      "wins": 17,
+      "losses": 8,
+      "genome": [
+        0,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "shard": 38,
+      "fitness": 110,
+      "wins": 14,
+      "losses": 6,
+      "genome": [
+        1,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "shard": 10,
+      "fitness": 70,
+      "wins": 13,
+      "losses": 12,
+      "genome": [
+        3,
+        2,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "shard": 36,
+      "fitness": 60,
+      "wins": 12,
+      "losses": 12,
+      "genome": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "shard": 47,
+      "fitness": 55,
+      "wins": 7,
+      "losses": 3,
+      "genome": [
+        0,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "shard": 35,
+      "fitness": 50,
+      "wins": 5,
+      "losses": 0,
+      "genome": [
+        0,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "shard": 39,
+      "fitness": 0,
+      "wins": 0,
+      "losses": 0,
+      "genome": [
+        0,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "shard": 45,
+      "fitness": 0,
+      "wins": 0,
+      "losses": 0,
+      "genome": [
+        0,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "shard": 23,
+      "fitness": 0,
+      "wins": 0,
+      "losses": 0,
+      "genome": [
+        3,
+        2,
+        3,
+        2,
+        0
+      ]
+    }
+  ],
+  "tournament_results": [
+    {
+      "winner": "Bob",
+      "loser": "AI-39",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "Alice",
+      "loser": "AI-41",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-41",
+      "loser": "Alice",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "Alice",
+      "loser": "AI-41",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "Bob",
+      "loser": "AI-41",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-38",
+      "loser": "Alice",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-39",
+      "loser": "Bob",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-39",
+      "loser": "Alice",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-39",
+      "loser": "Bob",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    },
+    {
+      "winner": "AI-39",
+      "loser": "Charlie",
+      "moves": 28,
+      "protocol": "websocket",
+      "shard": 2
+    }
+  ]
+}

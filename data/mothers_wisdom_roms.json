@@ -1,0 +1,62 @@
+[
+  {
+    "console": "Arcade",
+    "cpu": "Z80",
+    "year": 1980,
+    "rom_size": 16384,
+    "rom_file": "mothwis_arcade.bin",
+    "game_data": {
+      "rhyme_words": 10,
+      "answer": 17,
+      "accessibility_modes": 4
+    }
+  },
+  {
+    "console": "NES",
+    "cpu": "6502",
+    "year": 1983,
+    "rom_size": 2048,
+    "rom_file": "mothwis_nes.bin",
+    "game_data": {
+      "rhyme_words": 10,
+      "answer": 17,
+      "accessibility_modes": 4
+    }
+  },
+  {
+    "console": "Sega Master System",
+    "cpu": "Z80",
+    "year": 1985,
+    "rom_size": 8192,
+    "rom_file": "mothwis_sega_master_system.bin",
+    "game_data": {
+      "rhyme_words": 10,
+      "answer": 17,
+      "accessibility_modes": 4
+    }
+  },
+  {
+    "console": "Genesis",
+    "cpu": "68000",
+    "year": 1988,
+    "rom_size": 65536,
+    "rom_file": "mothwis_genesis.bin",
+    "game_data": {
+      "rhyme_words": 10,
+      "answer": 17,
+      "accessibility_modes": 4
+    }
+  },
+  {
+    "console": "Game Boy",
+    "cpu": "LR35902",
+    "year": 1989,
+    "rom_size": 8192,
+    "rom_file": "mothwis_game_boy.bin",
+    "game_data": {
+      "rhyme_words": 10,
+      "answer": 17,
+      "accessibility_modes": 4
+    }
+  }
+]

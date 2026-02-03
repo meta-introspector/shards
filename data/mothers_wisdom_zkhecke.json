@@ -1,0 +1,247 @@
+{
+  "single_operator": {
+    "prime": 17,
+    "shard": 17,
+    "eigenvalue": 578,
+    "trace": 778,
+    "frequency": 124848,
+    "resonance": 1.0,
+    "commitment": "96edc3dc0b4d961e289378c030f981dfe5b17c8ccbac11331d98fa2e4aaad18e"
+  },
+  "all_operators": {
+    "shard": 17,
+    "operators": 15,
+    "witnesses": [
+      {
+        "prime": 2,
+        "shard": 17,
+        "eigenvalue": 38,
+        "trace": 763,
+        "frequency": 14688,
+        "resonance": 1.0,
+        "commitment": "904145ef60ca9704a67de56b85f011ab97b3ab18667c8c90c147c8cdd5d1dcfb"
+      },
+      {
+        "prime": 3,
+        "shard": 17,
+        "eigenvalue": 60,
+        "trace": 764,
+        "frequency": 22032,
+        "resonance": 1.0,
+        "commitment": "25c1de2672aa3fd2dc9a98cdc463de4ecff3a0034358ce5e4b0c20d507ee6939"
+      },
+      {
+        "prime": 5,
+        "shard": 17,
+        "eigenvalue": 110,
+        "trace": 766,
+        "frequency": 36720,
+        "resonance": 1.0,
+        "commitment": "4fc27236935fc3cc7e61debcf02e744079d2f13b894ee3a1fa0663571b0bd73c"
+      },
+      {
+        "prime": 7,
+        "shard": 17,
+        "eigenvalue": 168,
+        "trace": 768,
+        "frequency": 51408,
+        "resonance": 1.0,
+        "commitment": "c279e9f62555bd60b00cc1b471f4d1fd7b3d30a52ae0626a44abd83f76957ffb"
+      },
+      {
+        "prime": 11,
+        "shard": 17,
+        "eigenvalue": 308,
+        "trace": 772,
+        "frequency": 80784,
+        "resonance": 1.0,
+        "commitment": "ba0571d53b39a2fb32dafd7934c70cf807a453c2fe9ca63a5947bab12269b4f5"
+      },
+      {
+        "prime": 13,
+        "shard": 17,
+        "eigenvalue": 390,
+        "trace": 774,
+        "frequency": 95472,
+        "resonance": 1.0,
+        "commitment": "d208c7e517dcd188e3c04981758266722e89fe4700d8259a6dcf3fbb3a5d52f1"
+      },
+      {
+        "prime": 17,
+        "shard": 17,
+        "eigenvalue": 578,
+        "trace": 778,
+        "frequency": 124848,
+        "resonance": 1.0,
+        "commitment": "96edc3dc0b4d961e289378c030f981dfe5b17c8ccbac11331d98fa2e4aaad18e"
+      },
+      {
+        "prime": 19,
+        "shard": 17,
+        "eigenvalue": 684,
+        "trace": 780,
+        "frequency": 139536,
+        "resonance": 1.0,
+        "commitment": "7053cd8e47ae8ef0c07c3a0aceaab88399c87bd3e52c95d9ba615bc1110ecfee"
+      },
+      {
+        "prime": 23,
+        "shard": 17,
+        "eigenvalue": 920,
+        "trace": 784,
+        "frequency": 168912,
+        "resonance": 1.0,
+        "commitment": "deaeb847ee0e1840c82741d262c2c1124ad5b8ed6f6e9758e9c5e79dd6bdce77"
+      },
+      {
+        "prime": 29,
+        "shard": 17,
+        "eigenvalue": 1334,
+        "trace": 790,
+        "frequency": 212976,
+        "resonance": 1.0,
+        "commitment": "eb5263669c36a3a0a27d263a2a80c07fc9b42f50d3e978c9283df6bc2965db61"
+      },
+      {
+        "prime": 31,
+        "shard": 17,
+        "eigenvalue": 1488,
+        "trace": 792,
+        "frequency": 227664,
+        "resonance": 1.0,
+        "commitment": "b8459d001867fbdd5798b9909ff33bc108e1e089d59394898b1f69b949b7e6e2"
+      },
+      {
+        "prime": 41,
+        "shard": 17,
+        "eigenvalue": 2378,
+        "trace": 802,
+        "frequency": 301104,
+        "resonance": 1.0,
+        "commitment": "9bfe0dcf8068fc9c2a507ad953b79ec6e00b094bccc014786634767819a01ab2"
+      },
+      {
+        "prime": 47,
+        "shard": 17,
+        "eigenvalue": 3008,
+        "trace": 808,
+        "frequency": 345168,
+        "resonance": 1.0,
+        "commitment": "894cc99fdcbf65d62bf1745e925668c9fc896bb0ffa0869f48570f3298ebc19f"
+      },
+      {
+        "prime": 59,
+        "shard": 17,
+        "eigenvalue": 4484,
+        "trace": 820,
+        "frequency": 433296,
+        "resonance": 1.0,
+        "commitment": "96f6638f9ed1fdf1087f5e85343f9e4ce7a37ebc4a212cca1158609f3c517094"
+      },
+      {
+        "prime": 71,
+        "shard": 17,
+        "eigenvalue": 6248,
+        "trace": 832,
+        "frequency": 521424,
+        "resonance": 1.0,
+        "commitment": "2876ed7d4c4afca71ffba89d3d53f64242f303f1782ee163ffb2c6580ae09b29"
+      }
+    ],
+    "merkle_root": "89a18df157d66059c2f6dd55b2acf31df161bc1de44cf8d70e30d2da2c534d26",
+    "statistics": {
+      "total_eigenvalue": 22196,
+      "total_trace": 11793,
+      "avg_frequency": 185068.8,
+      "avg_resonance": 1.0
+    }
+  },
+  "witness_counts": {
+    "2": {
+      "prime": 2,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "3": {
+      "prime": 3,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "5": {
+      "prime": 5,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "7": {
+      "prime": 7,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "11": {
+      "prime": 11,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "13": {
+      "prime": 13,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "17": {
+      "prime": 17,
+      "high_resonance_shards": 13,
+      "is_tiger": true
+    },
+    "19": {
+      "prime": 19,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "23": {
+      "prime": 23,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "29": {
+      "prime": 29,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "31": {
+      "prime": 31,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "41": {
+      "prime": 41,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "47": {
+      "prime": 47,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "59": {
+      "prime": 59,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    },
+    "71": {
+      "prime": 71,
+      "high_resonance_shards": 13,
+      "is_tiger": false
+    }
+  },
+  "frequency_spectrum": {
+    "max_resonance_shard": 17,
+    "cusp_resonance": 1.0,
+    "cusp_frequency": 185068.8
+  },
+  "answer": 17,
+  "proof": {
+    "tiger_is_cusp": true,
+    "tiger_has_max_resonance": true,
+    "all_operators_agree": true
+  }
+}

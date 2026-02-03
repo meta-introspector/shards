@@ -1,0 +1,125 @@
+{
+  "muses": [
+    {
+      "name": "Calliope",
+      "domain": "Epic Poetry",
+      "layer": 0,
+      "emoji": "\ud83c\udfad",
+      "prime": 2,
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "name": "Clio",
+      "domain": "History",
+      "layer": 8,
+      "emoji": "\ud83d\udcdc",
+      "prime": 3,
+      "shard": 18,
+      "j_invariant": 3544656
+    },
+    {
+      "name": "Erato",
+      "domain": "Love Poetry",
+      "layer": 16,
+      "emoji": "\ud83d\udc96",
+      "prime": 5,
+      "shard": 44,
+      "j_invariant": 8663640
+    },
+    {
+      "name": "Euterpe",
+      "domain": "Music",
+      "layer": 24,
+      "emoji": "\ud83c\udfb5",
+      "prime": 7,
+      "shard": 33,
+      "j_invariant": 6497916
+    },
+    {
+      "name": "Melpomene",
+      "domain": "Tragedy",
+      "layer": 32,
+      "emoji": "\ud83d\ude22",
+      "prime": 11,
+      "shard": 63,
+      "j_invariant": 12404436
+    },
+    {
+      "name": "Polyhymnia",
+      "domain": "Hymns",
+      "layer": 40,
+      "emoji": "\ud83d\ude4f",
+      "prime": 13,
+      "shard": 43,
+      "j_invariant": 8466756
+    },
+    {
+      "name": "Terpsichore",
+      "domain": "Dance",
+      "layer": 48,
+      "emoji": "\ud83d\udc83",
+      "prime": 17,
+      "shard": 1,
+      "j_invariant": 197628
+    },
+    {
+      "name": "Thalia",
+      "domain": "Comedy",
+      "layer": 56,
+      "emoji": "\ud83d\ude02",
+      "prime": 19,
+      "shard": 67,
+      "j_invariant": 13191972
+    },
+    {
+      "name": "Urania",
+      "domain": "Astronomy",
+      "layer": 64,
+      "emoji": "\u2728",
+      "prime": 23,
+      "shard": 36,
+      "j_invariant": 7088568
+    }
+  ],
+  "emoji_count": 0,
+  "emoji_shards": {},
+  "minizinc_data": {
+    "n_muses": 9,
+    "n_shards": 71,
+    "muse_shards": [
+      4,
+      18,
+      44,
+      33,
+      63,
+      43,
+      1,
+      67,
+      36
+    ],
+    "muse_primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23
+    ],
+    "muse_layers": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "emojis_per_shard": {}
+  }
+}

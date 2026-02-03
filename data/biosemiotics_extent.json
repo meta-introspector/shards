@@ -1,0 +1,229 @@
+{
+  "extent": [
+    {
+      "scale": "Molecular",
+      "concept": "DNA",
+      "wikidata_id": "Q7430",
+      "description": "Genetic code as sign system",
+      "shard": 46,
+      "muse": "Clio",
+      "j_invariant": 9057408
+    },
+    {
+      "scale": "Molecular",
+      "concept": "RNA",
+      "wikidata_id": "Q11053",
+      "description": "Messenger molecules",
+      "shard": 48,
+      "muse": "Euterpe",
+      "j_invariant": 9451176
+    },
+    {
+      "scale": "Molecular",
+      "concept": "Protein",
+      "wikidata_id": "Q8054",
+      "description": "Functional signs",
+      "shard": 31,
+      "muse": "Melpomene",
+      "j_invariant": 6104148
+    },
+    {
+      "scale": "Molecular",
+      "concept": "Enzyme",
+      "wikidata_id": "Q8047",
+      "description": "Catalytic interpretation",
+      "shard": 24,
+      "muse": "Terpsichore",
+      "j_invariant": 4725960
+    },
+    {
+      "scale": "Cellular",
+      "concept": "Cell",
+      "wikidata_id": "Q7868",
+      "description": "Basic semiotic unit",
+      "shard": 58,
+      "muse": "Melpomene",
+      "j_invariant": 11420016
+    },
+    {
+      "scale": "Cellular",
+      "concept": "Membrane",
+      "wikidata_id": "Q14349455",
+      "description": "Boundary interpretation",
+      "shard": 0,
+      "muse": "Calliope",
+      "j_invariant": 744
+    },
+    {
+      "scale": "Cellular",
+      "concept": "Receptor",
+      "wikidata_id": "Q33506",
+      "description": "Signal reception",
+      "shard": 65,
+      "muse": "Erato",
+      "j_invariant": 12798204
+    },
+    {
+      "scale": "Cellular",
+      "concept": "Neuron",
+      "wikidata_id": "Q43054",
+      "description": "Neural signs",
+      "shard": 28,
+      "muse": "Clio",
+      "j_invariant": 5513496
+    },
+    {
+      "scale": "Organismal",
+      "concept": "Animal",
+      "wikidata_id": "Q729",
+      "description": "Behavioral signs",
+      "shard": 19,
+      "muse": "Clio",
+      "j_invariant": 3741540
+    },
+    {
+      "scale": "Organismal",
+      "concept": "Plant",
+      "wikidata_id": "Q756",
+      "description": "Phytosemiotics",
+      "shard": 46,
+      "muse": "Clio",
+      "j_invariant": 9057408
+    },
+    {
+      "scale": "Organismal",
+      "concept": "Fungus",
+      "wikidata_id": "Q764",
+      "description": "Mycosemiotics",
+      "shard": 54,
+      "muse": "Calliope",
+      "j_invariant": 10632480
+    },
+    {
+      "scale": "Organismal",
+      "concept": "Bacteria",
+      "wikidata_id": "Q10876",
+      "description": "Bacterial communication",
+      "shard": 13,
+      "muse": "Melpomene",
+      "j_invariant": 2560236
+    },
+    {
+      "scale": "Ecological",
+      "concept": "Ecosystem",
+      "wikidata_id": "Q37813",
+      "description": "Ecological signs",
+      "shard": 41,
+      "muse": "Polyhymnia",
+      "j_invariant": 8072988
+    },
+    {
+      "scale": "Ecological",
+      "concept": "Symbiosis",
+      "wikidata_id": "Q179983",
+      "description": "Mutual interpretation",
+      "shard": 69,
+      "muse": "Terpsichore",
+      "j_invariant": 13585740
+    },
+    {
+      "scale": "Ecological",
+      "concept": "Predation",
+      "wikidata_id": "Q124072",
+      "description": "Predator-prey signs",
+      "shard": 35,
+      "muse": "Urania",
+      "j_invariant": 6891684
+    },
+    {
+      "scale": "Ecological",
+      "concept": "Pollination",
+      "wikidata_id": "Q79932",
+      "description": "Plant-pollinator signs",
+      "shard": 57,
+      "muse": "Euterpe",
+      "j_invariant": 11223132
+    },
+    {
+      "scale": "Social",
+      "concept": "Language",
+      "wikidata_id": "Q34770",
+      "description": "Human semiotics",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "j_invariant": 10041828
+    },
+    {
+      "scale": "Social",
+      "concept": "Culture",
+      "wikidata_id": "Q11042",
+      "description": "Cultural signs",
+      "shard": 37,
+      "muse": "Clio",
+      "j_invariant": 7285452
+    },
+    {
+      "scale": "Social",
+      "concept": "Dance",
+      "wikidata_id": "Q11639",
+      "description": "Movement signs",
+      "shard": 66,
+      "muse": "Euterpe",
+      "j_invariant": 12995088
+    },
+    {
+      "scale": "Social",
+      "concept": "Music",
+      "wikidata_id": "Q638",
+      "description": "Auditory signs",
+      "shard": 70,
+      "muse": "Thalia",
+      "j_invariant": 13782624
+    },
+    {
+      "scale": "Cosmic",
+      "concept": "Life",
+      "wikidata_id": "Q3",
+      "description": "Universal biosemiotics",
+      "shard": 3,
+      "muse": "Euterpe",
+      "j_invariant": 591396
+    },
+    {
+      "scale": "Cosmic",
+      "concept": "Evolution",
+      "wikidata_id": "Q4391",
+      "description": "Temporal signs",
+      "shard": 60,
+      "muse": "Terpsichore",
+      "j_invariant": 11813784
+    },
+    {
+      "scale": "Cosmic",
+      "concept": "Consciousness",
+      "wikidata_id": "Q38281",
+      "description": "Self-interpretation",
+      "shard": 12,
+      "muse": "Euterpe",
+      "j_invariant": 2363352
+    },
+    {
+      "scale": "Cosmic",
+      "concept": "Universe",
+      "wikidata_id": "Q1",
+      "description": "Cosmic semiotics",
+      "shard": 1,
+      "muse": "Clio",
+      "j_invariant": 197628
+    }
+  ],
+  "scales": [
+    "Molecular",
+    "Cellular",
+    "Organismal",
+    "Ecological",
+    "Social",
+    "Cosmic"
+  ],
+  "total_concepts": 24
+}

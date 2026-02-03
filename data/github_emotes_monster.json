@@ -1,0 +1,554 @@
+{
+  "repos": [
+    "Roblox",
+    "FiveM_dpEmotes",
+    "FiveM_MrM",
+    "VRChat",
+    "ChoreoMaster"
+  ],
+  "total_emotes": 50,
+  "emotes": [
+    {
+      "name": "Cheer",
+      "repo": "Roblox",
+      "shard": 31,
+      "muse": "Melpomene",
+      "slap": 60,
+      "prime": true,
+      "j": 6104148
+    },
+    {
+      "name": "Climb",
+      "repo": "Roblox",
+      "shard": 46,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 9057408
+    },
+    {
+      "name": "Dance",
+      "repo": "Roblox",
+      "shard": 23,
+      "muse": "Polyhymnia",
+      "slap": 60,
+      "prime": true,
+      "j": 4529076
+    },
+    {
+      "name": "Dance2",
+      "repo": "Roblox",
+      "shard": 30,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 5907264
+    },
+    {
+      "name": "Dance3",
+      "repo": "Roblox",
+      "shard": 6,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 1182048
+    },
+    {
+      "name": "Fall",
+      "repo": "Roblox",
+      "shard": 3,
+      "muse": "Euterpe",
+      "slap": 60,
+      "prime": true,
+      "j": 591396
+    },
+    {
+      "name": "Idle",
+      "repo": "Roblox",
+      "shard": 68,
+      "muse": "Polyhymnia",
+      "slap": 10,
+      "prime": false,
+      "j": 13388856
+    },
+    {
+      "name": "Jump",
+      "repo": "Roblox",
+      "shard": 64,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 12601320
+    },
+    {
+      "name": "Laugh",
+      "repo": "Roblox",
+      "shard": 48,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 9451176
+    },
+    {
+      "name": "Point",
+      "repo": "Roblox",
+      "shard": 66,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 12995088
+    },
+    {
+      "name": "dance",
+      "repo": "FiveM_dpEmotes",
+      "shard": 60,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 11813784
+    },
+    {
+      "name": "dance2",
+      "repo": "FiveM_dpEmotes",
+      "shard": 56,
+      "muse": "Erato",
+      "slap": 10,
+      "prime": false,
+      "j": 11026248
+    },
+    {
+      "name": "dance3",
+      "repo": "FiveM_dpEmotes",
+      "shard": 17,
+      "muse": "Urania",
+      "slap": 60,
+      "prime": true,
+      "j": 3347772
+    },
+    {
+      "name": "dancesilly",
+      "repo": "FiveM_dpEmotes",
+      "shard": 13,
+      "muse": "Melpomene",
+      "slap": 60,
+      "prime": true,
+      "j": 2560236
+    },
+    {
+      "name": "danceglowstick",
+      "repo": "FiveM_dpEmotes",
+      "shard": 64,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 12601320
+    },
+    {
+      "name": "dancehiphop",
+      "repo": "FiveM_dpEmotes",
+      "shard": 70,
+      "muse": "Thalia",
+      "slap": 10,
+      "prime": false,
+      "j": 13782624
+    },
+    {
+      "name": "danceshy",
+      "repo": "FiveM_dpEmotes",
+      "shard": 42,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 8269872
+    },
+    {
+      "name": "danceslow",
+      "repo": "FiveM_dpEmotes",
+      "shard": 17,
+      "muse": "Urania",
+      "slap": 60,
+      "prime": true,
+      "j": 3347772
+    },
+    {
+      "name": "danceupper",
+      "repo": "FiveM_dpEmotes",
+      "shard": 7,
+      "muse": "Thalia",
+      "slap": 60,
+      "prime": true,
+      "j": 1378932
+    },
+    {
+      "name": "dancecrazy",
+      "repo": "FiveM_dpEmotes",
+      "shard": 27,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 5316612
+    },
+    {
+      "name": "breakdance",
+      "repo": "FiveM_MrM",
+      "shard": 56,
+      "muse": "Erato",
+      "slap": 10,
+      "prime": false,
+      "j": 11026248
+    },
+    {
+      "name": "shuffle",
+      "repo": "FiveM_MrM",
+      "shard": 3,
+      "muse": "Euterpe",
+      "slap": 60,
+      "prime": true,
+      "j": 591396
+    },
+    {
+      "name": "moonwalk",
+      "repo": "FiveM_MrM",
+      "shard": 44,
+      "muse": "Urania",
+      "slap": 10,
+      "prime": false,
+      "j": 8663640
+    },
+    {
+      "name": "robot",
+      "repo": "FiveM_MrM",
+      "shard": 39,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 7679220
+    },
+    {
+      "name": "floss",
+      "repo": "FiveM_MrM",
+      "shard": 12,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 2363352
+    },
+    {
+      "name": "dab",
+      "repo": "FiveM_MrM",
+      "shard": 41,
+      "muse": "Polyhymnia",
+      "slap": 60,
+      "prime": true,
+      "j": 8072988
+    },
+    {
+      "name": "whip",
+      "repo": "FiveM_MrM",
+      "shard": 32,
+      "muse": "Polyhymnia",
+      "slap": 10,
+      "prime": false,
+      "j": 6301032
+    },
+    {
+      "name": "nae_nae",
+      "repo": "FiveM_MrM",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 10041828
+    },
+    {
+      "name": "gangnam",
+      "repo": "FiveM_MrM",
+      "shard": 46,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 9057408
+    },
+    {
+      "name": "macarena",
+      "repo": "FiveM_MrM",
+      "shard": 25,
+      "muse": "Thalia",
+      "slap": 10,
+      "prime": false,
+      "j": 4922844
+    },
+    {
+      "name": "Breakdance",
+      "repo": "VRChat",
+      "shard": 24,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 4725960
+    },
+    {
+      "name": "FighteR",
+      "repo": "VRChat",
+      "shard": 40,
+      "muse": "Melpomene",
+      "slap": 10,
+      "prime": false,
+      "j": 7876104
+    },
+    {
+      "name": "Francium",
+      "repo": "VRChat",
+      "shard": 26,
+      "muse": "Urania",
+      "slap": 10,
+      "prime": false,
+      "j": 5119728
+    },
+    {
+      "name": "Bubbletop",
+      "repo": "VRChat",
+      "shard": 36,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 7088568
+    },
+    {
+      "name": "Snake",
+      "repo": "VRChat",
+      "shard": 66,
+      "muse": "Euterpe",
+      "slap": 10,
+      "prime": false,
+      "j": 12995088
+    },
+    {
+      "name": "Hip_Hop_Dancing",
+      "repo": "VRChat",
+      "shard": 19,
+      "muse": "Clio",
+      "slap": 60,
+      "prime": true,
+      "j": 3741540
+    },
+    {
+      "name": "work_bitch",
+      "repo": "VRChat",
+      "shard": 27,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 5316612
+    },
+    {
+      "name": "Cute_Dance",
+      "repo": "VRChat",
+      "shard": 37,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 7285452
+    },
+    {
+      "name": "Idol_Dance",
+      "repo": "VRChat",
+      "shard": 56,
+      "muse": "Erato",
+      "slap": 10,
+      "prime": false,
+      "j": 11026248
+    },
+    {
+      "name": "Kpop_Dance",
+      "repo": "VRChat",
+      "shard": 2,
+      "muse": "Erato",
+      "slap": 60,
+      "prime": true,
+      "j": 394512
+    },
+    {
+      "name": "ballet_01",
+      "repo": "ChoreoMaster",
+      "shard": 54,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 10632480
+    },
+    {
+      "name": "hiphop_01",
+      "repo": "ChoreoMaster",
+      "shard": 45,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 8860524
+    },
+    {
+      "name": "jazz_01",
+      "repo": "ChoreoMaster",
+      "shard": 23,
+      "muse": "Polyhymnia",
+      "slap": 60,
+      "prime": true,
+      "j": 4529076
+    },
+    {
+      "name": "contemporary_01",
+      "repo": "ChoreoMaster",
+      "shard": 64,
+      "muse": "Clio",
+      "slap": 10,
+      "prime": false,
+      "j": 12601320
+    },
+    {
+      "name": "breakdance_01",
+      "repo": "ChoreoMaster",
+      "shard": 42,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 8269872
+    },
+    {
+      "name": "popping_01",
+      "repo": "ChoreoMaster",
+      "shard": 14,
+      "muse": "Polyhymnia",
+      "slap": 10,
+      "prime": false,
+      "j": 2757120
+    },
+    {
+      "name": "locking_01",
+      "repo": "ChoreoMaster",
+      "shard": 20,
+      "muse": "Erato",
+      "slap": 10,
+      "prime": false,
+      "j": 3938424
+    },
+    {
+      "name": "krump_01",
+      "repo": "ChoreoMaster",
+      "shard": 29,
+      "muse": "Erato",
+      "slap": 60,
+      "prime": true,
+      "j": 5710380
+    },
+    {
+      "name": "house_01",
+      "repo": "ChoreoMaster",
+      "shard": 6,
+      "muse": "Terpsichore",
+      "slap": 40,
+      "prime": false,
+      "j": 1182048
+    },
+    {
+      "name": "waacking_01",
+      "repo": "ChoreoMaster",
+      "shard": 9,
+      "muse": "Calliope",
+      "slap": 10,
+      "prime": false,
+      "j": 1772700
+    }
+  ],
+  "top_slappers": [
+    {
+      "name": "Cheer",
+      "repo": "Roblox",
+      "shard": 31,
+      "muse": "Melpomene",
+      "slap": 60,
+      "prime": true,
+      "j": 6104148
+    },
+    {
+      "name": "Dance",
+      "repo": "Roblox",
+      "shard": 23,
+      "muse": "Polyhymnia",
+      "slap": 60,
+      "prime": true,
+      "j": 4529076
+    },
+    {
+      "name": "Fall",
+      "repo": "Roblox",
+      "shard": 3,
+      "muse": "Euterpe",
+      "slap": 60,
+      "prime": true,
+      "j": 591396
+    },
+    {
+      "name": "dance3",
+      "repo": "FiveM_dpEmotes",
+      "shard": 17,
+      "muse": "Urania",
+      "slap": 60,
+      "prime": true,
+      "j": 3347772
+    },
+    {
+      "name": "dancesilly",
+      "repo": "FiveM_dpEmotes",
+      "shard": 13,
+      "muse": "Melpomene",
+      "slap": 60,
+      "prime": true,
+      "j": 2560236
+    },
+    {
+      "name": "danceslow",
+      "repo": "FiveM_dpEmotes",
+      "shard": 17,
+      "muse": "Urania",
+      "slap": 60,
+      "prime": true,
+      "j": 3347772
+    },
+    {
+      "name": "danceupper",
+      "repo": "FiveM_dpEmotes",
+      "shard": 7,
+      "muse": "Thalia",
+      "slap": 60,
+      "prime": true,
+      "j": 1378932
+    },
+    {
+      "name": "shuffle",
+      "repo": "FiveM_MrM",
+      "shard": 3,
+      "muse": "Euterpe",
+      "slap": 60,
+      "prime": true,
+      "j": 591396
+    },
+    {
+      "name": "dab",
+      "repo": "FiveM_MrM",
+      "shard": 41,
+      "muse": "Polyhymnia",
+      "slap": 60,
+      "prime": true,
+      "j": 8072988
+    },
+    {
+      "name": "Hip_Hop_Dancing",
+      "repo": "VRChat",
+      "shard": 19,
+      "muse": "Clio",
+      "slap": 60,
+      "prime": true,
+      "j": 3741540
+    }
+  ]
+}

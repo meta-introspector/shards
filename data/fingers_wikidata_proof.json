@@ -1,0 +1,46 @@
+{
+  "wikidata_fingers": {
+    "thumb": 1087,
+    "index": 131269,
+    "middle": 167811,
+    "ring": 167848,
+    "pinky": 172891
+  },
+  "wikidata_dna": {
+    "A": 58296,
+    "T": 82784,
+    "G": 82122,
+    "C": 71943
+  },
+  "finger_shards": [
+    22,
+    61,
+    38,
+    4,
+    6,
+    22,
+    61,
+    38,
+    4,
+    6
+  ],
+  "dna_shards": [
+    5,
+    69,
+    46,
+    20
+  ],
+  "hand_symmetry": {
+    "left": 60,
+    "right": 60
+  },
+  "piggy_pattern": [
+    22,
+    61,
+    38,
+    4,
+    6
+  ],
+  "total_shards": 402,
+  "proof": "10 fingers = 10-fold way (Wikidata witness)"
+}

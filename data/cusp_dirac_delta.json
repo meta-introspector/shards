@@ -1,0 +1,504 @@
+{
+  "cusp_point": 17,
+  "cusp_fraction": "17/71",
+  "cusp_decimal": 0.23943661971830985,
+  "values": [
+    {
+      "shard": 0,
+      "value": 0.03652997379306536,
+      "palindrome": true,
+      "mirror": 34
+    },
+    {
+      "shard": 1,
+      "value": 0.07029953194687243,
+      "palindrome": true,
+      "mirror": 33
+    },
+    {
+      "shard": 2,
+      "value": 0.13002444751562475,
+      "palindrome": true,
+      "mirror": 32
+    },
+    {
+      "shard": 3,
+      "value": 0.23113574360710884,
+      "palindrome": true,
+      "mirror": 31
+    },
+    {
+      "shard": 4,
+      "value": 0.3948923463534808,
+      "palindrome": true,
+      "mirror": 30
+    },
+    {
+      "shard": 5,
+      "value": 0.6484251218203869,
+      "palindrome": true,
+      "mirror": 29
+    },
+    {
+      "shard": 6,
+      "value": 1.0233176358852138,
+      "palindrome": true,
+      "mirror": 28
+    },
+    {
+      "shard": 7,
+      "value": 1.5521389453493848,
+      "palindrome": true,
+      "mirror": 27
+    },
+    {
+      "shard": 8,
+      "value": 2.262664922325067,
+      "palindrome": true,
+      "mirror": 26
+    },
+    {
+      "shard": 9,
+      "value": 3.1701470139057344,
+      "palindrome": true,
+      "mirror": 25
+    },
+    {
+      "shard": 10,
+      "value": 4.268822257905921,
+      "palindrome": true,
+      "mirror": 24
+    },
+    {
+      "shard": 11,
+      "value": 5.524668864527063,
+      "palindrome": true,
+      "mirror": 23
+    },
+    {
+      "shard": 12,
+      "value": 6.871854310946349,
+      "palindrome": true,
+      "mirror": 22
+    },
+    {
+      "shard": 13,
+      "value": 8.215067670049791,
+      "palindrome": true,
+      "mirror": 21
+    },
+    {
+      "shard": 14,
+      "value": 9.438823336850678,
+      "palindrome": true,
+      "mirror": 20
+    },
+    {
+      "shard": 15,
+      "value": 10.423032232372579,
+      "palindrome": true,
+      "mirror": 19
+    },
+    {
+      "shard": 16,
+      "value": 11.062156917734242,
+      "palindrome": true,
+      "mirror": 18
+    },
+    {
+      "shard": 17,
+      "value": 11.283791670955125,
+      "palindrome": true,
+      "mirror": 17
+    },
+    {
+      "shard": 18,
+      "value": 11.062156917734242,
+      "palindrome": true,
+      "mirror": 16
+    },
+    {
+      "shard": 19,
+      "value": 10.423032232372579,
+      "palindrome": true,
+      "mirror": 15
+    },
+    {
+      "shard": 20,
+      "value": 9.438823336850675,
+      "palindrome": true,
+      "mirror": 14
+    },
+    {
+      "shard": 21,
+      "value": 8.215067670049788,
+      "palindrome": true,
+      "mirror": 13
+    },
+    {
+      "shard": 22,
+      "value": 6.871854310946349,
+      "palindrome": true,
+      "mirror": 12
+    },
+    {
+      "shard": 23,
+      "value": 5.5246688645270625,
+      "palindrome": true,
+      "mirror": 11
+    },
+    {
+      "shard": 24,
+      "value": 4.26882225790592,
+      "palindrome": true,
+      "mirror": 10
+    },
+    {
+      "shard": 25,
+      "value": 3.1701470139057344,
+      "palindrome": true,
+      "mirror": 9
+    },
+    {
+      "shard": 26,
+      "value": 2.262664922325065,
+      "palindrome": true,
+      "mirror": 8
+    },
+    {
+      "shard": 27,
+      "value": 1.5521389453493841,
+      "palindrome": true,
+      "mirror": 7
+    },
+    {
+      "shard": 28,
+      "value": 1.0233176358852138,
+      "palindrome": true,
+      "mirror": 6
+    },
+    {
+      "shard": 29,
+      "value": 0.648425121820386,
+      "palindrome": true,
+      "mirror": 5
+    },
+    {
+      "shard": 30,
+      "value": 0.3948923463534807,
+      "palindrome": true,
+      "mirror": 4
+    },
+    {
+      "shard": 31,
+      "value": 0.23113574360710884,
+      "palindrome": true,
+      "mirror": 3
+    },
+    {
+      "shard": 32,
+      "value": 0.1300244475156244,
+      "palindrome": true,
+      "mirror": 2
+    },
+    {
+      "shard": 33,
+      "value": 0.07029953194687237,
+      "palindrome": true,
+      "mirror": 1
+    },
+    {
+      "shard": 34,
+      "value": 0.03652997379306536,
+      "palindrome": true,
+      "mirror": 0
+    },
+    {
+      "shard": 35,
+      "value": 0.009121910416629402,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 36,
+      "value": 0.004378463679488754,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 37,
+      "value": 0.0020198876359930414,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 38,
+      "value": 0.0008955754519601157,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 39,
+      "value": 0.0003816336506252393,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 40,
+      "value": 0.00015630060291812808,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 41,
+      "value": 6.152394221315534e-05,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 42,
+      "value": 2.3275400820246124e-05,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 43,
+      "value": 8.462909416013757e-06,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 44,
+      "value": 2.9574112926718895e-06,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 45,
+      "value": 9.93283616375323e-07,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 46,
+      "value": 3.2063012775562614e-07,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 47,
+      "value": 9.94729264261193e-08,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 48,
+      "value": 2.9660261264460924e-08,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 49,
+      "value": 8.49991456263429e-09,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 50,
+      "value": 2.341119914781677e-09,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 51,
+      "value": 6.197296416896644e-10,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 52,
+      "value": 1.5767047985291465e-10,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 53,
+      "value": 3.855387371443006e-11,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 54,
+      "value": 9.060562538500977e-12,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 55,
+      "value": 2.0465003107500913e-12,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 56,
+      "value": 4.442607835635134e-13,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 57,
+      "value": 9.269016437344476e-14,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 58,
+      "value": 1.8586552259040996e-14,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 59,
+      "value": 3.582065580548858e-15,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 60,
+      "value": 6.634951290943722e-16,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 61,
+      "value": 1.1811674106900137e-16,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 62,
+      "value": 2.0209458810338157e-17,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 63,
+      "value": 3.3232837361723084e-18,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 64,
+      "value": 5.252301781400502e-19,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 65,
+      "value": 7.97813592761941e-20,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 66,
+      "value": 1.164723135099256e-20,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 67,
+      "value": 1.6342311467655968e-21,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 68,
+      "value": 2.2038081032758655e-22,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 69,
+      "value": 2.856298412518673e-23,
+      "palindrome": false,
+      "mirror": null
+    },
+    {
+      "shard": 70,
+      "value": 3.5579749994482794e-24,
+      "palindrome": false,
+      "mirror": null
+    }
+  ],
+  "palindrome_pairs": [
+    [
+      0,
+      34
+    ],
+    [
+      1,
+      33
+    ],
+    [
+      2,
+      32
+    ],
+    [
+      3,
+      31
+    ],
+    [
+      4,
+      30
+    ],
+    [
+      5,
+      29
+    ],
+    [
+      6,
+      28
+    ],
+    [
+      7,
+      27
+    ],
+    [
+      8,
+      26
+    ],
+    [
+      9,
+      25
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      11,
+      23
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      16,
+      18
+    ]
+  ],
+  "self_symmetric": 17
+}

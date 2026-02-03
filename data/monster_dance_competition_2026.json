@@ -1,0 +1,158 @@
+{
+  "competition": "SOLFUNMEME Monster LMFDB Dance Competition 2026",
+  "total_prizes": 119000,
+  "categories": [
+    "Best Monster Walk",
+    "Most Symmetric",
+    "Longest Path",
+    "Perfect 10-Fold",
+    "DNA Encoding",
+    "LMFDB Resonance"
+  ],
+  "emotes": [
+    {
+      "name": "Default Dance",
+      "source": "roblox/avatar-emotes",
+      "frames": 10,
+      "monster_number": "18525489604605926163338454267750136273",
+      "shard": 16,
+      "j_invariant": 3150888,
+      "dna": "TATCTGCAGAGTGGCCGGTC",
+      "score": 55.0
+    },
+    {
+      "name": "Dab",
+      "source": "vrchat/avatar-dynamics",
+      "frames": 2,
+      "monster_number": "218884687600702277385095020559586682284",
+      "shard": 29,
+      "j_invariant": 5710380,
+      "dna": "ACGGTTGCTGAACGGGCAGA",
+      "score": 50.0
+    },
+    {
+      "name": "Clap",
+      "source": "roblox/avatar-emotes",
+      "frames": 4,
+      "monster_number": "156409971057320044299840811316306319066",
+      "shard": 59,
+      "j_invariant": 11616900,
+      "dna": "GGTCGTTATCTCATGTGGTA",
+      "score": 50.0
+    },
+    {
+      "name": "Dance Moves",
+      "source": "unity/animation-library",
+      "frames": 15,
+      "monster_number": "38668971319442243105719971479910586260",
+      "shard": 2,
+      "j_invariant": 394512,
+      "dna": "ATTGCTTGCCTTAAGCGTGC",
+      "score": 50.0
+    },
+    {
+      "name": "Floss",
+      "source": "fortnite/emotes-database",
+      "frames": 8,
+      "monster_number": "332839979033965840999598443161314932016",
+      "shard": 16,
+      "j_invariant": 3150888,
+      "dna": "AACATTCAACGGTACGTGGA",
+      "score": 35.0
+    },
+    {
+      "name": "Orange Justice",
+      "source": "fortnite/emotes-database",
+      "frames": 12,
+      "monster_number": "214399635276419656751535794389593345158",
+      "shard": 8,
+      "j_invariant": 1575816,
+      "dna": "GTAGACACCTCGCAAGGTTC",
+      "score": 35.0
+    },
+    {
+      "name": "Take the L",
+      "source": "fortnite/emotes-database",
+      "frames": 6,
+      "monster_number": "242032507394573705473883124856982676368",
+      "shard": 55,
+      "j_invariant": 10829364,
+      "dna": "AATGCAGATGGAACGTGTGA",
+      "score": 35.0
+    },
+    {
+      "name": "Point",
+      "source": "unity/animation-library",
+      "frames": 3,
+      "monster_number": "1738255416796881377710536219417870986",
+      "shard": 55,
+      "j_invariant": 10829364,
+      "dna": "GGAGGAAGCTTTTATTTTAG",
+      "score": 35.0
+    },
+    {
+      "name": "Salute",
+      "source": "vrchat/avatar-dynamics",
+      "frames": 2,
+      "monster_number": "232309169998074600657773561299706740629",
+      "shard": 30,
+      "j_invariant": 5907264,
+      "dna": "TTTGCCCTGTGGTGGCAATA",
+      "score": 35.0
+    },
+    {
+      "name": "Wave",
+      "source": "minecraft/player-animations",
+      "frames": 4,
+      "monster_number": "312762469279713374170259915097250601509",
+      "shard": 35,
+      "j_invariant": 6891684,
+      "dna": "TTGAGGTAGGAGGGATTGGT",
+      "score": 32.5
+    }
+  ],
+  "winners": [
+    {
+      "place": 1,
+      "prize": 71000,
+      "category": "Grand Prize",
+      "winner": "Default Dance",
+      "score": 55.0
+    },
+    {
+      "place": 2,
+      "prize": 23000,
+      "category": "Second Place",
+      "winner": "Dab",
+      "score": 50.0
+    },
+    {
+      "place": 3,
+      "prize": 10000,
+      "category": "Third Place",
+      "winner": "Clap",
+      "score": 50.0
+    },
+    {
+      "place": 4,
+      "prize": 5000,
+      "category": "Best Symmetry",
+      "winner": "Dance Moves",
+      "score": 50.0
+    },
+    {
+      "place": 5,
+      "prize": 5000,
+      "category": "Best DNA",
+      "winner": "Floss",
+      "score": 35.0
+    },
+    {
+      "place": 6,
+      "prize": 5000,
+      "category": "Best LMFDB",
+      "winner": "Orange Justice",
+      "score": 35.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "agents": "0-17",
+    "disability": "Visual",
+    "mode": 0,
+    "vector": 19,
+    "verified": true
+  },
+  {
+    "agents": "18-35",
+    "disability": "Auditory",
+    "mode": 1,
+    "vector": 23,
+    "verified": true
+  },
+  {
+    "agents": "36-53",
+    "disability": "Motor",
+    "mode": 2,
+    "vector": 27,
+    "verified": true
+  },
+  {
+    "agents": "54-70",
+    "disability": "Cognitive",
+    "mode": 3,
+    "vector": 31,
+    "verified": true
+  }
+]

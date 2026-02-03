@@ -1,0 +1,209 @@
+{
+  "game": "Mother's Wisdom",
+  "consoles": 5,
+  "accessibility_modes": 4,
+  "total_games": 20,
+  "answer": 17,
+  "results": [
+    {
+      "console": "Arcade",
+      "cpu": "Z80",
+      "year": 1980,
+      "accessibility_mode": "Visual",
+      "agents": "0-17",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Arcade",
+      "cpu": "Z80",
+      "year": 1980,
+      "accessibility_mode": "Auditory",
+      "agents": "18-35",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Arcade",
+      "cpu": "Z80",
+      "year": 1980,
+      "accessibility_mode": "Motor",
+      "agents": "36-53",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Arcade",
+      "cpu": "Z80",
+      "year": 1980,
+      "accessibility_mode": "Cognitive",
+      "agents": "54-70",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "NES",
+      "cpu": "6502",
+      "year": 1983,
+      "accessibility_mode": "Visual",
+      "agents": "0-17",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "NES",
+      "cpu": "6502",
+      "year": 1983,
+      "accessibility_mode": "Auditory",
+      "agents": "18-35",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "NES",
+      "cpu": "6502",
+      "year": 1983,
+      "accessibility_mode": "Motor",
+      "agents": "36-53",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "NES",
+      "cpu": "6502",
+      "year": 1983,
+      "accessibility_mode": "Cognitive",
+      "agents": "54-70",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Sega Master System",
+      "cpu": "Z80",
+      "year": 1985,
+      "accessibility_mode": "Visual",
+      "agents": "0-17",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Sega Master System",
+      "cpu": "Z80",
+      "year": 1985,
+      "accessibility_mode": "Auditory",
+      "agents": "18-35",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Sega Master System",
+      "cpu": "Z80",
+      "year": 1985,
+      "accessibility_mode": "Motor",
+      "agents": "36-53",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Sega Master System",
+      "cpu": "Z80",
+      "year": 1985,
+      "accessibility_mode": "Cognitive",
+      "agents": "54-70",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Genesis",
+      "cpu": "68000",
+      "year": 1988,
+      "accessibility_mode": "Visual",
+      "agents": "0-17",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Genesis",
+      "cpu": "68000",
+      "year": 1988,
+      "accessibility_mode": "Auditory",
+      "agents": "18-35",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Genesis",
+      "cpu": "68000",
+      "year": 1988,
+      "accessibility_mode": "Motor",
+      "agents": "36-53",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Genesis",
+      "cpu": "68000",
+      "year": 1988,
+      "accessibility_mode": "Cognitive",
+      "agents": "54-70",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Game Boy",
+      "cpu": "LR35902",
+      "year": 1989,
+      "accessibility_mode": "Visual",
+      "agents": "0-17",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Game Boy",
+      "cpu": "LR35902",
+      "year": 1989,
+      "accessibility_mode": "Auditory",
+      "agents": "18-35",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Game Boy",
+      "cpu": "LR35902",
+      "year": 1989,
+      "accessibility_mode": "Motor",
+      "agents": "36-53",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    },
+    {
+      "console": "Game Boy",
+      "cpu": "LR35902",
+      "year": 1989,
+      "accessibility_mode": "Cognitive",
+      "agents": "54-70",
+      "rounds_to_win": 7,
+      "answer_found": true,
+      "score": 100
+    }
+  ]
+}

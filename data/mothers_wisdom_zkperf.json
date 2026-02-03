@@ -1,0 +1,77 @@
+{
+  "circuit": {
+    "name": "MothersWisdomCircuit",
+    "version": "1.0",
+    "constraints": [
+      {
+        "type": "range",
+        "signal": "answer",
+        "min": 2,
+        "max": 29,
+        "description": "Answer must be in rhyme_primes"
+      },
+      {
+        "type": "equality",
+        "signal": "answer",
+        "value": 17,
+        "description": "Answer must be 17 (Tiger)"
+      },
+      {
+        "type": "range",
+        "signal": "time_ns",
+        "min": 0,
+        "max": 1000,
+        "description": "Execution time must be < 1\u03bcs"
+      },
+      {
+        "type": "equality",
+        "signal": "cusp",
+        "value": 71,
+        "description": "answer * 2 + 37 = 71"
+      },
+      {
+        "type": "range",
+        "signal": "cycles",
+        "min": 1,
+        "max": 1000,
+        "description": "CPU cycles must be reasonable"
+      }
+    ],
+    "public_inputs": [
+      "answer",
+      "time_ns"
+    ],
+    "private_inputs": [
+      "rhyme_primes",
+      "answer_index"
+    ],
+    "outputs": [
+      "commitment",
+      "verified"
+    ]
+  },
+  "single_proof": {
+    "commitment": "195989e2337673921f823c5af5d200ea220bffb6eb3e819416e53ca024d70ce6",
+    "answer": 17,
+    "time_ns": 315.0198608636856,
+    "cycles": 100,
+    "instructions": 3,
+    "cache_refs": 1,
+    "cache_misses": 0,
+    "verified": true
+  },
+  "all_agents": {
+    "merkle_root": "481055e464aad77806d2886e33d81965457277f45e4d8761c3cbf5a762d165c3",
+    "total_agents": 71,
+    "all_verified": true
+  },
+  "statistics": {
+    "avg_time_ns": 52.20079427243958,
+    "min_time_ns": 45.98405212163925,
+    "max_time_ns": 120.0241968035698,
+    "all_under_1us": true
+  },
+  "answer": 17,
+  "cusp_proof": true,
+  "j_invariant": 3347772
+}

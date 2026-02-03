@@ -1,0 +1,81 @@
+{
+  "game": "Q*bert",
+  "shard": 17,
+  "path": [
+    {
+      "step": 1,
+      "position": [
+        1,
+        0
+      ],
+      "cubes_changed": 1,
+      "monster_coord": 1101,
+      "direction": "down-left"
+    },
+    {
+      "step": 2,
+      "position": [
+        2,
+        1
+      ],
+      "cubes_changed": 2,
+      "monster_coord": 1212,
+      "direction": "down-right"
+    },
+    {
+      "step": 3,
+      "position": [
+        3,
+        1
+      ],
+      "cubes_changed": 3,
+      "monster_coord": 1313,
+      "direction": "down-left"
+    },
+    {
+      "step": 4,
+      "position": [
+        4,
+        2
+      ],
+      "cubes_changed": 4,
+      "monster_coord": 1424,
+      "direction": "down-right"
+    },
+    {
+      "step": 5,
+      "position": [
+        5,
+        3
+      ],
+      "cubes_changed": 5,
+      "monster_coord": 1535,
+      "direction": "down-right"
+    },
+    {
+      "step": 6,
+      "position": [
+        6,
+        3
+      ],
+      "cubes_changed": 6,
+      "monster_coord": 1636,
+      "direction": "down-left"
+    }
+  ],
+  "statistics": {
+    "total_steps": 6,
+    "cubes_changed": 6,
+    "final_position": [
+      6,
+      3
+    ],
+    "final_monster_coord": 1636,
+    "trace_sum": 8221,
+    "trace_avg": 1370.1666666666667,
+    "trace_mod_monster": 8221
+  },
+  "hecke_eigenvalues": [
+    578.0357142857143
+  ]
+}

@@ -1,0 +1,641 @@
+[
+  {
+    "agent": "Agent_00_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_01_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_02_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_03_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_04_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_05_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_06_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_07_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_08_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_09_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_10_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_11_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_12_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_13_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_14_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_15_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_16_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_17_Visual",
+    "disability": "visual",
+    "browser": "lynx",
+    "interface": "text_only",
+    "controls": "keyboard",
+    "output": "audio_description",
+    "game_text": "\n        Welcome to Mother's Wisdom.\n        You are at the Time Dial.\n        Current year: 2026.\n        Press up arrow to go forward in time.\n        Press down arrow to go backward in time.\n        Press enter to select a game.\n        Available games: Mother's Wisdom, Monster Market, Hecke Resonance, Triple Walk.\n        Mother's Wisdom is highlighted.\n        Press space to play.\n        The game asks: Which prime number is the very best one?\n        Options: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 47, 59, 71.\n        Press 1 through 9 to select.\n        Mother says: The very best one is 17.\n        "
+  },
+  {
+    "agent": "Agent_18_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_19_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_20_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_21_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_22_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_23_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_24_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_25_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_26_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_27_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_28_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_29_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_30_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_31_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_32_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_33_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_34_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_35_Auditory",
+    "disability": "auditory",
+    "browser": "firefox",
+    "interface": "visual_enhanced",
+    "controls": "keyboard_mouse",
+    "output": "captions_subtitles",
+    "game_text": "\n        [Time Dial appears on screen]\n        [Year display shows: 2026]\n        [Game list appears]\n        [Mother's Wisdom is highlighted]\n        [Selection sound]\n        [Game starts]\n        [Question appears: \"Which prime is the very best one?\"]\n        [15 buttons appear with prime numbers]\n        [Button 17 glows]\n        [Mother's voice: \"The very best one is 17\"]\n        [Victory sound]\n        "
+  },
+  {
+    "agent": "Agent_36_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_37_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_38_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_39_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_40_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_41_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_42_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_43_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_44_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_45_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_46_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_47_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_48_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_49_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_50_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_51_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_52_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_53_Motor",
+    "disability": "motor",
+    "browser": "emacs",
+    "interface": "voice_activated",
+    "controls": "voice_eye_tracking",
+    "output": "visual_audio",
+    "game_text": "\n        Say \"forward\" to increase year\n        Say \"backward\" to decrease year\n        Say \"select\" to choose game\n        Say \"play\" to start\n        Say \"seventeen\" to pick the best prime\n        Say \"quit\" to exit\n        "
+  },
+  {
+    "agent": "Agent_54_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_55_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_56_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_57_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_58_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_59_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_60_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_61_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_62_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_63_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_64_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_65_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_66_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_67_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_68_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_69_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  },
+  {
+    "agent": "Agent_70_Cognitive",
+    "disability": "cognitive",
+    "browser": "firefox",
+    "interface": "simplified",
+    "controls": "guided",
+    "output": "step_by_step",
+    "game_text": "\n        Step 1: Look at the time dial\n        Step 2: The year is 2026\n        Step 3: See the list of games\n        Step 4: Mother's Wisdom is first\n        Step 5: Click on it\n        Step 6: The game asks a question\n        Step 7: Pick number 17\n        Step 8: You win!\n        "
+  }
+]

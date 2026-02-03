@@ -1,0 +1,499 @@
+[
+  {
+    "agent_id": 0,
+    "accessibility_mode": 0,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 1,
+    "accessibility_mode": 0,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 2,
+    "accessibility_mode": 0,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 3,
+    "accessibility_mode": 0,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 4,
+    "accessibility_mode": 0,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 5,
+    "accessibility_mode": 0,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 6,
+    "accessibility_mode": 0,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 7,
+    "accessibility_mode": 0,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 8,
+    "accessibility_mode": 0,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 9,
+    "accessibility_mode": 0,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 10,
+    "accessibility_mode": 0,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 11,
+    "accessibility_mode": 0,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 12,
+    "accessibility_mode": 0,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 13,
+    "accessibility_mode": 0,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 14,
+    "accessibility_mode": 0,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 15,
+    "accessibility_mode": 0,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 16,
+    "accessibility_mode": 0,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 17,
+    "accessibility_mode": 0,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 18,
+    "accessibility_mode": 1,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 19,
+    "accessibility_mode": 1,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 20,
+    "accessibility_mode": 1,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 21,
+    "accessibility_mode": 1,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 22,
+    "accessibility_mode": 1,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 23,
+    "accessibility_mode": 1,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 24,
+    "accessibility_mode": 1,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 25,
+    "accessibility_mode": 1,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 26,
+    "accessibility_mode": 1,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 27,
+    "accessibility_mode": 1,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 28,
+    "accessibility_mode": 1,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 29,
+    "accessibility_mode": 1,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 30,
+    "accessibility_mode": 1,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 31,
+    "accessibility_mode": 1,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 32,
+    "accessibility_mode": 1,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 33,
+    "accessibility_mode": 1,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 34,
+    "accessibility_mode": 1,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 35,
+    "accessibility_mode": 1,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 36,
+    "accessibility_mode": 2,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 37,
+    "accessibility_mode": 2,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 38,
+    "accessibility_mode": 2,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 39,
+    "accessibility_mode": 2,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 40,
+    "accessibility_mode": 2,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 41,
+    "accessibility_mode": 2,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 42,
+    "accessibility_mode": 2,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 43,
+    "accessibility_mode": 2,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 44,
+    "accessibility_mode": 2,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 45,
+    "accessibility_mode": 2,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 46,
+    "accessibility_mode": 2,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 47,
+    "accessibility_mode": 2,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 48,
+    "accessibility_mode": 2,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 49,
+    "accessibility_mode": 2,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 50,
+    "accessibility_mode": 2,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 51,
+    "accessibility_mode": 2,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 52,
+    "accessibility_mode": 2,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 53,
+    "accessibility_mode": 2,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 54,
+    "accessibility_mode": 3,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 55,
+    "accessibility_mode": 3,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 56,
+    "accessibility_mode": 3,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 57,
+    "accessibility_mode": 3,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 58,
+    "accessibility_mode": 3,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 59,
+    "accessibility_mode": 3,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 60,
+    "accessibility_mode": 3,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 61,
+    "accessibility_mode": 3,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 62,
+    "accessibility_mode": 3,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 63,
+    "accessibility_mode": 3,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 64,
+    "accessibility_mode": 3,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 65,
+    "accessibility_mode": 3,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 66,
+    "accessibility_mode": 3,
+    "console": "NES",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 67,
+    "accessibility_mode": 3,
+    "console": "Sega Master System",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 68,
+    "accessibility_mode": 3,
+    "console": "Genesis",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 69,
+    "accessibility_mode": 3,
+    "console": "Game Boy",
+    "answer_found": true,
+    "rounds": 7
+  },
+  {
+    "agent_id": 70,
+    "accessibility_mode": 3,
+    "console": "Arcade",
+    "answer_found": true,
+    "rounds": 7
+  }
+]

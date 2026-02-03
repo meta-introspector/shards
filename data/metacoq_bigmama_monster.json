@@ -1,0 +1,673 @@
+{
+  "total_forms": 99,
+  "unique_shards": 50,
+  "shard_distribution": [
+    1,
+    3,
+    1,
+    0,
+    3,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0,
+    3,
+    0,
+    1,
+    4,
+    2,
+    1,
+    1,
+    1,
+    3,
+    0,
+    0,
+    2,
+    2,
+    0,
+    3,
+    0,
+    3,
+    2,
+    0,
+    1,
+    4,
+    1,
+    2,
+    0,
+    2,
+    1,
+    3,
+    0,
+    4,
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    2,
+    1,
+    1,
+    2,
+    4,
+    0,
+    1,
+    4,
+    1,
+    3,
+    0,
+    0,
+    0,
+    2,
+    1
+  ],
+  "forms": [
+    {
+      "name": "BigMama",
+      "definition": "(Prod Global_env Term)",
+      "shard": 47,
+      "j_invariant": 9254292
+    },
+    {
+      "name": "Global_env",
+      "definition": "Mk_global_env T35 Global_declarations T37",
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "name": "Global_decl",
+      "definition": "ConstantDecl Constant_body  | InductiveDecl Mutual_inductive_body",
+      "shard": 16,
+      "j_invariant": 3150888
+    },
+    {
+      "name": "MutualInductiveBody",
+      "definition": "Build_mutual_inductive_body\nRecursivity_kind Nat Context (List One_inductive_body) Universes_decl (O",
+      "shard": 60,
+      "j_invariant": 11813784
+    },
+    {
+      "name": "UniversesDecl",
+      "definition": "Monomorphic_ctx  | Polymorphic_ctx T34  not used \n\n\n#+begin_src output\nLet's rewrite and interpret t",
+      "shard": 7,
+      "j_invariant": 1378932
+    },
+    {
+      "name": "T_",
+      "definition": "Lzero\n | Level MyString\n | Lvar Nat\n  deriving (\n    Generic\n    ,Show\n    , Lift\n--    ,GQLType\n   ",
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "name": "Bool",
+      "definition": "True\n | False\n  deriving (Generic,\n            Show,\n             Lift,\n            Data, Typeable)",
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "name": "MyString",
+      "definition": "EmptyString\n-- | MyString2 Byte MyString\n | String Byte MyString\n  deriving ( Generic, Show,\n       ",
+      "shard": 63,
+      "j_invariant": 12404436
+    },
+    {
+      "name": "Nat",
+      "definition": "O\n  | S Nat\n  deriving ( Generic, Show,Lift,  Data, Typeable)\n--instance GTraversable c Nat\nfoldNat ",
+      "shard": 52,
+      "j_invariant": 10238712
+    },
+    {
+      "name": "N",
+      "definition": "N0\n  | Npos Positive\n  deriving ( Generic, Show,Lift, --GQLType,\n             Data, Typeable)",
+      "shard": 59,
+      "j_invariant": 11616900
+    },
+    {
+      "name": "Positive",
+      "definition": "XI Positive\n  | XO Positive\n  | XH\n  deriving ( Generic, Show,Lift, --GQLType,\n             Data, Ty",
+      "shard": 0,
+      "j_invariant": 744
+    },
+    {
+      "name": "Comparison",
+      "definition": "Eq\n | Lt\n | Gt\n  deriving ( Generic, Show,Lift, --GQLType,\n             Data, Typeable)\n\ncompare10 :",
+      "shard": 60,
+      "j_invariant": 11813784
+    },
+    {
+      "name": "Tree0",
+      "definition": "Leaf0\n | Node0 T0 Tree0 (T25) Tree0\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)\n\n",
+      "shard": 58,
+      "j_invariant": 11420016
+    },
+    {
+      "name": "T13",
+      "definition": "LSProp\n | LProp\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 54,
+      "j_invariant": 10632480
+    },
+    {
+      "name": "Modpath",
+      "definition": "MPfile Dirpath\n | MPbound Dirpath Ident Nat\n | MPdot Modpath Ident\n deriving ( Generic, Show, Lift,\n",
+      "shard": 69,
+      "j_invariant": 13585740
+    },
+    {
+      "name": "TNumRel_3",
+      "definition": "T_3",
+      "shard": 28,
+      "j_invariant": 5513496
+    },
+    {
+      "name": "T_3",
+      "definition": "Le Z\n | Eq0\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "name": "Name",
+      "definition": "NAnon\n | NNamed Ident\n          deriving ( Generic, Show, Lift,\n                     Data, Typeable)",
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "name": "Relevance",
+      "definition": "Relevant\n | Irrelevant\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 10,
+      "j_invariant": 1969584
+    },
+    {
+      "name": "CastKind",
+      "definition": "VmCast\n | NativeCast\n | Cast\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 69,
+      "j_invariant": 13585740
+    },
+    {
+      "name": "Inductive",
+      "definition": "MkInd Kername Nat\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 26,
+      "j_invariant": 5119728
+    },
+    {
+      "name": "CaseInfo",
+      "definition": "Mk_case_info Inductive Nat Relevance\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 25,
+      "j_invariant": 4922844
+    },
+    {
+      "name": "RecursivityKind",
+      "definition": "Finite\n | CoFinite\n | BiFinite\n deriving ( Generic, Show, Lift,\n            Data, Typeable)",
+      "shard": 70,
+      "j_invariant": 13782624
+    },
+    {
+      "name": "Projection",
+      "definition": "MkProjection Inductive Nat Nat\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 40,
+      "j_invariant": 7876104
+    },
+    {
+      "name": "Term",
+      "definition": "TRel Nat\n | TVar Ident\n | TEvar Nat (List Term)\n | TSort T23\n | TCast Term Cast_kind Term\n | TProd A",
+      "shard": 28,
+      "j_invariant": 5513496
+    },
+    {
+      "name": "Constant_body",
+      "definition": "Build_constant_body Term (Option Term) Universes_decl Relevance\n  deriving ( Generic, Show, Lift,\n  ",
+      "shard": 1,
+      "j_invariant": 197628
+    },
+    {
+      "name": "T36",
+      "definition": "Irrelevant0\n | Covariant\n | Invariant\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 21,
+      "j_invariant": 4135308
+    },
+    {
+      "name": "Constructor_body",
+      "definition": "Build_constructor_body Ident Context (List Term) Term Nat\n deriving ( Generic, Show, Lift,\n         ",
+      "shard": 56,
+      "j_invariant": 11026248
+    },
+    {
+      "name": "T_2",
+      "definition": "LProp0\n | LSProp0\n | LType T22\n deriving ( Generic, Show, Lift,\n            Data, Typeable)",
+      "shard": 65,
+      "j_invariant": 12798204
+    },
+    {
+      "name": "Allowed_eliminations",
+      "definition": "IntoSProp\n | IntoPropSProp\n | IntoSetPropSProp\n | IntoAny\n deriving ( Generic, Show, Lift,\n         ",
+      "shard": 14,
+      "j_invariant": 2757120
+    },
+    {
+      "name": "Projection_body",
+      "definition": "Build_projection_body Ident Relevance Term\n deriving ( Generic, Show, Lift,\n            Data, Typeab",
+      "shard": 39,
+      "j_invariant": 7679220
+    },
+    {
+      "name": "One_inductive_body",
+      "definition": "Build_one_inductive_body Ident Context T23 Term Allowed_eliminations \n (List Constructor_body) (List",
+      "shard": 12,
+      "j_invariant": 2363352
+    },
+    {
+      "name": "Z",
+      "definition": "Z0\n | Zpos Positive\n | Zneg Positive\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 35,
+      "j_invariant": 6891684
+    },
+    {
+      "name": "Tree",
+      "definition": "Leaf\n | Node T0 Tree T_ Tree\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 11,
+      "j_invariant": 2166468
+    },
+    {
+      "name": "T37",
+      "definition": "Mk_retroknowledge OKername OKername\n  deriving ( Generic, Show, Lift,\n             Data, Typeable)",
+      "shard": 7,
+      "j_invariant": 1378932
+    },
+    {
+      "name": "Byte",
+      "definition": "X00\n | X01\n | X02\n | X03\n | X04\n | X05\n | X06\n | X07\n | X08\n | X09\n | X0a\n | X0b\n | X0c\n | X0d\n | X0",
+      "shard": 25,
+      "j_invariant": 4922844
+    },
+    {
+      "name": "BigMama",
+      "definition": "(Prod Global_env Term)",
+      "shard": 47,
+      "j_invariant": 9254292
+    },
+    {
+      "name": "Global_declarations",
+      "definition": "List (TGlobalDeclaration)",
+      "shard": 63,
+      "j_invariant": 12404436
+    },
+    {
+      "name": "TGlobalDeclaration",
+      "definition": "Prod Kername Global_decl",
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "name": "Mutual_inductive_body",
+      "definition": "MutualInductiveBody",
+      "shard": 45,
+      "j_invariant": 8860524
+    },
+    {
+      "name": "Universes_decl",
+      "definition": "UniversesDecl",
+      "shard": 14,
+      "j_invariant": 2757120
+    },
+    {
+      "name": "TNumRel_25",
+      "definition": "T25",
+      "shard": 31,
+      "j_invariant": 6104148
+    },
+    {
+      "name": "T25",
+      "definition": "Prod T25S T3",
+      "shard": 19,
+      "j_invariant": 3741540
+    },
+    {
+      "name": "UniversalLevel",
+      "definition": "T_ -- this links the one model back to the other.",
+      "shard": 50,
+      "j_invariant": 9844944
+    },
+    {
+      "name": "Elt0",
+      "definition": "T_",
+      "shard": 65,
+      "j_invariant": 12798204
+    },
+    {
+      "name": "T0",
+      "definition": "Z",
+      "shard": 53,
+      "j_invariant": 10435596
+    },
+    {
+      "name": "Elt4",
+      "definition": "Prod (Prod T3 T24) T3",
+      "shard": 30,
+      "j_invariant": 5907264
+    },
+    {
+      "name": "T25S",
+      "definition": "Prod T3 T24",
+      "shard": 42,
+      "j_invariant": 8269872
+    },
+    {
+      "name": "T14",
+      "definition": "Prod T3 Nat",
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "name": "Elt2",
+      "definition": "T14",
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "name": "Ident",
+      "definition": "MyString",
+      "shard": 28,
+      "j_invariant": 5513496
+    },
+    {
+      "name": "Dirpath",
+      "definition": "List Ident",
+      "shard": 18,
+      "j_invariant": 3544656
+    },
+    {
+      "name": "Kername",
+      "definition": "Prod Modpath Ident",
+      "shard": 36,
+      "j_invariant": 7088568
+    },
+    {
+      "name": "OKername",
+      "definition": "Option Kername",
+      "shard": 57,
+      "j_invariant": 11223132
+    },
+    {
+      "name": "T33",
+      "definition": "List T3",
+      "shard": 36,
+      "j_invariant": 7088568
+    },
+    {
+      "name": "T3",
+      "definition": "T_",
+      "shard": 51,
+      "j_invariant": 10041828
+    },
+    {
+      "name": "T34",
+      "definition": "Prod (List Name) T32",
+      "shard": 31,
+      "j_invariant": 6104148
+    },
+    {
+      "name": "T_4",
+      "definition": "T26",
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "name": "TNumRel_syn_24",
+      "definition": "T24",
+      "shard": 40,
+      "j_invariant": 7876104
+    },
+    {
+      "name": "T24",
+      "definition": "T_3",
+      "shard": 12,
+      "j_invariant": 2363352
+    },
+    {
+      "name": "TTree_26",
+      "definition": "T26",
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "name": "T26",
+      "definition": "Tree0",
+      "shard": 5,
+      "j_invariant": 985164
+    },
+    {
+      "name": "T32",
+      "definition": "T_4",
+      "shard": 30,
+      "j_invariant": 5907264
+    },
+    {
+      "name": "T35",
+      "definition": "Prod T10 T32",
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "name": "Aname",
+      "definition": "Binder_annot Name",
+      "shard": 2,
+      "j_invariant": 394512
+    },
+    {
+      "name": "Cast_kind",
+      "definition": "CastKind",
+      "shard": 33,
+      "j_invariant": 6497916
+    },
+    {
+      "name": "Case_info",
+      "definition": "CaseInfo",
+      "shard": 1,
+      "j_invariant": 197628
+    },
+    {
+      "name": "Recursivity_kind",
+      "definition": "RecursivityKind",
+      "shard": 56,
+      "j_invariant": 11026248
+    },
+    {
+      "name": "Context",
+      "definition": "List (Context_decl Term)",
+      "shard": 5,
+      "j_invariant": 985164
+    },
+    {
+      "name": "T22",
+      "definition": "NonEmptyLevelExprSet",
+      "shard": 1,
+      "j_invariant": 197628
+    },
+    {
+      "name": "Elt1",
+      "definition": "T14",
+      "shard": 38,
+      "j_invariant": 7482336
+    },
+    {
+      "name": "T18",
+      "definition": "List Elt1",
+      "shard": 60,
+      "j_invariant": 11813784
+    },
+    {
+      "name": "T_1",
+      "definition": "T18",
+      "shard": 9,
+      "j_invariant": 1772700
+    },
+    {
+      "name": "T21",
+      "definition": "T_1",
+      "shard": 63,
+      "j_invariant": 12404436
+    },
+    {
+      "name": "T23",
+      "definition": "T_2",
+      "shard": 26,
+      "j_invariant": 5119728
+    },
+    {
+      "name": "T4",
+      "definition": "Tree",
+      "shard": 11,
+      "j_invariant": 2166468
+    },
+    {
+      "name": "T_0",
+      "definition": "T4",
+      "shard": 59,
+      "j_invariant": 11616900
+    },
+    {
+      "name": "T10",
+      "definition": "T_0",
+      "shard": 54,
+      "j_invariant": 10632480
+    },
+    {
+      "name": "T32",
+      "definition": "T_4",
+      "shard": 30,
+      "j_invariant": 5907264
+    },
+    {
+      "name": "T35",
+      "definition": "Prod T10 T32",
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "name": "ListIdent",
+      "definition": "Dirpath",
+      "shard": 63,
+      "j_invariant": 12404436
+    },
+    {
+      "name": "ListTerm",
+      "definition": "List Term",
+      "shard": 38,
+      "j_invariant": 7482336
+    },
+    {
+      "name": "ListT3",
+      "definition": "List T3",
+      "shard": 42,
+      "j_invariant": 8269872
+    },
+    {
+      "name": "ListAname",
+      "definition": "List Aname",
+      "shard": 64,
+      "j_invariant": 12601320
+    },
+    {
+      "name": "BranchTerm",
+      "definition": "Branch Term",
+      "shard": 60,
+      "j_invariant": 11813784
+    },
+    {
+      "name": "ListBranchTerm",
+      "definition": "List BranchTerm",
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "name": "DefTerm",
+      "definition": "Def Term",
+      "shard": 40,
+      "j_invariant": 7876104
+    },
+    {
+      "name": "ListDefTerm",
+      "definition": "List DefTerm",
+      "shard": 52,
+      "j_invariant": 10238712
+    },
+    {
+      "name": "PredicateTerm",
+      "definition": "Predicate Term",
+      "shard": 65,
+      "j_invariant": 12798204
+    },
+    {
+      "name": "ListElt1",
+      "definition": "List Elt1",
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "name": "OptionTerm",
+      "definition": "Option Term",
+      "shard": 42,
+      "j_invariant": 8269872
+    },
+    {
+      "name": "Context_declTerm",
+      "definition": "Context_decl Term",
+      "shard": 43,
+      "j_invariant": 8466756
+    },
+    {
+      "name": "ListContext_declTerm",
+      "definition": "List Context_declTerm",
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "name": "BinderAnnotName",
+      "definition": "BinderAnnot Name",
+      "shard": 62,
+      "j_invariant": 12207552
+    },
+    {
+      "name": "ListProjection_body",
+      "definition": "List Projection_body",
+      "shard": 14,
+      "j_invariant": 2757120
+    },
+    {
+      "name": "ListConstructor_body",
+      "definition": "List Constructor_body",
+      "shard": 18,
+      "j_invariant": 3544656
+    },
+    {
+      "name": "ListT3",
+      "definition": "List T3",
+      "shard": 42,
+      "j_invariant": 8269872
+    },
+    {
+      "name": "OptionListT36",
+      "definition": "Option ListT36",
+      "shard": 45,
+      "j_invariant": 8860524
+    },
+    {
+      "name": "ListT36",
+      "definition": "List T36",
+      "shard": 50,
+      "j_invariant": 9844944
+    }
+  ]
+}

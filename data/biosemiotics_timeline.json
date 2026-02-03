@@ -1,0 +1,141 @@
+{
+  "timeline": [
+    {
+      "year": 1864,
+      "event": "Jakob von Uexk\u00fcll born",
+      "person": "Jakob von Uexk\u00fcll",
+      "wikidata_id": "Q76944",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "j_invariant": 10041828
+    },
+    {
+      "year": 1909,
+      "event": "Umwelt concept introduced",
+      "person": "Jakob von Uexk\u00fcll",
+      "wikidata_id": "Q76944",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "j_invariant": 10041828
+    },
+    {
+      "year": 1920,
+      "event": "Theoretical Biology published",
+      "person": "Jakob von Uexk\u00fcll",
+      "wikidata_id": "Q76944",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "j_invariant": 10041828
+    },
+    {
+      "year": 1928,
+      "event": "Thomas Sebeok born",
+      "person": "Thomas Sebeok",
+      "wikidata_id": "Q983655",
+      "shard": 21,
+      "muse": "Euterpe",
+      "j_invariant": 4135308
+    },
+    {
+      "year": 1963,
+      "event": "Zoosemiotics coined",
+      "person": "Thomas Sebeok",
+      "wikidata_id": "Q983655",
+      "shard": 21,
+      "muse": "Euterpe",
+      "j_invariant": 4135308
+    },
+    {
+      "year": 1977,
+      "event": "Biosemiotics term revived",
+      "person": "Thomas Sebeok",
+      "wikidata_id": "Q983655",
+      "shard": 21,
+      "muse": "Euterpe",
+      "j_invariant": 4135308
+    },
+    {
+      "year": 1999,
+      "event": "International Society for Biosemiotic Studies founded",
+      "person": "Jesper Hoffmeyer",
+      "wikidata_id": "Q6187238",
+      "shard": 14,
+      "muse": "Polyhymnia",
+      "j_invariant": 2757120
+    },
+    {
+      "year": 2001,
+      "event": "Signs of Meaning in the Universe",
+      "person": "Jesper Hoffmeyer",
+      "wikidata_id": "Q6187238",
+      "shard": 14,
+      "muse": "Polyhymnia",
+      "j_invariant": 2757120
+    },
+    {
+      "year": 2002,
+      "event": "Biosemiotics journal founded",
+      "person": "Kalevi Kull",
+      "wikidata_id": "Q16403692",
+      "shard": 65,
+      "muse": "Erato",
+      "j_invariant": 12798204
+    },
+    {
+      "year": 2008,
+      "event": "Gatherings in Biosemiotics",
+      "person": "Multiple",
+      "wikidata_id": "Q4966730",
+      "shard": 67,
+      "muse": "Melpomene",
+      "j_invariant": 13191972
+    }
+  ],
+  "figures": {
+    "Jakob von Uexk\u00fcll": {
+      "qid": "Q76944",
+      "shard": 51,
+      "muse": "Terpsichore",
+      "events": [
+        1864,
+        1909,
+        1920
+      ]
+    },
+    "Thomas Sebeok": {
+      "qid": "Q983655",
+      "shard": 21,
+      "muse": "Euterpe",
+      "events": [
+        1928,
+        1963,
+        1977
+      ]
+    },
+    "Jesper Hoffmeyer": {
+      "qid": "Q6187238",
+      "shard": 14,
+      "muse": "Polyhymnia",
+      "events": [
+        1999,
+        2001
+      ]
+    },
+    "Kalevi Kull": {
+      "qid": "Q16403692",
+      "shard": 65,
+      "muse": "Erato",
+      "events": [
+        2002
+      ]
+    },
+    "Multiple": {
+      "qid": "Q4966730",
+      "shard": 67,
+      "muse": "Melpomene",
+      "events": [
+        2008
+      ]
+    }
+  }
+}

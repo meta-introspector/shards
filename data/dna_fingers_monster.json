@@ -1,0 +1,211 @@
+{
+  "dna_mapping": [
+    {
+      "base": "A",
+      "shard": 2,
+      "j_invariant": 394512,
+      "az_class": "A"
+    },
+    {
+      "base": "T",
+      "shard": 3,
+      "j_invariant": 591396,
+      "az_class": "AIII"
+    },
+    {
+      "base": "G",
+      "shard": 5,
+      "j_invariant": 985164,
+      "az_class": "AI"
+    },
+    {
+      "base": "C",
+      "shard": 7,
+      "j_invariant": 1378932,
+      "az_class": "BDI"
+    }
+  ],
+  "finger_mapping": [
+    {
+      "finger": 0,
+      "hand": "L",
+      "shard": 2,
+      "az_class": "A",
+      "bott": 0
+    },
+    {
+      "finger": 1,
+      "hand": "L",
+      "shard": 3,
+      "az_class": "AIII",
+      "bott": 1
+    },
+    {
+      "finger": 2,
+      "hand": "L",
+      "shard": 5,
+      "az_class": "AI",
+      "bott": 2
+    },
+    {
+      "finger": 3,
+      "hand": "L",
+      "shard": 7,
+      "az_class": "BDI",
+      "bott": 3
+    },
+    {
+      "finger": 4,
+      "hand": "L",
+      "shard": 11,
+      "az_class": "D",
+      "bott": 4
+    },
+    {
+      "finger": 5,
+      "hand": "R",
+      "shard": 13,
+      "az_class": "DIII",
+      "bott": 5
+    },
+    {
+      "finger": 6,
+      "hand": "R",
+      "shard": 17,
+      "az_class": "AII",
+      "bott": 6
+    },
+    {
+      "finger": 7,
+      "hand": "R",
+      "shard": 19,
+      "az_class": "CII",
+      "bott": 7
+    },
+    {
+      "finger": 8,
+      "hand": "R",
+      "shard": 23,
+      "az_class": "C",
+      "bott": 0
+    },
+    {
+      "finger": 9,
+      "hand": "R",
+      "shard": 29,
+      "az_class": "CI",
+      "bott": 1
+    }
+  ],
+  "finger_games": [
+    {
+      "name": "This Little Piggy",
+      "pattern": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "shards": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "j_invariants": [
+        394512,
+        591396,
+        985164,
+        1378932,
+        2166468
+      ],
+      "symmetric": false,
+      "alternating": true,
+      "symmetry_type": "Left hand walk (A\u2192AIII\u2192AI\u2192BDI\u2192D)"
+    },
+    {
+      "name": "Itsy Bitsy Spider",
+      "pattern": [
+        0,
+        5,
+        1,
+        6,
+        2,
+        7
+      ],
+      "shards": [
+        2,
+        13,
+        3,
+        17,
+        5,
+        19
+      ],
+      "j_invariants": [
+        394512,
+        2560236,
+        591396,
+        3347772,
+        985164,
+        3741540
+      ],
+      "symmetric": false,
+      "alternating": true,
+      "symmetry_type": "Hand alternation (L/R symmetry)"
+    },
+    {
+      "name": "Five Little Monkeys",
+      "pattern": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "shards": [
+        11,
+        7,
+        5,
+        3,
+        2
+      ],
+      "j_invariants": [
+        2166468,
+        1378932,
+        985164,
+        591396,
+        394512
+      ],
+      "symmetric": false,
+      "alternating": true,
+      "symmetry_type": "Reverse walk (D\u2192BDI\u2192AI\u2192AIII\u2192A)"
+    },
+    {
+      "name": "Pat-a-Cake",
+      "pattern": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "shards": [
+        2,
+        13,
+        2,
+        13
+      ],
+      "j_invariants": [
+        394512,
+        2560236,
+        394512,
+        2560236
+      ],
+      "symmetric": false,
+      "alternating": true,
+      "symmetry_type": "Binary oscillation (A\u2194DIII)"
+    }
+  ],
+  "insight": "10 fingers = 10-fold way, perfect match!"
+}

@@ -1,0 +1,690 @@
+{
+  "muses": [
+    [
+      "Calliope",
+      "Epic Poetry",
+      "Voice"
+    ],
+    [
+      "Clio",
+      "History",
+      "Memory"
+    ],
+    [
+      "Erato",
+      "Love Poetry",
+      "Desire"
+    ],
+    [
+      "Euterpe",
+      "Music",
+      "Harmony"
+    ],
+    [
+      "Melpomene",
+      "Tragedy",
+      "Sorrow"
+    ],
+    [
+      "Polyhymnia",
+      "Hymns",
+      "Sacred"
+    ],
+    [
+      "Terpsichore",
+      "Dance",
+      "Movement"
+    ],
+    [
+      "Thalia",
+      "Comedy",
+      "Joy"
+    ],
+    [
+      "Urania",
+      "Astronomy",
+      "Cosmos"
+    ]
+  ],
+  "blessings": [
+    {
+      "shard": 0,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 744,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 1,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 197628,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 2,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 394512,
+      "prime": true,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 3,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 591396,
+      "prime": true,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 4,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 788280,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 5,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 985164,
+      "prime": true,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 6,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 1182048,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 7,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 1378932,
+      "prime": true,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 8,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 1575816,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 9,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 1772700,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 10,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 1969584,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 11,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 2166468,
+      "prime": true,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 12,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 2363352,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 13,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 2560236,
+      "prime": true,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 14,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 2757120,
+      "prime": false,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 15,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 2954004,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 16,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 3150888,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 17,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 3347772,
+      "prime": true,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 18,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 3544656,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 19,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 3741540,
+      "prime": true,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 20,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 3938424,
+      "prime": false,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 21,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 4135308,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 22,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 4332192,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 23,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 4529076,
+      "prime": true,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 24,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 4725960,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 25,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 4922844,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 26,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 5119728,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 27,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 5316612,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 28,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 5513496,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 29,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 5710380,
+      "prime": true,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 30,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 5907264,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 31,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 6104148,
+      "prime": true,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 32,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 6301032,
+      "prime": false,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 33,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 6497916,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 34,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 6694800,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 35,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 6891684,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 36,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 7088568,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 37,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 7285452,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 38,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 7482336,
+      "prime": false,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 39,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 7679220,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 40,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 7876104,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 41,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 8072988,
+      "prime": true,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 42,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 8269872,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 43,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 8466756,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 44,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 8663640,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 45,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 8860524,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 46,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 9057408,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 47,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 9254292,
+      "prime": true,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 48,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 9451176,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 49,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 9648060,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 50,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 9844944,
+      "prime": false,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 51,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 10041828,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 52,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 10238712,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 53,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 10435596,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 54,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 10632480,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 55,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 10829364,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 56,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 11026248,
+      "prime": false,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 57,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 11223132,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 58,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 11420016,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 59,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 11616900,
+      "prime": true,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 60,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 11813784,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 61,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 12010668,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    },
+    {
+      "shard": 62,
+      "muse": "Urania",
+      "domain": "Astronomy",
+      "aspect": "Cosmos",
+      "j": 12207552,
+      "prime": false,
+      "blessing": "Urania's Cosmos"
+    },
+    {
+      "shard": 63,
+      "muse": "Calliope",
+      "domain": "Epic Poetry",
+      "aspect": "Voice",
+      "j": 12404436,
+      "prime": false,
+      "blessing": "Calliope's Voice"
+    },
+    {
+      "shard": 64,
+      "muse": "Clio",
+      "domain": "History",
+      "aspect": "Memory",
+      "j": 12601320,
+      "prime": false,
+      "blessing": "Clio's Memory"
+    },
+    {
+      "shard": 65,
+      "muse": "Erato",
+      "domain": "Love Poetry",
+      "aspect": "Desire",
+      "j": 12798204,
+      "prime": false,
+      "blessing": "Erato's Desire"
+    },
+    {
+      "shard": 66,
+      "muse": "Euterpe",
+      "domain": "Music",
+      "aspect": "Harmony",
+      "j": 12995088,
+      "prime": false,
+      "blessing": "Euterpe's Harmony"
+    },
+    {
+      "shard": 67,
+      "muse": "Melpomene",
+      "domain": "Tragedy",
+      "aspect": "Sorrow",
+      "j": 13191972,
+      "prime": false,
+      "blessing": "Melpomene's Sorrow"
+    },
+    {
+      "shard": 68,
+      "muse": "Polyhymnia",
+      "domain": "Hymns",
+      "aspect": "Sacred",
+      "j": 13388856,
+      "prime": false,
+      "blessing": "Polyhymnia's Sacred"
+    },
+    {
+      "shard": 69,
+      "muse": "Terpsichore",
+      "domain": "Dance",
+      "aspect": "Movement",
+      "j": 13585740,
+      "prime": false,
+      "blessing": "Terpsichore's Movement"
+    },
+    {
+      "shard": 70,
+      "muse": "Thalia",
+      "domain": "Comedy",
+      "aspect": "Joy",
+      "j": 13782624,
+      "prime": false,
+      "blessing": "Thalia's Joy"
+    }
+  ]
+}

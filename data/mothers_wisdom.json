@@ -1,0 +1,154 @@
+{
+  "rhyme": [
+    [
+      "Eeny",
+      2,
+      "Start"
+    ],
+    [
+      "Meeny",
+      3,
+      "Continue"
+    ],
+    [
+      "Miny",
+      5,
+      "Choose"
+    ],
+    [
+      "Moe",
+      7,
+      "Point"
+    ],
+    [
+      "Catch",
+      11,
+      "Grasp"
+    ],
+    [
+      "A",
+      13,
+      "Article"
+    ],
+    [
+      "Tiger",
+      17,
+      "The Beast"
+    ],
+    [
+      "By",
+      19,
+      "Method"
+    ],
+    [
+      "Its",
+      23,
+      "Possessive"
+    ],
+    [
+      "Toe",
+      29,
+      "Extremity"
+    ],
+    [
+      "If",
+      31,
+      "Condition"
+    ],
+    [
+      "It",
+      41,
+      "Subject"
+    ],
+    [
+      "Hollers",
+      47,
+      "Screams"
+    ],
+    [
+      "Let",
+      59,
+      "Allow"
+    ],
+    [
+      "It",
+      71,
+      "Object"
+    ],
+    [
+      "Go",
+      null,
+      "Release"
+    ],
+    [
+      "My",
+      null,
+      "Possessive"
+    ],
+    [
+      "Mother",
+      null,
+      "Wisdom"
+    ],
+    [
+      "Taught",
+      null,
+      "Instruction"
+    ],
+    [
+      "Me",
+      null,
+      "Student"
+    ],
+    [
+      "To",
+      null,
+      "Infinitive"
+    ],
+    [
+      "Pick",
+      null,
+      "Choose"
+    ],
+    [
+      "The",
+      null,
+      "Article"
+    ],
+    [
+      "Very",
+      null,
+      "Emphasis"
+    ],
+    [
+      "Best",
+      null,
+      "Optimal"
+    ],
+    [
+      "One",
+      null,
+      "Selection"
+    ]
+  ],
+  "scores": {
+    "2": 289.4512,
+    "3": 299.1396,
+    "5": 338.5164,
+    "7": 377.8932,
+    "11": 476.6468,
+    "13": 516.0236,
+    "17": 1614.7772,
+    "19": 614.154,
+    "23": 632.9076,
+    "29": 671.038,
+    "31": 670.4148,
+    "41": 747.2988,
+    "47": 785.4292,
+    "59": 881.69,
+    "71": -419.9256
+  },
+  "best_one": 17,
+  "lesson": "Always pick the one in the middle",
+  "proof": "Mother was right"
+}

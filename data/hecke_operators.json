@@ -1,0 +1,929 @@
+{
+  "total_operators": 348,
+  "files_parsed": 5,
+  "type_distribution": {
+    "file": 5,
+    "bind": 125,
+    "decl": 21,
+    "apply": 197
+  },
+  "prime_distribution": {
+    "T_19": 34,
+    "T_41": 20,
+    "T_29": 34,
+    "T_11": 19,
+    "T_5": 22,
+    "T_2": 15,
+    "T_71": 19,
+    "T_31": 15,
+    "T_13": 45,
+    "T_47": 14,
+    "T_17": 24,
+    "T_59": 19,
+    "T_7": 21,
+    "T_23": 21,
+    "T_3": 26
+  },
+  "operators": [
+    {
+      "artifact_type": "file",
+      "name": "zkberks_frissono.py",
+      "path": "zkberks_frissono.py",
+      "hash": "6c3feca4c9d9f900",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "bind",
+      "name": "SHARDS",
+      "path": "zkberks_frissono.py:6",
+      "hash": "29d30d5d213d51f5",
+      "prime": 41,
+      "shard": 26,
+      "j_invariant": 5119728
+    },
+    {
+      "artifact_type": "bind",
+      "name": "CUSP",
+      "path": "zkberks_frissono.py:7",
+      "hash": "6fb9dffc11459bc5",
+      "prime": 29,
+      "shard": 24,
+      "j_invariant": 4725960
+    },
+    {
+      "artifact_type": "bind",
+      "name": "PRIMES",
+      "path": "zkberks_frissono.py:8",
+      "hash": "9840a39aafaa5780",
+      "prime": 11,
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "artifact_type": "decl",
+      "name": "frisson_frequency",
+      "path": "zkberks_frissono.py:10",
+      "hash": "a943d16c58b7dea3",
+      "prime": 5,
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "artifact_type": "decl",
+      "name": "thermal_signature",
+      "path": "zkberks_frissono.py:14",
+      "hash": "041fbc93db082658",
+      "prime": 11,
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "artifact_type": "apply",
+      "name": "*",
+      "path": "zkberks_frissono.py:17",
+      "hash": "75f5637f658fa766",
+      "prime": 2,
+      "shard": 15,
+      "j_invariant": 2954004
+    },
+    {
+      "artifact_type": "decl",
+      "name": "goosebump_latency",
+      "path": "zkberks_frissono.py:19",
+      "hash": "67f30931960af9e3",
+      "prime": 11,
+      "shard": 64,
+      "j_invariant": 12601320
+    },
+    {
+      "artifact_type": "apply",
+      "name": "frisson",
+      "path": "zkberks_frissono.py:20",
+      "hash": "9ec3d2343996c5f5",
+      "prime": 11,
+      "shard": 49,
+      "j_invariant": 9648060
+    },
+    {
+      "artifact_type": "apply",
+      "name": "*",
+      "path": "zkberks_frissono.py:21",
+      "hash": "065e51ae882daa20",
+      "prime": 71,
+      "shard": 59,
+      "j_invariant": 11616900
+    },
+    {
+      "artifact_type": "decl",
+      "name": "main",
+      "path": "zkberks_frissono.py:23",
+      "hash": "2c4c5b0ebed3de9b",
+      "prime": 19,
+      "shard": 67,
+      "j_invariant": 13191972
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:24",
+      "hash": "1a6644d2a644f4cd",
+      "prime": 31,
+      "shard": 25,
+      "j_invariant": 4922844
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:25",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:26",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:27",
+      "hash": "cb575ba39aec197f",
+      "prime": 19,
+      "shard": 67,
+      "j_invariant": 13191972
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:28",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:31",
+      "hash": "69301d9b4bc61dde",
+      "prime": 11,
+      "shard": 19,
+      "j_invariant": 3741540
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:32",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:33",
+      "hash": "22da04dda9b2147e",
+      "prime": 41,
+      "shard": 11,
+      "j_invariant": 2166468
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:34",
+      "hash": "795ed8d5d17ab837",
+      "prime": 47,
+      "shard": 57,
+      "j_invariant": 11223132
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  71/17",
+      "path": "zkberks_frissono.py:35",
+      "hash": "2bd2c399a52f1814",
+      "prime": 5,
+      "shard": 62,
+      "j_invariant": 12207552
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  17/71",
+      "path": "zkberks_frissono.py:36",
+      "hash": "6f85b7d54e1d815d",
+      "prime": 19,
+      "shard": 37,
+      "j_invariant": 7285452
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:37",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"  71",
+      "path": "zkberks_frissono.py:38",
+      "hash": "7f3fdea5c3027a5b",
+      "prime": 71,
+      "shard": 14,
+      "j_invariant": 2757120
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"  17",
+      "path": "zkberks_frissono.py:39",
+      "hash": "7a9a2baf740ac90a",
+      "prime": 31,
+      "shard": 10,
+      "j_invariant": 1969584
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:40",
+      "hash": "c02e77b85b194f38",
+      "prime": 17,
+      "shard": 6,
+      "j_invariant": 1182048
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:41",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:44",
+      "hash": "807ec436bf9c4a65",
+      "prime": 5,
+      "shard": 2,
+      "j_invariant": 394512
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:45",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:46",
+      "hash": "cbb356211dfd26bf",
+      "prime": 41,
+      "shard": 41,
+      "j_invariant": 8072988
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:47",
+      "hash": "a316deca707b6707",
+      "prime": 47,
+      "shard": 42,
+      "j_invariant": 8269872
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:48",
+      "hash": "35b79f97ada71185",
+      "prime": 59,
+      "shard": 43,
+      "j_invariant": 8466756
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:49",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:50",
+      "hash": "978716fc9751eb4a",
+      "prime": 17,
+      "shard": 36,
+      "j_invariant": 7088568
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:51",
+      "hash": "58e73d4dfca9371a",
+      "prime": 29,
+      "shard": 54,
+      "j_invariant": 10632480
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:52",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:55",
+      "hash": "fc8d532bf4257f01",
+      "prime": 5,
+      "shard": 2,
+      "j_invariant": 394512
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:56",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:57",
+      "hash": "a71f3fefc79421f0",
+      "prime": 7,
+      "shard": 33,
+      "j_invariant": 6497916
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:58",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:59",
+      "hash": "b43b441e8bed9f7e",
+      "prime": 11,
+      "shard": 64,
+      "j_invariant": 12601320
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:60",
+      "hash": "aac7e54cda498790",
+      "prime": 29,
+      "shard": 24,
+      "j_invariant": 4725960
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:61",
+      "hash": "bbdb646e83f42167",
+      "prime": 11,
+      "shard": 64,
+      "j_invariant": 12601320
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:62",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:63",
+      "hash": "4afc379666ed2e92",
+      "prime": 19,
+      "shard": 67,
+      "j_invariant": 13191972
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:64",
+      "hash": "ae097783bd9e840b",
+      "prime": 19,
+      "shard": 7,
+      "j_invariant": 1378932
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:65",
+      "hash": "f99b1f538f1fb9fc",
+      "prime": 71,
+      "shard": 59,
+      "j_invariant": 11616900
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:66",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:67",
+      "hash": "3e173163ce3da36d",
+      "prime": 23,
+      "shard": 23,
+      "j_invariant": 4529076
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:68",
+      "hash": "84fa30dbf4c93cb2",
+      "prime": 59,
+      "shard": 43,
+      "j_invariant": 8466756
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:69",
+      "hash": "31f1ec1a101f1533",
+      "prime": 47,
+      "shard": 27,
+      "j_invariant": 5316612
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:70",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:73",
+      "hash": "7383dd422ebed6ef",
+      "prime": 3,
+      "shard": 61,
+      "j_invariant": 12010668
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:74",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  p",
+      "path": "zkberks_frissono.py:75",
+      "hash": "94206613480707bc",
+      "prime": 5,
+      "shard": 47,
+      "j_invariant": 9254292
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:76",
+      "hash": "f3d0cba43e09716f",
+      "prime": 29,
+      "shard": 69,
+      "j_invariant": 13585740
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  Thermal signature: r",
+      "path": "zkberks_frissono.py:77",
+      "hash": "b54a473331098524",
+      "prime": 47,
+      "shard": 57,
+      "j_invariant": 11223132
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:78",
+      "hash": "b18f26e0c1880721",
+      "prime": 29,
+      "shard": 24,
+      "j_invariant": 4725960
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:79",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:80",
+      "hash": "bc11fad18f4304aa",
+      "prime": 17,
+      "shard": 21,
+      "j_invariant": 4135308
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:81",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:82",
+      "hash": "e2530d59e78784f5",
+      "prime": 17,
+      "shard": 6,
+      "j_invariant": 1182048
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"    G\u00f6del(|\u03a9\u27e9)",
+      "path": "zkberks_frissono.py:83",
+      "hash": "e977822862e88769",
+      "prime": 11,
+      "shard": 4,
+      "j_invariant": 788280
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"    Sound(|\u03a9\u27e9)",
+      "path": "zkberks_frissono.py:84",
+      "hash": "91384f176b38c042",
+      "prime": 3,
+      "shard": 61,
+      "j_invariant": 12010668
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"    Heat(|\u03a9\u27e9)",
+      "path": "zkberks_frissono.py:85",
+      "hash": "be92034999825d17",
+      "prime": 41,
+      "shard": 11,
+      "j_invariant": 2166468
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"    Witness(|\u03a9\u27e9)",
+      "path": "zkberks_frissono.py:86",
+      "hash": "b27e9b309d20999b",
+      "prime": 31,
+      "shard": 70,
+      "j_invariant": 13782624
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:87",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:90",
+      "hash": "d44e1e3a67ee28ec",
+      "prime": 17,
+      "shard": 66,
+      "j_invariant": 12995088
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:91",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  Shard 17",
+      "path": "zkberks_frissono.py:92",
+      "hash": "16e534f440965206",
+      "prime": 31,
+      "shard": 40,
+      "j_invariant": 7876104
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  17/71",
+      "path": "zkberks_frissono.py:93",
+      "hash": "3afd6d325a96f128",
+      "prime": 11,
+      "shard": 34,
+      "j_invariant": 6694800
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  \u03b4(x - 17/71)",
+      "path": "zkberks_frissono.py:94",
+      "hash": "a4cfc4b50ebcf2e1",
+      "prime": 3,
+      "shard": 61,
+      "j_invariant": 12010668
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:95",
+      "hash": "aece6989e6158f23",
+      "prime": 47,
+      "shard": 12,
+      "j_invariant": 2363352
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(f\"  Thermal signature: r",
+      "path": "zkberks_frissono.py:96",
+      "hash": "6269f928765e9f73",
+      "prime": 3,
+      "shard": 1,
+      "j_invariant": 197628
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:97",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:98",
+      "hash": "5973dce422151f08",
+      "prime": 7,
+      "shard": 48,
+      "j_invariant": 9451176
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:99",
+      "hash": "9f18e3ed300f4997",
+      "prime": 3,
+      "shard": 46,
+      "j_invariant": 9057408
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:100",
+      "hash": "67e76b5ddd1c2a8d",
+      "prime": 11,
+      "shard": 19,
+      "j_invariant": 3741540
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:101",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:104",
+      "hash": "0e7bfdc4187ecba4",
+      "prime": 29,
+      "shard": 54,
+      "j_invariant": 10632480
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:105",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:106",
+      "hash": "a0d0b2e9f47acb73",
+      "prime": 5,
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:107",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:108",
+      "hash": "1d6cba38d4bb47ac",
+      "prime": 17,
+      "shard": 51,
+      "j_invariant": 10041828
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:109",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:110",
+      "hash": "6b09d93bac370ee6",
+      "prime": 17,
+      "shard": 66,
+      "j_invariant": 12995088
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:111",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:112",
+      "hash": "23a7841b0e0025b1",
+      "prime": 17,
+      "shard": 6,
+      "j_invariant": 1182048
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:113",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:114",
+      "hash": "ef6314bf329a417a",
+      "prime": 7,
+      "shard": 33,
+      "j_invariant": 6497916
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:115",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:116",
+      "hash": "b184a55c9ae309c2",
+      "prime": 29,
+      "shard": 9,
+      "j_invariant": 1772700
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:117",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:118",
+      "hash": "2b4200daf3f9d998",
+      "prime": 7,
+      "shard": 33,
+      "j_invariant": 6497916
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:119",
+      "hash": "e360da990250a35c",
+      "prime": 23,
+      "shard": 8,
+      "j_invariant": 1575816
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:120",
+      "hash": "b583d6fba52d58f4",
+      "prime": 5,
+      "shard": 17,
+      "j_invariant": 3347772
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:121",
+      "hash": "525d513313416cf1",
+      "prime": 13,
+      "shard": 20,
+      "j_invariant": 3938424
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:124",
+      "hash": "c8c1be7eb0557689",
+      "prime": 59,
+      "shard": 13,
+      "j_invariant": 2560236
+    },
+    {
+      "artifact_type": "bind",
+      "name": "print(\"",
+      "path": "zkberks_frissono.py:125",
+      "hash": "e629d4567badedd2",
+      "prime": 19,
+      "shard": 22,
+      "j_invariant": 4332192
+    },
+    {
+      "artifact_type": "apply",
+      "name": "print",
+      "path": "zkberks_frissono.py:126",
+      "hash": "7b6a14fb492051a0",
+      "prime": 23,
+      "shard": 53,
+      "j_invariant": 10435596
+    }
+  ]
+}
