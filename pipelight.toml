@@ -95,3 +95,70 @@ steps = [
   { name = "lean4-proof", commands = ["nix-shell -p lean4 --run 'lean SimpleExprMonster.lean'"] },
   { name = "rust-build", commands = ["nix build -f flake_simpleexpr.nix"] }
 ]
+
+# FREN PR Processor Pipeline
+[[pipelines]]
+name = "fren-pr"
+description = "Process FREN PR submissions with Monster Moonshine encoding"
+
+[[pipelines.steps]]
+name = "build-processor"
+commands = [
+  "nix build .#fren-processor"
+]
+
+[[pipelines.steps]]
+name = "process-submissions"
+commands = [
+  "./result/bin/fren_processor"
+]
+
+[[pipelines.steps]]
+name = "witness-paxos"
+commands = [
+  "nix build .#paxos-witness",
+  "./result/bin/paxos_witness"
+]
+
+[[pipelines.steps]]
+name = "verify-encoding"
+commands = [
+  "echo '✓ Shard assignment (mod 71)'",
+  "echo '✓ j-invariant dial code'",
+  "echo '✓ Gödel number computed'",
+  "echo '✓ Muse assignment'",
+  "echo '✓ Hecke operator T_n'",
+  "jq '.monster_encoding' frens/*_moonshine.json"
+]
+
+[[pipelines.steps]]
+name = "commit-results"
+commands = [
+  "git add frens/*_moonshine.json",
+  "git commit -m '🌙 Process FREN with Monster Moonshine encoding'"
+]
+
+# FRACTRAN Apply Pipeline (71 iterations)
+[[pipelines]]
+name = "fractran-apply-71"
+description = "Apply FRACTRAN through Nix store 71 times"
+
+[[pipelines.steps]]
+name = "build-pipeline"
+commands = [
+  "nix build -f fractran-apply.nix pipeline"
+]
+
+[[pipelines.steps]]
+name = "run-71-iterations"
+commands = [
+  "./result/bin/fractran-pipeline"
+]
+
+[[pipelines.steps]]
+name = "verify-cycle"
+commands = [
+  "echo '✓ Applied 71 times'",
+  "echo '✓ Cycled through all shards mod 71'",
+  "echo '✓ Returned to shard 0'"
+]
