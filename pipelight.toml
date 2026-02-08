@@ -162,3 +162,59 @@ commands = [
   "echo '✓ Cycled through all shards mod 71'",
   "echo '✓ Returned to shard 0'"
 ]
+
+
+# Shard Files Monster Pipeline
+[[pipelines]]
+name = "shard-files-monster"
+description = "Shard /mnt/data1/files.txt via FRACTRAN meta-macro"
+
+[[pipelines.steps]]
+name = "build-sharder"
+commands = [
+  "cd shard-files-monster",
+  "nix build"
+]
+
+[[pipelines.steps]]
+name = "run-sharding"
+commands = [
+  "cd shard-files-monster",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-shards"
+commands = [
+  "git add files_monster_shards.json",
+  "git commit -m 'chore: update file shards' || true"
+]
+
+# Scheduled Pull: Data Shards (every 6 hours)
+[[pipelines]]
+name = "pull-data-shards"
+description = "Pull latest data shards from /mnt/data1"
+triggers = [{ schedule = "0 */6 * * *" }]
+
+[[pipelines.steps]]
+name = "update-flake"
+commands = [
+  "cd data-shards-71",
+  "nix flake update",
+  "git add flake.lock",
+  "git commit -m 'chore: update data shards' || true"
+]
+
+# Scheduled Pull: FRACTRAN Constants (every 12 hours)
+[[pipelines]]
+name = "pull-fractran-constants"
+description = "Pull latest FRACTRAN constants"
+triggers = [{ schedule = "0 */12 * * *" }]
+
+[[pipelines.steps]]
+name = "update-constants"
+commands = [
+  "nix flake update fractran-constants",
+  "git add flake.lock",
+  "git commit -m 'chore: update FRACTRAN constants' || true"
+]
