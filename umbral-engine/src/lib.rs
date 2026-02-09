@@ -1,4 +1,6 @@
 use serde::{Serialize, Deserialize};
+use aya::{Ebpf, programs::{Xdp, XdpFlags}};
+use aya::maps::Array;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FractranShard {
@@ -51,6 +53,30 @@ fn shard4_451_regression() -> FractranShard {
         program: vec![(451,479), (451,1742), (17,2), (19,3)],
         frequency_hz: 451,
     }
+}
+
+// Load FRACTRAN into eBPF
+#[no_mangle]
+pub extern "C" fn umbral_engine_ebpf_load() -> i32 {
+    // Load eBPF program
+    let mut ebpf = Ebpf::load(include_bytes_aligned!(
+        concat!(env!("OUT_DIR"), "/umbral_engine_xdp")
+    )).expect("Failed to load eBPF");
+    
+    // Load FRACTRAN shards into eBPF maps
+    let shard1 = shard1_7resonance();
+    let mut map: Array<_, (u64, u64)> = Array::try_from(ebpf.map_mut("FRACTRAN_SHARD1").unwrap()).unwrap();
+    for (i, frac) in shard1.program.iter().enumerate() {
+        map.set(i as u32, *frac, 0).unwrap();
+    }
+    
+    // Attach to network interface
+    let program: &mut Xdp = ebpf.program_mut("umbral_engine_xdp").unwrap().try_into().unwrap();
+    program.load().unwrap();
+    program.attach("eth0", XdpFlags::default()).unwrap();
+    
+    println!("✅ FRACTRAN loaded into eBPF kernel space");
+    0
 }
 
 // ZOS Plugin Entry Point
