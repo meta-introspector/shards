@@ -218,3 +218,72 @@ commands = [
   "git add flake.lock",
   "git commit -m 'chore: update FRACTRAN constants' || true"
 ]
+
+
+# OSM/Wikipedia Torrent Sampling
+[[pipelines]]
+name = "torrent-sample-osm"
+description = "Sample OSM planet torrent and shard for 30 minutes"
+triggers = [{ schedule = "0 */6 * * *" }]
+
+[[pipelines.steps]]
+name = "download-torrent"
+commands = [
+  "cd osm-planet-torrent",
+  "cargo build --release"
+]
+
+[[pipelines.steps]]
+name = "sample-and-shard"
+commands = [
+  "timeout 30m ./target/release/osm-planet-torrent",
+  "echo '✓ Sampled for 30 minutes'"
+]
+
+[[pipelines.steps]]
+name = "shard-by-primes"
+commands = [
+  "cd ../shard-files-monster",
+  "export INPUT_FILE=../osm-planet-torrent/sampled_data.txt",
+  "export OUTPUT_FILE=osm_shards.json",
+  "export SHARD_PRIME=71",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-shards"
+commands = [
+  "git add osm_shards.json",
+  "git commit -m 'chore: OSM torrent sample shards' || true"
+]
+
+# Wikipedia Torrent Sampling
+[[pipelines]]
+name = "torrent-sample-wikipedia"
+description = "Sample Wikipedia torrent and shard for 30 minutes"
+triggers = [{ schedule = "0 */12 * * *" }]
+
+[[pipelines.steps]]
+name = "sample-wikipedia"
+commands = [
+  "cd osm-planet-torrent",
+  "timeout 30m ./target/release/osm-planet-torrent --wikipedia",
+  "echo '✓ Sampled Wikipedia for 30 minutes'"
+]
+
+[[pipelines.steps]]
+name = "shard-wikipedia"
+commands = [
+  "cd ../shard-files-monster",
+  "export INPUT_FILE=../osm-planet-torrent/wikipedia_sampled.txt",
+  "export OUTPUT_FILE=wikipedia_shards.json",
+  "export SHARD_PRIME=59",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-wikipedia-shards"
+commands = [
+  "git add wikipedia_shards.json",
+  "git commit -m 'chore: Wikipedia torrent sample shards' || true"
+]
