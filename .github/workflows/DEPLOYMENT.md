@@ -11,7 +11,17 @@ In your repository settings:
 2. Source: GitHub Actions
 3. Save
 
-### 2. Push to Trigger
+### 2. Configure Internet Archive Secrets
+
+In your repository settings:
+1. Go to Settings → Secrets and variables → Actions
+2. Add secrets:
+   - `IA_ACCESS_KEY`: Your Internet Archive access key
+   - `IA_SECRET_KEY`: Your Internet Archive secret key
+
+Get keys from: https://archive.org/account/s3.php
+
+### 3. Push to Trigger
 
 ```bash
 git push origin nydiokar/main
@@ -21,10 +31,15 @@ The workflow will:
 1. Build tournament with Nix
 2. Generate static site
 3. Deploy to GitHub Pages
+4. Create archive (NAR/Parquet/UUCP)
+5. Upload to Internet Archive
 
 ## URLs
 
 After deployment, access at:
+
+- **GitHub Pages**: `https://meta-introspector.github.io/shards/tournament.html`
+- **Internet Archive**: `https://archive.org/details/nixwars-tournament-YYYYMMDD-HHMMSS`
 
 - **Tournament**: `https://meta-introspector.github.io/shards/tournament.html`
 - **BBS Game**: `https://meta-introspector.github.io/shards/bbs.html`
