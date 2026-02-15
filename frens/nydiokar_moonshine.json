@@ -1,0 +1,32 @@
+{
+  "fren": "nydiokar",
+  "wallet": "GWryBrYoBvCKKr2vR3YJxL6CWNTPxurwTq3w2dA5S2fw",
+  "chain": "solana",
+  "added": "2026-02-08T13:09:43Z",
+  "monster_encoding": {
+    "shard": 47,
+    "comment": "hash(nydiokar) mod 71 = 47",
+    "j_invariant": 744,
+    "dial_code": "/dial/744-196884-47",
+    "godel_number": "2^47 × 3^744 × 5^196884",
+    "muse": "Terpsichore",
+    "hecke_operator": "T_47",
+    "multiplier": 2,
+    "status": "active"
+  },
+  "moonshine_properties": {
+    "conjugacy_class": "47A",
+    "character_degree": 196883,
+    "mckay_correspondence": "E8_lattice_point",
+    "bott_periodicity": 7,
+    "tenfold_class": "AIII",
+    "prediction_market": "truth_of_math_theorem_47"
+  },
+  "verification": {
+    "paxos_quorum": 12,
+    "byzantine_tolerance": 7,
+    "consensus_nodes": 23,
+    "zkproof_required": true,
+    "lean4_verification": "pending"
+  }
+}
