@@ -16,10 +16,9 @@
         player = "alpha";
         action = "warp";
         from = 42;
-        to = 71;  # Omega sector
+        to = 71;
       };
       
-      # zkPerf witness
       zkperf = {
         commitment = builtins.hashString "sha256" (builtins.toJSON {
           inherit move;
@@ -30,7 +29,6 @@
           end_sector = move.to;
           universe_commitment = universe.lib.universe.commitment;
         };
-        timestamp = "2026-02-15T05:14:38Z";
       };
       
       newState = prevState // {
@@ -48,7 +46,19 @@
       });
       
     in {
-      packages.x86_64-linux.default = pkgs.writeTextDir "state.json" (builtins.toJSON newState);
+      packages.x86_64-linux.default = pkgs.runCommand "state-4-zkperf" {
+        buildInputs = [ pkgs.linuxPackages.perf ];
+      } ''
+        mkdir -p $out
+        
+        # Run with perf to generate witness
+        perf stat -o $out/perf.txt \
+          -e cycles,instructions,cache-misses \
+          echo '${builtins.toJSON newState}' > $out/state.json 2>&1 || true
+        
+        # Store commitment
+        echo "${commitment}" > $out/commitment
+      '';
       
       lib = {
         gameState = newState;
