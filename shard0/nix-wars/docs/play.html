@@ -51,6 +51,11 @@
       <div class="game-title">🌌 Modern UI</div>
       <div class="game-desc">Full game with orbit visualization and real-time state updates.</div>
     </div>
+    
+    <div class="game-card" onclick="playGame('pilot')">
+      <div class="game-title">✈️ Zone 42 Orbit Pilot</div>
+      <div class="game-desc">Navigate LMFDB space. Warp through mathematical objects. WASD controls.</div>
+    </div>
   </div>
   
   <button id="close-btn" onclick="closeGame()">✕ Close Game</button>
@@ -60,6 +65,7 @@
   <iframe id="url-frame" src="url-only.html"></iframe>
   <iframe id="flying-frame" src="flying-fractran.html"></iframe>
   <iframe id="modern-frame" src="index.html"></iframe>
+  <iframe id="pilot-frame" src="pilot.html"></iframe>
   
   <script>
     function playGame(game) {
