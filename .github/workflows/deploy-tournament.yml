@@ -144,6 +144,7 @@ jobs:
             --metadata="creator:Nix-Wars Community" \
             --metadata="date:$(date +%Y-%m-%d)" \
             --metadata="language:eng" \
-            --metadata="licenseurl:https://creativecommons.org/publicdomain/zero/1.0/"
+            --metadata="licenseurl:https://www.gnu.org/licenses/agpl-3.0.en.html" \
+            --metadata="license:AGPL-3.0 (MIT available for purchase)"
           
           echo "✅ Uploaded to: https://archive.org/details/$IDENTIFIER"
