@@ -1,8 +1,11 @@
-name: Deploy Nix-Wars Tournament
+name: Deploy Nix-Wars to GitHub Pages
 
 on:
   push:
     branches: [ main, nydiokar/main ]
+    paths:
+      - 'shard0/nix-wars/**'
+      - '.github/workflows/deploy-tournament.yml'
   workflow_dispatch:
 
 permissions:
@@ -11,7 +14,7 @@ permissions:
   id-token: write
 
 jobs:
-  build-tournament:
+  build-and-deploy:
     runs-on: ubuntu-latest
     
     steps:
@@ -27,27 +30,48 @@ jobs:
         run: |
           cd shard0/nix-wars/tournament
           nix build
-          
-          # Extract results
           cat result > tournament-results.json
-          
-          echo "Tournament built successfully"
-          jq '{rounds, players, winner}' tournament-results.json
+          echo "✅ Tournament built"
       
-      - name: Generate Static Site
+      - name: Generate GitHub Pages Site
         run: |
           mkdir -p _site
           
-          cd shard0/nix-wars/tournament
+          # Copy all game files
+          cp -r shard0/nix-wars/docs/* _site/
           
-          # Copy game files
-          cp -r ../docs/* ../../../_site/
+          # Copy tournament results
+          cp shard0/nix-wars/tournament/tournament-results.json _site/
           
-          # Generate tournament page
-          cat > ../../../_site/tournament.html << 'EOF'
+          # Create index redirect to play.html
+          cat > _site/index.html << 'EOF'
           <!DOCTYPE html>
           <html>
           <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="refresh" content="0; url=play.html">
+            <title>Nix-Wars - Redirecting...</title>
+          </head>
+          <body>
+            <p>Redirecting to <a href="play.html">Nix-Wars Game Launcher</a>...</p>
+          </body>
+          </html>
+          EOF
+          
+          echo "✅ Site generated"
+          ls -la _site/
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
             <title>Nix-Wars Tournament - 42 Rounds</title>
             <style>
               body { margin: 0; background: #000; color: #0f0; font-family: monospace; padding: 20px; }

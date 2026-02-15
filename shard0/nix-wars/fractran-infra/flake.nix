@@ -44,7 +44,7 @@
         # Service configuration
         service = {
           name = "nixwars";
-          port = 8080;
+          port = 443;
           domain = "solana.solfunmeme.com";
           ipv6 = "fd00::71:59:47";  # From FRACTRAN primes
         };
@@ -83,8 +83,11 @@
       # Mapping: Nix -> Nginx
       toNginx = cfg: pkgs.writeText "nixwars.conf" ''
         server {
-          listen ${toString cfg.service.port};
+          listen 443 ssl http2;
           server_name ${cfg.service.domain};
+          
+          ssl_certificate /etc/letsencrypt/live/${cfg.service.domain}/fullchain.pem;
+          ssl_certificate_key /etc/letsencrypt/live/${cfg.service.domain}/privkey.pem;
           
           root /var/www/nixwars;
           index play.html;
@@ -101,6 +104,12 @@
             add_header X-FRACTRAN-Sectors "${toString cfg.sectors.num}";
             add_header X-FRACTRAN-Zones "${toString cfg.zones.num}";
           }
+        }
+        
+        server {
+          listen 80;
+          server_name ${cfg.service.domain};
+          return 301 https://$server_name$request_uri;
         }
       '';
       
