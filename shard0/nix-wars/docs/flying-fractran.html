@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LMFDB Flying Game - FRACTRAN Witness</title>
+  <style>
+    body { margin: 0; background: #000; overflow: hidden; }
+    canvas { display: block; }
+    #hud {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #0f0;
+      font-family: monospace;
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      border: 2px solid #0ff;
+    }
+    #witness {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #0f0;
+      font-family: monospace;
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      border: 2px solid #f0f;
+      max-width: 300px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    button {
+      background: #0f0;
+      color: #000;
+      border: none;
+      padding: 8px 15px;
+      margin: 5px 0;
+      cursor: pointer;
+      font-family: monospace;
+      width: 100%;
+    }
+    button:hover { background: #0ff; }
+    .fraction { color: #ff0; }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  
+  <div id="hud">
+    <h3>🚀 LMFDB FLYING GAME</h3>
+    <div>Sector: <span id="sector">0</span></div>
+    <div>Position: <span id="position">0, 0, 0</span></div>
+    <div>Frame: <span id="frame">0</span></div>
+    <div>FRACTRAN ops: <span id="ops">0</span></div>
+    <br>
+    <div><strong>Controls:</strong></div>
+    <div>WASD: Move XZ</div>
+    <div>QE: Move Y</div>
+    <div>Space: Stop</div>
+  </div>
+  
+  <div id="witness">
+    <h3>⚡ FRACTRAN WITNESS</h3>
+    <div id="program">Recording...</div>
+    <button onclick="exportWitness()">📤 Export JSON</button>
+    <button onclick="exportNix()">📦 Export Nix</button>
+    <button onclick="downloadWitness()">💾 Download</button>
+  </div>
+  
+  <script src="fractran-witness-recorder.js"></script>
+  <script>
+    const canvas = document.getElementById('game');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    const game = new FlyingGameWithWitness(canvas);
+    
+    // Keyboard input
+    document.addEventListener('keydown', (e) => {
+      game.handleInput(e.key.toLowerCase());
+    });
+    
+    // Game loop
+    function gameLoop() {
+      game.update(1/60);
+      game.render();
+      
+      // Update HUD
+      document.getElementById('sector').textContent = game.sector;
+      document.getElementById('position').textContent = 
+        `${Math.floor(game.ship.x)}, ${Math.floor(game.ship.y)}, ${Math.floor(game.ship.z)}`;
+      document.getElementById('frame').textContent = game.frame;
+      document.getElementById('ops').textContent = game.recorder.program.length;
+      
+      // Update witness display
+      const prog = game.recorder.program.slice(-5);
+      document.getElementById('program').innerHTML = 
+        '<strong>Recent FRACTRAN ops:</strong><br>' +
+        prog.map(f => `<span class="fraction">${f.n}/${f.d}</span>`).join('<br>');
+      
+      requestAnimationFrame(gameLoop);
+    }
+    gameLoop();
+    
+    // Export functions
+    function exportWitness() {
+      const witness = game.exportWitness();
+      console.log('FRACTRAN Witness:', witness);
+      alert('Witness exported to console (F12)');
+    }
+    
+    function exportNix() {
+      const nix = game.exportNix();
+      console.log('Nix Derivation:\n', nix);
+      alert('Nix derivation exported to console (F12)');
+    }
+    
+    function downloadWitness() {
+      const witness = game.exportWitness();
+      const blob = new Blob([JSON.stringify(witness, null, 2)], 
+        { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'fractran-witness-' + Date.now() + '.json';
+      a.click();
+    }
+  </script>
+</body>
+</html>
