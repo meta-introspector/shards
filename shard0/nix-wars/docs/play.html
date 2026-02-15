@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nix-Wars Tournament - Play Now</title>
+  <style>
+    body { margin: 0; background: #000; color: #0f0; font-family: monospace; }
+    #header { background: #111; padding: 20px; border-bottom: 2px solid #0f0; text-align: center; }
+    h1 { color: #0ff; margin: 0; }
+    .subtitle { color: #ff0; margin: 10px 0; }
+    #games { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px; }
+    .game-card { background: #111; border: 2px solid #0f0; padding: 20px; width: 300px; cursor: pointer; transition: all 0.3s; }
+    .game-card:hover { border-color: #0ff; background: #222; }
+    .game-title { color: #0ff; font-size: 20px; margin-bottom: 10px; }
+    .game-desc { color: #0f0; font-size: 14px; }
+    iframe { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; z-index: 1000; }
+    iframe.active { display: block; }
+    #close-btn { display: none; position: fixed; top: 20px; right: 20px; background: #f00; color: #fff; border: none; padding: 10px 20px; cursor: pointer; z-index: 1001; font-family: monospace; font-size: 16px; }
+    #close-btn.active { display: block; }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>🎮 NIX-WARS TOURNAMENT</h1>
+    <div class="subtitle">42 Rounds | 18 Players | Pure Functional Gaming</div>
+    <div style="color: #f0f; margin-top: 10px;">AGPL-3.0 License (MIT available for purchase)</div>
+  </div>
+  
+  <div id="games">
+    <div class="game-card" onclick="playGame('tournament')">
+      <div class="game-title">🏆 Tournament Results</div>
+      <div class="game-desc">View the complete 42-round tournament with all 18 players, FRACTRAN proofs, and RDFa semantics.</div>
+    </div>
+    
+    <div class="game-card" onclick="playGame('bbs')">
+      <div class="game-title">📟 ZX81 BBS</div>
+      <div class="game-desc">Play in authentic 1981 ZX81 terminal. 32×24 character display with inverse video.</div>
+    </div>
+    
+    <div class="game-card" onclick="playGame('url')">
+      <div class="game-title">🔗 URL-Only Game</div>
+      <div class="game-desc">Entire game state in URL. No server needed. Share via copy/paste.</div>
+    </div>
+    
+    <div class="game-card" onclick="playGame('flying')">
+      <div class="game-title">🚀 Flying + FRACTRAN</div>
+      <div class="game-desc">Fly through 71×59×47 space. Your movements generate FRACTRAN programs.</div>
+    </div>
+    
+    <div class="game-card" onclick="playGame('modern')">
+      <div class="game-title">🌌 Modern UI</div>
+      <div class="game-desc">Full game with orbit visualization and real-time state updates.</div>
+    </div>
+  </div>
+  
+  <button id="close-btn" onclick="closeGame()">✕ Close Game</button>
+  
+  <iframe id="tournament-frame" src="tournament.html"></iframe>
+  <iframe id="bbs-frame" src="bbs.html"></iframe>
+  <iframe id="url-frame" src="url-only.html"></iframe>
+  <iframe id="flying-frame" src="flying-fractran.html"></iframe>
+  <iframe id="modern-frame" src="index.html"></iframe>
+  
+  <script>
+    function playGame(game) {
+      // Hide all frames
+      document.querySelectorAll('iframe').forEach(f => f.classList.remove('active'));
+      
+      // Show selected frame
+      document.getElementById(game + '-frame').classList.add('active');
+      
+      // Show close button
+      document.getElementById('close-btn').classList.add('active');
+    }
+    
+    function closeGame() {
+      // Hide all frames
+      document.querySelectorAll('iframe').forEach(f => f.classList.remove('active'));
+      
+      // Hide close button
+      document.getElementById('close-btn').classList.remove('active');
+    }
+    
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeGame();
+    });
+  </script>
+</body>
+</html>
