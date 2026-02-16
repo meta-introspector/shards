@@ -81,7 +81,7 @@ SELinux: shard_sidechan_t
 Capabilities: CAP_SYS_PTRACE, CAP_PERFMON
     </pre>
 
-    <p>🤝 FREN: kanebra (2x MMC multiplier)</p>
+    <p>🤝 FREN: nydiokar (TRUE_FREN - Shard 47 Fixed Point - 2x MMC multiplier)</p>
 </body>
 </html>
     "#)
@@ -99,7 +99,11 @@ async fn status() -> Json<serde_json::Value> {
         "shards": 71,
         "selinux_context": "shard_sidechan_t:s0:c42",
         "capabilities": ["CAP_SYS_PTRACE", "CAP_PERFMON"],
-        "fren": "kanebra"
+        "fren": "nydiokar",
+        "shard": 47,
+        "node": 13,
+        "resonance": 0.788,
+        "true_fren": true
     }))
 }
 
