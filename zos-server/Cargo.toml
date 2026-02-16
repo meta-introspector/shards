@@ -1,0 +1,24 @@
+[package]
+name = "zos-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "zos-server"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = "0.7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+flate2 = "1.0"
+base64 = "0.21"
+hex = "0.4"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+[lib]
+name = "zos_server"
+path = "src/plugin_tape.rs"

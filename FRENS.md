@@ -93,3 +93,21 @@ Each FREN addition generates a zkTLS witness:
 Submit PR or use `addfren.sh` script.
 
 Email: shards@solfunmeme.com
+
+**nydiokar**
+- Address: `GWryBrYoBvCKKr2vR3YJxL6CWNTPxurwTq3w2dA5S2fw`
+- Chain: solana
+- URL: https://solscan.io/address/GWryBrYoBvCKKr2vR3YJxL6CWNTPxurwTq3w2dA5S2fw
+- Role: Early adopter
+- Rewards: 2x MMC multiplier
+- Status: Active
+- Added: 2026-02-08
+
+**kanebra**
+- Address: `26qVRWZgpAhZLy7Fkt1vUiqLFTTewVPeqRxM5sWxA9qw`
+- Chain: solana
+- URL: https://solscan.io/address/26qVRWZgpAhZLy7Fkt1vUiqLFTTewVPeqRxM5sWxA9qw
+- Role: Early adopter
+- Rewards: 2x MMC multiplier
+- Status: Active
+- Added: 2026-02-10

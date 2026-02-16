@@ -1,0 +1,22 @@
+# started on Sun Feb 15 06:38:30 2026
+
+
+ Performance counter stats for 'nix build --rebuild':
+
+       855,043,166      cpu_atom/cycles/                                                        (0.57%)
+     1,186,762,214      cpu_core/cycles/                                                        (99.43%)
+       783,029,513      cpu_atom/instructions/           #    0.92  insn per cycle              (0.57%)
+     2,498,974,305      cpu_core/instructions/           #    2.11  insn per cycle              (99.43%)
+         7,018,246      cpu_atom/cache-misses/                                                  (0.57%)
+         6,448,099      cpu_core/cache-misses/                                                  (99.43%)
+       137,098,239      cpu_atom/branches/                                                      (0.57%)
+       484,683,869      cpu_core/branches/                                                      (99.43%)
+         4,673,213      cpu_atom/branch-misses/          #    3.41% of all branches             (0.57%)
+         6,109,090      cpu_core/branch-misses/          #    1.26% of all branches             (99.43%)
+
+       0.757424699 seconds time elapsed
+
+       0.151039000 seconds user
+       0.097380000 seconds sys
+
+

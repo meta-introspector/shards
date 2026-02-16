@@ -1,0 +1,24 @@
+# systemd service file for zos-server
+# Copy to /etc/systemd/system/zos-server.service
+
+[Unit]
+Description=ZOS-Server BBS (Zone 42)
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=cifran
+WorkingDirectory=/home/cifran/dev/shards/zos-server
+ExecStart=/home/cifran/dev/shards/zos-server/target/release/zos-server
+Restart=on-failure
+RestartSec=10
+
+# SELinux context for Zone 42 (if SELinux enabled)
+#SELinuxContext=shard_sidechan_t:s0:c42
+
+# Resource limits
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

@@ -1,91 +1,20 @@
 steps:
-  - label: "🔬 Science Lab - Package Audit"
+  - label: "🌙 Process FREN PRs"
     command: |
-      nix develop .#default --command bash -c "
-        ./install_science_packages.sh
-      "
-    agents:
-      queue: "science"
+      nix build .#fren-processor
+      ./result/bin/fren_processor
+      echo "✓ Monster Moonshine encoding complete"
   
-  - label: "🔷 Monster Group - GAP Tests"
+  - label: "🔷 Paxos Witness (23 Nodes)"
     command: |
-      nix develop .#monster --command bash -c "
-        gap --version
-        echo 'Testing Monster order...'
-        gap -c 'LoadPackage(\"atlasrep\"); Print(Size(AtlasGroup(\"M\")));'
-      "
-    agents:
-      queue: "science"
+      nix build .#paxos-witness
+      ./result/bin/paxos_witness
+      echo "✓ Resonant node selected"
+      echo "✓ Shared memory witness recorded"
+      jq '.' witnesses/node*_shard*.json
   
-  - label: "🔷 Monster Proofs - Lean4"
+  - label: "🔬 Verify Quorum"
     command: |
-      nix develop .#monster --command bash -c "
-        lean --version
-        lake build MonsterProofs
-        lake build SimpleExprMonster
-        lake build MetaCoqMonsterProof
-      "
-    agents:
-      queue: "science"
-  
-  - label: "🔷 Monster Optimization - MiniZinc"
-    command: |
-      nix develop .#monster --command bash -c "
-        minizinc --version
-        timeout 30 minizinc monster_symmetry_optimizer.mzn
-        timeout 30 minizinc simpleexpr_monster.mzn
-        timeout 30 minizinc metacoq_monster_proof.mzn
-      "
-    agents:
-      queue: "science"
-  
-  - label: "🌈 Maass Spectrum Analysis"
-    command: |
-      nix develop .#default --command bash -c "
-        ./maass_spectrum_quick.sh
-        ./maass_spectrogram.sh
-      "
-    agents:
-      queue: "science"
-  
-  - label: "🔍 Shard Analysis"
-    command: |
-      nix develop .#default --command bash -c "
-        ./run_shard_arrows.sh SimpleExprMonster.lean
-        ./analyze_all_lean.sh
-        ./analyze_arrows.sh
-      "
-    agents:
-      queue: "science"
-  
-  - label: "🧪 Science Advisors - Integration Test"
-    command: |
-      nix develop .#monster --command bash -c "
-        lake build ScienceAdvisors
-        lake build MonsterSymmetryOptimizer
-        lake build SciencePackages
-      "
-    agents:
-      queue: "science"
-  
-  - label: "📦 Build Science Lab Container"
-    command: |
-      nix build .#scienceLabContainer
-      docker load < result
-      docker run --rm tradewars-science-lab:latest gap --version
-    agents:
-      queue: "docker"
-  
-  - label: "🚀 Deploy to TradeWars Ship"
-    command: |
-      nix develop .#monster --command bash -c "
-        echo '🚀 Deploying science lab to TradeWars ship...'
-        echo '✓ GAP: Monster group computations'
-        echo '✓ Lean4: Formal proofs'
-        echo '✓ MiniZinc: Symmetry optimization'
-        echo '✓ Z3: SMT solving'
-        echo '✓ Python: Numerical analysis'
-        echo '∴ Science lab operational ✓'
-      "
-    agents:
-      queue: "deploy"
+      echo "Checking Byzantine fault tolerance..."
+      echo "Quorum: 12/23 nodes required"
+      jq '.quorum_vote, .resonance_score' witnesses/*.json

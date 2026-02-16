@@ -6,6 +6,9 @@ edition = "2021"
 [dependencies]
 rayon = "1.8"
 rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
 
 [[bin]]
 name = "monster_walk_bits"
@@ -40,3 +43,9 @@ path = "src/monster_system.rs"
 [[bin]]
 name = "zkperf-monster"
 path = "src/zkperf_monster.rs"
+[[bin]]
+name = "fren_processor"
+path = "src/fren_processor.rs"
+[[bin]]
+name = "paxos_witness"
+path = "src/paxos_witness.rs"

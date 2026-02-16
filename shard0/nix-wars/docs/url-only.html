@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nix-Wars: URL-Only Gameplay</title>
+  <style>
+    body { margin: 0; background: #000; color: #0f0; font-family: monospace; padding: 20px; }
+    h1 { color: #0ff; }
+    .state { background: #111; padding: 15px; margin: 10px 0; border: 1px solid #0f0; }
+    .commitment { color: #ff0; }
+    input { width: 100%; padding: 10px; background: #222; color: #0f0; border: 1px solid #0f0; font-family: monospace; }
+    button { background: #0f0; color: #000; padding: 10px 20px; border: none; cursor: pointer; margin: 5px; }
+    button:hover { background: #0ff; }
+    .proof { background: #001100; padding: 10px; margin: 10px 0; border-left: 3px solid #0f0; }
+  </style>
+</head>
+<body>
+  <h1>🎮 NIX-WARS: URL-ONLY GAMEPLAY PROOF</h1>
+  
+  <div class="proof">
+    <h3>✅ PROOF: Game is playable via URL parameters only</h3>
+    <p>No server. No database. No network. Just URLs.</p>
+  </div>
+  
+  <div class="state">
+    <h3>Current Game State</h3>
+    <div id="current-state">Loading from URL...</div>
+  </div>
+  
+  <div class="state">
+    <h3>Make a Move</h3>
+    <label>Player:</label>
+    <select id="player">
+      <option>alpha</option>
+      <option>beta</option>
+      <option>gamma</option>
+    </select>
+    <br><br>
+    <label>From Sector:</label>
+    <input type="number" id="from" value="0" min="0" max="71">
+    <br><br>
+    <label>To Sector:</label>
+    <input type="number" id="to" value="42" min="0" max="71">
+    <br><br>
+    <button onclick="makeMove()">🚀 WARP</button>
+  </div>
+  
+  <div class="state">
+    <h3>Share This Game State (URL)</h3>
+    <input type="text" id="share-url" readonly onclick="this.select()">
+    <button onclick="copyURL()">📋 Copy</button>
+  </div>
+  
+  <div class="proof">
+    <h3>🔐 Proof Properties</h3>
+    <ul>
+      <li>✅ State encoded in URL hash</li>
+      <li>✅ No server required</li>
+      <li>✅ Commitment hash computed client-side</li>
+      <li>✅ Shareable via any medium (email, QR, sneakernet)</li>
+      <li>✅ Reproducible (same URL = same state)</li>
+    </ul>
+  </div>
+
+  <script>
+    // Parse game state from URL
+    function parseState() {
+      const hash = window.location.hash.slice(1);
+      if (!hash) {
+        return {
+          round: 0,
+          ships: {
+            alpha: { sector: 0, credits: 1000000 },
+            beta: { sector: 1, credits: 1000000 },
+            gamma: { sector: 2, credits: 1000000 }
+          },
+          moves: []
+        };
+      }
+      
+      try {
+        return JSON.parse(decodeURIComponent(hash));
+      } catch(e) {
+        return parseState.call(this);
+      }
+    }
+    
+    // Compute commitment hash (simplified)
+    function computeCommitment(state) {
+      const str = JSON.stringify(state);
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash = hash & hash;
+      }
+      return Math.abs(hash).toString(16).padStart(16, '0');
+    }
+    
+    // Display current state
+    function displayState() {
+      const state = parseState();
+      const commitment = computeCommitment(state);
+      
+      document.getElementById('current-state').innerHTML = `
+        <strong>Round:</strong> ${state.round}<br>
+        <strong>Commitment:</strong> <span class="commitment">${commitment}</span><br><br>
+        <strong>Ships:</strong><br>
+        - Alpha: Sector ${state.ships.alpha.sector}, Credits ${state.ships.alpha.credits}<br>
+        - Beta: Sector ${state.ships.beta.sector}, Credits ${state.ships.beta.credits}<br>
+        - Gamma: Sector ${state.ships.gamma.sector}, Credits ${state.ships.gamma.credits}<br><br>
+        <strong>Moves:</strong> ${state.moves.length}
+      `;
+      
+      // Update share URL
+      const url = window.location.origin + window.location.pathname + window.location.hash;
+      document.getElementById('share-url').value = url;
+    }
+    
+    // Make a move
+    function makeMove() {
+      const state = parseState();
+      const player = document.getElementById('player').value;
+      const from = parseInt(document.getElementById('from').value);
+      const to = parseInt(document.getElementById('to').value);
+      
+      // Update state
+      state.round++;
+      state.ships[player].sector = to;
+      state.moves.push({
+        player: player,
+        from: from,
+        to: to,
+        timestamp: new Date().toISOString()
+      });
+      
+      // Encode in URL
+      const encoded = encodeURIComponent(JSON.stringify(state));
+      window.location.hash = encoded;
+      
+      displayState();
+    }
+    
+    // Copy URL
+    function copyURL() {
+      const input = document.getElementById('share-url');
+      input.select();
+      document.execCommand('copy');
+      alert('URL copied! Share it to continue the game.');
+    }
+    
+    // Initialize
+    window.addEventListener('hashchange', displayState);
+    displayState();
+  </script>
+</body>
+</html>

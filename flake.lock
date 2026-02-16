@@ -1,5 +1,17 @@
 {
   "nodes": {
+    "cweb-shards": {
+      "flake": false,
+      "locked": {
+        "path": "./cweb-shards-196883.nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "./cweb-shards-196883.nix",
+        "type": "path"
+      },
+      "parent": []
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -18,6 +30,18 @@
         "type": "github"
       }
     },
+    "fractran-constants": {
+      "flake": false,
+      "locked": {
+        "path": "./fractran-constants.nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "./fractran-constants.nix",
+        "type": "path"
+      },
+      "parent": []
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1769789167,
@@ -34,45 +58,12 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1744536153,
-        "narHash": "sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg/N38=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "18dd725c29603f582cf1900e0d25f9f1063dbf11",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
+        "cweb-shards": "cweb-shards",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "rust-overlay": "rust-overlay"
-      }
-    },
-    "rust-overlay": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1769915446,
-        "narHash": "sha256-f1F/umtX3ZD7fF9DHSloVHc0mnAT0ry0YK2jI/6E0aI=",
-        "owner": "oxalica",
-        "repo": "rust-overlay",
-        "rev": "bc00300f010275e46feb3c3974df6587ff7b7808",
-        "type": "github"
-      },
-      "original": {
-        "owner": "oxalica",
-        "repo": "rust-overlay",
-        "type": "github"
+        "fractran-constants": "fractran-constants",
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {

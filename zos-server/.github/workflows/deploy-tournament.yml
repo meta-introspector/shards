@@ -1,0 +1,174 @@
+name: Deploy Nix-Wars to GitHub Pages
+
+on:
+  push:
+    branches: [ main, nydiokar/main ]
+    paths:
+      - 'shard0/nix-wars/**'
+      - '.github/workflows/deploy-tournament.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install Nix
+        uses: cachix/install-nix-action@v24
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      
+      - name: Build Tournament
+        run: |
+          cd shard0/nix-wars/tournament
+          nix build
+          cat result > tournament-results.json
+          echo "✅ Tournament built"
+      
+      - name: Generate GitHub Pages Site
+        run: |
+          mkdir -p _site
+          
+          # Copy all game files
+          cp -r shard0/nix-wars/docs/* _site/
+          
+          # Copy tournament results
+          cp shard0/nix-wars/tournament/tournament-results.json _site/
+          
+          # Create index redirect to play.html
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="refresh" content="0; url=play.html">
+            <title>Nix-Wars - Redirecting...</title>
+          </head>
+          <body>
+            <p>Redirecting to <a href="play.html">Nix-Wars Game Launcher</a>...</p>
+          </body>
+          </html>
+          EOF
+          
+          echo "✅ Site generated"
+          ls -la _site/
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+            <title>Nix-Wars Tournament - 42 Rounds</title>
+            <style>
+              body { margin: 0; background: #000; color: #0f0; font-family: monospace; padding: 20px; }
+              h1 { color: #0ff; text-align: center; }
+              .leaderboard { max-width: 800px; margin: 20px auto; }
+              .player { background: #111; padding: 15px; margin: 10px 0; border-left: 3px solid #0f0; }
+              .rank { color: #ff0; font-size: 24px; }
+              .emoji { font-size: 32px; }
+              .stats { color: #0ff; }
+              .fractran { color: #f0f; font-size: 12px; }
+              .rdfa { background: #001100; padding: 10px; margin: 20px 0; overflow-x: auto; }
+          EOF
+          
+          echo "            </style>" >> ../../../_site/tournament.html
+          echo "          </head>" >> ../../../_site/tournament.html
+          echo "          <body>" >> ../../../_site/tournament.html
+          echo "            <h1>🏆 NIX-WARS TOURNAMENT</h1>" >> ../../../_site/tournament.html
+          echo "            <div style='text-align: center; margin: 20px;'>" >> ../../../_site/tournament.html
+          echo "              <div>Rounds: <span class='stats'>42</span></div>" >> ../../../_site/tournament.html
+          
+          PLAYERS=$(jq -r '.players' tournament-results.json)
+          WINNER=$(jq -r '.winner' tournament-results.json)
+          COMMITMENT=$(jq -r '.commitment[0:16]' tournament-results.json)
+          
+          echo "              <div>Players: <span class='stats'>$PLAYERS</span></div>" >> ../../../_site/tournament.html
+          echo "              <div>Winner: <span class='stats'>$WINNER</span></div>" >> ../../../_site/tournament.html
+          echo "              <div>Commitment: <span class='stats'>$COMMITMENT...</span></div>" >> ../../../_site/tournament.html
+          echo "            </div>" >> ../../../_site/tournament.html
+          echo "            <div class='leaderboard'>" >> ../../../_site/tournament.html
+          echo "              <h2>🏆 LEADERBOARD</h2>" >> ../../../_site/tournament.html
+          
+          # Generate leaderboard
+          jq -r '.leaderboard[] | "<div class=\"player\"><span class=\"rank\">#\(.rank)</span> <span class=\"emoji\">\(.emoji)</span> <strong>\(.name)</strong><br><span class=\"stats\">Sector: \(.sector) | Credits: \(.credits)</span><br><span class=\"fractran\">FRACTRAN: 2^\(.sector) × 3^\((.credits / 1000000) | floor)</span></div>"' tournament-results.json >> ../../../_site/tournament.html
+          
+          echo "            </div>" >> ../../../_site/tournament.html
+          
+          # Add RDFa proof
+          echo "            <div class='rdfa'>" >> ../../../_site/tournament.html
+          echo "              <h3>✨ SEMANTIC PROOF (RDFa)</h3>" >> ../../../_site/tournament.html
+          echo "              <pre>" >> ../../../_site/tournament.html
+          jq -r '.rdfa' tournament-results.json >> ../../../_site/tournament.html
+          echo "              </pre>" >> ../../../_site/tournament.html
+          echo "            </div>" >> ../../../_site/tournament.html
+          
+          echo "          </body>" >> ../../../_site/tournament.html
+          echo "          </html>" >> ../../../_site/tournament.html
+          
+          # Copy tournament data
+          cp tournament-results.json ../../../_site/
+          
+          echo "Static site generated"
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+  
+  deploy:
+    needs: build-tournament
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
+      - name: Create Archive
+        run: |
+          cd shard0/nix-wars/tournament
+          ./create-archive.sh
+          
+          ARCHIVE=$(ls /tmp/nixwars-tournament-*.tar.gz | tail -1)
+          echo "archive_path=$ARCHIVE" >> $GITHUB_OUTPUT
+          echo "archive_name=$(basename $ARCHIVE)" >> $GITHUB_OUTPUT
+      
+      - name: Upload to Internet Archive
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: |
+          # Install internetarchive CLI
+          pip install internetarchive
+          
+          ARCHIVE=$(ls /tmp/nixwars-tournament-*.tar.gz | tail -1)
+          IDENTIFIER="nixwars-tournament-$(date +%Y%m%d-%H%M%S)"
+          
+          ia upload "$IDENTIFIER" "$ARCHIVE" \
+            --metadata="title:Nix-Wars Tournament - 42 Rounds" \
+            --metadata="description:Pure functional gaming tournament with 18 players, FRACTRAN proofs, and RDFa semantics" \
+            --metadata="subject:gaming;nix;blockchain;fractran;functional-programming" \
+            --metadata="creator:Nix-Wars Community" \
+            --metadata="date:$(date +%Y-%m-%d)" \
+            --metadata="language:eng" \
+            --metadata="licenseurl:https://www.gnu.org/licenses/agpl-3.0.en.html" \
+            --metadata="license:AGPL-3.0 (MIT available for purchase)"
+          
+          echo "✅ Uploaded to: https://archive.org/details/$IDENTIFIER"
