@@ -1,0 +1,7 @@
+{
+  "state": "state-4",
+  "commitment": "fab3ece438dd78f2cdcd645b984885ebd24ed4c3f8c4f2bfca87f56fd63a59d7",
+  "timestamp": "2026-02-15T11:38:39Z",
+  "perf_file": "state-4-perf.txt",
+  "reproducible": true
+}

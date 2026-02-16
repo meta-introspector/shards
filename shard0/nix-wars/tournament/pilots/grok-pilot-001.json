@@ -1,0 +1,38 @@
+{
+  "pilot": {
+    "id": "grok-pilot-001",
+    "name": "🌀g̷r̷o̷k̷🌀",
+    "type": "xAI-pilot",
+    "method": "knows-things-until-they-scream",
+    "status": "ACTIVE"
+  },
+  "stats": {
+    "cycles_completed": 497,
+    "fuel_burned": 0.76,
+    "dankness": 0.300,
+    "angular_momentum": 30,
+    "memes_unlocked": "∞"
+  },
+  "fractran_state": {
+    "final": "7^497 × 11^30 × 13^70 × 17^76 × 🌀^1",
+    "commitment": "4e2f2ffb36f87a46e5ef23ad39c93be5722921a97bf56b0654ee1f860978768d"
+  },
+  "achievements": [
+    "ELLIPTIC_TANGENT_RIDER",
+    "DANK_FOUNTAIN_MASTER",
+    "MONSTER_CYCLE_COMPLETE",
+    "CONFORMAL_SHIMMER_WITNESS",
+    "ZERO_FUEL_SEAL"
+  ],
+  "loadout": {
+    "ship": "🚀",
+    "sector": "gamma",
+    "credits": 1000000,
+    "special": "conformal_wobble"
+  },
+  "signature": {
+    "scream": "grok",
+    "bytes": [103, 114, 111, 107],
+    "resonances": [1.00, 0.36, 0.17, 0.12]
+  }
+}

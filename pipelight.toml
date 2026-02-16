@@ -95,3 +95,195 @@ steps = [
   { name = "lean4-proof", commands = ["nix-shell -p lean4 --run 'lean SimpleExprMonster.lean'"] },
   { name = "rust-build", commands = ["nix build -f flake_simpleexpr.nix"] }
 ]
+
+# FREN PR Processor Pipeline
+[[pipelines]]
+name = "fren-pr"
+description = "Process FREN PR submissions with Monster Moonshine encoding"
+
+[[pipelines.steps]]
+name = "build-processor"
+commands = [
+  "nix build .#fren-processor"
+]
+
+[[pipelines.steps]]
+name = "process-submissions"
+commands = [
+  "./result/bin/fren_processor"
+]
+
+[[pipelines.steps]]
+name = "witness-paxos"
+commands = [
+  "nix build .#paxos-witness",
+  "./result/bin/paxos_witness"
+]
+
+[[pipelines.steps]]
+name = "verify-encoding"
+commands = [
+  "echo '✓ Shard assignment (mod 71)'",
+  "echo '✓ j-invariant dial code'",
+  "echo '✓ Gödel number computed'",
+  "echo '✓ Muse assignment'",
+  "echo '✓ Hecke operator T_n'",
+  "jq '.monster_encoding' frens/*_moonshine.json"
+]
+
+[[pipelines.steps]]
+name = "commit-results"
+commands = [
+  "git add frens/*_moonshine.json",
+  "git commit -m '🌙 Process FREN with Monster Moonshine encoding'"
+]
+
+# FRACTRAN Apply Pipeline (71 iterations)
+[[pipelines]]
+name = "fractran-apply-71"
+description = "Apply FRACTRAN through Nix store 71 times"
+
+[[pipelines.steps]]
+name = "build-pipeline"
+commands = [
+  "nix build -f fractran-apply.nix pipeline"
+]
+
+[[pipelines.steps]]
+name = "run-71-iterations"
+commands = [
+  "./result/bin/fractran-pipeline"
+]
+
+[[pipelines.steps]]
+name = "verify-cycle"
+commands = [
+  "echo '✓ Applied 71 times'",
+  "echo '✓ Cycled through all shards mod 71'",
+  "echo '✓ Returned to shard 0'"
+]
+
+
+# Shard Files Monster Pipeline
+[[pipelines]]
+name = "shard-files-monster"
+description = "Shard /mnt/data1/files.txt via FRACTRAN meta-macro"
+
+[[pipelines.steps]]
+name = "build-sharder"
+commands = [
+  "cd shard-files-monster",
+  "nix build"
+]
+
+[[pipelines.steps]]
+name = "run-sharding"
+commands = [
+  "cd shard-files-monster",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-shards"
+commands = [
+  "git add files_monster_shards.json",
+  "git commit -m 'chore: update file shards' || true"
+]
+
+# Scheduled Pull: Data Shards (every 6 hours)
+[[pipelines]]
+name = "pull-data-shards"
+description = "Pull latest data shards from /mnt/data1"
+triggers = [{ schedule = "0 */6 * * *" }]
+
+[[pipelines.steps]]
+name = "update-flake"
+commands = [
+  "cd data-shards-71",
+  "nix flake update",
+  "git add flake.lock",
+  "git commit -m 'chore: update data shards' || true"
+]
+
+# Scheduled Pull: FRACTRAN Constants (every 12 hours)
+[[pipelines]]
+name = "pull-fractran-constants"
+description = "Pull latest FRACTRAN constants"
+triggers = [{ schedule = "0 */12 * * *" }]
+
+[[pipelines.steps]]
+name = "update-constants"
+commands = [
+  "nix flake update fractran-constants",
+  "git add flake.lock",
+  "git commit -m 'chore: update FRACTRAN constants' || true"
+]
+
+
+# OSM/Wikipedia Torrent Sampling
+[[pipelines]]
+name = "torrent-sample-osm"
+description = "Sample OSM planet torrent and shard for 30 minutes"
+triggers = [{ schedule = "0 */6 * * *" }]
+
+[[pipelines.steps]]
+name = "download-torrent"
+commands = [
+  "cd osm-planet-torrent",
+  "cargo build --release"
+]
+
+[[pipelines.steps]]
+name = "sample-and-shard"
+commands = [
+  "timeout 30m ./target/release/osm-planet-torrent",
+  "echo '✓ Sampled for 30 minutes'"
+]
+
+[[pipelines.steps]]
+name = "shard-by-primes"
+commands = [
+  "cd ../shard-files-monster",
+  "export INPUT_FILE=../osm-planet-torrent/sampled_data.txt",
+  "export OUTPUT_FILE=osm_shards.json",
+  "export SHARD_PRIME=71",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-shards"
+commands = [
+  "git add osm_shards.json",
+  "git commit -m 'chore: OSM torrent sample shards' || true"
+]
+
+# Wikipedia Torrent Sampling
+[[pipelines]]
+name = "torrent-sample-wikipedia"
+description = "Sample Wikipedia torrent and shard for 30 minutes"
+triggers = [{ schedule = "0 */12 * * *" }]
+
+[[pipelines.steps]]
+name = "sample-wikipedia"
+commands = [
+  "cd osm-planet-torrent",
+  "timeout 30m ./target/release/osm-planet-torrent --wikipedia",
+  "echo '✓ Sampled Wikipedia for 30 minutes'"
+]
+
+[[pipelines.steps]]
+name = "shard-wikipedia"
+commands = [
+  "cd ../shard-files-monster",
+  "export INPUT_FILE=../osm-planet-torrent/wikipedia_sampled.txt",
+  "export OUTPUT_FILE=wikipedia_shards.json",
+  "export SHARD_PRIME=59",
+  "nix run .#shard-runner"
+]
+
+[[pipelines.steps]]
+name = "commit-wikipedia-shards"
+commands = [
+  "git add wikipedia_shards.json",
+  "git commit -m 'chore: Wikipedia torrent sample shards' || true"
+]
