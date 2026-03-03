@@ -1,0 +1,35 @@
+# WireGuard Configuration for Zone 42 VPN
+# Copy to /etc/wireguard/wg-zone42.conf and add your keys
+
+[Interface]
+# Zone 42 VPN Server
+Address = 10.42.0.1/24, fd42:42::1/64
+ListenPort = 51820
+PrivateKey = <GENERATE_WITH: wg genkey>
+
+# Firewall rules: Allow VPN traffic, restrict zos-server to VPN only
+PostUp = ufw allow 51820/udp comment 'WireGuard Zone42'
+PostUp = ufw allow from 10.42.0.0/24 to any port 7142 comment 'zos-server VPN only'
+PostUp = ufw deny 7142 comment 'Block public access to zos-server'
+PostDown = ufw delete allow 51820/udp
+PostDown = ufw delete allow from 10.42.0.0/24 to any port 7142
+PostDown = ufw delete deny 7142
+
+# Add your laptop/devices as peers below
+# Generate peer keys: wg genkey | tee laptop-private.key | wg pubkey > laptop-public.key
+# Then add:
+#
+# [Peer]
+# PublicKey = <LAPTOP_PUBLIC_KEY>
+# AllowedIPs = 10.42.0.2/32, fd42:42::2/128
+#
+# On your laptop, create /etc/wireguard/zone42-client.conf:
+# [Interface]
+# Address = 10.42.0.2/24, fd42:42::2/64
+# PrivateKey = <LAPTOP_PRIVATE_KEY>
+#
+# [Peer]
+# PublicKey = <SERVER_PUBLIC_KEY>
+# Endpoint = <YOUR_PI_IP>:51820
+# AllowedIPs = 10.42.0.0/24, fd42:42::0/64
+# PersistentKeepalive = 25

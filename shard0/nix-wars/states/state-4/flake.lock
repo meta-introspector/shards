@@ -1,0 +1,293 @@
+{
+  "nodes": {
+    "chosen": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "previous": "previous_2"
+      },
+      "locked": {
+        "path": "../state-2a",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-2a",
+        "type": "path"
+      },
+      "parent": [
+        "previous"
+      ]
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_5": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_7": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_8": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_9": {
+      "locked": {
+        "lastModified": 1771008912,
+        "narHash": "sha256-gf2AmWVTs8lEq7z/3ZAsgnZDhWIckkb+ZnAo5RzSxJg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "previous": {
+      "inputs": {
+        "chosen": "chosen",
+        "nixpkgs": "nixpkgs_5",
+        "rejected": "rejected"
+      },
+      "locked": {
+        "path": "../state-3",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-3",
+        "type": "path"
+      },
+      "parent": []
+    },
+    "previous_2": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3",
+        "previous": "previous_3"
+      },
+      "locked": {
+        "path": "../state-1",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-1",
+        "type": "path"
+      },
+      "parent": [
+        "previous",
+        "chosen"
+      ]
+    },
+    "previous_3": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "path": "../state-0",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-0",
+        "type": "path"
+      },
+      "parent": [
+        "previous",
+        "chosen",
+        "previous"
+      ]
+    },
+    "previous_4": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_7",
+        "previous": "previous_5"
+      },
+      "locked": {
+        "path": "../state-1",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-1",
+        "type": "path"
+      },
+      "parent": [
+        "previous",
+        "rejected"
+      ]
+    },
+    "previous_5": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_8"
+      },
+      "locked": {
+        "path": "../state-0",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-0",
+        "type": "path"
+      },
+      "parent": [
+        "previous",
+        "rejected",
+        "previous"
+      ]
+    },
+    "rejected": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_6",
+        "previous": "previous_4"
+      },
+      "locked": {
+        "path": "../state-2b",
+        "type": "path"
+      },
+      "original": {
+        "path": "../state-2b",
+        "type": "path"
+      },
+      "parent": [
+        "previous"
+      ]
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "previous": "previous",
+        "universe": "universe"
+      }
+    },
+    "universe": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_9"
+      },
+      "locked": {
+        "path": "../../universe",
+        "type": "path"
+      },
+      "original": {
+        "path": "../../universe",
+        "type": "path"
+      },
+      "parent": []
+    }
+  },
+  "root": "root",
+  "version": 7
+}

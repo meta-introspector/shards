@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nix-Wars BBS - ZX81 Terminal</title>
+  <style>
+    body {
+      margin: 0;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: monospace;
+    }
+    #container {
+      background: #000;
+      padding: 20px;
+      border: 4px solid #444;
+      box-shadow: 0 0 20px rgba(0,255,0,0.3);
+    }
+    canvas {
+      display: block;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      border: 2px solid #0f0;
+    }
+    #info {
+      color: #0f0;
+      margin-top: 10px;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <canvas id="terminal"></canvas>
+    <div id="info">
+      ZX81 TERMINAL - TRADEWARS 71 BBS
+    </div>
+  </div>
+  
+  <script src="nix-wars-engine.js"></script>
+  <script src="zx81-bbs.js"></script>
+  <script>
+    const canvas = document.getElementById('terminal');
+    const terminal = new ZX81Terminal(canvas);
+    
+    // Scale up for visibility
+    canvas.style.width = (canvas.width * 3) + 'px';
+    canvas.style.height = (canvas.height * 3) + 'px';
+    
+    // Initialize engine
+    const dummyCanvas = document.createElement('canvas');
+    const engine = new NixWarsEngine(dummyCanvas);
+    
+    // Load game states
+    fetch('nix-wars-orbits.json')
+      .then(r => r.json())
+      .then(states => {
+        engine.loadStates(states);
+        
+        // Initialize BBS
+        const bbs = new NixWarsBBS(terminal, engine);
+        bbs.render();
+        
+        // Keyboard handler
+        document.addEventListener('keydown', (e) => {
+          bbs.handleKey(e.key);
+        });
+      });
+  </script>
+</body>
+</html>

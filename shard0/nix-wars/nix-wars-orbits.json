@@ -1,0 +1,87 @@
+✨ Lifted states/state-0/result/state.json → Orbit 0
+   Emoji: 🌑
+   Position: angle=0.00, radius=200
+✨ Lifted states/state-3/result/state.json → Orbit 1
+   Emoji: 🌑
+   Position: angle=0.63, radius=350
+✨ Lifted states/state-4/result/state.json → Orbit 2
+   Emoji: 🌓🌌🌔🌗🌖🌖🌓🌑
+   Position: angle=1.26, radius=400
+[
+  {
+    "label": "Round 0",
+    "emoji": "\ud83c\udf11",
+    "commitment": "genesis",
+    "angle": 0.0,
+    "radius": 200,
+    "vibe": 0,
+    "ships": {
+      "alpha": {
+        "credits": 1000000,
+        "sector": 0
+      },
+      "beta": {
+        "credits": 1000000,
+        "sector": 1
+      },
+      "gamma": {
+        "credits": 1000000,
+        "sector": 2
+      }
+    },
+    "zkperf": {}
+  },
+  {
+    "label": "Round 3",
+    "emoji": "\ud83c\udf11",
+    "commitment": "genesis",
+    "angle": 0.628318,
+    "radius": 350,
+    "vibe": 3,
+    "ships": {
+      "alpha": {
+        "credits": 1000000,
+        "sector": 42
+      },
+      "beta": {
+        "credits": 1000000,
+        "sector": 59
+      },
+      "gamma": {
+        "credits": 1000000,
+        "sector": 2
+      }
+    },
+    "zkperf": {}
+  },
+  {
+    "label": "Round 4",
+    "emoji": "\ud83c\udf13\ud83c\udf0c\ud83c\udf14\ud83c\udf17\ud83c\udf16\ud83c\udf16\ud83c\udf13\ud83c\udf11",
+    "commitment": "2c36552088ccdd6d",
+    "angle": 1.256636,
+    "radius": 400,
+    "vibe": 4,
+    "ships": {
+      "alpha": {
+        "credits": 1000000,
+        "sector": 71
+      },
+      "beta": {
+        "credits": 1000000,
+        "sector": 59
+      },
+      "gamma": {
+        "credits": 1000000,
+        "sector": 2
+      }
+    },
+    "zkperf": {
+      "commitment": "2c36552088ccdd6ddf4195ae4d775c20de194b58693b1e2f2bd423ccf9b2b09c",
+      "public_inputs": {
+        "end_sector": 71,
+        "start_sector": 42,
+        "universe_commitment": "b072f5a67bb63298078cc90bff1d3aee6b6dbf9533ebd1acf8fb9bf33569f12c"
+      }
+    }
+  }
+]

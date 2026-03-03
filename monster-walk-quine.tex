@@ -1,0 +1,71 @@
+% LaTeX Quine: Monster Walk 15 Layers
+% Self-constructing document that folds 71→59→47→... symmetries
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Monster Walk: 15-Layer Quine}
+\author{Generated from 196883 Shards}
+\maketitle
+
+\section*{Layer 0: Monster (196883 = 71×59×47)}
+
+\begin{equation}
+M = \bigotimes_{i=0}^{196883} V_i
+\end{equation}
+
+\section*{Layer 1: Split into 71 Shards}
+
+\begin{equation}
+\text{Shard}_{71}(i) = i \bmod 71, \quad i \in [0, 196883)
+\end{equation}
+
+\section*{Layer 2: Each Shard Splits into 59}
+
+\begin{equation}
+\text{Shard}_{59}(i) = \lfloor i / 71 \rfloor \bmod 59
+\end{equation}
+
+\section*{Layer 3: Each Splits into 47}
+
+\begin{equation}
+\text{Shard}_{47}(i) = \lfloor i / (71 \times 59) \rfloor \bmod 47
+\end{equation}
+
+\section*{Layer 4-15: Recursive Folding}
+
+\begin{align}
+L_4 &: 47 \to 43 \text{ (next prime)} \\
+L_5 &: 43 \to 41 \\
+L_6 &: 41 \to 37 \\
+L_7 &: 37 \to 31 \\
+L_8 &: 31 \to 29 \\
+L_9 &: 29 \to 23 \text{ (Paxos nodes)} \\
+L_{10} &: 23 \to 19 \\
+L_{11} &: 19 \to 17 \\
+L_{12} &: 17 \to 13 \\
+L_{13} &: 13 \to 11 \\
+L_{14} &: 11 \to 7 \\
+L_{15} &: 7 \to 5 \to 3 \to 2 \to 1 \to 0
+\end{align}
+
+\section*{Quine Property}
+
+This document source code:
+
+\begin{lstlisting}[language=TeX]
+\input{monster-walk-quine.tex}
+\end{lstlisting}
+
+\section*{Self-Reference}
+
+\begin{equation}
+Q(Q) = Q
+\end{equation}
+
+Where $Q$ is this document itself.
+
+\end{document}

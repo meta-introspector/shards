@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nix-Wars</title>
+  <style>
+    body { margin: 0; background: #000; overflow: hidden; }
+    canvas { display: block; }
+    #hud {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #0f0;
+      font-family: monospace;
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      border: 2px solid #0ff;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud">
+    <h3>🚀 NIX-WARS</h3>
+    <div>Sector: <span id="sector">0</span></div>
+    <div>Credits: <span id="credits">1000000</span></div>
+    <div>States: <span id="states">0</span></div>
+  </div>
+  <script src="nix-wars-engine.js"></script>
+  <script>
+    const canvas = document.getElementById('game');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    const engine = new NixWarsEngine(canvas);
+    
+    fetch('nix-wars-orbits.json')
+      .then(r => r.json())
+      .then(states => {
+        engine.loadStates(states);
+        document.getElementById('states').textContent = states.length;
+      });
+    
+    function gameLoop() {
+      engine.update(1/60);
+      requestAnimationFrame(gameLoop);
+    }
+    gameLoop();
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+warning: Git tree '/home/mdupont/projects/cicadia71/shards' is dirty
+warning: ignoring the client-specified setting 'stalled-download-timeout', because it is a restricted setting and you are not a trusted user
+warning: ignoring the client-specified setting 'stalled-download-timeout', because it is a restricted setting and you are not a trusted user
+checking outputs of '/nix/store/3c8rr6jw5gf08cxqx44c1jk1535rrcr9-state.json.drv'...
+
+ Performance counter stats for 'nix build --rebuild':
+
+     1,654,822,218      cpu_atom/cycles/                                                        (0.21%)
+     4,159,249,442      cpu_core/cycles/                                                        (99.79%)
+     1,312,914,718      cpu_atom/instructions/           #    0.79  insn per cycle              (0.21%)
+    11,834,335,087      cpu_core/instructions/           #    2.85  insn per cycle              (99.79%)
+        42,281,245      cpu_atom/cache-references/                                              (0.21%)
+        31,631,710      cpu_core/cache-references/                                              (99.79%)
+        17,059,622      cpu_atom/cache-misses/           #   40.35% of all cache refs           (0.21%)
+        16,909,346      cpu_core/cache-misses/           #   53.46% of all cache refs           (99.79%)
+       234,097,830      cpu_atom/branches/                                                      (0.21%)
+     2,375,880,177      cpu_core/branches/                                                      (99.79%)
+         8,391,151      cpu_atom/branch-misses/          #    3.58% of all branches             (0.21%)
+         9,387,553      cpu_core/branch-misses/          #    0.40% of all branches             (99.79%)
+
+       1.602055368 seconds time elapsed
+
+       0.658197000 seconds user
+       0.194238000 seconds sys
+
+

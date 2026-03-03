@@ -5,11 +5,12 @@ use serde::{Deserialize, Serialize};
 use sha2::{Sha256, Digest};
 use flate2::{write::GzEncoder, read::GzDecoder, Compression};
 use std::io::{Write, Read};
+use base64::{Engine as _, engine::general_purpose};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PluginTape {
     pub name: String,
-    pub shards: [TapeShard; 71],
+    pub shards: Vec<TapeShard>,
     pub merkle_root: [u8; 32],
 }
 
@@ -28,10 +29,16 @@ impl PluginTape {
         for i in 0..71 {
             let start = i * chunk_size;
             let end = (start + chunk_size).min(binary.len());
-            let chunk = &binary[start..end];
+
+            // Handle case where we've already consumed all data
+            let chunk = if start >= binary.len() {
+                &[]
+            } else {
+                &binary[start..end]
+            };
             
             // RDF triple
-            let rdf = format!("shard:{} cicada:data \"{}\"", i, base64::encode(chunk));
+            let rdf = format!("shard:{} cicada:data \"{}\"", i, general_purpose::STANDARD.encode(chunk));
             
             // Compress
             let mut enc = GzEncoder::new(Vec::new(), Compression::best());
@@ -45,8 +52,7 @@ impl PluginTape {
         }
         
         let merkle_root = Self::merkle_root(&shards);
-        let shards: [TapeShard; 71] = shards.try_into().unwrap();
-        
+
         Self { name, shards, merkle_root }
     }
     
@@ -60,7 +66,7 @@ impl PluginTape {
             
             // Extract base64 data
             let data = rdf.split('"').nth(1).unwrap();
-            binary.extend(base64::decode(data).unwrap());
+            binary.extend(general_purpose::STANDARD.decode(data).unwrap());
         }
         
         binary

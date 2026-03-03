@@ -1,0 +1,15 @@
+[Unit]
+Description=UUCP Solana Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=uucp
+Group=uucp
+Environment="POLL_INTERVAL=60"
+ExecStart=/home/mdupont/projects/cicadia71/shards/shard0/nix-wars/solana/uucp-solana-gateway.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
